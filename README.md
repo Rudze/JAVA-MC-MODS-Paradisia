@@ -52,6 +52,7 @@ Le modpack est publié automatiquement à chaque nouvelle version, prêt à impo
 | Furniture | `nh_furniture` | Les deux | Meubles décoratifs configurables (modèle, hitbox, sons), façon Nexo |
 | LoadingScreen | `nh_loadingscreen` | Client | Écran de chargement noir avec le logo Paradisia |
 | Locks | `locks` | Les deux | Serrures sur presque tous les blocs, crochetage, trousseau et clés maîtresses (portage de Locks Reforged) |
+| PokemonOnly | `nh_pokemononly` | Serveur | Monde 100 % Pokémon : seuls les entités Cobblemon et les villageois restent (Nether/End inchangés, œufs et spawners autorisés) |
 | Numismatic Overhaul | `numismaticoverhaul` | Les deux | Monnaie en pièces de bronze, d'argent et d'or (portage de Numismatic Overhaul) |
 | Quests | `nh_quests` | Serveur | Professeur Chen (accueil, starter, Pokédex) et bureau des impôts fonciers |
 | TreeFelling | `nh_treefelling` | Les deux | Couper une bûche abat tout l'arbre |
@@ -66,6 +67,7 @@ Le modpack est publié automatiquement à chaque nouvelle version, prêt à impo
 * ✅ **Claims** — le maire délimite les terrains à la pelle en or, `/claim <joueur>` les attribue
 * ✅ **Impôts fonciers** — 1 pièce d'or par bloc et par semaine, payés à Chen dans un coffre
 * ✅ **Monde de build protégé** — seuls les propriétaires construisent dans leur terrain
+* ✅ **Monde 100 % Pokémon** — plus de mobs vanilla dans l'overworld, seulement les Pokémon, les PNJ et les villageois
 * ✅ **Connexion directe** — le modpack lance le joueur directement sur le serveur
 * ✅ **Releases automatiques** — semantic-release construit et publie le modpack à chaque version
 
