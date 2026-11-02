@@ -1,3 +1,9 @@
+## [0.2.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.0...v0.2.1) (2026-11-02)
+
+### Bug Fixes
+
+* use the new pixel-art Paradisia logo on the loading screen ([595ccf9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/595ccf9623ec90a1704638e96853543450e9304c))
+
 ## [0.2.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.1.0...v0.2.0) (2026-11-02)
 
 ### Features
