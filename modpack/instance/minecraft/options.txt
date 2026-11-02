@@ -41,7 +41,7 @@ touchscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 hideLightningFlashes:false
 hideSplashTexts:false
 mouseSensitivity:0.3028169014084507

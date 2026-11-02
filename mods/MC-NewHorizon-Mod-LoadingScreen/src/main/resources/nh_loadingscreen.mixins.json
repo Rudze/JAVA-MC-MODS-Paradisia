@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rudze.loadingscreen.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LogoTextureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
