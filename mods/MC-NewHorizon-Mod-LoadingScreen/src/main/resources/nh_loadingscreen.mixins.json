@@ -4,7 +4,8 @@
   "package": "com.rudze.loadingscreen.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "LogoTextureMixin"
+    "LogoTextureMixin",
+    "ScreenBackgroundMixin"
   ],
   "injectors": {
     "defaultRequire": 1
