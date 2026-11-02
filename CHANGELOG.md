@@ -1,3 +1,9 @@
+## [0.2.5](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.4...v0.2.5) (2026-11-02)
+
+### Bug Fixes
+
+* add a server mod that keeps the overworld Pokémon only ([9dda6e8](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/9dda6e85eee0a5776c1fdc56d419ee3c7841e60e))
+
 ## [0.2.4](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.3...v0.2.4) (2026-11-02)
 
 ### Bug Fixes
