@@ -1,3 +1,9 @@
+## [0.2.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.1.0...v0.2.0) (2026-11-02)
+
+### Features
+
+* add a loading screen mod with the Paradisia logo on a black background ([66b2e13](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/66b2e133376673e4de8f8cc48b5843bc6a228ca7))
+
 ## [0.1.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.0.0...v0.1.0) (2026-11-02)
 
 ### Features
