@@ -1,3 +1,9 @@
+## [0.2.4](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.3...v0.2.4) (2026-11-02)
+
+### Bug Fixes
+
+* remove the Naturalist mod, the world is Pokémon only ([7713310](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/7713310656b6cf530748b99d8449d48468983f7c))
+
 ## [0.2.3](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.2...v0.2.3) (2026-11-02)
 
 ### Bug Fixes
