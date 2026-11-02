@@ -1,0 +1,30 @@
+# Modpack zips built by modpack/build.sh (published as release assets)
+dist/
+
+# Gradle / NeoForge build output
+.gradle/
+build/
+out/
+run/
+runs/
+
+# Third-party mod jars copied from the server to compile against
+libs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+bin/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
