@@ -1,3 +1,9 @@
+## [0.2.3](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.2...v0.2.3) (2026-11-02)
+
+### Bug Fixes
+
+* show random Paradisia images behind the connecting and terrain loading screens ([58272da](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/58272dad3a007058767f70e1981bc89a0ab754d2))
+
 ## [0.2.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.1...v0.2.2) (2026-11-02)
 
 ### Bug Fixes
