@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/diamond_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/diamond_sword_model_vibrant.png"
+    ]
+}

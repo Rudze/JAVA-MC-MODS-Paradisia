@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/wooden_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/wooden_sword_model_vibrant.png"
+    ]
+}

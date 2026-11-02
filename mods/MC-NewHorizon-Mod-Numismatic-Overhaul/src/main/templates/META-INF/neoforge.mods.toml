@@ -1,0 +1,35 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "${loader_version_range}" #mandatory
+license = "${mod_license}"
+issueTrackerURL = "https://github.com/seymourimadeit/numismatic-overhaul-reforged-again"
+[[mods]] #mandatory
+
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+authors = "${mod_authors}" #optional
+description = '''${mod_description}'''
+
+# The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
+[[mixins]]
+config = "${mod_id}.mixins.json"
+
+# The [[accessTransformers]] block allows you to declare where your AT file is.
+# If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
+#[[accessTransformers]]
+file = "META-INF/accesstransformer.cfg"
+[[dependencies.${ mod_id }]] #
+modId = "neoforge" #mandatory
+type = "required" #mandatory
+versionRange = "${neo_version_range}" #mandatory
+ordering = "NONE"
+side = "BOTH"
+
+# Here's another dependency
+[[dependencies.${ mod_id }]] #
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

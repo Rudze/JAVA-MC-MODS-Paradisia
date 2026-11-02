@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/template_enchanted_spear_in_hand_thick",
+	"textures": {
+		"spear": "minecraft:item/golden_spear_in_hand_model",
+		"glint": "minecraft:item/enchant_glint"
+	}
+}

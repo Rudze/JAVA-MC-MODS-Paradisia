@@ -1,0 +1,32 @@
+{
+	"required": true,
+	"package": "melonslise.locks.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "locks.refmap.json",
+	"mixins":
+	[
+		"ChestBlockMixin",
+		"ExplosionDamageCalculatorMixin",
+		"HopperBlockEntityMixin",
+		"InvWrapperMixin",
+		"LevelChunkMixin",
+		"LootTableAccessor",
+		"LevelMixin",
+		"PistonBlockMixin",
+		"PistonStructureResolverMixin",
+		"PlayerChunkSenderMixin",
+		"ProtoChunkMixin",
+		"ServerLevelMixin",
+		"SidedInvWrapperMixin",
+		"StructureTemplateMixin"
+	],
+	"client":
+	[
+		"client.LevelRendererMixin"
+	],
+	"injectors":
+	{
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8"
+}

@@ -1,0 +1,13 @@
+{
+  condition: "extraSettings.glowParticles & appearance.glowColor.purple",
+  fallback: [
+    "assets/minecraft/textures/particle/particle_glow_color/red/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/green/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/blue/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/yellow/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/cyan/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/white/glow_misc.png",
+    "assets/minecraft/textures/particle/particle_glow_color/orange/glow_misc.png",
+    "assets/minecraft/textures/particle/empty_glow_particle.png"
+  ]
+}

@@ -1,0 +1,29 @@
+#Backpack module: a wearable storage item, worn via the Accessories mod's back slot.
+[backpack]
+	#Master switch for the Backpack module. Requires the Accessories mod to be installed.
+	enabled = true
+	#Number of 9-wide inventory rows the backpack holds (1-6, like a chest).
+	# Default: 3
+	# Range: 1 ~ 6
+	rows = 3
+
+	[backpack.render]
+		#Size multiplier applied when the backpack is rendered on the player's back.
+		#Default matches a working reference implementation's own tuned value.
+		#This file is hot-reloaded: you can tweak this while the game is running and see the change
+		#on your next respawn/re-equip without restarting.
+		# Default: 0.8
+		# Range: 0.1 ~ 20.0
+		renderScale = 0.8
+		#Extra X offset (in blocks) applied after anchoring to the player's back and scaling.
+		# Default: 0.0
+		# Range: -8.0 ~ 8.0
+		renderOffsetX = 0.0
+		#Extra Y offset (in blocks) applied after anchoring to the player's back and scaling.
+		# Default: 0.4375
+		# Range: -8.0 ~ 8.0
+		renderOffsetY = 0.4375
+		#Extra Z offset (in blocks) applied after anchoring to the player's back and scaling.
+		# Default: 0.375
+		# Range: -8.0 ~ 8.0
+		renderOffsetZ = 0.375

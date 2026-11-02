@@ -1,0 +1,28 @@
+#Death Penalty module: punishes dying with a respawn delay and reduced stats on respawn.
+[deathPenalty]
+	#Master switch for the Death Penalty module.
+	enabled = true
+
+	[deathPenalty.respawnDelay]
+		#How long, in seconds, the respawn button stays disabled after dying. 900 = 15 minutes.
+		# Default: 900
+		# Range: 0 ~ 86400
+		respawnDelaySeconds = 600
+		#Client-side only: grey out the death screen's Respawn button and show a countdown on it
+		#for the duration of respawnDelaySeconds. Purely visual/UX; does not affect the stat penalty below.
+		greyOutRespawnButton = true
+
+	[deathPenalty.respawnStats]
+		#Health the player respawns with, in hearts (2 health points per heart). Default 3.0 = 3 full hearts.
+		# Default: 3.0
+		# Range: 0.5 ~ 50.0
+		respawnHearts = 3.0
+		#Food level the player respawns with, in hunger icons (2 food points per icon, 10 icons max).
+		#Default 3 = 3 full hunger icons.
+		# Default: 3
+		# Range: 0 ~ 10
+		respawnHungerIcons = 3
+		#Saturation the player respawns with. 0 means the hunger icons above start depleting immediately.
+		# Default: 0.0
+		# Range: 0.0 ~ 20.0
+		respawnSaturation = 0.0

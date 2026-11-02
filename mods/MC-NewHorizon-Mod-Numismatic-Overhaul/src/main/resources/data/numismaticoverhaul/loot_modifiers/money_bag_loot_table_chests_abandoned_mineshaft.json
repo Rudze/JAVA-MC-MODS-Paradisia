@@ -1,0 +1,15 @@
+{
+  "type": "numismaticoverhaul:money_bag",
+  "conditions": [
+    {
+      "chance": 0.75,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+    }
+  ],
+  "max": 2000,
+  "min": 500
+}

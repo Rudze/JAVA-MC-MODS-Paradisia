@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "description": "locks resources",
+        "pack_format": 48,
+        "neoforge:resource_pack_format": 34,
+        "neoforge:data_pack_format": 48
+    }
+}

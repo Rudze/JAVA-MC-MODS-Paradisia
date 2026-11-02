@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/fishing_rod_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/fishing_rod_model_vibrant.png"
+    ]
+}

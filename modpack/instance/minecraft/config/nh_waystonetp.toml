@@ -1,0 +1,4 @@
+#Waystone Teleport module: right-click a Waystone A to warp to a random Waystone B, and vice versa.
+[waystoneTeleport]
+	#Master switch for the Waystone Teleport module.
+	enabled = true

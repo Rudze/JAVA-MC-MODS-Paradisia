@@ -1,0 +1,42 @@
+{
+  "name": "Camping Lantern",
+  "place": {
+    "floor": false,
+    "wall": false,
+    "roof": true
+  },
+  "rotatable": false,
+  "main": {
+    "solid": false,
+    "box": [
+      0,
+      0,
+      0,
+      16,
+      16,
+      16
+    ]
+  },
+  "parts": [
+    {
+      "offset": [
+        0,
+        -1,
+        0
+      ],
+      "solid": false,
+      "light": 14
+    }
+  ],
+  "toggleableLight": true,
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5,
+  "color": [
+    255,
+    255,
+    255
+  ]
+}

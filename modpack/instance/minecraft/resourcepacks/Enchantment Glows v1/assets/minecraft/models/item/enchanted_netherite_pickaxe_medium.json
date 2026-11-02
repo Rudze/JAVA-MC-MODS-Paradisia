@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/template_enchanted_pickaxe_medium",
+	"textures": {
+		"pickaxe": "minecraft:item/netherite_pickaxe_model",
+		"glint": "minecraft:item/enchant_glint"
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "itemSpecific": {
+    "minecraft:totem_of_undying": {
+      "physics": {
+        "name": "FULL_PENDULUM",
+        "limitDeg": 3.6,
+        "speed": 0.1,
+        "gravity": 1.35,
+        "cameraSens": 0.175,
+        "motionSens": 0.2,
+        "invert": true
+      },
+      "transforms": {
+        "right": {
+          "offZ": 0.025,
+          "rotY": -45,
+          "scale": 1.0
+        },
+        "left": {
+          "offZ": 0.025,
+          "rotY": 45,
+          "scale": 1.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "offZ": -0.08,
+          "scale": 1.0
+        },
+        "left": {
+          "offZ": -0.08,
+          "scale": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Coral Balloon",
+  "slot": "hand",
+  "balloon": true,
+  "color": [
+    255,
+    255,
+    255
+  ]
+}

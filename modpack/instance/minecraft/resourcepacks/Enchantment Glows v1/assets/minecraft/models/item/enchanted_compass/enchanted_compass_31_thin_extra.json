@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_enchanted_compass_thin_extra",
+  "textures": {
+    "compass": "minecraft:item/enchanted_compass/compass_31",
+    "glint": "minecraft:item/enchant_glint"
+  }
+}

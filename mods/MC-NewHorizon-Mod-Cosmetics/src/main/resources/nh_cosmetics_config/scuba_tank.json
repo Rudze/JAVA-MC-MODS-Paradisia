@@ -1,0 +1,10 @@
+{
+  "name": "Scuba Tank",
+  "slot": "back",
+  "color": [
+    255,
+    255,
+    255
+  ],
+  "backOffset": [0.0, 0.30, 0.05]
+}

@@ -1,0 +1,20 @@
+{
+  "description": {
+    "translate": "enchantment.locks.auto_pick"
+  },
+  "supported_items": "#locks:locks",
+  "exclusive_set": "#locks:exclusive_set/auto_pick_complexity",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {}
+}

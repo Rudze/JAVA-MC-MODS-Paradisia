@@ -1,0 +1,9 @@
+#Waystone Teleport module: right-click a Waystone A to warp to a random Waystone B, and vice versa.
+[waystoneTeleport]
+	#Master switch for the Waystone Teleport module.
+	enabled = true
+	#Minimum delay, in ticks, before a player can trigger another waystone teleport. 20 ticks = 1 second.
+	#Mainly guards against a single right-click firing the interaction twice (main hand + off hand).
+	# Default: 10
+	# Range: 0 ~ 72000
+	cooldownTicks = 10

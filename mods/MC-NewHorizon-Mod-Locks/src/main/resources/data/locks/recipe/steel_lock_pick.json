@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions":
+	[
+		{
+			"type": "locks:steel",
+			"query": "steel_available"
+		}
+	],
+	"pattern":
+	[
+		" SS",
+		" S ",
+		"S  "
+	],
+	"key":
+	{
+		"S":
+		{
+			"tag": "c:ingots/steel"
+		}
+	},
+	"result":
+	{
+		"id": "locks:steel_lock_pick",
+		"count": 2
+	}
+}

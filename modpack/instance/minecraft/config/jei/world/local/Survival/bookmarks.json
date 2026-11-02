@@ -1,0 +1,21 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"immersiveengineering:coal_coke"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:rotten_flesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gravel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:diamond_pickaxe","components":{"minecraft:enchantments":{"levels":{"minecraft:fortune":2,"minecraft:efficiency":5,"minecraft:unbreaking":3}},"minecraft:damage":225,"minecraft:repair_cost":1}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"immersiveengineering:crafting/glider","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"immersiveengineering:crafting/concrete","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"immersiveengineering:crafting/thermoelectric_generator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"immersiveengineering:wirecoil_electrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:connector_mv_relay"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:wirecoil_electrum_ins"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:azure_bluet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dirt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:smooth_sandstone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

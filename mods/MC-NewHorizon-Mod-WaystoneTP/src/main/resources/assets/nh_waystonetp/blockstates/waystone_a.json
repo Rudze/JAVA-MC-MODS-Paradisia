@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=lower": { "model": "nh_waystonetp:block/waystone_bottom" },
+        "half=upper": { "model": "nh_waystonetp:block/waystone_top" }
+    }
+}

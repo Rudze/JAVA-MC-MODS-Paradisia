@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/template_enchanted_sword_medium",
+	"textures": {
+		"sword": "minecraft:item/copper_sword_model",
+		"glint": "minecraft:item/enchant_glint"
+	}
+}

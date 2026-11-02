@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_enchanted_shovel_thin_extra",
+  "textures": {
+    "shovel": "minecraft:item/iron_shovel_model",
+    "glint": "minecraft:item/enchant_glint"
+  }
+}

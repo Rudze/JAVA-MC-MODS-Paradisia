@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "0": "nh_furniture:block/large_sand_castle",
+    "particle": "nh_furniture:block/large_sand_castle"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#0"
+        },
+        "up": {
+          "texture": "#0"
+        },
+        "north": {
+          "texture": "#0"
+        },
+        "south": {
+          "texture": "#0"
+        },
+        "west": {
+          "texture": "#0"
+        },
+        "east": {
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

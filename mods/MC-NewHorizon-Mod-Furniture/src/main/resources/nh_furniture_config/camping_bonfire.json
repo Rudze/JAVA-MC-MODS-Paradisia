@@ -1,0 +1,29 @@
+{
+  "name": "Camping Bonfire",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": false,
+  "main": {
+    "solid": true
+  },
+  "parts": [
+    {
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "solid": false,
+      "light": 14
+    }
+  ],
+  "toggleableLight": true,
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5
+}

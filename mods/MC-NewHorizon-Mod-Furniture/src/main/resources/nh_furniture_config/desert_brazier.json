@@ -1,0 +1,38 @@
+{
+  "name": "Desert Brazier",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": true,
+  "main": {
+    "solid": true
+  },
+  "parts": [
+    {
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "solid": true,
+      "light": 0
+    },
+    {
+      "offset": [
+        0,
+        2,
+        0
+      ],
+      "solid": false,
+      "light": 14
+    }
+  ],
+  "toggleableLight": true,
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5
+}

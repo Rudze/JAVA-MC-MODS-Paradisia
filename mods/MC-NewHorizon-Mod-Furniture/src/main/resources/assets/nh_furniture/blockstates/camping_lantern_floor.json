@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,rotation_8=0": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=1": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=2": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=3": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=4": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=5": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=6": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=north,rotation_8=7": {
+      "model": "nh_furniture:block/camping_lantern_floor"
+    },
+    "facing=east,rotation_8=0": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=1": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=2": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=3": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=4": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=5": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=6": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=east,rotation_8=7": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 90
+    },
+    "facing=south,rotation_8=0": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=1": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=2": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=3": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=4": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=5": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=6": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=south,rotation_8=7": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 180
+    },
+    "facing=west,rotation_8=0": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=1": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=2": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=3": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=4": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=5": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=6": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    },
+    "facing=west,rotation_8=7": {
+      "model": "nh_furniture:block/camping_lantern_floor",
+      "y": 270
+    }
+  }
+}

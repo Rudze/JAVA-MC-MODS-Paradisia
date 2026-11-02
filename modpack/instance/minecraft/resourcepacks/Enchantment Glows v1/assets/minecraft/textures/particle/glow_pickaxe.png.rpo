@@ -1,0 +1,13 @@
+{
+  condition: "extraSettings.glowParticles & appearance.glowColor.purple",
+  fallback: [
+    "assets/minecraft/textures/particle/particle_glow_color/red/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/green/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/blue/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/yellow/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/cyan/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/white/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/particle_glow_color/orange/glow_pickaxe.png",
+    "assets/minecraft/textures/particle/empty_glow_particle.png"
+  ]
+}

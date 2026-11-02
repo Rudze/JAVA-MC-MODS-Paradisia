@@ -1,0 +1,38 @@
+{
+    id: "enchantmentGlows",
+    version: 14,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        outlines: {
+            firstPerson: [extraThin, thin, medium, thick, thickExtra],
+            thirdPerson: [extraThin, thin, medium, thick, thickExtra],
+            gui: [off, extraThin, thin, medium, thick, thickExtra],
+            ground: [off, extraThin, thin, medium, thick, thickExtra],
+            fixed: [off, extraThin, thin, medium, thick, thickExtra]
+        },
+        appearance: {
+            vibrantTextures: true,
+            glowColor: [purple, red, orange, yellow, green, blue, cyan, white],
+            shieldStyle: [model, sprite],
+            maceStyle: [model, sprite],
+            totemStyle: [model, sprite, vanilla],
+            popTotem: [extraThin, thin, medium, thick, thickExtra, off]
+        },
+        extraSettings: {
+            customSounds: {
+                generalVolume: {
+                    type: "integer",
+                    min: 0,
+                    max: 100,
+                    default: 50
+                },
+                swordSounds: true,
+                tridentSound: false,
+                maceSound: false
+            },
+            glowParticles: true,
+            lowerShield: false,
+            shaderGlow: true
+        }
+    }
+}

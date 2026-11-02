@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/warped_fungus_on_a_stick_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/warped_fungus_on_a_stick_model_vibrant.png"
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    condition: "false",
+    fallback: "assets/minecraft/holdmyitems/item_addon_dynamic.lua"
+}

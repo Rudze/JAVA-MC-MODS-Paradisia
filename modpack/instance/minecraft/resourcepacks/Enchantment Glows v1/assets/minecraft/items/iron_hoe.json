@@ -1,0 +1,60 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_hoe"
+          }
+        },
+        {
+          "when": [
+            "firstperson_lefthand",
+            "firstperson_righthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_iron_hoe_thin_extra"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_iron_hoe_thick"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_hoe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_hoe"
+      }
+    }
+  }
+}

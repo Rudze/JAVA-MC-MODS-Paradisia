@@ -1,0 +1,15 @@
+{
+  "type": "numismaticoverhaul:money_bag",
+  "conditions": [
+    {
+      "chance": 0.85,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_library"
+    }
+  ],
+  "max": 6000,
+  "min": 2000
+}

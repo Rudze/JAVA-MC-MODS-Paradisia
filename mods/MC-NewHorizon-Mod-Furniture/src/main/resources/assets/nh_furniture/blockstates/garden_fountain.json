@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nh_furniture:block/garden_fountain"
+    },
+    "facing=east": {
+      "model": "nh_furniture:block/garden_fountain",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nh_furniture:block/garden_fountain",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nh_furniture:block/garden_fountain",
+      "y": 270
+    }
+  }
+}

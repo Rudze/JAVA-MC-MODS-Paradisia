@@ -1,0 +1,18 @@
+{
+  "name": "Desert Potted Palm",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": true,
+  "main": {
+    "solid": true
+  },
+  "parts": [],
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5
+}

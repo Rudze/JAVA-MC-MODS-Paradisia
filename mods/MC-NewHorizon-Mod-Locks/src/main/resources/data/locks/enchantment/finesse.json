@@ -1,0 +1,20 @@
+{
+  "description": {
+    "translate": "enchantment.locks.finesse"
+  },
+  "supported_items": "#locks:lock_picks",
+  "exclusive_set": "#locks:exclusive_set/finesse_last_catch",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 45,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": ["mainhand", "offhand"],
+  "effects": {}
+}

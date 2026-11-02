@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["locks:auto_pick", "locks:complexity"]
+}

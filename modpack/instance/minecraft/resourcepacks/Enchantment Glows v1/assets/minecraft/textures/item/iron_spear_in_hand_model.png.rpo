@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/iron_spear_in_hand_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/iron_spear_in_hand_model_vibrant.png"
+    ]
+}

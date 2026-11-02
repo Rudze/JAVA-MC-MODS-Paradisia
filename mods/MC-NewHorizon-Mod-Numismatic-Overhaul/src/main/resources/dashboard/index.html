@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Numismatic Overhaul - Marchés du village</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0b0b0f;
+    --panel: rgba(30, 32, 40, 0.72);
+    --panel-solid: #1c1e26;
+    --border: rgba(255, 255, 255, 0.09);
+    --text: #f5f5f7;
+    --dim: #8e8e93;
+    --gold: #e3bd6e;
+    --accent: #0a84ff;
+    --line: #5ac8fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 600px at 15% -10%, rgba(10, 132, 255, 0.10), transparent 60%),
+      radial-gradient(900px 500px at 90% 0%, rgba(227, 189, 110, 0.08), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    padding: 32px 28px 60px;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--dim);
+    font-size: 0.88rem;
+    margin: 0 0 28px;
+  }
+  .merchant-bar {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  .merchant-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 92px;
+    font-family: inherit;
+    border-radius: 14px;
+    transition: background 0.15s ease;
+  }
+  .merchant-btn:hover { background: rgba(255, 255, 255, 0.05); }
+  .merchant-btn .avatar {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    object-fit: cover;
+    background: var(--panel-solid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .merchant-btn.active .avatar { border-color: var(--accent); transform: scale(1.04); }
+  .merchant-btn .label {
+    font-size: 0.74rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+    color: var(--dim);
+  }
+  .merchant-btn.active .label { color: var(--text); }
+  .merchant-btn.locked .avatar { opacity: 0.4; filter: grayscale(1); box-shadow: none; }
+  .merchant-btn.locked .label { opacity: 0.55; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    gap: 20px;
+    align-items: start;
+  }
+  .card {
+    background: var(--panel);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px 22px 16px;
+    position: relative;
+    max-width: 620px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  }
+  .placeholder {
+    color: var(--dim);
+    padding: 48px;
+    text-align: center;
+    border: 1px dashed var(--border);
+    border-radius: 20px;
+    max-width: 620px;
+    font-size: 0.9rem;
+  }
+  .tooltip {
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    background: rgba(20, 21, 26, 0.92);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    margin-top: -10px;
+    z-index: 10;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+  .tooltip .price { color: var(--gold); font-weight: 600; }
+  .tooltip .stock { color: var(--line); }
+  .tooltip .when { color: var(--dim); }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+  }
+  .card-header h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .card-header .item {
+    color: var(--dim);
+    font-size: 0.8rem;
+  }
+  .stats {
+    display: flex;
+    gap: 22px;
+    margin: 10px 0 14px;
+    font-size: 0.85rem;
+    color: var(--dim);
+  }
+  .stats .value {
+    color: var(--gold);
+    font-weight: 600;
+  }
+  .chart-row {
+    display: flex;
+    gap: 14px;
+    align-items: stretch;
+  }
+  .chart-wrap {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+  }
+  canvas {
+    width: 100%;
+    height: 168px;
+    display: block;
+  }
+  .range-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 4px;
+    align-self: flex-start;
+  }
+  .range-picker button {
+    font-family: inherit;
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: var(--dim);
+    background: none;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .range-picker button:hover { color: var(--text); }
+  .range-picker button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+  .no-data {
+    color: var(--dim);
+    font-size: 0.82rem;
+    text-align: center;
+    padding: 40px 0 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Marchés du village</h1>
+<p class="subtitle">Actualisation automatique toutes les 2 s - <span id="status">connexion...</span></p>
+<div class="merchant-bar" id="merchantBar"></div>
+<div id="content"></div>
+
+<script>
+// Chaque marchand affiché dans la barre de sélection, qu'il ait déjà une boutique ou non. Les
+// entrées sans instantané côté serveur (aucune donnée dans /api/prices pour cet id) s'affichent
+// grisées/verrouillées avec un message à la place du graphique - un nouveau PNJ peut donc avoir son
+// bouton bien avant que sa logique de commerce n'existe. fallbackName/fallbackPortrait ne servent que
+// tant que le serveur n'a pas publié d'instantané pour ce marchand (qui apporte son propre nom/portrait).
+const CATALOG = [
+  { id: "wheat_merchant", fallbackName: "Thomas Miller", fallbackPortrait: "/portraits/thomas_miller.png" },
+  { id: "fisherman_merchant", fallbackName: "???", fallbackPortrait: "/portraits/fisherman_merchant.png" },
+  { id: "blacksmith_merchant", fallbackName: "???", fallbackPortrait: "/portraits/blacksmith_merchant.png" },
+  { id: "shepherd_merchant", fallbackName: "Julien Berger", fallbackPortrait: "/portraits/shepherd_merchant.png" },
+];
+
+const RANGES = [
+  { key: "6h", label: "6 h", ms: 6 * 60 * 60 * 1000 },
+  { key: "1j", label: "1 j", ms: 24 * 60 * 60 * 1000 },
+  { key: "1sem", label: "1 sem.", ms: 7 * 24 * 60 * 60 * 1000 },
+];
+const DEFAULT_RANGE = "1j";
+
+const merchantBar = document.getElementById("merchantBar");
+const content = document.getElementById("content");
+const status = document.getElementById("status");
+const charts = new Map(); // "merchantId:commodityId" -> {card, canvas, ctx, ...}
+
+let selectedId = CATALOG[0].id;
+let liveData = [];
+
+function formatPrice(raw) {
+  return (raw / 100).toFixed(2) + " argent";
+}
+
+// Pas de millisecondes ni de précision inutile - juste une heure (ou date + heure au-delà d'un jour),
+// au format français.
+function formatClock(realTimeMs) {
+  return new Intl.DateTimeFormat("fr-FR", { hour: "2-digit", minute: "2-digit" }).format(realTimeMs);
+}
+
+function formatAxisLabel(realTimeMs, rangeKey) {
+  if (rangeKey === "1sem") {
+    return new Intl.DateTimeFormat("fr-FR", { weekday: "short", hour: "2-digit", minute: "2-digit" }).format(realTimeMs);
+  }
+  return formatClock(realTimeMs);
+}
+
+function formatTooltipWhen(realTimeMs) {
+  return new Intl.DateTimeFormat("fr-FR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }).format(realTimeMs);
+}
+
+function initials(name) {
+  const letters = name.replace(/[^A-Za-z ]/g, "").split(" ").filter(Boolean).map(w => w[0]);
+  return (letters.join("") || "?").slice(0, 2).toUpperCase();
+}
+
+function renderBar() {
+  merchantBar.innerHTML = "";
+  for (const entry of CATALOG) {
+    const live = liveData.find(m => m.id === entry.id);
+    const name = live ? live.name : entry.fallbackName;
+    const portrait = live ? live.portrait : entry.fallbackPortrait;
+
+    const btn = document.createElement("button");
+    btn.className = "merchant-btn" + (entry.id === selectedId ? " active" : "") + (!live ? " locked" : "");
+    btn.title = live ? name : `${name} (pas encore de boutique)`;
+
+    const img = document.createElement("img");
+    img.className = "avatar";
+    img.alt = name;
+    img.src = portrait.startsWith("/") ? portrait : "/" + portrait;
+    // Portrait pas encore déployé (ou marchand sans identité côté serveur) - on retombe sur un
+    // cercle avec les initiales plutôt qu'une icône d'image cassée.
+    img.onerror = () => {
+      const fallback = document.createElement("div");
+      fallback.className = "avatar";
+      fallback.textContent = initials(name);
+      img.replaceWith(fallback);
+    };
+
+    const label = document.createElement("span");
+    label.className = "label";
+    label.textContent = name;
+
+    btn.appendChild(img);
+    btn.appendChild(label);
+    btn.addEventListener("click", () => {
+      selectedId = entry.id;
+      render();
+    });
+    merchantBar.appendChild(btn);
+  }
+}
+
+function ensureCard(key, commodity) {
+  if (charts.has(key)) return charts.get(key);
+
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="card-header">
+      <h2>${commodity.name}</h2>
+      <span class="item">${commodity.item}</span>
+    </div>
+    <div class="stats">
+      <div>Stock : <span class="value" data-field="stock"></span></div>
+      <div>Prix : <span class="value" data-field="price"></span></div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-wrap">
+        <canvas width="800" height="168"></canvas>
+        <div class="tooltip"></div>
+        <div class="no-data" style="display:none;">Pas assez de données sur cette période.</div>
+      </div>
+      <div class="range-picker"></div>
+    </div>
+  `;
+
+  const canvas = card.querySelector("canvas");
+  const rangePicker = card.querySelector(".range-picker");
+  const entry = {
+    card,
+    canvas,
+    ctx: canvas.getContext("2d"),
+    stockEl: card.querySelector('[data-field="stock"]'),
+    priceEl: card.querySelector('[data-field="price"]'),
+    tooltipEl: card.querySelector(".tooltip"),
+    noDataEl: card.querySelector(".no-data"),
+    fullHistory: [],
+    visible: [],
+    range: DEFAULT_RANGE,
+    hoverIndex: -1,
+  };
+
+  for (const r of RANGES) {
+    const btn = document.createElement("button");
+    btn.textContent = r.label;
+    btn.className = r.key === entry.range ? "active" : "";
+    btn.addEventListener("click", () => {
+      entry.range = r.key;
+      entry.hoverIndex = -1;
+      entry.tooltipEl.style.display = "none";
+      rangePicker.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      recomputeVisible(entry);
+      drawChart(entry);
+    });
+    rangePicker.appendChild(btn);
+  }
+
+  canvas.addEventListener("mousemove", (event) => {
+    if (entry.visible.length < 2) return;
+    // canvas has a fixed internal resolution but is CSS-scaled to the card's width, so the mouse
+    // position has to be mapped from displayed pixels back to canvas pixels first - and separately,
+    // the tooltip (positioned absolute within .chart-wrap) needs coordinates relative to that
+    // wrapper, not the canvas, or it lands in the wrong spot.
+    const canvasRect = canvas.getBoundingClientRect();
+    const wrapRect = canvas.parentElement.getBoundingClientRect();
+    const canvasX = (event.clientX - canvasRect.left) * (canvas.width / canvasRect.width);
+    const pad = 10;
+    const fraction = (canvasX - pad) / (canvas.width - pad * 2);
+    const index = Math.round(fraction * (entry.visible.length - 1));
+    entry.hoverIndex = Math.max(0, Math.min(entry.visible.length - 1, index));
+    drawChart(entry);
+    showTooltip(entry, event.clientX - wrapRect.left, event.clientY - wrapRect.top);
+  });
+  canvas.addEventListener("mouseleave", () => {
+    entry.hoverIndex = -1;
+    entry.tooltipEl.style.display = "none";
+    drawChart(entry);
+  });
+
+  charts.set(key, entry);
+  return entry;
+}
+
+function recomputeVisible(entry) {
+  const range = RANGES.find(r => r.key === entry.range);
+  const now = Date.now();
+  entry.visible = entry.fullHistory.filter(p => p.realTime > 0 && now - p.realTime <= range.ms);
+  // Only clamps, doesn't reset outright - a periodic /api/prices refresh shouldn't dismiss the
+  // tooltip out from under someone who's actively hovering the chart.
+  if (entry.hoverIndex >= entry.visible.length) entry.hoverIndex = -1;
+}
+
+function showTooltip(entry, x, y) {
+  const point = entry.visible[entry.hoverIndex];
+  if (!point) return;
+  entry.tooltipEl.innerHTML =
+      `<div class="price">${formatPrice(point.price)}</div>` +
+      `<div class="stock">Stock : ${point.stock}</div>` +
+      `<div class="when">${formatTooltipWhen(point.realTime)}</div>`;
+  entry.tooltipEl.style.left = x + "px";
+  entry.tooltipEl.style.top = y + "px";
+  entry.tooltipEl.style.display = "block";
+}
+
+function drawChart(entry) {
+  const { ctx, canvas } = entry;
+  const history = entry.visible;
+  const w = canvas.width, h = canvas.height;
+  const pad = 10;
+  // Bottom strip reserved for the time axis labels - the price line/gridlines only ever occupy
+  // [plotTop, plotBottom], the axis text sits below that in its own space.
+  const plotTop = 6;
+  const plotBottom = h - 34;
+
+  ctx.clearRect(0, 0, w, h);
+  entry.noDataEl.style.display = history.length < 2 ? "block" : "none";
+  if (history.length < 2) return;
+
+  const prices = history.map(p => p.price);
+  const min = Math.min(...prices), max = Math.max(...prices);
+  const range = max - min || 1;
+
+  const x = i => pad + (i / (history.length - 1)) * (w - pad * 2);
+  const y = p => plotBottom - ((p - min) / range) * (plotBottom - plotTop);
+
+  ctx.strokeStyle = "rgba(255,255,255,0.06)";
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 2; i++) {
+    const gy = plotTop + (i / 2) * (plotBottom - plotTop);
+    ctx.beginPath();
+    ctx.moveTo(pad, gy);
+    ctx.lineTo(w - pad, gy);
+    ctx.stroke();
+  }
+
+  ctx.strokeStyle = "#5ac8fa";
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  history.forEach((point, i) => {
+    const px = x(i), py = y(point.price);
+    if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+  });
+  ctx.stroke();
+
+  ctx.fillStyle = "#5ac8fa";
+  const last = history[history.length - 1];
+  ctx.beginPath();
+  ctx.arc(x(history.length - 1), y(last.price), 3, 0, Math.PI * 2);
+  ctx.fill();
+
+  if (entry.hoverIndex >= 0 && entry.hoverIndex < history.length) {
+    const hx = x(entry.hoverIndex), hy = y(history[entry.hoverIndex].price);
+
+    ctx.strokeStyle = "rgba(255,255,255,0.25)";
+    ctx.lineWidth = 1;
+    ctx.setLineDash([3, 3]);
+    ctx.beginPath();
+    ctx.moveTo(hx, plotTop);
+    ctx.lineTo(hx, plotBottom);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.beginPath();
+    ctx.arc(hx, hy, 3.5, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  // Chronologie en bas du graphique - quelques repères horaires répartis le long de l'axe, pour
+  // situer les données affichées dans le temps sans avoir à survoler chaque point.
+  ctx.fillStyle = "rgba(255,255,255,0.4)";
+  ctx.font = "11px -apple-system, 'Segoe UI', sans-serif";
+  ctx.textBaseline = "top";
+  const tickCount = Math.min(5, history.length);
+  for (let i = 0; i < tickCount; i++) {
+    const idx = Math.round((i / (tickCount - 1 || 1)) * (history.length - 1));
+    const label = formatAxisLabel(history[idx].realTime, entry.range);
+    const tx = x(idx);
+    ctx.textAlign = i === 0 ? "left" : (i === tickCount - 1 ? "right" : "center");
+    ctx.fillText(label, tx, plotBottom + 10);
+  }
+}
+
+function render() {
+  renderBar();
+
+  const live = liveData.find(m => m.id === selectedId);
+  content.innerHTML = "";
+
+  if (!live || !live.commodities || live.commodities.length === 0) {
+    const div = document.createElement("div");
+    div.className = "placeholder";
+    div.textContent = "Ce marchand n'a pas encore de boutique.";
+    content.appendChild(div);
+    return;
+  }
+
+  // Un marchand peut vendre plusieurs récoltes - toutes affichées en même temps, une carte par
+  // culture, plutôt que de devoir naviguer entre des onglets pour comparer les prix.
+  const grid = document.createElement("div");
+  grid.className = "grid";
+  content.appendChild(grid);
+
+  for (const commodity of live.commodities) {
+    const key = live.id + ":" + commodity.id;
+    const entry = ensureCard(key, commodity);
+    grid.appendChild(entry.card);
+    entry.stockEl.textContent = commodity.stock;
+    entry.priceEl.textContent = formatPrice(commodity.price);
+    entry.fullHistory = commodity.history;
+    recomputeVisible(entry);
+    drawChart(entry);
+    if (entry.hoverIndex >= 0) showTooltip(entry, parseFloat(entry.tooltipEl.style.left), parseFloat(entry.tooltipEl.style.top));
+  }
+}
+
+async function refresh() {
+  try {
+    const res = await fetch("/api/prices");
+    liveData = await res.json();
+    status.textContent = "connecté";
+    render();
+  } catch (e) {
+    status.textContent = "déconnecté (nouvelle tentative...)";
+  }
+}
+
+refresh();
+setInterval(refresh, 2000);
+</script>
+</body>
+</html>

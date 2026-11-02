@@ -1,0 +1,4 @@
+{
+    condition: "false",
+    fallback: "assets/minecraft/models/item/item_rpo/enchanted_shield_blocking_thin_extra_dynamic.json"
+}

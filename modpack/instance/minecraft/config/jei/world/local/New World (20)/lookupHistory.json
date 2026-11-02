@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"artifacts:steadfast_spikes"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"artifacts:pocket_piston"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"survivalplus:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:toolupgrade_powerpack_antenna"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

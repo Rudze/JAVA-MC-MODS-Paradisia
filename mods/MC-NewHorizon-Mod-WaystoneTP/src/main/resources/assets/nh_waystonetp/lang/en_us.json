@@ -1,0 +1,5 @@
+{
+    "block.nh_waystonetp.waystone_a": "Waystone A",
+    "block.nh_waystonetp.waystone_b": "Waystone B",
+    "message.nh_waystonetp.no_target": "No Waystone %s has been placed anywhere yet."
+}

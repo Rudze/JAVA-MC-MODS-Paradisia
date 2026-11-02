@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"conditions":
+	[
+		{
+			"type": "neoforge:not",
+			"value":
+			{
+				"type": "locks:steel",
+				"query": "steel_available"
+			}
+		}
+	],
+	"pattern":
+	[
+		" G ",
+		"GLG",
+		"GGG"
+	],
+	"key":
+	{
+		"G":
+		{
+			"tag": "c:ingots/gold"
+		},
+		"L":
+		{
+			"item": "locks:iron_lock_mechanism"
+		}
+	},
+	"result":
+	{
+		"id": "locks:gold_lock"
+	}
+}

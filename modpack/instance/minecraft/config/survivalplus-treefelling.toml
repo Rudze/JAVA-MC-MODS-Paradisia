@@ -1,0 +1,59 @@
+#Tree Felling module: cut one log, bring down the whole tree.
+[treeFelling]
+	#Master switch for the Tree Felling module.
+	enabled = true
+	#Require the player to be holding an axe for the felling effect to trigger.
+	#If false, breaking a log with any tool fells the tree.
+	requireAxe = true
+
+	[treeFelling.detection]
+		#Extra block IDs (registry names) considered part of a tree trunk, in addition to the
+		#minecraft:logs tag. Useful for modded log-like blocks not covered by the tag.
+		#Example: "othermod:sacred_log"
+		extraLogBlocks = []
+		#Block IDs excluded from tree detection even though they are in minecraft:logs.
+		#Useful to keep stripped logs used in builds from being felled.
+		#Example: "minecraft:stripped_oak_log"
+		excludedLogBlocks = []
+		#Connect logs using all 26 neighbouring positions instead of just the 6 orthogonal ones.
+		#Needed to correctly detect trees with diagonal trunks/branches (acacia, jungle, dark oak canopies).
+		use26Directions = true
+		#Maximum number of logs scanned above the broken log. Search stops once this cap is reached,
+		#protecting against lag/abuse on giant artificial structures.
+		# Default: 512
+		# Range: 1 ~ 4096
+		maxTreeSize = 512
+		#Require leaves near the top of the trunk before felling it. Prevents wooden houses/builds
+		#from being treated as trees. When false or when no leaves are found, breaking a log falls
+		#back to vanilla single-block behaviour (the felling effect simply does not trigger).
+		requireLeavesNearby = true
+		#Radius (in blocks) of the cube searched for leaves around the top of the detected trunk.
+		# Default: 4
+		# Range: 1 ~ 16
+		leavesSearchRadius = 4
+
+	[treeFelling.falling]
+		#INSTANT: every log above falls the instant the targeted log breaks.
+		#PROGRESSIVE: logs fall one by one, spaced out over time, for a 'falling tree' effect.
+		#Allowed Values: INSTANT, PROGRESSIVE
+		fallMode = "PROGRESSIVE"
+		#Delay, in ticks, between each log falling when fallMode is PROGRESSIVE. (20 ticks = 1 second)
+		# Default: 2
+		# Range: 1 ~ 100
+		progressiveDelayTicks = 2
+
+	[treeFelling.breakSpeed]
+		#Break-time multiplier applied to the targeted log regardless of tree size.
+		#1.0 = no penalty for a lone log.
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		baseTimeMultiplier = 1.0
+		#Extra break-time multiplier added per additional log detected in the tree.
+		#Example: 0.04 means each extra log adds 4% to the break time.
+		# Default: 0.04
+		# Range: 0.0 ~ 5.0
+		perLogTimeMultiplier = 0.04
+		#Hard cap on the total break-time multiplier, however big the tree is.
+		# Default: 5.0
+		# Range: 1.0 ~ 50.0
+		maxTimeMultiplier = 5.0

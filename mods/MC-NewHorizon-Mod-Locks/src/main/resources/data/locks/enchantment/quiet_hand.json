@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.locks.quiet_hand"
+  },
+  "supported_items": "#locks:lock_picks",
+  "weight": 5,
+  "max_level": 1,
+  "min_cost": {
+    "base": 3,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 43,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": ["mainhand", "offhand"],
+  "effects": {}
+}

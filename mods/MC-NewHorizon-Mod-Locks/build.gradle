@@ -1,0 +1,125 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = mod_version
+group = mod_base_package
+
+base {
+    // Jar file name only - matches the other NewHorizon mods' "nh_<name>-<version>.jar" convention.
+    // The mod's internal id (mod_id, used for the namespace of every resource/data file) stays "locks".
+    archivesName = "nh_locks"
+}
+
+// Mojang ships Java 21 to end users starting in 1.20.5, so mods should target Java 21.
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    // Access Transformers and Mixin configs are auto-detected:
+    //  - src/main/resources/META-INF/accesstransformer.cfg
+    //  - the [[mixins]] entry in neoforge.mods.toml
+    // No separate mixin/AT gradle plugin needed with the moddev toolchain.
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    mavenLocal()
+    maven { url = 'https://maven.wispforest.io/releases' }
+    // Hosts org.sinytra:forgified-fabric-api, a transitive dependency of accessories-neoforge/owo-lib.
+    maven { url = 'https://maven.su5ed.dev/releases' }
+}
+
+dependencies {
+    // Keyring-as-wearable-slot integration is optional at runtime (checked via ModList), same way the
+    // original mod treated Curios as optional - this modpack standardized on Accessories instead of
+    // Curios (no NeoForge 1.21.1 Curios build), see MC-NewHorizon-Mod-Cosmetics for the same convention.
+    compileOnly "io.wispforest:accessories-neoforge:${accessories_version}"
+    runtimeOnly "io.wispforest:accessories-neoforge:${accessories_version}"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
+
+tasks.withType(JavaCompile).configureEach { options.compilerArgs << "-Xmaxerrs" << "10000" }
+

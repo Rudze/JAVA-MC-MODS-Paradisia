@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/purple/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/red/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/green/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/blue/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/yellow/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/cyan/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/white/compass_12_vibrant.png",
+        "assets/minecraft/textures/item/enchanted_compass/compass_vibrant/orange/compass_12_vibrant.png"
+    ]
+}

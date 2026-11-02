@@ -1,0 +1,60 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_shovel"
+          }
+        },
+        {
+          "when": [
+            "firstperson_lefthand",
+            "firstperson_righthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_diamond_shovel_thin_extra"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_diamond_shovel_thick"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_shovel"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_shovel"
+      }
+    }
+  }
+}

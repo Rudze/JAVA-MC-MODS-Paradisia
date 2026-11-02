@@ -1,0 +1,18 @@
+{
+  "animationStrength": 1.35,
+  "particleAmount": 1.25,
+  "commandAnimations": true,
+  "moveAnimations": true,
+  "switchAnimations": true,
+  "targetAnimations": true,
+  "forfeitAnimations": true,
+  "backButtonAnimations": true,
+  "menuTransitions": true,
+  "particles": true,
+  "screenEffects": true,
+  "scanEffects": true,
+  "hudAccents": true,
+  "healthReactions": true,
+  "screenShake": true,
+  "reducedMotion": false
+}

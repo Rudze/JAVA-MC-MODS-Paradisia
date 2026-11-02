@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nh_furniture:block/small_crop_streamer"
+    },
+    "facing=east": {
+      "model": "nh_furniture:block/small_crop_streamer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nh_furniture:block/small_crop_streamer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nh_furniture:block/small_crop_streamer",
+      "y": 270
+    }
+  }
+}

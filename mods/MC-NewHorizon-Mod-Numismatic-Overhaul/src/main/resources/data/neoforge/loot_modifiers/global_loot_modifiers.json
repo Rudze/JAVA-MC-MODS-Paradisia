@@ -1,0 +1,20 @@
+{
+  "entries": [
+    "numismaticoverhaul:generic_coin_loot_table_chests_buried_treasure",
+    "numismaticoverhaul:generic_coin_loot_table_chests_abandoned_mineshaft",
+    "numismaticoverhaul:money_bag_loot_table_chests_pillager_outpost",
+    "numismaticoverhaul:generic_coin_loot_table_chests_pillager_outpost",
+    "numismaticoverhaul:money_bag_loot_table_chests_simple_dungeon",
+    "numismaticoverhaul:generic_coin_loot_table_chests_stronghold_corridor",
+    "numismaticoverhaul:money_bag_loot_table_pyramid",
+    "numismaticoverhaul:generic_coin_loot_table_chests_simple_dungeon",
+    "numismaticoverhaul:generic_coin_loot_table_chests_stronghold_library",
+    "numismaticoverhaul:money_bag_loot_table_stronghold_library",
+    "numismaticoverhaul:money_bag_loot_table_chests_abandoned_mineshaft",
+    "numismaticoverhaul:money_bag_loot_table_chests_bastion_treasure",
+    "numismaticoverhaul:generic_coin_loot_table_chests_bastion_treasure",
+    "numismaticoverhaul:money_bag_loot_table_chests_buried_treasure",
+    "numismaticoverhaul:money_bag_loot_table_chests_stronghold_corridor"
+  ],
+  "replace": false
+}

@@ -1,0 +1,8 @@
+#Backpack module: a wearable storage item, worn via the Accessories mod's back slot.
+[backpack]
+	#Master switch for the Backpack module. Requires the Accessories mod to be installed.
+	enabled = true
+	#Number of 9-wide inventory rows the backpack holds (1-6, like a chest).
+	# Default: 3
+	# Range: 1 ~ 6
+	rows = 3

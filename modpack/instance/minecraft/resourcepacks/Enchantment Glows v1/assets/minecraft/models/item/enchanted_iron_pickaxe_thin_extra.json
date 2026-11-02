@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_enchanted_pickaxe_thin_extra",
+  "textures": {
+    "pickaxe": "minecraft:item/iron_pickaxe_model",
+    "glint": "minecraft:item/enchant_glint"
+  }
+}

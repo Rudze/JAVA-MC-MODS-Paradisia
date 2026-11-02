@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/netherite_shovel_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/netherite_shovel_model_vibrant.png"
+    ]
+}

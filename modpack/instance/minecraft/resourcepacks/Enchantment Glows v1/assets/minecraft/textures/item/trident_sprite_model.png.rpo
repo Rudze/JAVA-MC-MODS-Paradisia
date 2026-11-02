@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/trident_sprite_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/trident_sprite_model_vibrant.png"
+    ]
+}

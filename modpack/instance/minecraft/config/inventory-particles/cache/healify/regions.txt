@@ -1,0 +1,17 @@
+healify:bandage	inventory_particles:bandage/fallback/standard_0.png	0	0	8	8
+healify:bandage	inventory_particles:bandage/fallback/standard_1.png	8	0	8	8
+healify:bandage	inventory_particles:bandage/fallback/standard_2.png	16	0	8	8
+healify:bandage	inventory_particles:bandage/fallback/standard_3.png	24	0	8	8
+healify:bandage	inventory_particles:bandage/fallback/standard_4.png	32	0	8	8
+healify:bandage	inventory_particles:bandage/fallback/standard_5.png	40	0	8	8
+healify:golden_bandage	inventory_particles:golden_bandage/glint/glint0_0.png	48	0	8	8
+healify:golden_bandage	inventory_particles:golden_bandage/glint/glint0_1.png	56	0	8	8
+healify:golden_bandage	inventory_particles:golden_bandage/glint/glint0_2.png	64	0	8	8
+healify:golden_bandage	inventory_particles:golden_bandage/glint/glint0_3.png	72	0	8	8
+healify:golden_bandage	inventory_particles:golden_bandage/glint/glint0_4.png	80	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_0.png	88	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_1.png	96	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_2.png	104	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_3.png	112	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_4.png	120	0	8	8
+healify:patch	inventory_particles:patch/fallback/standard_5.png	128	0	8	8

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nh_furniture:block/desert_wall_potted_palm"
+    },
+    "facing=east": {
+      "model": "nh_furniture:block/desert_wall_potted_palm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nh_furniture:block/desert_wall_potted_palm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nh_furniture:block/desert_wall_potted_palm",
+      "y": 270
+    }
+  }
+}

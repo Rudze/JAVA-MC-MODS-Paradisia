@@ -1,0 +1,29 @@
+[content]
+	#Shows Engineer's Decor decorative block items in the creative tab. Registry IDs remain loaded for world compatibility.
+	enableDecorBlocks = true
+	#Shows utility-machine block items in the creative tab. Registry IDs, menus, and block entities remain loaded for world compatibility.
+	enableUtilityBlocks = true
+	#Shows RsGauges switch/control items in the creative tab. Registry IDs remain loaded for world compatibility.
+	enableRedstoneControls = true
+	#Shows redstone gauge items in the creative tab. Registry IDs remain loaded.
+	enableGauges = true
+	#Shows indicator and alarm items in the creative tab. Registry IDs remain loaded.
+	enableIndicators = true
+	#Shows sensor items in the creative tab. Registry IDs remain loaded.
+	enableSensors = true
+	#Shows wireless-control items in the creative tab. Registry IDs remain loaded.
+	enableWirelessControls = true
+	#Shows sound-indicator items in the creative tab. Registry IDs remain loaded.
+	enableSoundIndicators = true
+
+[styles]
+	#Shows industrial RsGauges style items in the creative tab. Registry IDs remain loaded.
+	enableStyleIndustrial = true
+	#Shows retro industrial RsGauges style items in the creative tab. Registry IDs remain loaded.
+	enableStyleRetroIndustrial = true
+	#Shows rustic RsGauges style items in the creative tab. Registry IDs remain loaded.
+	enableStyleRustic = true
+	#Shows old fancy RsGauges style items in the creative tab. Registry IDs remain loaded.
+	enableStyleOldFancy = true
+	#Shows glass RsGauges style items in the creative tab. Registry IDs remain loaded.
+	enableStyleGlass = true

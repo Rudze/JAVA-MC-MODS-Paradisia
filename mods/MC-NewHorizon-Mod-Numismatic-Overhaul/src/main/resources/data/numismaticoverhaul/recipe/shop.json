@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#_#",
+        "OOO"
+    ],
+    "key": {
+        "#": {
+            "item": "numismaticoverhaul:bronze_coin"
+        },
+        "_": {
+            "item": "minecraft:smooth_stone_slab"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "id": "numismaticoverhaul:shop",
+        "count": 1
+    }
+}

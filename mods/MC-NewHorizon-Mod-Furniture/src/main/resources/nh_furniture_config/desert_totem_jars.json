@@ -1,0 +1,26 @@
+{
+  "name": "Desert Totem Jars",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": true,
+  "main": {
+    "solid": false,
+    "box": [
+      0,
+      0,
+      0,
+      16,
+      16,
+      16
+    ]
+  },
+  "parts": [],
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5
+}

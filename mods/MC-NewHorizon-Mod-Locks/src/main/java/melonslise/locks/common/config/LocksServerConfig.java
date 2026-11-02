@@ -1,0 +1,401 @@
+package melonslise.locks.common.config;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+
+import com.google.common.collect.Lists;
+
+import melonslise.locks.Locks;
+import melonslise.locks.common.init.LocksBlockTags;
+import melonslise.locks.common.steel.SteelMaterialMode;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
+import melonslise.locks.common.init.LocksEnchantments;
+import net.minecraft.core.Holder;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.neoforged.neoforge.common.ModConfigSpec;
+import net.minecraft.core.registries.BuiltInRegistries;
+
+public class LocksServerConfig
+{
+	public static final ModConfigSpec SPEC;
+
+	// NeoForge 1.21.1 loads world datapacks/tags (which fires VillagerTradesEvent/WandererTradesEvent while
+	// building trades) before this world's SERVER config is guaranteed loaded, so reading .get() directly from
+	// those listeners can throw. Falls back to the spec's own default so trades still register with sane
+	// behavior instead of crashing world load.
+	public static <T> T getOrDefault(ModConfigSpec.ConfigValue<T> value)
+	{
+		return SPEC.isLoaded() ? value.get() : value.getDefault();
+	}
+
+	public static final ModConfigSpec.IntValue MAX_LOCKABLE_VOLUME;
+	public static final ModConfigSpec.ConfigValue<List<? extends String>> LOCKABLE_BLOCKS;
+	public static final ModConfigSpec.BooleanValue ALLOW_REMOVING_LOCKS;
+	public static final ModConfigSpec.BooleanValue PROTECT_LOCKABLES;
+	public static final ModConfigSpec.BooleanValue EASY_LOCK;
+
+	public static final ModConfigSpec.EnumValue<SteelMaterialMode> STEEL_MATERIAL_MODE;
+
+	public static final ModConfigSpec.ConfigValue<List<? extends String>> LOCKABLE_TAGS;
+
+	public static final ModConfigSpec.BooleanValue HIDE_LOCK_ID;
+	public static final ModConfigSpec.BooleanValue HIDE_HUD_ENCHANTMENTS;
+	public static final ModConfigSpec.BooleanValue HIDE_HUD_TOOLTIP;
+
+	public static final ModConfigSpec.BooleanValue ENABLE_SHOCKING;
+	public static final ModConfigSpec.BooleanValue ENABLE_STURDY;
+	public static final ModConfigSpec.BooleanValue ENABLE_COMPLEXITY;
+	public static final ModConfigSpec.BooleanValue ENABLE_SILENT;
+	public static final ModConfigSpec.BooleanValue ENABLE_AUTO_PICK;
+	public static final ModConfigSpec.BooleanValue ENABLE_REINFORCED;
+	public static final ModConfigSpec.BooleanValue ENABLE_AWARENESS;
+
+	// Lock pick enchantments
+	public static final ModConfigSpec.BooleanValue ENABLE_FINESSE;
+	public static final ModConfigSpec.BooleanValue ENABLE_ATTUNEMENT;
+	public static final ModConfigSpec.BooleanValue ENABLE_GROUNDED;
+	public static final ModConfigSpec.BooleanValue ENABLE_QUIET_HAND;
+	public static final ModConfigSpec.BooleanValue ENABLE_LAST_CATCH;
+
+	// Lock pick enchantment tuning
+	public static final ModConfigSpec.DoubleValue FINESSE_STRENGTH_PER_LEVEL;
+	public static final ModConfigSpec.DoubleValue ATTUNEMENT_STRENGTH_PER_LEVEL;
+	public static final ModConfigSpec.DoubleValue GROUNDED_REDUCTION_PER_LEVEL;
+	public static final ModConfigSpec.DoubleValue LAST_CATCH_SAVE_CHANCE;
+	public static final ModConfigSpec.DoubleValue QUIET_HAND_VOLUME;
+
+	// Shocking enchantment tuning
+	public static final ModConfigSpec.DoubleValue SHOCKING_DAMAGE_BASE;
+	public static final ModConfigSpec.DoubleValue SHOCKING_DAMAGE_PER_LEVEL;
+	public static final ModConfigSpec.DoubleValue SHOCKING_MAX_DAMAGE;
+	public static final ModConfigSpec.BooleanValue SHOCKING_REQUIRES_ENCHANTMENT;
+	public static final ModConfigSpec.IntValue SHOCKING_COOLDOWN_TICKS;
+	public static final ModConfigSpec.BooleanValue SHOCKING_ON_PICK_BREAK;
+	public static final ModConfigSpec.BooleanValue SHOCKING_ON_WRONG_PIN;
+	public static final ModConfigSpec.BooleanValue SHOCKING_ON_UNAUTHORIZED_INTERACTION;
+	public static final ModConfigSpec.BooleanValue SHOCKING_ON_BLOCK_BREAK_ATTEMPT;
+
+	public static final ModConfigSpec.BooleanValue NETHERITE_PICK_UNBREAKABLE;
+
+	public static final ModConfigSpec.ConfigValue<List<? extends String>> LOOT_TABLE_PATTERNS;
+
+	// Trades
+	public static final ModConfigSpec.BooleanValue ENABLE_VILLAGER_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_VILLAGER_LOCKPICK_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_VILLAGER_LOCK_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_VILLAGER_MECHANISM_TRADES;
+	public static final ModConfigSpec.ConfigValue<String> VILLAGER_PROFESSION;
+	public static final ModConfigSpec.BooleanValue ENABLE_WANDERER_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_WANDERER_LOCKPICK_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_WANDERER_LOCK_TRADES;
+	public static final ModConfigSpec.BooleanValue ENABLE_WANDERER_MECHANISM_TRADES;
+
+	// Compatibility — Carry On
+	public static final ModConfigSpec.BooleanValue CARRYON_ENABLE;
+	public static final ModConfigSpec.BooleanValue CARRYON_ALLOW_LOCKED;
+	public static final ModConfigSpec.BooleanValue CARRYON_REQUIRE_AUTH;
+	public static final ModConfigSpec.BooleanValue CARRYON_DENY_PARTIAL_MULTIBLOCK;
+	public static final ModConfigSpec.BooleanValue CARRYON_LOG_TRANSFERS;
+
+	public static Pattern[] lockableBlocks;
+	public static List<TagKey<Block>> lockableTags;
+	public static String[][] lootTablePatterns;
+
+	static
+	{
+		ModConfigSpec.Builder cfg = new ModConfigSpec.Builder();
+
+		MAX_LOCKABLE_VOLUME = cfg
+			.comment("Maximum amount of blocks that can be locked at once")
+			.defineInRange("Max Lockable Volume", 6, 1, Integer.MAX_VALUE);
+		LOCKABLE_BLOCKS = cfg
+			.comment("Blocks that can be locked. Each entry is the mod domain followed by the block's registry name. Can include regular expressions")
+			.defineList("Lockable Blocks", Lists.newArrayList(".*chest", ".*barrel", ".*hopper", ".*door", ".*trapdoor", ".*fence_gate", ".*shulker_box"), e -> e instanceof String);
+		LOCKABLE_TAGS = cfg
+			.comment("Block tags whose members can be locked. Each entry is a tag resource location (e.g. 'locks:lockable'). The 'locks:lockable' tag is always included")
+			.defineList("Lockable Tags", Lists.newArrayList("locks:lockable"), e -> e instanceof String);
+		ALLOW_REMOVING_LOCKS = cfg
+			.comment("Open locks can be removed with an empty hand while sneaking")
+			.define("Allow Removing Locks", true);
+		PROTECT_LOCKABLES = cfg
+			.comment("Locked blocks cannot be destroyed in survival mode")
+			.define("Protect Lockables", true);
+		EASY_LOCK = cfg
+			.comment("Lock blocks with just one click! It's magic! (Will probably fail spectacularly with custom doors, custom double chests, etc)")
+			.define("Easy Lock", true);
+
+		STEEL_MATERIAL_MODE = cfg
+			.comment("Controls whether Locks provides (and generates) its own native steel material.",
+				"Locks ships steel_ingot, steel_nugget, steel_ore and deepslate_steel_ore so its steel locks are",
+				"always craftable, and merges them into the standard Forge steel tags (forge:ingots/steel,",
+				"forge:nuggets/steel, forge:ores/steel). The native blocks/items are ALWAYS registered so old worlds",
+				"and existing stacks stay valid — this setting only controls acquisition (recipes, ore generation,",
+				"creative-tab presentation).",
+				"  AUTO          - default. For each form (ingot/nugget/ore), provide Locks' native version only when",
+				"                  no OTHER mod already supplies it via the Forge steel tags (Locks' own entries are",
+				"                  ignored when detecting external steel). Native ore only generates when no foreign",
+				"                  steel ore exists and the native ingot is active.",
+				"  FORCE_NATIVE  - always enable Locks' native steel recipes and ore generation, even alongside an",
+				"                  external steel economy.",
+				"  EXTERNAL_ONLY - never enable native steel acquisition or generation, even if the steel tags are",
+				"                  empty (a warning is logged for any missing form).",
+				"Changing this may require a datapack reload (/reload) for recipes and a world reload for ore generation.")
+			.defineEnum("Steel Material Mode", SteelMaterialMode.AUTO);
+
+		cfg.push("Display");
+		HIDE_LOCK_ID = cfg
+			.comment("Hide the lock ID line from tooltips (both inventory and HUD)")
+			.define("Hide Lock ID", false);
+		HIDE_HUD_ENCHANTMENTS = cfg
+			.comment("Hide enchantment lines from the HUD floating tooltip (inventory tooltips are unaffected)")
+			.define("Hide HUD Enchantments", false);
+		HIDE_HUD_TOOLTIP = cfg
+			.comment("Hide the floating HUD tooltip entirely when looking at a lock in the world (hides item name, enchantments, and all other info)")
+			.define("Hide HUD Tooltip", false);
+		cfg.pop();
+
+		cfg.comment("Enable or disable individual lock enchantments. Disabled enchantments will not appear in the enchanting table, trades, or loot, and their effects will be ignored on existing items.").push("Enchantments");
+		ENABLE_SHOCKING = cfg
+			.comment("Damages the player when a lock pick breaks")
+			.define("Enable Shocking", true);
+		ENABLE_STURDY = cfg
+			.comment("Makes locks harder to pick by reducing effective lock pick strength")
+			.define("Enable Sturdy", true);
+		ENABLE_COMPLEXITY = cfg
+			.comment("Restricts which lock picks can open the lock")
+			.define("Enable Complexity", true);
+		ENABLE_SILENT = cfg
+			.comment("Suppresses the rattle sound when accessing a locked block without a key")
+			.define("Enable Silent", true);
+		ENABLE_AUTO_PICK = cfg
+			.comment("Chance to instantly unlock without the lock picking minigame")
+			.define("Enable Auto Pick", true);
+		ENABLE_REINFORCED = cfg
+			.comment("Increases explosion resistance of locked blocks")
+			.define("Enable Reinforced", true);
+		ENABLE_AWARENESS = cfg
+			.comment("Remembers who placed the lock; that player can open it without a key")
+			.define("Enable Awareness", true);
+
+		ENABLE_FINESSE = cfg
+			.comment("Finesse: reduces the chance that lock picks break after a wrong pin.")
+			.define("Enable Finesse", true);
+		ENABLE_ATTUNEMENT = cfg
+			.comment("Attunement: increases effective lock pick strength against complex locks.")
+			.define("Enable Attunement", true);
+		ENABLE_GROUNDED = cfg
+			.comment("Grounded: reduces damage taken from Shocking locks while holding the pick.")
+			.define("Enable Grounded", true);
+		ENABLE_QUIET_HAND = cfg
+			.comment("Quiet Hand: reduces the sound of failed pin attempts.")
+			.define("Enable Quiet Hand", true);
+		ENABLE_LAST_CATCH = cfg
+			.comment("Last Catch: occasionally prevents a lock pick from breaking.")
+			.define("Enable Last Catch", true);
+
+		cfg.comment("Tuning for the lock pick enchantments. Each value scales its enchantment's effect;",
+				"setting an enchantment's Enable toggle above to false disables it entirely regardless of these.").push("Lock Pick");
+		FINESSE_STRENGTH_PER_LEVEL = cfg
+			.comment("Effective pick-strength bonus per Finesse level, applied only to the break roll (higher = fewer breaks). Default 0.15 = +15%/level.")
+			.defineInRange("Finesse Strength Per Level", 0.15d, 0.0d, 5.0d);
+		ATTUNEMENT_STRENGTH_PER_LEVEL = cfg
+			.comment("Effective pick-strength bonus per Attunement level, applied only when checking whether a pick can open a Complex lock. Default 0.10/level.")
+			.defineInRange("Attunement Strength Per Level", 0.10d, 0.0d, 5.0d);
+		GROUNDED_REDUCTION_PER_LEVEL = cfg
+			.comment("Fraction of Shocking damage removed per Grounded level while holding the pick. Default 0.20 = -20%/level (level 3 = -60%).")
+			.defineInRange("Grounded Reduction Per Level", 0.20d, 0.0d, 1.0d);
+		LAST_CATCH_SAVE_CHANCE = cfg
+			.comment("Chance for Last Catch to cancel a break that would otherwise occur. Default 0.20 = 20%.")
+			.defineInRange("Last Catch Save Chance", 0.20d, 0.0d, 1.0d);
+		QUIET_HAND_VOLUME = cfg
+			.comment("Volume of the wrong-pin sound while holding a Quiet Hand pick (normal is 1.0). Default 0.25.")
+			.defineInRange("Quiet Hand Volume", 0.25d, 0.0d, 1.0d);
+		cfg.pop(); // Lock Pick
+
+		cfg.comment("Tuning for the Shocking enchantment and the theft punishments it enables.",
+				"By default, Shocking deals 1.5 damage per enchantment level when a lock pick breaks.",
+				"Final damage = Damage Base + level * Damage Per Level, clamped to Max Damage.").push("Shocking");
+		SHOCKING_DAMAGE_BASE = cfg
+			.comment("Flat shock damage dealt regardless of enchantment level (2.0 = 1 heart).")
+			.defineInRange("Shocking Damage Base", 0.0d, 0.0d, 1024.0d);
+		SHOCKING_DAMAGE_PER_LEVEL = cfg
+			.comment("Shock damage added per level of the Shocking enchantment. Default 1.5 reproduces the original behavior (level * 1.5).")
+			.defineInRange("Shocking Damage Per Level", 1.5d, 0.0d, 1024.0d);
+		SHOCKING_MAX_DAMAGE = cfg
+			.comment("Upper clamp on shock damage after Base + level * Per Level. The default is effectively uncapped.")
+			.defineInRange("Shocking Max Damage", 1024.0d, 0.0d, 1024.0d);
+		SHOCKING_REQUIRES_ENCHANTMENT = cfg
+			.comment("If true, only locks that actually carry the Shocking enchantment can shock players.",
+				"If false, every lock shocks (treated as level 1 when unenchanted) — useful for punishing all theft attempts.")
+			.define("Shocking Requires Enchantment", true);
+		SHOCKING_COOLDOWN_TICKS = cfg
+			.comment("Minimum ticks between shocks dealt to the same player (20 ticks = 1 second). 0 = no cooldown (original behavior).",
+				"Raise this (e.g. to 20) when enabling the interaction or wrong-pin triggers below to avoid shock spam.")
+			.defineInRange("Shocking Cooldown Ticks", 0, 0, 72000);
+		SHOCKING_ON_PICK_BREAK = cfg
+			.comment("Shock the player when their lock pick breaks while picking. This is the original Shocking behavior.")
+			.define("Shocking Triggers On Pick Break", true);
+		SHOCKING_ON_WRONG_PIN = cfg
+			.comment("Shock the player each time they set a wrong pin while picking, even if the pick does not break.")
+			.define("Shocking Triggers On Wrong Pin", false);
+		SHOCKING_ON_UNAUTHORIZED_INTERACTION = cfg
+			.comment("Shock the player when they interact with a locked block without the correct key, lock pick or key ring (the 'rattle').")
+			.define("Shocking Triggers On Unauthorized Interaction", false);
+		SHOCKING_ON_BLOCK_BREAK_ATTEMPT = cfg
+			.comment("Shock the player when they attempt to break a protected locked block. Requires 'Protect Lockables' to be enabled.")
+			.define("Shocking Triggers On Block Break Attempt", false);
+		cfg.pop(); // Shocking
+
+		cfg.pop();
+
+		NETHERITE_PICK_UNBREAKABLE = cfg
+			.comment("When enabled, netherite lock picks never lose durability or break during lock picking")
+			.define("Netherite Lockpick Unbreakable", false);
+
+		LOOT_TABLE_PATTERNS = cfg
+			.comment("Loot tables matching these patterns will receive lock pick / key loot injection.",
+				"Each entry is 'namespace:path_prefix' (e.g. 'minecraft:chests/' matches all vanilla chest loot tables).",
+				"Add entries for modded namespaces to inject lock picks into modded dungeon chests.")
+			.defineList("Loot Table Injection Patterns", Lists.newArrayList("minecraft:chests/"), e -> e instanceof String);
+
+		cfg.comment("Configure which lock-related items villagers and wandering traders sell.",
+				"Existing default trades are unchanged. Lock picks can be disabled independently of locks and mechanisms,",
+				"so you can remove easy lock picks while still letting players buy locks for early-game chest protection.").push("Trades");
+		cfg.push("Villager");
+		ENABLE_VILLAGER_TRADES = cfg
+			.comment("Master switch for all lock-related trades offered by the lock villager profession.")
+			.define("Enable Villager Trades", true);
+		ENABLE_VILLAGER_LOCKPICK_TRADES = cfg
+			.comment("Allow the lock villager to sell lock picks. Set this to false to remove lock pick sales (they can be considered overpowered) while keeping lock and mechanism sales.")
+			.define("Enable Villager Lockpick Trades", true);
+		ENABLE_VILLAGER_LOCK_TRADES = cfg
+			.comment("Allow the lock villager to sell finished locks (wood/copper/iron at trade levels 1-3).",
+				"Disabled by default — enable it to make early-game chest protection purchasable from villagers.")
+			.define("Enable Villager Lock Trades", false);
+		ENABLE_VILLAGER_MECHANISM_TRADES = cfg
+			.comment("Allow the lock villager to sell lock mechanisms (crafting components).")
+			.define("Enable Villager Lock Mechanism Trades", true);
+		VILLAGER_PROFESSION = cfg
+			.comment("Which villager profession offers lock trades. Format 'namespace:profession' (e.g. 'minecraft:toolsmith', 'minecraft:librarian').")
+			.define("Villager Profession", "minecraft:toolsmith");
+		cfg.pop(); // Villager
+		cfg.push("Wandering Trader");
+		ENABLE_WANDERER_TRADES = cfg
+			.comment("Master switch for all lock-related trades offered by the wandering trader.")
+			.define("Enable Wandering Trader Trades", true);
+		ENABLE_WANDERER_LOCKPICK_TRADES = cfg
+			.comment("Allow the wandering trader to sell lock picks (gold and steel).")
+			.define("Enable Wandering Trader Lockpick Trades", true);
+		ENABLE_WANDERER_LOCK_TRADES = cfg
+			.comment("Allow the wandering trader to sell finished, enchanted locks (steel/diamond/netherite).")
+			.define("Enable Wandering Trader Lock Trades", true);
+		ENABLE_WANDERER_MECHANISM_TRADES = cfg
+			.comment("Allow the wandering trader to sell lock mechanisms (steel).")
+			.define("Enable Wandering Trader Lock Mechanism Trades", true);
+		cfg.pop(); // Wandering Trader
+		cfg.pop(); // Trades
+
+		cfg.comment("Integration with other mods. These sections only take effect when the relevant mod is installed.").push("Compatibility");
+		cfg.comment("Carry On lets players pick up and carry blocks (including containers). These options control how locks are moved with a carried block.").push("CarryOn");
+		CARRYON_ENABLE = cfg
+			.comment("Master switch for Carry On compatibility. When enabled, locks are moved together with the block they protect instead of being left behind.")
+			.define("Enable Carry On Compatibility", true);
+		CARRYON_ALLOW_LOCKED = cfg
+			.comment("Allow locked blocks to be picked up at all. When false, Carry On cannot pick up any locked block (the lock stays put). Unlocked locks are always allowed to move.")
+			.define("Allow Carrying Locked Blocks", true);
+		CARRYON_REQUIRE_AUTH = cfg
+			.comment("Require the player to be authorized to carry a locked block: holding (anywhere in their inventory) a matching key, key ring, or master key, being the Awareness owner, or being in creative.",
+				"When false (default), anyone can carry a locked block and the lock simply travels with it.",
+				"When true, Carry On cannot be used to bypass lock protection.")
+			.define("Require Authorization To Carry Locked Blocks", false);
+		CARRYON_DENY_PARTIAL_MULTIBLOCK = cfg
+			.comment("Deny picking up a block that is part of a multi-block lock (e.g. one half of a locked double chest) when only a single block is being moved.",
+				"This prevents corrupting a lock that spans more blocks than Carry On is moving. Recommended to leave enabled.")
+			.define("Deny Partial Multi Block Lock Pickup", true);
+		CARRYON_LOG_TRANSFERS = cfg
+			.comment("Log every Carry On lock capture/restore to the server log. Useful for debugging.")
+			.define("Log Carry On Lock Transfers", false);
+		cfg.pop(); // CarryOn
+		cfg.pop(); // Compatibility
+
+		SPEC = cfg.build();
+	}
+
+	private LocksServerConfig() {}
+
+	public static void init()
+	{
+		lockableBlocks = LOCKABLE_BLOCKS.get().stream().map(s -> Pattern.compile(s)).toArray(Pattern[]::new);
+
+		List<TagKey<Block>> tags = new ArrayList<>();
+		tags.add(LocksBlockTags.LOCKABLE);
+		for(String s : LOCKABLE_TAGS.get())
+		{
+			ResourceLocation loc = ResourceLocation.tryParse(s);
+			if(loc == null)
+			{
+				Locks.LOGGER.warn("Invalid lockable tag entry '{}' — not a valid resource location, skipping", s);
+				continue;
+			}
+			TagKey<Block> tag = TagKey.create(Registries.BLOCK, loc);
+			if(!tags.contains(tag))
+				tags.add(tag);
+		}
+		lockableTags = tags;
+
+		lootTablePatterns = LOOT_TABLE_PATTERNS.get().stream()
+			.map(s -> {
+				int colon = s.indexOf(':');
+				if(colon < 0)
+					return new String[] { "", s };
+				return new String[] { s.substring(0, colon), s.substring(colon + 1) };
+			}).toArray(String[][]::new);
+	}
+
+	public static boolean isEnchantmentEnabled(Holder<Enchantment> enchantment)
+	{
+		if (enchantment.is(LocksEnchantments.SHOCKING)) return ENABLE_SHOCKING.get();
+		if (enchantment.is(LocksEnchantments.STURDY)) return ENABLE_STURDY.get();
+		if (enchantment.is(LocksEnchantments.COMPLEXITY)) return ENABLE_COMPLEXITY.get();
+		if (enchantment.is(LocksEnchantments.SILENT)) return ENABLE_SILENT.get();
+		if (enchantment.is(LocksEnchantments.AUTO_PICK)) return ENABLE_AUTO_PICK.get();
+		if (enchantment.is(LocksEnchantments.REINFORCED)) return ENABLE_REINFORCED.get();
+		if (enchantment.is(LocksEnchantments.AWARENESS)) return ENABLE_AWARENESS.get();
+		if (enchantment.is(LocksEnchantments.FINESSE)) return ENABLE_FINESSE.get();
+		if (enchantment.is(LocksEnchantments.ATTUNEMENT)) return ENABLE_ATTUNEMENT.get();
+		if (enchantment.is(LocksEnchantments.GROUNDED)) return ENABLE_GROUNDED.get();
+		if (enchantment.is(LocksEnchantments.QUIET_HAND)) return ENABLE_QUIET_HAND.get();
+		if (enchantment.is(LocksEnchantments.LAST_CATCH)) return ENABLE_LAST_CATCH.get();
+		return true;
+	}
+
+	public static boolean matchesLootTablePattern(ResourceLocation name)
+	{
+		if(lootTablePatterns == null)
+			return false;
+		for(String[] pattern : lootTablePatterns)
+			if(name.getNamespace().equals(pattern[0]) && name.getPath().startsWith(pattern[1]))
+				return true;
+		return false;
+	}
+
+	public static boolean canLock(Level world, BlockPos pos)
+	{
+		BlockState state = world.getBlockState(pos);
+		for(TagKey<Block> tag : lockableTags)
+			if(state.is(tag))
+				return true;
+		String name = BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
+		for(Pattern p : lockableBlocks)
+			if(p.matcher(name).matches())
+				return true;
+		return false;
+	}
+}

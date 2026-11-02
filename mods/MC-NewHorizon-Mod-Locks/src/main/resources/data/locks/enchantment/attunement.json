@@ -1,0 +1,19 @@
+{
+  "description": {
+    "translate": "enchantment.locks.attunement"
+  },
+  "supported_items": "#locks:lock_picks",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 12
+  },
+  "max_cost": {
+    "base": 48,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 8,
+  "slots": ["mainhand", "offhand"],
+  "effects": {}
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nh_furniture:block/fish_net"
+    },
+    "facing=east": {
+      "model": "nh_furniture:block/fish_net",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nh_furniture:block/fish_net",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nh_furniture:block/fish_net",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/copper_axe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/copper_axe_model_vibrant.png"
+    ]
+}

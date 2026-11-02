@@ -1,0 +1,3 @@
+{
+  condition: "extraSettings.glowParticles & appearance.glowColor.orange"
+}

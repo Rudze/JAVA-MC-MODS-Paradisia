@@ -1,0 +1,8 @@
+{
+    expansions: {
+        shieldRotY: "enchantmentGlows.extraSettings.lowerShield ? '-180' : '-180'",
+        shieldFpRightTransY: "enchantmentGlows.extraSettings.lowerShield ? '-15.25' : '-12.75'",
+        shieldFpLeftTransY: "enchantmentGlows.extraSettings.lowerShield ? '-15.25' : '-12.75'",
+        shieldGroundX: "enchantmentGlows.extraSettings.lowerShield ? '2' : '0'"
+    }
+}

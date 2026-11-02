@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/template_enchanted_spear_thin_extra",
+  "textures": {
+    "spear": "minecraft:item/netherite_spear_model",
+    "glint": "minecraft:item/enchant_glint"
+  }
+}
+

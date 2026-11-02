@@ -1,0 +1,18 @@
+{
+    expansions: {
+        fpType: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.appearance.totemStyle.sprite ? '_sprite' : '')",
+        fpSuffix: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.firstPerson.thin ? '_thin' : (enchantmentGlows.outlines.firstPerson.extraThin ? '_thin_extra' : (enchantmentGlows.outlines.firstPerson.medium ? '_medium' : (enchantmentGlows.outlines.firstPerson.thick ? '_thick' : '_thick_extra'))))",
+
+        tpType: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.appearance.totemStyle.sprite ? '_sprite' : '')",
+        tpSuffix: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.thirdPerson.thin ? '_thin' : (enchantmentGlows.outlines.thirdPerson.extraThin ? '_thin_extra' : (enchantmentGlows.outlines.thirdPerson.medium ? '_medium' : (enchantmentGlows.outlines.thirdPerson.thick ? '_thick' : '_thick_extra'))))",
+
+        groundType: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.ground.off ? '' : (enchantmentGlows.appearance.totemStyle.sprite ? '_sprite' : ''))",
+        groundSuffix: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.ground.off ? (enchantmentGlows.appearance.totemStyle.model ? '_normal' : '') : (enchantmentGlows.outlines.ground.thin ? '_thin' : (enchantmentGlows.outlines.ground.extraThin ? '_thin_extra' : (enchantmentGlows.outlines.ground.medium ? '_medium' : (enchantmentGlows.outlines.ground.thick ? '_thick' : '_thick_extra')))))",
+
+        fixedType: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.appearance.popTotem.off ? '' : (enchantmentGlows.appearance.totemStyle.sprite ? '_sprite' : ''))",
+        fixedSuffix: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.appearance.popTotem.off ? (enchantmentGlows.appearance.totemStyle.model ? '_normal' : '') : (enchantmentGlows.appearance.popTotem.thin ? '_thin' : (enchantmentGlows.appearance.popTotem.extraThin ? '_thin_extra' : (enchantmentGlows.appearance.popTotem.medium ? '_medium' : (enchantmentGlows.appearance.popTotem.thick ? '_thick' : '_thick_extra')))))",
+
+        guiType: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.gui.off ? '' : '_sprite')",
+        guiSuffix: "enchantmentGlows.appearance.totemStyle.vanilla ? '' : (enchantmentGlows.outlines.gui.off ? '' : (enchantmentGlows.outlines.gui.thin ? '_thin' : (enchantmentGlows.outlines.gui.extraThin ? '_thin_extra' : (enchantmentGlows.outlines.gui.medium ? '_medium' : (enchantmentGlows.outlines.gui.thick ? '_thick' : '_thick_extra')))))"
+    }
+}

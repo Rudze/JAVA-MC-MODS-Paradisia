@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tallestred.numismaticoverhaul.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "numismaticoverhaul.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "MerchantResultSlotMixin",
+    "MerchantScreenHandlerMixin",
+    "NUSlotMixin",
+    "ServerPlayerEntityMixin",
+    "ServerWorldMixin",
+    "VillagerTradingManagerMixin",
+    "ninetynine.BundleItemMixin",
+    "ninetynine.ContainersMixin",
+    "ninetynine.ItemEntityMixin",
+    "ninetynine.ItemStackHandlerMixin",
+    "LayerInstanceAccessor"
+  ],
+  "client": [
+    "MerchantScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Garden Bush",
+  "place": {
+    "floor": true,
+    "wall": true,
+    "roof": true
+  },
+  "rotatable": false,
+  "main": {
+    "solid": true
+  },
+  "parts": [],
+  "sounds": {
+    "place": "minecraft:block.metal.place",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5,
+  "color": [
+    255,
+    255,
+    255
+  ]
+}

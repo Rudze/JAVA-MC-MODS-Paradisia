@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/golden_pickaxe_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/golden_pickaxe_model_vibrant.png"
+    ]
+}

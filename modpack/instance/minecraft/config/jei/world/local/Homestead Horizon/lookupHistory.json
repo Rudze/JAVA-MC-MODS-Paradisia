@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"immersiveengineering:warning_sign_villager"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:warning_sign_turret"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

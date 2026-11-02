@@ -1,0 +1,42 @@
+{
+  "name": "Field Table",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": false,
+  "main": {
+    "solid": true
+  },
+  "parts": [
+    {
+      "offset": [
+        1,
+        0,
+        0
+      ],
+      "solid": true,
+      "light": 0
+    },
+    {
+      "offset": [
+        -1,
+        0,
+        0
+      ],
+      "solid": true,
+      "light": 0
+    }
+  ],
+  "sounds": {
+    "place": "minecraft:block.metal.fall",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5,
+  "color": [
+    255,
+    255,
+    255
+  ]
+}

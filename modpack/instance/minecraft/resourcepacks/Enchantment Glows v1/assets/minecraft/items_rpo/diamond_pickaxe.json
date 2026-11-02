@@ -1,0 +1,63 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["gui"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/${guiPrefix}diamond_pickaxe${guiSuffix}"
+          }
+        },
+        {
+          "when": ["ground"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/${groundPrefix}diamond_pickaxe${groundSuffix}"
+          }
+        },
+        {
+          "when": ["fixed"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/${fixedPrefix}diamond_pickaxe${fixedSuffix}"
+          }
+        },
+        {
+          "when": ["firstperson_lefthand", "firstperson_righthand"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_diamond_pickaxe${fpOutlineType}"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_diamond_pickaxe${outlineType}"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["fixed", "ground", "gui"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_pickaxe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_pickaxe"
+      }
+    }
+  }
+}

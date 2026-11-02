@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/template_enchanted_hoe_thick",
+	"textures": {
+		"hoe": "minecraft:item/wooden_hoe_model",
+		"glint": "minecraft:item/enchant_glint"
+	}
+}

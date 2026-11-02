@@ -1,0 +1,60 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:enchantments",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_axe"
+          }
+        },
+        {
+          "when": [
+            "firstperson_lefthand",
+            "firstperson_righthand"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_wooden_axe_thin_extra"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/enchanted_wooden_axe_thick"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "fixed",
+            "ground",
+            "gui"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_axe"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wooden_axe"
+      }
+    }
+  }
+}

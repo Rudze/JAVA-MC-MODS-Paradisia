@@ -1,0 +1,31 @@
+{
+  "name": "Garden Arch",
+  "place": {
+    "floor": true,
+    "wall": false,
+    "roof": false
+  },
+  "rotatable": false,
+  "main": {
+    "solid": false,
+    "box": [
+      0,
+      0,
+      0,
+      16,
+      16,
+      16
+    ]
+  },
+  "parts": [],
+  "sounds": {
+    "place": "minecraft:block.metal.place",
+    "break": "minecraft:block.metal.break"
+  },
+  "scale": 0.5,
+  "color": [
+    255,
+    255,
+    255
+  ]
+}

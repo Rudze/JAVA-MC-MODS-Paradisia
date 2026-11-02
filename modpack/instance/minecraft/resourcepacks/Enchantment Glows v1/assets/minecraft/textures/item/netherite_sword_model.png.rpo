@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/netherite_sword_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/netherite_sword_model_vibrant.png"
+    ]
+}

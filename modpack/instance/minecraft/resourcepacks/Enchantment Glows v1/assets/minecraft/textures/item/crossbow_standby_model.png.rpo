@@ -1,0 +1,13 @@
+{
+    "condition": "!appearance.vibrantTextures",
+    "fallback": [
+        "assets/minecraft/textures/item/items_vibrant/purple/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/red/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/green/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/blue/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/yellow/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/cyan/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/white/crossbow_standby_model_vibrant.png",
+        "assets/minecraft/textures/item/items_vibrant/orange/crossbow_standby_model_vibrant.png"
+    ]
+}
