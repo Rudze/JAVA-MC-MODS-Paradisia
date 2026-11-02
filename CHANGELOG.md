@@ -1,3 +1,9 @@
+## [0.2.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.1...v0.2.2) (2026-11-02)
+
+### Bug Fixes
+
+* add the Paradisia logo and a full presentation to the README ([2a074cd](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/2a074cdadc6ec4c542b03b442bb44ee7842f8e06))
+
 ## [0.2.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.0...v0.2.1) (2026-11-02)
 
 ### Bug Fixes
