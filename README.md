@@ -3,155 +3,93 @@
 </div>
 
 <h2 align="center">
-  Paradisia — Mods & Modpack
+  Bienvenue sur Paradisia
 </h2>
 
 ---
 
 <div align="center">
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) &nbsp;
-
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge)](https://www.minecraft.net) &nbsp;
-[![NeoForge](https://img.shields.io/badge/NeoForge-21.1-E67E22?style=for-the-badge)](https://neoforged.net) &nbsp;
 [![Cobblemon](https://img.shields.io/badge/Cobblemon-1.8.4-E86FA6?style=for-the-badge)](https://cobblemon.com) &nbsp;
-[![Release](https://img.shields.io/github/v/release/Rudze/JAVA-MC-MODS-Paradisia?style=for-the-badge&color=E86FA6)](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/releases/latest)
+[![Modpack](https://img.shields.io/github/v/release/Rudze/JAVA-MC-MODS-Paradisia?style=for-the-badge&label=modpack&color=E86FA6)](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/releases/latest)
 
 </div>
 
 ---
 
-## À propos du projet
+## Le serveur
 
-Ce repo regroupe **tous les mods maison du serveur Cobblemon Paradisia** et le **modpack client** distribué aux joueurs.
+**Paradisia** est un serveur Minecraft **Cobblemon** : une île où vivent les Pokémon, et seulement eux.
 
-Paradisia est une île peuplée de Pokémon : les joueurs y arrivent accueillis par le **Professeur Chen**, choisissent leur starter, explorent un monde de farm et achètent un terrain en ville auprès du maire, en payant leurs impôts fonciers en pièces.
-
-Le modpack est publié automatiquement à chaque nouvelle version, prêt à importer dans Prism Launcher : le jeu se lance directement sur le serveur, sans passer par le menu.
+* 🎓 **Le Professeur Chen** t'accueille à ton arrivée, te présente l'île, te remet ton **Pokédex** et te fait choisir ton **starter**
+* 🌿 **Un monde 100 % Pokémon** — pas de zombies ni de creepers dans l'overworld : seulement des Pokémon sauvages à capturer
+* 🏡 **La ville** — un monde à part où tu peux obtenir **ton propre terrain** auprès du maire, **Rudzee**, et y construire ce que tu veux
+* 💰 **Une vraie économie** — des pièces de bronze, d'argent et d'or ; ton terrain te coûte un **impôt foncier** chaque semaine, à payer au Professeur Chen
+* 🎒 **Et plein d'autres choses** — sac à dos, serrures et clés pour protéger tes coffres, waystones pour voyager, abattage d'arbres entiers, nouveaux meubles et cosmétiques…
 
 ---
 
 ## Installer le modpack
 
-1. Installer [Prism Launcher](https://prismlauncher.org) et y connecter son compte Minecraft
-2. Télécharger `Paradisia-<version>.zip` dans la [dernière release](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/releases/latest)
-3. Dans Prism : **Ajouter une instance → Importer**, puis choisir le zip
-4. Lancer l'instance : le jeu se connecte directement au serveur 🎮
+### 1 — Installer Prism Launcher
+
+Télécharge et installe [**Prism Launcher**](https://prismlauncher.org/download/) (gratuit, Windows / macOS / Linux).
+
+> 🍎 Sur Mac : après l'avoir ouvert, **glisse Prism Launcher dans le dossier Applications**, sinon il disparaît.
+
+Au premier lancement, connecte ton **compte Microsoft** (celui de Minecraft).
+
+### 2 — Télécharger le modpack
+
+Va sur la [**dernière version du modpack**](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/releases/latest) et télécharge le fichier **`Paradisia-x.x.x.zip`** (dans *Assets*, en bas de la page).
+
+> ⚠️ Ne le décompresse pas, Prism a besoin du `.zip`.
+
+### 3 — L'importer dans Prism
+
+Dans Prism : **Ajouter une instance** → **Importer** → choisis le fichier `.zip` téléchargé → **OK**.
+
+### 4 — Jouer
+
+Double-clique sur l'instance **Paradisia** : le jeu se lance et **te connecte directement au serveur**, pas besoin d'entrer d'adresse. Pour quitter, utilise **Échap → Quitter le jeu**.
+
+> Le premier lancement est un peu long : Prism télécharge Minecraft, Java et les mods.
 
 ---
 
-## Les mods
+## Accès au serveur
 
-| Mod | ID | Côté | Description |
-|-----|----|------|-------------|
-| AutoConnect | `nh_autoconnect` | Client | Pas de menu principal : le jeu rejoint directement le serveur, et le quitter ferme le jeu |
-| Backpack | `nh_backpack` | Les deux | Sac à dos portable, porté dans l'emplacement dos d'Accessories |
-| Cosmetics | `nh_cosmetics` | Les deux | Cosmétiques configurables (modèle + texture + emplacement), façon Nexo / HMCCosmetics |
-| DeathPenalty | `nh_deathpenalty` | Les deux | Délai de réapparition et stats réduites après une mort |
-| Furniture | `nh_furniture` | Les deux | Meubles décoratifs configurables (modèle, hitbox, sons), façon Nexo |
-| LoadingScreen | `nh_loadingscreen` | Client | Écran de chargement noir avec le logo Paradisia |
-| Locks | `locks` | Les deux | Serrures sur presque tous les blocs, crochetage, trousseau et clés maîtresses (portage de Locks Reforged) |
-| PokemonOnly | `nh_pokemononly` | Serveur | Monde 100 % Pokémon : seuls les entités Cobblemon et les villageois restent (Nether/End inchangés, œufs et spawners autorisés) |
-| Numismatic Overhaul | `numismaticoverhaul` | Les deux | Monnaie en pièces de bronze, d'argent et d'or (portage de Numismatic Overhaul) |
-| Quests | `nh_quests` | Serveur | Professeur Chen (accueil, starter, Pokédex) et bureau des impôts fonciers |
-| TreeFelling | `nh_treefelling` | Les deux | Couper une bûche abat tout l'arbre |
-| WaystoneTP | `nh_waystonetp` | Les deux | Waystones A ↔ B pour voyager entre les points de téléportation |
-| WorldBuild | `nh_worldbuild` | Les deux | Monde de build (la ville), claims à la pelle en or et impôt foncier hebdomadaire |
+Le serveur est sur **liste blanche** : demande à **Rudzee** de t'ajouter en lui donnant ton **pseudo Minecraft** avant ta première connexion.
 
 ---
 
-## Fonctionnalités
+## Mettre à jour le modpack
 
-* ✅ **Professeur Chen** — dialogue d'accueil, choix du starter et remise du Pokédex
-* ✅ **Claims** — le maire délimite les terrains à la pelle en or, `/claim <joueur>` les attribue
-* ✅ **Impôts fonciers** — 1 pièce d'or par bloc et par semaine, payés à Chen dans un coffre
-* ✅ **Monde de build protégé** — seuls les propriétaires construisent dans leur terrain
-* ✅ **Monde 100 % Pokémon** — plus de mobs vanilla dans l'overworld, seulement les Pokémon, les PNJ et les villageois
-* ✅ **Connexion directe** — le modpack lance le joueur directement sur le serveur
-* ✅ **Releases automatiques** — semantic-release construit et publie le modpack à chaque version
+Quand une nouvelle version sort, télécharge le nouveau `.zip` et importe-le comme à l'étape 3.
+Tu peux ensuite supprimer l'ancienne instance (clic droit → **Supprimer**) — ta progression est enregistrée sur le serveur, tu ne perds rien.
 
 ---
 
-## Structure du projet
+## En cas de problème
 
-```
-JAVA-MC-MODS-Paradisia/
-├── mods/
-│   └── MC-NewHorizon-Mod-*/      # Un projet Gradle NeoForge par mod
-│
-├── modpack/
-│   ├── instance/                 # Instance Prism : configs, resource packs, shaders,
-│   │                             # mods maison et mods absents de Modrinth
-│   ├── modrinth-mods.json        # Mods téléchargés depuis Modrinth (URL + sha1)
-│   └── build.sh                  # Construit dist/Paradisia-<version>.zip
-│
-├── assets_readme/                # Images du README
-├── .github/workflows/release.yml # semantic-release sur chaque push sur main
-├── .releaserc.json
-└── CHANGELOG.md                  # Généré automatiquement
-```
-
----
-
-## Développement
-
-### 1 — Cloner le repo
-
-```bash
-git clone git@github.com:Rudze/JAVA-MC-MODS-Paradisia.git
-cd JAVA-MC-MODS-Paradisia
-```
-
-### 2 — Compiler un mod
-
-Il faut un JDK 21.
-
-```bash
-cd mods/MC-NewHorizon-Mod-WorldBuild
-./gradlew build   # → build/libs/*.jar
-```
-
-Le mod Quests compile contre WorldBuild et Numismatic Overhaul (à compiler avant), et contre les jars
-Cobblemon / Kotlin placés dans son dossier `libs/` (non versionné).
-
-### 3 — Construire le modpack en local
-
-```bash
-./modpack/build.sh 0.0.0-test   # → dist/Paradisia-0.0.0-test.zip
-```
-
----
-
-## Versions
-
-Les versions sont calculées par [semantic-release](https://semantic-release.gitbook.io) à chaque push sur `main`,
-à partir des messages de commit ([Conventional Commits](https://www.conventionalcommits.org/fr/)) :
-
-| Commit | Effet | Exemple |
-|--------|-------|---------|
-| `fix: ...` | Version corrective | 0.1.0 → 0.1.1 |
-| `feat: ...` | Nouvelle fonctionnalité | 0.1.0 → 0.2.0 |
-| `feat!: ...` ou `BREAKING CHANGE:` | Version majeure | 0.1.0 → 1.0.0 |
-
-Chaque release contient le zip du modpack, et le `CHANGELOG.md` est mis à jour automatiquement.
-
----
-
-## Crédits
-
-* **Locks** — portage NeoForge de *Locks Reforged*, lui-même basé sur le mod *Locks* de Melonslise (CC BY-NC 3.0)
-* **Numismatic Overhaul** — portage du mod *Numismatic Overhaul* de glisco
-* **Cobblemon** — par l'équipe Cobblemon
+| Problème | Solution |
+|----------|----------|
+| « You are not white-listed on this server! » | Demande à Rudzee de t'ajouter à la liste blanche |
+| « Serveur indisponible » | Le serveur redémarre sûrement : attends une minute et clique sur **Réessayer** |
+| Le jeu plante au démarrage sur **Mac** | Clic droit sur l'instance → **Modifier** → **Paramètres** → **Java** : coche l'installation Java et choisis un **Java 21 récent** (bouton *Détecter* ou *Télécharger Java*) |
+| Le jeu est lent | Clic droit sur l'instance → **Modifier** → **Paramètres** → **Java** : ajuste la mémoire (8 Go conseillés, 6 Go minimum) |
 
 ---
 
 ## Contact
 
-Pour toute question : contact@rudydavid.fr
+Une question ? Écris à contact@rudydavid.fr ou demande directement à **Rudzee** en jeu.
 
 ---
 
-### Soutenir le projet
+<div align="center">
 
-Laisse une ⭐ si le projet te plaît !
+### À bientôt sur l'île ! 🌴
+
+</div>
