@@ -1,3 +1,9 @@
+## [0.2.8](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.7...v0.2.8) (2026-11-03)
+
+### Bug Fixes
+
+* bring back the contact and star sections in the README ([9e2fd5f](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/9e2fd5f9da803c19dd8f924aec5b37af9f11636f))
+
 ## [0.2.7](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.6...v0.2.7) (2026-11-03)
 
 ### Bug Fixes
