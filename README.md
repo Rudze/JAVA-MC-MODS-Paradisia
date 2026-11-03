@@ -82,12 +82,10 @@ Tu peux ensuite supprimer l'ancienne instance (clic droit → **Supprimer**) —
 
 ## Contact
 
-Une question ? Écris à contact@rudydavid.fr ou demande directement à **Rudzee** en jeu.
+Pour toute question : contact@rudydavid.fr
 
 ---
 
-<div align="center">
+### Soutenir le projet
 
-### À bientôt sur l'île ! 🌴
-
-</div>
+Laisse une ⭐ si le projet te plaît !
