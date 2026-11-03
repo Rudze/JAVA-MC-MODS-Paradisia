@@ -1,3 +1,9 @@
+## [0.2.6](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.5...v0.2.6) (2026-11-03)
+
+### Bug Fixes
+
+* rewrite the README for players: the server and how to install the modpack ([ae1c593](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ae1c5936e000d76137a457cae113458352ead535))
+
 ## [0.2.5](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.4...v0.2.5) (2026-11-02)
 
 ### Bug Fixes
