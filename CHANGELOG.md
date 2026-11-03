@@ -1,3 +1,9 @@
+## [0.2.7](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.6...v0.2.7) (2026-11-03)
+
+### Bug Fixes
+
+* drop the macOS Applications note from the README ([ab7d326](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ab7d32622b7f064074b2a4db416df7ba3b8dcf0c))
+
 ## [0.2.6](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.5...v0.2.6) (2026-11-03)
 
 ### Bug Fixes
