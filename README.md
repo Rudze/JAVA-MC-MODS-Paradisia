@@ -36,8 +36,6 @@
 
 Télécharge et installe [**Prism Launcher**](https://prismlauncher.org/download/) (gratuit, Windows / macOS / Linux).
 
-> 🍎 Sur Mac : après l'avoir ouvert, **glisse Prism Launcher dans le dossier Applications**, sinon il disparaît.
-
 Au premier lancement, connecte ton **compte Microsoft** (celui de Minecraft).
 
 ### 2 — Télécharger le modpack
