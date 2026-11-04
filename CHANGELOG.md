@@ -1,3 +1,9 @@
+## [0.2.9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.8...v0.2.9) (2026-11-04)
+
+### Bug Fixes
+
+* lock containers inside claims to their owner and the mayor ([5e061c9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/5e061c907c16fa4be78ee76242aa3ed56cbb001a))
+
 ## [0.2.8](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.7...v0.2.8) (2026-11-03)
 
 ### Bug Fixes
