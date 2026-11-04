@@ -6,22 +6,26 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.Container;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BucketItem;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.common.util.TriState;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
 /**
  * Locks world_build down: only the mayor builds anywhere, and claim owners build inside their own
- * plots (full height). Everyone may still use doors, buttons and the like; only breaking,
- * placing and using items on blocks (buckets, bone meal, hoes...) are denied.
+ * plots (full height). Everyone may still use doors, buttons and the like; breaking, placing,
+ * using items on blocks (buckets, bone meal, hoes...) and opening containers are denied.
  *
  * <p>Checks only run server-side: claims aren't synced to clients, and the server's refusal
  * already resyncs any block the client predicted.
@@ -73,6 +77,28 @@ public final class ClaimProtectionHandler {
                 deny(player);
             }
         }
+    }
+
+    /** Chests, barrels, shulker boxes, furnaces and any modded block holding items stay closed to
+     * everyone but their claim owner and the mayor. */
+    @SubscribeEvent(priority = EventPriority.LOW)
+    public void onOpenContainer(PlayerInteractEvent.RightClickBlock event) {
+        if (event.isCanceled()) {
+            return;
+        }
+        Player player = event.getEntity();
+        if (isContainer(event.getLevel(), event.getPos()) && !canBuild(player, event.getLevel(), event.getPos())) {
+            event.setUseBlock(TriState.FALSE);
+            if (event.getHand() == InteractionHand.MAIN_HAND) {
+                deny(player);
+            }
+        }
+    }
+
+    private static boolean isContainer(Level level, BlockPos pos) {
+        BlockEntity blockEntity = level.getBlockEntity(pos);
+        return blockEntity instanceof Container
+                || (blockEntity != null && level.getCapability(Capabilities.ItemHandler.BLOCK, pos, null) != null);
     }
 
     /** Buckets pick up / pour fluids through a ray trace in {@code Item#use}, without ever going
