@@ -1,0 +1,15 @@
+{
+  "name": "Mineur",
+  "linkedProfessions": [
+    "toolsmith",
+    "armorer",
+    "weaponsmith"
+  ],
+  "objectives": [
+    "nh_mineur_objs"
+  ],
+  "rewards": [
+    "nh_pieces_moyen_rews",
+    "nh_objets_rews"
+  ]
+}

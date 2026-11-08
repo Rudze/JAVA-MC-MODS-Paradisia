@@ -1,0 +1,262 @@
+{
+  "content": {
+    "cobblestone": {
+      "type": "item",
+      "content": "minecraft:cobblestone",
+      "amount": {
+        "min": 64,
+        "max": 256
+      },
+      "unitWorth": 8
+    },
+    "cobbled_deepslate": {
+      "type": "item",
+      "content": "minecraft:cobbled_deepslate",
+      "amount": {
+        "min": 64,
+        "max": 192
+      },
+      "unitWorth": 13
+    },
+    "sand": {
+      "type": "item",
+      "content": "minecraft:sand",
+      "amount": {
+        "min": 64,
+        "max": 192
+      },
+      "unitWorth": 10
+    },
+    "gravel": {
+      "type": "item",
+      "content": "minecraft:gravel",
+      "amount": {
+        "min": 64,
+        "max": 192
+      },
+      "unitWorth": 12
+    },
+    "clay_ball": {
+      "type": "item",
+      "content": "minecraft:clay_ball",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 67
+    },
+    "flint": {
+      "type": "item",
+      "content": "minecraft:flint",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 83
+    },
+    "coal": {
+      "type": "item",
+      "content": "minecraft:coal",
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "unitWorth": 250
+    },
+    "raw_copper": {
+      "type": "item",
+      "content": "minecraft:raw_copper",
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "unitWorth": 200
+    },
+    "raw_iron": {
+      "type": "item",
+      "content": "minecraft:raw_iron",
+      "amount": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 467
+    },
+    "redstone": {
+      "type": "item",
+      "content": "minecraft:redstone",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 117
+    },
+    "lapis_lazuli": {
+      "type": "item",
+      "content": "minecraft:lapis_lazuli",
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "unitWorth": 217
+    },
+    "amethyst_shard": {
+      "type": "item",
+      "content": "minecraft:amethyst_shard",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 117
+    },
+    "raw_gold": {
+      "type": "item",
+      "content": "minecraft:raw_gold",
+      "amount": {
+        "min": 2,
+        "max": 16
+      },
+      "unitWorth": 917,
+      "rarity": "UNCOMMON"
+    },
+    "obsidian": {
+      "type": "item",
+      "content": "minecraft:obsidian",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417,
+      "rarity": "UNCOMMON"
+    },
+    "quartz": {
+      "type": "item",
+      "content": "minecraft:quartz",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 150,
+      "rarity": "UNCOMMON"
+    },
+    "diamond": {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 5001,
+      "rarity": "RARE"
+    },
+    "emerald": {
+      "type": "item",
+      "content": "minecraft:emerald",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 6668,
+      "rarity": "RARE"
+    },
+    "fire_stone": {
+      "type": "item",
+      "content": "cobblemon:fire_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "water_stone": {
+      "type": "item",
+      "content": "cobblemon:water_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "thunder_stone": {
+      "type": "item",
+      "content": "cobblemon:thunder_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "leaf_stone": {
+      "type": "item",
+      "content": "cobblemon:leaf_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "moon_stone": {
+      "type": "item",
+      "content": "cobblemon:moon_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "sun_stone": {
+      "type": "item",
+      "content": "cobblemon:sun_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "shiny_stone": {
+      "type": "item",
+      "content": "cobblemon:shiny_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "dusk_stone": {
+      "type": "item",
+      "content": "cobblemon:dusk_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "dawn_stone": {
+      "type": "item",
+      "content": "cobblemon:dawn_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    },
+    "ice_stone": {
+      "type": "item",
+      "content": "cobblemon:ice_stone",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4168,
+      "rarity": "UNCOMMON"
+    }
+  }
+}

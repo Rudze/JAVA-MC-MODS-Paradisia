@@ -1,0 +1,288 @@
+{
+  "content": {
+    "wheat": {
+      "type": "item",
+      "content": "minecraft:wheat",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 100
+    },
+    "carrot": {
+      "type": "item",
+      "content": "minecraft:carrot",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 92
+    },
+    "potato": {
+      "type": "item",
+      "content": "minecraft:potato",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 92
+    },
+    "beetroot": {
+      "type": "item",
+      "content": "minecraft:beetroot",
+      "amount": {
+        "min": 16,
+        "max": 48
+      },
+      "unitWorth": 117
+    },
+    "sugar_cane": {
+      "type": "item",
+      "content": "minecraft:sugar_cane",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 92
+    },
+    "pumpkin": {
+      "type": "item",
+      "content": "minecraft:pumpkin",
+      "amount": {
+        "min": 4,
+        "max": 24
+      },
+      "unitWorth": 250
+    },
+    "melon_slice": {
+      "type": "item",
+      "content": "minecraft:melon_slice",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 33
+    },
+    "cocoa_beans": {
+      "type": "item",
+      "content": "minecraft:cocoa_beans",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 150
+    },
+    "sweet_berries": {
+      "type": "item",
+      "content": "minecraft:sweet_berries",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 67
+    },
+    "cactus": {
+      "type": "item",
+      "content": "minecraft:cactus",
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "unitWorth": 117
+    },
+    "bamboo": {
+      "type": "item",
+      "content": "minecraft:bamboo",
+      "amount": {
+        "min": 32,
+        "max": 128
+      },
+      "unitWorth": 25
+    },
+    "kelp": {
+      "type": "item",
+      "content": "minecraft:kelp",
+      "amount": {
+        "min": 32,
+        "max": 96
+      },
+      "unitWorth": 42
+    },
+    "oran_berry": {
+      "type": "item",
+      "content": "cobblemon:oran_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "pecha_berry": {
+      "type": "item",
+      "content": "cobblemon:pecha_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "cheri_berry": {
+      "type": "item",
+      "content": "cobblemon:cheri_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "chesto_berry": {
+      "type": "item",
+      "content": "cobblemon:chesto_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "rawst_berry": {
+      "type": "item",
+      "content": "cobblemon:rawst_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "aspear_berry": {
+      "type": "item",
+      "content": "cobblemon:aspear_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "leppa_berry": {
+      "type": "item",
+      "content": "cobblemon:leppa_berry",
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 417
+    },
+    "sitrus_berry": {
+      "type": "item",
+      "content": "cobblemon:sitrus_berry",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 834,
+      "rarity": "UNCOMMON"
+    },
+    "red_apricorn": {
+      "type": "item",
+      "content": "cobblemon:red_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "blue_apricorn": {
+      "type": "item",
+      "content": "cobblemon:blue_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "yellow_apricorn": {
+      "type": "item",
+      "content": "cobblemon:yellow_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "green_apricorn": {
+      "type": "item",
+      "content": "cobblemon:green_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "pink_apricorn": {
+      "type": "item",
+      "content": "cobblemon:pink_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "black_apricorn": {
+      "type": "item",
+      "content": "cobblemon:black_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "white_apricorn": {
+      "type": "item",
+      "content": "cobblemon:white_apricorn",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 583
+    },
+    "medicinal_leek": {
+      "type": "item",
+      "content": "cobblemon:medicinal_leek",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 667,
+      "rarity": "UNCOMMON"
+    },
+    "energy_root": {
+      "type": "item",
+      "content": "cobblemon:energy_root",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1000,
+      "rarity": "UNCOMMON"
+    },
+    "vivichoke": {
+      "type": "item",
+      "content": "cobblemon:vivichoke",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1000,
+      "rarity": "UNCOMMON"
+    },
+    "revival_herb": {
+      "type": "item",
+      "content": "cobblemon:revival_herb",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1667,
+      "rarity": "RARE"
+    }
+  }
+}

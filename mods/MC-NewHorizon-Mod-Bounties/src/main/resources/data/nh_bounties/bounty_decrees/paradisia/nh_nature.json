@@ -1,0 +1,13 @@
+{
+  "name": "Nature",
+  "linkedProfessions": [
+    "fisherman"
+  ],
+  "objectives": [
+    "nh_nature_objs"
+  ],
+  "rewards": [
+    "nh_pieces_petit_rews",
+    "nh_objets_petits_rews"
+  ]
+}

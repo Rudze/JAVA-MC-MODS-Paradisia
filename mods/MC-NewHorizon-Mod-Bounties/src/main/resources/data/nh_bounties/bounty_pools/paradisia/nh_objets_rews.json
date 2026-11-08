@@ -1,0 +1,83 @@
+{
+  "weightMult": 0.4,
+  "content": {
+    "poke_ball": {
+      "type": "item",
+      "content": "cobblemon:poke_ball",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 250
+    },
+    "great_ball": {
+      "type": "item",
+      "content": "cobblemon:great_ball",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 700,
+      "rarity": "UNCOMMON"
+    },
+    "ultra_ball": {
+      "type": "item",
+      "content": "cobblemon:ultra_ball",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1800,
+      "rarity": "RARE"
+    },
+    "potion": {
+      "type": "item",
+      "content": "cobblemon:potion",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 300
+    },
+    "super_potion": {
+      "type": "item",
+      "content": "cobblemon:super_potion",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "hyper_potion": {
+      "type": "item",
+      "content": "cobblemon:hyper_potion",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1800,
+      "rarity": "RARE"
+    },
+    "revive": {
+      "type": "item",
+      "content": "cobblemon:revive",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2500,
+      "rarity": "RARE"
+    },
+    "exp_candy_s": {
+      "type": "item",
+      "content": "cobblemon:exp_candy_s",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1500,
+      "rarity": "UNCOMMON"
+    }
+  }
+}

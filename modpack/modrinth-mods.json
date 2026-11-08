@@ -334,5 +334,17 @@
     "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar",
     "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
     "size": 1118651
+  },
+  {
+    "file": "bountiful-neoforge-8.0.0-beta.2.jar",
+    "url": "https://cdn.modrinth.com/data/BpwWFOVM/versions/swTb6NU9/bountiful-neoforge-8.0.0-beta.2.jar",
+    "sha1": "8c1786d2850bd15c3a2dd0f50fccfda09125faa5",
+    "size": 721006
+  },
+  {
+    "file": "kambrik-neoforge-8.0.0-beta.2.jar",
+    "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/rCSmCZpX/kambrik-neoforge-8.0.0-beta.2.jar",
+    "sha1": "9e41688287925e7a65375d96f32eefca7ab2a821",
+    "size": 436428
   }
 ]

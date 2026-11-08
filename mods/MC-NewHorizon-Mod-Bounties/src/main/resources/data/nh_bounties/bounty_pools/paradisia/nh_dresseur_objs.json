@@ -1,0 +1,488 @@
+{
+  "content": {
+    "catch_any": {
+      "type": "nh_bounties:catch",
+      "content": "any",
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "unitWorth": 3334
+    },
+    "catch_normal": {
+      "type": "nh_bounties:catch",
+      "content": "type:normal",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_water": {
+      "type": "nh_bounties:catch",
+      "content": "type:water",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_grass": {
+      "type": "nh_bounties:catch",
+      "content": "type:grass",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_bug": {
+      "type": "nh_bounties:catch",
+      "content": "type:bug",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_flying": {
+      "type": "nh_bounties:catch",
+      "content": "type:flying",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_poison": {
+      "type": "nh_bounties:catch",
+      "content": "type:poison",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 5834
+    },
+    "catch_fire": {
+      "type": "nh_bounties:catch",
+      "content": "type:fire",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_electric": {
+      "type": "nh_bounties:catch",
+      "content": "type:electric",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_rock": {
+      "type": "nh_bounties:catch",
+      "content": "type:rock",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_ground": {
+      "type": "nh_bounties:catch",
+      "content": "type:ground",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_fighting": {
+      "type": "nh_bounties:catch",
+      "content": "type:fighting",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_psychic": {
+      "type": "nh_bounties:catch",
+      "content": "type:psychic",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_fairy": {
+      "type": "nh_bounties:catch",
+      "content": "type:fairy",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 10002,
+      "rarity": "UNCOMMON"
+    },
+    "catch_ice": {
+      "type": "nh_bounties:catch",
+      "content": "type:ice",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 16670,
+      "rarity": "RARE"
+    },
+    "catch_ghost": {
+      "type": "nh_bounties:catch",
+      "content": "type:ghost",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 16670,
+      "rarity": "RARE"
+    },
+    "catch_dark": {
+      "type": "nh_bounties:catch",
+      "content": "type:dark",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 16670,
+      "rarity": "RARE"
+    },
+    "catch_steel": {
+      "type": "nh_bounties:catch",
+      "content": "type:steel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 16670,
+      "rarity": "RARE"
+    },
+    "catch_dragon": {
+      "type": "nh_bounties:catch",
+      "content": "type:dragon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 41675,
+      "rarity": "EPIC"
+    },
+    "catch_magikarp": {
+      "type": "nh_bounties:catch",
+      "content": "species:magikarp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 5001
+    },
+    "catch_pikachu": {
+      "type": "nh_bounties:catch",
+      "content": "species:pikachu",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20004,
+      "rarity": "UNCOMMON"
+    },
+    "catch_eevee": {
+      "type": "nh_bounties:catch",
+      "content": "species:eevee",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 25005,
+      "rarity": "RARE"
+    },
+    "catch_ditto": {
+      "type": "nh_bounties:catch",
+      "content": "species:ditto",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 33340,
+      "rarity": "RARE"
+    },
+    "catch_riolu": {
+      "type": "nh_bounties:catch",
+      "content": "species:riolu",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 50010,
+      "rarity": "EPIC"
+    },
+    "catch_lapras": {
+      "type": "nh_bounties:catch",
+      "content": "species:lapras",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 50010,
+      "rarity": "EPIC"
+    },
+    "catch_snorlax": {
+      "type": "nh_bounties:catch",
+      "content": "species:snorlax",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 50010,
+      "rarity": "EPIC"
+    },
+    "catch_dratini": {
+      "type": "nh_bounties:catch",
+      "content": "species:dratini",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 66680,
+      "rarity": "EPIC"
+    },
+    "catch_larvitar": {
+      "type": "nh_bounties:catch",
+      "content": "species:larvitar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 66680,
+      "rarity": "EPIC"
+    },
+    "catch_gible": {
+      "type": "nh_bounties:catch",
+      "content": "species:gible",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 66680,
+      "rarity": "EPIC"
+    },
+    "catch_bagon": {
+      "type": "nh_bounties:catch",
+      "content": "species:bagon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 66680,
+      "rarity": "EPIC"
+    },
+    "catch_beldum": {
+      "type": "nh_bounties:catch",
+      "content": "species:beldum",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 75015,
+      "rarity": "EPIC"
+    },
+    "catch_shiny": {
+      "type": "nh_bounties:catch",
+      "content": "shiny",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 300060,
+      "rarity": "LEGENDARY"
+    },
+    "defeat_any": {
+      "type": "nh_bounties:defeat",
+      "content": "any",
+      "amount": {
+        "min": 5,
+        "max": 25
+      },
+      "unitWorth": 1000
+    },
+    "defeat_normal": {
+      "type": "nh_bounties:defeat",
+      "content": "type:normal",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 2000
+    },
+    "defeat_water": {
+      "type": "nh_bounties:defeat",
+      "content": "type:water",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 2000
+    },
+    "defeat_grass": {
+      "type": "nh_bounties:defeat",
+      "content": "type:grass",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 2000
+    },
+    "defeat_bug": {
+      "type": "nh_bounties:defeat",
+      "content": "type:bug",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 2000
+    },
+    "defeat_flying": {
+      "type": "nh_bounties:defeat",
+      "content": "type:flying",
+      "amount": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 2000
+    },
+    "defeat_dragon": {
+      "type": "nh_bounties:defeat",
+      "content": "type:dragon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 13336,
+      "rarity": "EPIC"
+    },
+    "evolve_any": {
+      "type": "nh_bounties:evolve",
+      "content": "any",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 13336,
+      "rarity": "UNCOMMON"
+    },
+    "evolve_gyarados": {
+      "type": "nh_bounties:evolve",
+      "content": "species:gyarados",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 33340,
+      "rarity": "RARE"
+    },
+    "evolve_vaporeon": {
+      "type": "nh_bounties:evolve",
+      "content": "species:vaporeon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 33340,
+      "rarity": "RARE"
+    },
+    "evolve_jolteon": {
+      "type": "nh_bounties:evolve",
+      "content": "species:jolteon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 33340,
+      "rarity": "RARE"
+    },
+    "evolve_flareon": {
+      "type": "nh_bounties:evolve",
+      "content": "species:flareon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 33340,
+      "rarity": "RARE"
+    },
+    "evolve_lucario": {
+      "type": "nh_bounties:evolve",
+      "content": "species:lucario",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 75015,
+      "rarity": "EPIC"
+    },
+    "evolve_dragonite": {
+      "type": "nh_bounties:evolve",
+      "content": "species:dragonite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400080,
+      "rarity": "LEGENDARY"
+    },
+    "evolve_tyranitar": {
+      "type": "nh_bounties:evolve",
+      "content": "species:tyranitar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400080,
+      "rarity": "LEGENDARY"
+    },
+    "evolve_garchomp": {
+      "type": "nh_bounties:evolve",
+      "content": "species:garchomp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 400080,
+      "rarity": "LEGENDARY"
+    },
+    "level_up_any": {
+      "type": "nh_bounties:level_up",
+      "content": "any",
+      "amount": {
+        "min": 5,
+        "max": 20
+      },
+      "unitWorth": 1667
+    },
+    "heal_any": {
+      "type": "nh_bounties:heal",
+      "content": "any",
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "unitWorth": 834
+    }
+  }
+}

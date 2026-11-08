@@ -1,0 +1,114 @@
+{
+  "content": {
+    "oak_log": {
+      "type": "item",
+      "content": "minecraft:oak_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "birch_log": {
+      "type": "item",
+      "content": "minecraft:birch_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "spruce_log": {
+      "type": "item",
+      "content": "minecraft:spruce_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "jungle_log": {
+      "type": "item",
+      "content": "minecraft:jungle_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "acacia_log": {
+      "type": "item",
+      "content": "minecraft:acacia_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "dark_oak_log": {
+      "type": "item",
+      "content": "minecraft:dark_oak_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "cherry_log": {
+      "type": "item",
+      "content": "minecraft:cherry_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "mangrove_log": {
+      "type": "item",
+      "content": "minecraft:mangrove_log",
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "unitWorth": 83
+    },
+    "cod": {
+      "type": "item",
+      "content": "minecraft:cod",
+      "amount": {
+        "min": 2,
+        "max": 12
+      },
+      "unitWorth": 667
+    },
+    "salmon": {
+      "type": "item",
+      "content": "minecraft:salmon",
+      "amount": {
+        "min": 2,
+        "max": 12
+      },
+      "unitWorth": 750
+    },
+    "tropical_fish": {
+      "type": "item",
+      "content": "minecraft:tropical_fish",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1667,
+      "rarity": "UNCOMMON"
+    },
+    "pufferfish": {
+      "type": "item",
+      "content": "minecraft:pufferfish",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1667,
+      "rarity": "UNCOMMON"
+    }
+  }
+}

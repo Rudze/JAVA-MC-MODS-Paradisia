@@ -1,0 +1,53 @@
+{
+    "board": {
+        "updateFrequencySecs": 45,
+        "villageGenFrequency": 2,
+        "canBreak": true
+    },
+    "bounty": {
+        "flatBonusTimePerBountyInSecs": 0,
+        "shouldHaveTimersAndExpire": true,
+        "fillerDifficultyModifierPercent": 0,
+        "allowDecreeMixing": true,
+        "reverseMatchingAlgorithm": false,
+        "initialCountPreference": {
+            "min": 1,
+            "max": 2
+        },
+        "fillerCountPreference": {
+            "min": 1,
+            "max": 2
+        },
+        "fillerCurrencyPool": "nh_monnaie_rews"
+    },
+    "client": {
+        "showCompletionToast": true
+    },
+    "dbg": {
+        "enabled": false
+    },
+    "general": {
+        "dataPathsToExclude": [
+            "bounty_decrees/bountiful/*",
+            "bounty_pools/bountiful/*",
+            "bounty_pools/charm/*",
+            "bounty_pools/cookingforblockheads/*",
+            "bounty_pools/croptopia/*",
+            "bounty_pools/excessive_building/*",
+            "bounty_pools/farmersdelight/*",
+            "bounty_pools/frostiful/*",
+            "bounty_pools/galosphere/*",
+            "bounty_pools/magicmirror/*",
+            "bounty_pools/magistuarmory/*",
+            "bounty_pools/musketmod/*",
+            "bounty_pools/purecoppertools/*",
+            "bounty_pools/refinedstorage/*",
+            "bounty_pools/scorchful/*",
+            "bounty_pools/supplementaries/*",
+            "bounty_pools/tide/*",
+            "bounty_pools/travelersbackpack/*",
+            "bounty_pools/villagerhats/*",
+            "bounty_pools/wizards/*"
+        ]
+    }
+}
