@@ -71,44 +71,6 @@
         "max": 64
       },
       "unitWorth": 2
-    },
-    "cod": {
-      "type": "item",
-      "content": "minecraft:cod",
-      "amount": {
-        "min": 2,
-        "max": 12
-      },
-      "unitWorth": 30
-    },
-    "salmon": {
-      "type": "item",
-      "content": "minecraft:salmon",
-      "amount": {
-        "min": 2,
-        "max": 12
-      },
-      "unitWorth": 34
-    },
-    "tropical_fish": {
-      "type": "item",
-      "content": "minecraft:tropical_fish",
-      "amount": {
-        "min": 1,
-        "max": 4
-      },
-      "unitWorth": 100,
-      "rarity": "UNCOMMON"
-    },
-    "pufferfish": {
-      "type": "item",
-      "content": "minecraft:pufferfish",
-      "amount": {
-        "min": 1,
-        "max": 4
-      },
-      "unitWorth": 75,
-      "rarity": "UNCOMMON"
     }
   }
 }

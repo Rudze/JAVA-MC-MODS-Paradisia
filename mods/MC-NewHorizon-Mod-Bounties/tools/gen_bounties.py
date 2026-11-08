@@ -49,7 +49,9 @@ def wild_species():
 def w(bronze):
     return max(1, round(bronze * QUEST_BONUS))
 
-ITEM_MINUTES = {}
+# Minutes per unit of shop items no quest asks for (fishing is gone with Cobblemon), which still
+# count towards the shop's bronze-per-minute rate.
+ITEM_MINUTES = {"minecraft:cod": 0.4, "minecraft:salmon": 0.45, "minecraft:pufferfish": 1.0}
 
 def item(content, minutes, lo, hi, rarity=None):
     ITEM_MINUTES[content] = minutes
@@ -142,15 +144,11 @@ for s in ["fire", "water", "thunder", "leaf", "moon", "sun", "shiny", "dusk", "d
     m[key(s, "stone")] = item("cobblemon:%s_stone" % s, 2.5, 1, 2, "UNCOMMON")
 pools["nh_mineur_objs"] = m
 
-# --- Nature : wood and fishing -----------------------------------------------------------------
+# --- Nature : wood (vanilla fishing is gone with Cobblemon) -----------------------------------------------------------------
 n = {}
 # nh_treefelling drops a whole tree at once.
 for l in ["oak", "birch", "spruce", "jungle", "acacia", "dark_oak", "cherry", "mangrove"]:
     n[key(l, "log")] = item("minecraft:%s_log" % l, 0.02, 16, 64)
-for c, minutes, lo, hi, rar in [("minecraft:cod", 0.4, 2, 12, None), ("minecraft:salmon", 0.45, 2, 12, None),
-                                ("minecraft:tropical_fish", 1.0, 1, 4, "UNCOMMON"),
-                                ("minecraft:pufferfish", 1.0, 1, 4, "UNCOMMON")]:
-    n[key(c)] = item(c, minutes, lo, hi, rar)
 pools["nh_nature_objs"] = n
 
 # --- Rewards -----------------------------------------------------------------------------------
@@ -179,7 +177,7 @@ themes = {
     "nh_dresseur": ("Dresseur", [], []),
     "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"]),
     "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"]),
-    "nh_nature": ("Nature", ["nh_nature_objs"], ["fisherman"]),
+    "nh_nature": ("Nature", ["nh_nature_objs"], []),
 }
 decrees = {}
 for name, (label, objs, profs) in themes.items():

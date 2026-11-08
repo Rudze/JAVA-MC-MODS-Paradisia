@@ -1,8 +1,6 @@
 {
   "name": "Nature",
-  "linkedProfessions": [
-    "fisherman"
-  ],
+  "linkedProfessions": [],
   "objectives": [
     "nh_nature_objs",
     "nh_pokemon_objs",
