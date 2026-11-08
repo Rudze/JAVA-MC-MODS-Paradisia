@@ -1,3 +1,9 @@
+## [0.3.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.0...v0.3.1) (2026-11-08)
+
+### Bug Fixes
+
+* replace /chen and /tom with /npc spawn <name> ([3bd045a](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/3bd045a32db592955645055500e11db4004a307e))
+
 ## [0.3.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.12...v0.3.0) (2026-11-08)
 
 ### Features
