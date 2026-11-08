@@ -41,8 +41,13 @@ def wild_species():
             if not pool.get("enabled", True) or pool.get("neededInstalledMods"):
                 continue
             for spawn in pool.get("spawns", []):
-                if spawn.get("type") == "pokemon" and spawn.get("bucket") in BUCKETS:
-                    sp = spawn["pokemon"].split()[0]
+                if spawn.get("bucket") not in BUCKETS:
+                    continue
+                # A herd spawns several species under one bucket.
+                members = spawn.get("herdablePokemon", []) if spawn.get("type") == "pokemon-herd" \
+                    else [spawn] if spawn.get("type") == "pokemon" else []
+                for member in members:
+                    sp = member["pokemon"].split()[0]
                     best[sp] = min(best.get(sp, len(order)), order.index(spawn["bucket"]))
     return {sp: order[i] for sp, i in sorted(best.items())}
 

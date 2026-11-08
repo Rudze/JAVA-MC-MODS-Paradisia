@@ -5907,6 +5907,15 @@
       },
       "unitWorth": 300
     },
+    "catch_salazzle": {
+      "type": "nh_bounties:catch",
+      "content": "species:salazzle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
     "catch_samurott": {
       "type": "nh_bounties:catch",
       "content": "species:samurott",
@@ -6559,6 +6568,16 @@
     "catch_smoliv": {
       "type": "nh_bounties:catch",
       "content": "species:smoliv",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_smoochum": {
+      "type": "nh_bounties:catch",
+      "content": "species:smoochum",
       "amount": {
         "min": 1,
         "max": 2
@@ -7669,6 +7688,15 @@
       },
       "unitWorth": 6000,
       "rarity": "EPIC"
+    },
+    "catch_vespiquen": {
+      "type": "nh_bounties:catch",
+      "content": "species:vespiquen",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
     },
     "catch_vibrava": {
       "type": "nh_bounties:catch",
