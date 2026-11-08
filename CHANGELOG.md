@@ -1,3 +1,9 @@
+## [0.2.12](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.11...v0.2.12) (2026-11-08)
+
+### Bug Fixes
+
+* remove the Immersive Aircraft addon that blocks startup without it ([ed76094](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ed760942318380a8d7c334702ae37ecd9e88ae1f))
+
 ## [0.2.11](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.10...v0.2.11) (2026-11-08)
 
 ### Bug Fixes
