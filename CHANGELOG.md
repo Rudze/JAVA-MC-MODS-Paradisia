@@ -1,3 +1,9 @@
+## [0.4.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.2...v0.4.0) (2026-11-08)
+
+### Features
+
+* add bounty boards with Cobblemon quests, a daily limit and coin rewards ([fb5e326](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/fb5e3261c29ae064977b02fe345c15ee1f6a7920))
+
 ## [0.3.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.1...v0.3.2) (2026-11-08)
 
 ### Bug Fixes
