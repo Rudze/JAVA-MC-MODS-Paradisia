@@ -1,3 +1,9 @@
+## [0.4.3](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.2...v0.4.3) (2026-11-08)
+
+### Bug Fixes
+
+* price bounties from the villager shops and offer Pokémon quests on every board ([207b1d0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/207b1d0ea5af5fd09c253dd43d1f6f44b631ced9))
+
 ## [0.4.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.1...v0.4.2) (2026-11-08)
 
 ### Bug Fixes
