@@ -1,3 +1,9 @@
+## [0.4.5](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.4...v0.4.5) (2026-11-08)
+
+### Bug Fixes
+
+* hide the bounty list on the board screen and keep only the papers and inventory ([ca77e22](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ca77e2218f29a6e6b353893d5cad11fa7c3eefc1))
+
 ## [0.4.4](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.3...v0.4.4) (2026-11-08)
 
 ### Bug Fixes
