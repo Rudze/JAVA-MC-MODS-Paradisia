@@ -1,3 +1,9 @@
+## [0.2.11](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.10...v0.2.11) (2026-11-08)
+
+### Bug Fixes
+
+* remove Cinematic Interactions ([0170566](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/0170566b95d9a18bc69750e33a87c07a6165c422))
+
 ## [0.2.10](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.9...v0.2.10) (2026-11-08)
 
 ### Bug Fixes
