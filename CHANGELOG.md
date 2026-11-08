@@ -1,3 +1,9 @@
+## [0.4.4](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.3...v0.4.4) (2026-11-08)
+
+### Bug Fixes
+
+* give Pokémon bounties a real share of every board ([d417561](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/d417561822ff571b0bcdae02b8d4cc2350a0f989))
+
 ## [0.4.3](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.2...v0.4.3) (2026-11-08)
 
 ### Bug Fixes
