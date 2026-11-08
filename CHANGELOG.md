@@ -1,3 +1,9 @@
+## [0.4.8](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.7...v0.4.8) (2026-11-08)
+
+### Bug Fixes
+
+* stop legendary, mythical, ultra beast and paradox Pokémon from spawning naturally ([3abadd6](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/3abadd645a634a966bb75592e384cfbc70fbf7f5))
+
 ## [0.4.7](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.6...v0.4.7) (2026-11-08)
 
 ### Bug Fixes
