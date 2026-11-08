@@ -1,3 +1,9 @@
+## [0.2.10](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.9...v0.2.10) (2026-11-08)
+
+### Bug Fixes
+
+* remove Immersive Aircraft, Pokémon handle travel ([6c2ddf2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/6c2ddf2f7ad84d492b94c4cd0dd1a8dea8de1408))
+
 ## [0.2.9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.8...v0.2.9) (2026-11-04)
 
 ### Bug Fixes
