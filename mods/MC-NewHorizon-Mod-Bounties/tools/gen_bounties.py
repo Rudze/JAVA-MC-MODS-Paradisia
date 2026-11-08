@@ -142,35 +142,18 @@ def coins(silver_max, gold_max, currency=False):
 
 # Bountiful warns when its top two rewards are worth more than 1/0.9 of the top objective, so
 # coin rewards are capped per theme to stay under that.
-pools["nh_pieces_rews"] = coins(99, 40)            # Dresseur: top objective ~400 000 bronze
+pools["nh_pieces_rews"] = coins(99, 30)            # Dresseur: top objective ~300 000 bronze
 pools["nh_pieces_moyen_rews"] = coins(99, 1)       # Mineur: top objective ~20 000
 pools["nh_pieces_petit_rews"] = coins(40, 0)       # Récolte, Nature: top objective ~6 700
-# Bountiful tops every bounty up with this pool when the picked rewards fall short.
+# With reverseMatchingAlgorithm on, Bountiful picks the objectives first and tops the rewards up
+# from this pool. (Off, it picks rewards first and fills the objectives from it: coins for coins.)
 pools["nh_monnaie_rews"] = coins(99, 64, currency=True)
 
-def items(entries, weight):
-    o = {}
-    for c, worth, lo, hi, rar in entries:
-        e = {"type": "item", "content": "cobblemon:" + c, "amount": {"min": lo, "max": hi}, "unitWorth": worth}
-        if rar: e["rarity"] = rar
-        o[c] = e
-    return {"weightMult": weight, "content": o}
-
-pools["nh_objets_rews"] = items([("poke_ball", 250, 2, 8, None), ("great_ball", 700, 1, 5, "UNCOMMON"),
-                                 ("ultra_ball", 1800, 1, 3, "RARE"), ("potion", 300, 1, 5, None),
-                                 ("super_potion", 800, 1, 3, "UNCOMMON"), ("hyper_potion", 1800, 1, 2, "RARE"),
-                                 ("revive", 2500, 1, 2, "RARE"), ("exp_candy_s", 1500, 1, 3, "UNCOMMON")], 0.4)
-pools["nh_objets_petits_rews"] = items([("poke_ball", 250, 2, 8, None), ("great_ball", 700, 1, 4, "UNCOMMON"),
-                                        ("potion", 300, 1, 5, None), ("super_potion", 800, 1, 3, "UNCOMMON"),
-                                        ("exp_candy_s", 1500, 1, 2, "UNCOMMON")], 0.4)
-pools["nh_objets_rares_rews"] = items([("rare_candy", 8000, 1, 1, "EPIC"),
-                                       ("ability_capsule", 25000, 1, 1, "LEGENDARY")], 0.4)
-
 decrees = {
-    "nh_dresseur": ("Dresseur", ["nh_dresseur_objs"], [], ["nh_pieces_rews", "nh_objets_rews", "nh_objets_rares_rews"]),
-    "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"], ["nh_pieces_petit_rews", "nh_objets_petits_rews"]),
-    "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"], ["nh_pieces_moyen_rews", "nh_objets_rews"]),
-    "nh_nature": ("Nature", ["nh_nature_objs"], ["fisherman"], ["nh_pieces_petit_rews", "nh_objets_petits_rews"]),
+    "nh_dresseur": ("Dresseur", ["nh_dresseur_objs"], [], ["nh_pieces_rews"]),
+    "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"], ["nh_pieces_petit_rews"]),
+    "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"], ["nh_pieces_moyen_rews"]),
+    "nh_nature": ("Nature", ["nh_nature_objs"], ["fisherman"], ["nh_pieces_petit_rews"]),
 }
 
 base = os.path.join(OUT, "data", "nh_bounties")

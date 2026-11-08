@@ -9,7 +9,7 @@
         "shouldHaveTimersAndExpire": true,
         "fillerDifficultyModifierPercent": 0,
         "allowDecreeMixing": true,
-        "reverseMatchingAlgorithm": false,
+        "reverseMatchingAlgorithm": true,
         "initialCountPreference": {
             "min": 1,
             "max": 2

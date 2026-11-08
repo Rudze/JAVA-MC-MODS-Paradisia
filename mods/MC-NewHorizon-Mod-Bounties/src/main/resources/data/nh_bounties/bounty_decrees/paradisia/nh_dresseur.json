@@ -5,8 +5,6 @@
     "nh_dresseur_objs"
   ],
   "rewards": [
-    "nh_pieces_rews",
-    "nh_objets_rews",
-    "nh_objets_rares_rews"
+    "nh_pieces_rews"
   ]
 }

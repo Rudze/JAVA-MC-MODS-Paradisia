@@ -7,7 +7,6 @@
     "nh_recolte_objs"
   ],
   "rewards": [
-    "nh_pieces_petit_rews",
-    "nh_objets_petits_rews"
+    "nh_pieces_petit_rews"
   ]
 }
