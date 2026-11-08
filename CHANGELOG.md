@@ -1,3 +1,9 @@
+## [0.4.7](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.6...v0.4.7) (2026-11-08)
+
+### Bug Fixes
+
+* drop the fishing bounties now that vanilla fishing is gone ([ce14b48](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ce14b487336e51d700341b0439d8cd072eda8fb0))
+
 ## [0.4.6](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.5...v0.4.6) (2026-11-08)
 
 ### Bug Fixes
