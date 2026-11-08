@@ -1,3 +1,9 @@
+## [0.4.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.0...v0.4.1) (2026-11-08)
+
+### Bug Fixes
+
+* replace species evolution bounties with a capture bounty for every wild Pokémon ([b3a6553](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/b3a6553d8dff05ae773a544235442e11d593d836))
+
 ## [0.4.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.2...v0.4.0) (2026-11-08)
 
 ### Features
