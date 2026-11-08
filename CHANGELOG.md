@@ -1,3 +1,9 @@
+## [0.3.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.1...v0.3.2) (2026-11-08)
+
+### Bug Fixes
+
+* lower the Pokémon spawn cap by about 18% to ease server load ([ff37a7e](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ff37a7ee2f152c06472a02a307c728245450a4da))
+
 ## [0.3.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.3.0...v0.3.1) (2026-11-08)
 
 ### Bug Fixes
