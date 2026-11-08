@@ -1,3 +1,9 @@
+## [0.4.6](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.5...v0.4.6) (2026-11-08)
+
+### Bug Fixes
+
+* one objective per bounty, readable French bounty texts and a French game on first launch ([4642770](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/4642770e583cf5d896edf0af93a8c693fe0972ee))
+
 ## [0.4.5](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.4...v0.4.5) (2026-11-08)
 
 ### Bug Fixes
