@@ -1,3 +1,9 @@
+## [0.4.9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.8...v0.4.9) (2026-11-08)
+
+### Bug Fixes
+
+* add capture bounties for Pokémon that only spawn in herds ([c8a4f19](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/c8a4f197300723a523d350f9294498ae3d3a5186))
+
 ## [0.4.8](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.7...v0.4.8) (2026-11-08)
 
 ### Bug Fixes
