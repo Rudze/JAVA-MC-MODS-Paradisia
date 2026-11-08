@@ -1,14 +1,41 @@
 """Generates nh_bounties' Bountiful pools and decrees from minutes-of-play per unit.
 
-Usage: python3 tools/gen_bounties.py src/main/resources
+Usage: python3 tools/gen_bounties.py src/main/resources [path/to/Cobblemon.jar]
+(the jar defaults to libs/Cobblemon-*.jar, which the build already needs)
 
 Worth unit = 1 bronze coin (Numismatic: 100 bronze = 1 silver, 100 silver = 1 gold).
 One minute of active play is worth PER_MINUTE bronze, i.e. 10 gold per hour.
 """
-import json, os, sys
+import functools, glob, json, os, sys, zipfile
 
 PER_MINUTE = 1667
 OUT = sys.argv[1]
+# Cobblemon jar whose spawn pools list the wild species.
+COBBLEMON_JAR = sys.argv[2] if len(sys.argv) > 2 else \
+    sorted(glob.glob(os.path.join(os.path.dirname(__file__), "..", "libs", "Cobblemon-*.jar")))[-1]
+
+# Spawn bucket -> (minutes to find and catch one, amount min, amount max, rarity).
+BUCKETS = {"common": (3, 1, 3, None), "uncommon": (8, 1, 2, "UNCOMMON"),
+           "rare": (20, 1, 1, "RARE"), "ultra-rare": (60, 1, 1, "EPIC")}
+WILD_SPECIES_WEIGHT = 20
+
+@functools.cache
+def wild_species():
+    """Species id -> its most common spawn bucket, from Cobblemon's world spawn pools."""
+    order = list(BUCKETS)
+    best = {}
+    with zipfile.ZipFile(COBBLEMON_JAR) as jar:
+        for name in jar.namelist():
+            if not (name.startswith("data/cobblemon/spawn_pool_world/") and name.endswith(".json")):
+                continue
+            pool = json.loads(jar.read(name))
+            if not pool.get("enabled", True) or pool.get("neededInstalledMods"):
+                continue
+            for spawn in pool.get("spawns", []):
+                if spawn.get("type") == "pokemon" and spawn.get("bucket") in BUCKETS:
+                    sp = spawn["pokemon"].split()[0]
+                    best[sp] = min(best.get(sp, len(order)), order.index(spawn["bucket"]))
+    return {sp: order[i] for sp, i in sorted(best.items())}
 
 def w(minutes):
     return max(1, round(minutes * PER_MINUTE))
@@ -38,22 +65,19 @@ for t in ["fire", "electric", "rock", "ground", "fighting", "psychic", "fairy"]:
 for t in ["ice", "ghost", "dark", "steel"]:
     d[key("catch", t)] = poke("catch", "type:" + t, 10, 1, 3, "RARE")
 d["catch_dragon"] = poke("catch", "type:dragon", 25, 1, 2, "EPIC")
-for sp, minutes, lo, hi, rar in [
-    ("magikarp", 3, 1, 3, None), ("pikachu", 12, 1, 1, "UNCOMMON"), ("eevee", 15, 1, 2, "RARE"),
-    ("ditto", 20, 1, 1, "RARE"), ("riolu", 30, 1, 1, "EPIC"), ("lapras", 30, 1, 1, "EPIC"),
-    ("snorlax", 30, 1, 1, "EPIC"), ("dratini", 40, 1, 1, "EPIC"), ("larvitar", 40, 1, 1, "EPIC"),
-    ("gible", 40, 1, 1, "EPIC"), ("bagon", 40, 1, 1, "EPIC"), ("beldum", 45, 1, 1, "EPIC")]:
-    d[key("catch", sp)] = poke("catch", "species:" + sp, minutes, lo, hi, rar)
+# One capture quest per species that spawns in the wild, priced by its commonest spawn
+# bucket; their weights add up to WILD_SPECIES_WEIGHT entries so they don't crowd out the rest.
+for sp, bucket in wild_species().items():
+    minutes, lo, hi, rar = BUCKETS[bucket]
+    e = poke("catch", "species:" + sp, minutes, lo, hi, rar)
+    e["weightMult"] = round(WILD_SPECIES_WEIGHT / len(wild_species()), 4)
+    d[key("catch", sp)] = e
 d["catch_shiny"] = poke("catch", "shiny", 180, 1, 1, "LEGENDARY")
 d["defeat_any"] = poke("defeat", "any", 0.6, 5, 25)
 for t in ["normal", "water", "grass", "bug", "flying"]:
     d[key("defeat", t)] = poke("defeat", "type:" + t, 1.2, 3, 12)
 d["defeat_dragon"] = poke("defeat", "type:dragon", 8, 1, 3, "EPIC")
 d["evolve_any"] = poke("evolve", "any", 8, 1, 3, "UNCOMMON")
-for sp, minutes, rar in [("gyarados", 20, "RARE"), ("vaporeon", 20, "RARE"), ("jolteon", 20, "RARE"),
-                         ("flareon", 20, "RARE"), ("lucario", 45, "EPIC"), ("dragonite", 240, "LEGENDARY"),
-                         ("tyranitar", 240, "LEGENDARY"), ("garchomp", 240, "LEGENDARY")]:
-    d[key("evolve", sp)] = poke("evolve", "species:" + sp, minutes, 1, 1, rar)
 d["level_up_any"] = poke("level_up", "any", 1.0, 5, 20)
 d["heal_any"] = poke("heal", "any", 0.5, 2, 6)
 pools["nh_dresseur_objs"] = d
