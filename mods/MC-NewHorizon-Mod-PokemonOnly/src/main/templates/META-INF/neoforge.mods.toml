@@ -24,3 +24,10 @@ displayTest = "IGNORE_ALL_VERSION"
     versionRange = "${minecraft_version_range}"
     ordering = "NONE"
     side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "cobblemon"
+    type = "required"
+    versionRange = "[1.8,)"
+    ordering = "NONE"
+    side = "BOTH"

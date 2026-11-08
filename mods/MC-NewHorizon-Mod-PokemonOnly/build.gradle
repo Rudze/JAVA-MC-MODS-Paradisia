@@ -54,6 +54,12 @@ neoForge {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+dependencies {
+    // Cobblemon and Kotlin for Forge aren't published to a maven we can rely on, so their jars are
+    // copied from the server's mods/ folder into libs/ (git-ignored) and only compiled against.
+    compileOnly fileTree(dir: 'libs', include: '*.jar')
+}
+
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
