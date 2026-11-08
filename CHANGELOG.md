@@ -1,3 +1,9 @@
+## [0.3.0](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.12...v0.3.0) (2026-11-08)
+
+### Features
+
+* add Tom, the deputy mayor, with JSON-configured community quests ([7f1e4d7](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/7f1e4d780e0042fdfab18b73bda770c9ef5b2cda))
+
 ## [0.2.12](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.2.11...v0.2.12) (2026-11-08)
 
 ### Bug Fixes
