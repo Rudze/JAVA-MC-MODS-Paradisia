@@ -33,11 +33,11 @@ public final class BountiesMod {
     public static final String MODID = "nh_bounties";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final PokemonObjective CATCH = new PokemonObjective("catch", "Capturer");
-    public static final PokemonObjective EVOLVE = new PokemonObjective("evolve", "Faire évoluer");
-    public static final PokemonObjective DEFEAT = new PokemonObjective("defeat", "Vaincre (sauvage)");
-    public static final PokemonObjective LEVEL_UP = new PokemonObjective("level_up", "Niveaux gagnés");
-    public static final PokemonObjective HEAL = new PokemonObjective("heal", "Soigner (objet)");
+    public static final PokemonObjective CATCH = new PokemonObjective("catch", "any");
+    public static final PokemonObjective EVOLVE = new PokemonObjective("evolve", "any");
+    public static final PokemonObjective DEFEAT = new PokemonObjective("defeat", "wild");
+    public static final PokemonObjective LEVEL_UP = new PokemonObjective("level_up", "own");
+    public static final PokemonObjective HEAL = new PokemonObjective("heal", "own");
 
     public BountiesMod(IEventBus modEventBus, ModContainer modContainer) {
         // Bountiful's registry is its own, never frozen, and must know the types on both sides.

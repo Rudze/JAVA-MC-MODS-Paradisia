@@ -29,11 +29,14 @@ import java.util.List;
 public final class PokemonObjective implements IBountyObjective {
 
     private final ResourceLocation id;
-    private final String verb;
+    private final String audience;
 
-    public PokemonObjective(String path, String verb) {
+    /**
+     * @param audience whose Pokémon the objective is about, see {@link PokemonSelector#describe}
+     */
+    public PokemonObjective(String path, String audience) {
         this.id = ResourceLocation.fromNamespaceAndPath(BountiesMod.MODID, path);
-        this.verb = verb;
+        this.audience = audience;
     }
 
     /** Counts {@code times} actions on {@code pokemon} towards every matching bounty the player carries. */
@@ -65,7 +68,8 @@ public final class PokemonObjective implements IBountyObjective {
             return Component.literal(entry.getName());
         }
         PokemonSelector selector = PokemonSelector.parse(entry.getContent());
-        return Component.literal(verb + " : ").append(selector != null ? selector.describe() : Component.literal(entry.getContent()));
+        return Component.translatable("nh_bounties.objective." + id.getPath(),
+                selector != null ? selector.describe(audience) : Component.literal(entry.getContent()));
     }
 
     @Override

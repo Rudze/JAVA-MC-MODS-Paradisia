@@ -9,8 +9,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 
 import javax.annotation.Nullable;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 
 /**
@@ -85,37 +83,28 @@ public record PokemonSelector(@Nullable String species, @Nullable String type, @
         return true;
     }
 
-    /** e.g. "Pikachu", "Pokémon Feu chromatique", "Pokémon légendaire". */
-    public MutableComponent describe() {
-        MutableComponent text;
-        Species s = species == null ? null : PokemonSpecies.getByName(species);
-        if (s != null) {
-            text = s.getTranslatedName().copy();
-        } else if (species != null) {
-            text = Component.literal(Character.toUpperCase(species.charAt(0)) + species.substring(1));
-        } else {
-            text = Component.literal("Pokémon");
-        }
-        List<Component> qualifiers = new ArrayList<>();
-        if (type != null) {
-            ElementalType t = ElementalTypes.get(type);
-            qualifiers.add(t != null ? t.getDisplayName() : Component.literal(type));
-        }
-        if (label != null) {
-            qualifiers.add(Component.literal(switch (label) {
-                case "legendary" -> "légendaire";
-                case "mythical" -> "fabuleux";
-                case "ultra_beast" -> "Ultra-Chimère";
-                case "paradox" -> "Paradoxe";
-                default -> label;
-            }));
+    /**
+     * What the objective is about, worded for {@code audience}: {@code any} ("des Pokémon"),
+     * {@code wild} ("des Pokémon sauvages") or {@code own} ("tes Pokémon"). Translated client-side.
+     */
+    public MutableComponent describe(String audience) {
+        if (species != null) {
+            Species s = PokemonSpecies.getByName(species);
+            MutableComponent name = s != null ? s.getTranslatedName().copy()
+                    : Component.literal(Character.toUpperCase(species.charAt(0)) + species.substring(1));
+            return shiny ? Component.translatable("nh_bounties.target.species_shiny", name) : name;
         }
         if (shiny) {
-            qualifiers.add(Component.literal("chromatique"));
+            return Component.translatable("nh_bounties.target.shiny");
         }
-        for (Component qualifier : qualifiers) {
-            text.append(" ").append(qualifier);
+        if (label != null) {
+            return Component.translatableWithFallback("nh_bounties.target.label." + label, label);
         }
-        return text;
+        if (type != null) {
+            ElementalType t = ElementalTypes.get(type);
+            return Component.translatable("nh_bounties.target." + audience + "_type",
+                    t != null ? t.getDisplayName() : Component.literal(type));
+        }
+        return Component.translatable("nh_bounties.target." + audience);
     }
 }

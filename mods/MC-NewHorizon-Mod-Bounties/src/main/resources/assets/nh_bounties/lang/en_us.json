@@ -1,0 +1,19 @@
+{
+  "nh_bounties.objective.catch": "Catch %s",
+  "nh_bounties.objective.evolve": "Evolve %s",
+  "nh_bounties.objective.defeat": "Defeat %s",
+  "nh_bounties.objective.level_up": "Level up %s",
+  "nh_bounties.objective.heal": "Heal %s with an item (Potion, Berry…)",
+  "nh_bounties.target.any": "Pokémon",
+  "nh_bounties.target.any_type": "%s-type Pokémon",
+  "nh_bounties.target.wild": "wild Pokémon",
+  "nh_bounties.target.wild_type": "wild %s-type Pokémon",
+  "nh_bounties.target.own": "your Pokémon",
+  "nh_bounties.target.own_type": "your %s-type Pokémon",
+  "nh_bounties.target.shiny": "a shiny Pokémon",
+  "nh_bounties.target.species_shiny": "a shiny %s",
+  "nh_bounties.target.label.legendary": "a Legendary Pokémon",
+  "nh_bounties.target.label.mythical": "a Mythical Pokémon",
+  "nh_bounties.target.label.ultra_beast": "an Ultra Beast",
+  "nh_bounties.target.label.paradox": "a Paradox Pokémon"
+}
