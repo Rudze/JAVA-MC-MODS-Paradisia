@@ -4,9 +4,10 @@
     "farmer"
   ],
   "objectives": [
-    "nh_recolte_objs"
+    "nh_recolte_objs",
+    "nh_pokemon_objs"
   ],
   "rewards": [
-    "nh_pieces_petit_rews"
+    "nh_recolte_rews"
   ]
 }

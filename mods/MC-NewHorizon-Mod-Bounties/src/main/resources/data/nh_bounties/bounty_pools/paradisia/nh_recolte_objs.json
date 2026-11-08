@@ -7,7 +7,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 100
+      "unitWorth": 4
     },
     "carrot": {
       "type": "item",
@@ -16,7 +16,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 92
+      "unitWorth": 2
     },
     "potato": {
       "type": "item",
@@ -25,7 +25,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 92
+      "unitWorth": 2
     },
     "beetroot": {
       "type": "item",
@@ -34,7 +34,7 @@
         "min": 16,
         "max": 48
       },
-      "unitWorth": 117
+      "unitWorth": 4
     },
     "sugar_cane": {
       "type": "item",
@@ -43,7 +43,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 92
+      "unitWorth": 6
     },
     "pumpkin": {
       "type": "item",
@@ -52,7 +52,7 @@
         "min": 4,
         "max": 24
       },
-      "unitWorth": 250
+      "unitWorth": 15
     },
     "melon_slice": {
       "type": "item",
@@ -61,7 +61,7 @@
         "min": 32,
         "max": 128
       },
-      "unitWorth": 33
+      "unitWorth": 8
     },
     "cocoa_beans": {
       "type": "item",
@@ -70,7 +70,7 @@
         "min": 8,
         "max": 32
       },
-      "unitWorth": 150
+      "unitWorth": 9
     },
     "sweet_berries": {
       "type": "item",
@@ -79,7 +79,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 67
+      "unitWorth": 4
     },
     "cactus": {
       "type": "item",
@@ -88,7 +88,7 @@
         "min": 8,
         "max": 32
       },
-      "unitWorth": 117
+      "unitWorth": 7
     },
     "bamboo": {
       "type": "item",
@@ -97,7 +97,7 @@
         "min": 32,
         "max": 128
       },
-      "unitWorth": 25
+      "unitWorth": 2
     },
     "kelp": {
       "type": "item",
@@ -106,7 +106,7 @@
         "min": 32,
         "max": 96
       },
-      "unitWorth": 42
+      "unitWorth": 3
     },
     "oran_berry": {
       "type": "item",
@@ -115,7 +115,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "pecha_berry": {
       "type": "item",
@@ -124,7 +124,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "cheri_berry": {
       "type": "item",
@@ -133,7 +133,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "chesto_berry": {
       "type": "item",
@@ -142,7 +142,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "rawst_berry": {
       "type": "item",
@@ -151,7 +151,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "aspear_berry": {
       "type": "item",
@@ -160,7 +160,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "leppa_berry": {
       "type": "item",
@@ -169,7 +169,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417
+      "unitWorth": 25
     },
     "sitrus_berry": {
       "type": "item",
@@ -178,7 +178,7 @@
         "min": 2,
         "max": 8
       },
-      "unitWorth": 834,
+      "unitWorth": 50,
       "rarity": "UNCOMMON"
     },
     "red_apricorn": {
@@ -188,7 +188,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "blue_apricorn": {
       "type": "item",
@@ -197,7 +197,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "yellow_apricorn": {
       "type": "item",
@@ -206,7 +206,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "green_apricorn": {
       "type": "item",
@@ -215,7 +215,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "pink_apricorn": {
       "type": "item",
@@ -224,7 +224,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "black_apricorn": {
       "type": "item",
@@ -233,7 +233,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "white_apricorn": {
       "type": "item",
@@ -242,7 +242,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 583
+      "unitWorth": 35
     },
     "medicinal_leek": {
       "type": "item",
@@ -251,7 +251,7 @@
         "min": 2,
         "max": 8
       },
-      "unitWorth": 667,
+      "unitWorth": 40,
       "rarity": "UNCOMMON"
     },
     "energy_root": {
@@ -261,7 +261,7 @@
         "min": 1,
         "max": 6
       },
-      "unitWorth": 1000,
+      "unitWorth": 60,
       "rarity": "UNCOMMON"
     },
     "vivichoke": {
@@ -271,7 +271,7 @@
         "min": 1,
         "max": 6
       },
-      "unitWorth": 1000,
+      "unitWorth": 60,
       "rarity": "UNCOMMON"
     },
     "revival_herb": {
@@ -281,7 +281,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 1667,
+      "unitWorth": 100,
       "rarity": "RARE"
     }
   }

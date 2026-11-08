@@ -4,9 +4,10 @@
     "fisherman"
   ],
   "objectives": [
-    "nh_nature_objs"
+    "nh_nature_objs",
+    "nh_pokemon_objs"
   ],
   "rewards": [
-    "nh_pieces_petit_rews"
+    "nh_nature_rews"
   ]
 }

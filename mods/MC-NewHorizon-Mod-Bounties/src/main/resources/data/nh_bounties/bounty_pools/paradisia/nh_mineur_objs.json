@@ -7,7 +7,7 @@
         "min": 64,
         "max": 256
       },
-      "unitWorth": 8
+      "unitWorth": 1
     },
     "cobbled_deepslate": {
       "type": "item",
@@ -16,7 +16,7 @@
         "min": 64,
         "max": 192
       },
-      "unitWorth": 13
+      "unitWorth": 1
     },
     "sand": {
       "type": "item",
@@ -25,7 +25,7 @@
         "min": 64,
         "max": 192
       },
-      "unitWorth": 10
+      "unitWorth": 4
     },
     "gravel": {
       "type": "item",
@@ -34,7 +34,7 @@
         "min": 64,
         "max": 192
       },
-      "unitWorth": 12
+      "unitWorth": 1
     },
     "clay_ball": {
       "type": "item",
@@ -43,7 +43,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 67
+      "unitWorth": 3
     },
     "flint": {
       "type": "item",
@@ -52,7 +52,7 @@
         "min": 8,
         "max": 32
       },
-      "unitWorth": 83
+      "unitWorth": 9
     },
     "coal": {
       "type": "item",
@@ -61,7 +61,7 @@
         "min": 8,
         "max": 48
       },
-      "unitWorth": 250
+      "unitWorth": 15
     },
     "raw_copper": {
       "type": "item",
@@ -70,7 +70,7 @@
         "min": 8,
         "max": 48
       },
-      "unitWorth": 200
+      "unitWorth": 12
     },
     "raw_iron": {
       "type": "item",
@@ -79,7 +79,7 @@
         "min": 4,
         "max": 32
       },
-      "unitWorth": 467
+      "unitWorth": 43
     },
     "redstone": {
       "type": "item",
@@ -88,7 +88,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 117
+      "unitWorth": 7
     },
     "lapis_lazuli": {
       "type": "item",
@@ -97,7 +97,7 @@
         "min": 8,
         "max": 48
       },
-      "unitWorth": 217
+      "unitWorth": 13
     },
     "amethyst_shard": {
       "type": "item",
@@ -106,7 +106,7 @@
         "min": 8,
         "max": 32
       },
-      "unitWorth": 117
+      "unitWorth": 7
     },
     "raw_gold": {
       "type": "item",
@@ -115,7 +115,7 @@
         "min": 2,
         "max": 16
       },
-      "unitWorth": 917,
+      "unitWorth": 100,
       "rarity": "UNCOMMON"
     },
     "obsidian": {
@@ -125,7 +125,7 @@
         "min": 4,
         "max": 16
       },
-      "unitWorth": 417,
+      "unitWorth": 25,
       "rarity": "UNCOMMON"
     },
     "quartz": {
@@ -135,7 +135,7 @@
         "min": 16,
         "max": 64
       },
-      "unitWorth": 150,
+      "unitWorth": 38,
       "rarity": "UNCOMMON"
     },
     "diamond": {
@@ -145,7 +145,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 5001,
+      "unitWorth": 4500,
       "rarity": "RARE"
     },
     "emerald": {
@@ -155,7 +155,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 6668,
+      "unitWorth": 1500,
       "rarity": "RARE"
     },
     "fire_stone": {
@@ -165,7 +165,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "water_stone": {
@@ -175,7 +175,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "thunder_stone": {
@@ -185,7 +185,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "leaf_stone": {
@@ -195,7 +195,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "moon_stone": {
@@ -205,7 +205,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "sun_stone": {
@@ -215,7 +215,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "shiny_stone": {
@@ -225,7 +225,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "dusk_stone": {
@@ -235,7 +235,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "dawn_stone": {
@@ -245,7 +245,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     },
     "ice_stone": {
@@ -255,7 +255,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 4168,
+      "unitWorth": 250,
       "rarity": "UNCOMMON"
     }
   }

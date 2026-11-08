@@ -1,0 +1,31 @@
+{
+  "content": {
+    "bronze": {
+      "type": "item",
+      "content": "numismaticoverhaul:bronze_coin",
+      "unitWorth": 1,
+      "amount": {
+        "min": 1,
+        "max": 99
+      }
+    },
+    "argent": {
+      "type": "item",
+      "content": "numismaticoverhaul:silver_coin",
+      "unitWorth": 100,
+      "amount": {
+        "min": 1,
+        "max": 99
+      }
+    },
+    "or": {
+      "type": "item",
+      "content": "numismaticoverhaul:gold_coin",
+      "unitWorth": 10000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  }
+}

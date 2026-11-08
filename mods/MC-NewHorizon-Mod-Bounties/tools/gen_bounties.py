@@ -1,14 +1,24 @@
-"""Generates nh_bounties' Bountiful pools and decrees from minutes-of-play per unit.
+"""Generates nh_bounties' Bountiful pools and decrees, priced like the Numismatic villager shops.
 
 Usage: python3 tools/gen_bounties.py src/main/resources [path/to/Cobblemon.jar]
 (the jar defaults to libs/Cobblemon-*.jar, which the build already needs)
 
 Worth unit = 1 bronze coin (Numismatic: 100 bronze = 1 silver, 100 silver = 1 gold).
-One minute of active play is worth PER_MINUTE bronze, i.e. 10 gold per hour.
+An item the villagers buy is worth their price (SHOP). Anything else, Pokémon actions included,
+is priced from the minutes it takes, at the median bronze-per-minute the shop items pay.
+Every quest then pays QUEST_BONUS times that, since players only get a few a day.
 """
 import functools, glob, json, os, sys, zipfile
 
-PER_MINUTE = 1667
+# Bronze per unit the Numismatic villagers pay (MC-NewHorizon-Mod-Numismatic-Overhaul's
+# villager_trades). Sweet berries (60 each from the butcher) are left out: they farm far too fast.
+SHOP = {"minecraft:wheat": 40 / 15, "minecraft:potato": 40 / 25, "minecraft:carrot": 40 / 25,
+        "minecraft:beetroot": 40 / 15, "minecraft:pumpkin": 10, "minecraft:melon_slice": 50 / 9,
+        "minecraft:coal": 10, "minecraft:raw_iron": 200 / 7, "minecraft:raw_gold": 200 / 3,
+        "minecraft:quartz": 25, "minecraft:diamond": 3000, "minecraft:emerald": 1000,
+        "minecraft:clay_ball": 2, "minecraft:sand": 60 / 25, "minecraft:flint": 6,
+        "minecraft:cod": 20, "minecraft:salmon": 22.5, "minecraft:pufferfish": 50}
+QUEST_BONUS = 1.5
 OUT = sys.argv[1]
 # Cobblemon jar whose spawn pools list the wild species.
 COBBLEMON_JAR = sys.argv[2] if len(sys.argv) > 2 else \
@@ -37,25 +47,36 @@ def wild_species():
                     best[sp] = min(best.get(sp, len(order)), order.index(spawn["bucket"]))
     return {sp: order[i] for sp, i in sorted(best.items())}
 
-def w(minutes):
-    return max(1, round(minutes * PER_MINUTE))
+def w(bronze):
+    return max(1, round(bronze * QUEST_BONUS))
+
+ITEM_MINUTES = {}
 
 def item(content, minutes, lo, hi, rarity=None):
-    e = {"type": "item", "content": content, "amount": {"min": lo, "max": hi}, "unitWorth": w(minutes)}
+    ITEM_MINUTES[content] = minutes
+    e = {"type": "item", "content": content, "amount": {"min": lo, "max": hi},
+         "unitWorth": lambda: w(SHOP[content] if content in SHOP else minutes * per_minute())}
     if rarity: e["rarity"] = rarity
     return e
 
 def poke(kind, selector, minutes, lo, hi, rarity=None):
-    e = {"type": "nh_bounties:" + kind, "content": selector, "amount": {"min": lo, "max": hi}, "unitWorth": w(minutes)}
+    e = {"type": "nh_bounties:" + kind, "content": selector, "amount": {"min": lo, "max": hi},
+         "unitWorth": lambda: w(minutes * per_minute())}
     if rarity: e["rarity"] = rarity
     return e
+
+@functools.cache
+def per_minute():
+    """Median bronze per minute of the shop items, using the minutes estimated for each quest."""
+    rates = sorted(SHOP[c] / ITEM_MINUTES[c] for c in SHOP)
+    return rates[len(rates) // 2]
 
 def key(*parts):
     return "_".join(p.replace("cobblemon:", "").replace("minecraft:", "").replace("species:", "").replace("type:", "").replace(":", "_") for p in parts)
 
 pools = {}
 
-# --- Dresseur : Cobblemon actions --------------------------------------------------------------
+# --- Pokémon : Cobblemon actions, on every board -----------------------------------------------
 d = {}
 d["catch_any"] = poke("catch", "any", 2.0, 2, 8)
 for t in ["normal", "water", "grass", "bug", "flying", "poison"]:
@@ -80,7 +101,8 @@ d["defeat_dragon"] = poke("defeat", "type:dragon", 8, 1, 3, "EPIC")
 d["evolve_any"] = poke("evolve", "any", 8, 1, 3, "UNCOMMON")
 d["level_up_any"] = poke("level_up", "any", 1.0, 5, 20)
 d["heal_any"] = poke("heal", "any", 0.5, 2, 6)
-pools["nh_dresseur_objs"] = d
+# Shared with the other themes' decrees, where it should take about a third of the quests.
+pools["nh_pokemon_objs"] = {"weightMult": 0.2, "content": d}
 
 # --- Récolte : farming, berries, apricorns -----------------------------------------------------
 r = {}
@@ -121,8 +143,9 @@ pools["nh_mineur_objs"] = m
 
 # --- Nature : wood and fishing -----------------------------------------------------------------
 n = {}
+# nh_treefelling drops a whole tree at once.
 for l in ["oak", "birch", "spruce", "jungle", "acacia", "dark_oak", "cherry", "mangrove"]:
-    n[key(l, "log")] = item("minecraft:%s_log" % l, 0.05, 16, 64)
+    n[key(l, "log")] = item("minecraft:%s_log" % l, 0.02, 16, 64)
 for c, minutes, lo, hi, rar in [("minecraft:cod", 0.4, 2, 12, None), ("minecraft:salmon", 0.45, 2, 12, None),
                                 ("minecraft:tropical_fish", 1.0, 1, 4, "UNCOMMON"),
                                 ("minecraft:pufferfish", 1.0, 1, 4, "UNCOMMON")]:
@@ -130,31 +153,41 @@ for c, minutes, lo, hi, rar in [("minecraft:cod", 0.4, 2, 12, None), ("minecraft
 pools["nh_nature_objs"] = n
 
 # --- Rewards -----------------------------------------------------------------------------------
-def coins(silver_max, gold_max, currency=False):
-    c = {"bronze": {"type": "item", "content": "numismaticoverhaul:bronze_coin", "unitWorth": 1, "amount": {"min": 1, "max": 99}},
-         "argent": {"type": "item", "content": "numismaticoverhaul:silver_coin", "unitWorth": 100, "amount": {"min": 1, "max": silver_max}}}
-    if gold_max:
-        c["or"] = {"type": "item", "content": "numismaticoverhaul:gold_coin", "unitWorth": 10000, "amount": {"min": 1, "max": gold_max}}
+for pool in pools.values():
+    for e in pool.get("content", pool).values():
+        e["unitWorth"] = e["unitWorth"]()
+
+def coins(top, currency=False):
+    """Coin rewards; Bountiful warns when the top two are worth more than top / 0.9."""
+    c = {"bronze": {"type": "item", "content": "numismaticoverhaul:bronze_coin", "unitWorth": 1, "amount": {"min": 1, "max": 99}}}
+    budget = top / 0.9
+    silver = min(99, max(1, int((budget - 99) // 100)))
+    c["argent"] = {"type": "item", "content": "numismaticoverhaul:silver_coin", "unitWorth": 100, "amount": {"min": 1, "max": silver}}
+    gold = int((budget - silver * 100) // 10000)
+    if gold:
+        c["or"] = {"type": "item", "content": "numismaticoverhaul:gold_coin", "unitWorth": 10000, "amount": {"min": 1, "max": min(64, gold)}}
     body = {"content": c}
     if currency:
         body["currency"] = True
     return body
 
-# Bountiful warns when its top two rewards are worth more than 1/0.9 of the top objective, so
-# coin rewards are capped per theme to stay under that.
-pools["nh_pieces_rews"] = coins(99, 30)            # Dresseur: top objective ~300 000 bronze
-pools["nh_pieces_moyen_rews"] = coins(99, 1)       # Mineur: top objective ~20 000
-pools["nh_pieces_petit_rews"] = coins(40, 0)       # Récolte, Nature: top objective ~6 700
-# With reverseMatchingAlgorithm on, Bountiful picks the objectives first and tops the rewards up
-# from this pool. (Off, it picks rewards first and fills the objectives from it: coins for coins.)
-pools["nh_monnaie_rews"] = coins(99, 64, currency=True)
+def top_worth(pool_names):
+    return max(e["amount"]["max"] * e["unitWorth"] for n in pool_names for e in pools[n].get("content", pools[n]).values())
 
-decrees = {
-    "nh_dresseur": ("Dresseur", ["nh_dresseur_objs"], [], ["nh_pieces_rews"]),
-    "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"], ["nh_pieces_petit_rews"]),
-    "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"], ["nh_pieces_moyen_rews"]),
-    "nh_nature": ("Nature", ["nh_nature_objs"], ["fisherman"], ["nh_pieces_petit_rews"]),
+themes = {
+    "nh_dresseur": ("Dresseur", [], []),
+    "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"]),
+    "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"]),
+    "nh_nature": ("Nature", ["nh_nature_objs"], ["fisherman"]),
 }
+decrees = {}
+for name, (label, objs, profs) in themes.items():
+    objs = objs + ["nh_pokemon_objs"]
+    pools[name + "_rews"] = coins(top_worth(objs))
+    decrees[name] = (label, objs, profs, [name + "_rews"])
+# Reverse matching on: Bountiful picks the objectives first, then tops the rewards up from this
+# pool. (Off, it picks rewards first and fills the objectives from it: coins for coins.)
+pools["nh_monnaie_rews"] = coins(10 ** 9, currency=True)
 
 base = os.path.join(OUT, "data", "nh_bounties")
 os.makedirs(os.path.join(base, "bounty_pools", "paradisia"), exist_ok=True)
@@ -166,6 +199,7 @@ for name, (label, objs, profs, rews) in decrees.items():
     json.dump({"name": label, "linkedProfessions": profs, "objectives": objs, "rewards": rews},
               open(os.path.join(base, "bounty_decrees", "paradisia", name + ".json"), "w"), indent=2, ensure_ascii=False)
 
+print("bronze par minute :", round(per_minute(), 1))
 for name, pool in pools.items():
     content = pool.get("content", pool)
     print(name, len(content))

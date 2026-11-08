@@ -1,4 +1,5 @@
 {
+  "weightMult": 0.2,
   "content": {
     "catch_any": {
       "type": "nh_bounties:catch",
@@ -7,7 +8,7 @@
         "min": 2,
         "max": 8
       },
-      "unitWorth": 3334
+      "unitWorth": 200
     },
     "catch_normal": {
       "type": "nh_bounties:catch",
@@ -16,7 +17,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_water": {
       "type": "nh_bounties:catch",
@@ -25,7 +26,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_grass": {
       "type": "nh_bounties:catch",
@@ -34,7 +35,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_bug": {
       "type": "nh_bounties:catch",
@@ -43,7 +44,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_flying": {
       "type": "nh_bounties:catch",
@@ -52,7 +53,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_poison": {
       "type": "nh_bounties:catch",
@@ -61,7 +62,7 @@
         "min": 2,
         "max": 5
       },
-      "unitWorth": 5834
+      "unitWorth": 350
     },
     "catch_fire": {
       "type": "nh_bounties:catch",
@@ -70,7 +71,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_electric": {
@@ -80,7 +81,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_rock": {
@@ -90,7 +91,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_ground": {
@@ -100,7 +101,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_fighting": {
@@ -110,7 +111,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_psychic": {
@@ -120,7 +121,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_fairy": {
@@ -130,7 +131,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 10002,
+      "unitWorth": 600,
       "rarity": "UNCOMMON"
     },
     "catch_ice": {
@@ -140,7 +141,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 16670,
+      "unitWorth": 1000,
       "rarity": "RARE"
     },
     "catch_ghost": {
@@ -150,7 +151,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 16670,
+      "unitWorth": 1000,
       "rarity": "RARE"
     },
     "catch_dark": {
@@ -160,7 +161,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 16670,
+      "unitWorth": 1000,
       "rarity": "RARE"
     },
     "catch_steel": {
@@ -170,7 +171,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 16670,
+      "unitWorth": 1000,
       "rarity": "RARE"
     },
     "catch_dragon": {
@@ -180,7 +181,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 41675,
+      "unitWorth": 2500,
       "rarity": "EPIC"
     },
     "catch_abomasnow": {
@@ -190,7 +191,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_abra": {
@@ -200,7 +201,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_absol": {
@@ -210,7 +211,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -221,7 +222,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_aegislash": {
@@ -231,7 +232,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -242,7 +243,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -253,7 +254,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_aipom": {
@@ -263,7 +264,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_alakazam": {
@@ -273,7 +274,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_alcremie": {
@@ -283,7 +284,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_alomomola": {
@@ -293,7 +294,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_altaria": {
@@ -303,7 +304,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_amaura": {
@@ -313,7 +314,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -324,7 +325,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_amoonguss": {
@@ -334,7 +335,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ampharos": {
@@ -344,7 +345,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_annihilape": {
@@ -354,7 +355,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_anorith": {
@@ -364,7 +365,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -375,7 +376,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_applin": {
@@ -385,7 +386,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_araquanid": {
@@ -395,7 +396,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_arbok": {
@@ -405,7 +406,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_arboliva": {
@@ -415,7 +416,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -426,7 +427,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -437,7 +438,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -448,7 +449,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -459,7 +460,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -470,7 +471,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_armaldo": {
@@ -480,7 +481,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -491,7 +492,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -502,7 +503,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_aron": {
@@ -512,7 +513,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_arrokuda": {
@@ -522,7 +523,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_audino": {
@@ -532,7 +533,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_aurorus": {
@@ -542,7 +543,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -553,7 +554,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_axew": {
@@ -563,7 +564,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -574,7 +575,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_azurill": {
@@ -584,7 +585,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bagon": {
@@ -594,7 +595,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -605,7 +606,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_banette": {
@@ -615,7 +616,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_barbaracle": {
@@ -625,7 +626,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_barboach": {
@@ -635,7 +636,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_barraskewda": {
@@ -645,7 +646,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_basculegion": {
@@ -655,7 +656,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_basculin": {
@@ -665,7 +666,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bastiodon": {
@@ -675,7 +676,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -686,7 +687,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -697,7 +698,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_beautifly": {
@@ -707,7 +708,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_beedrill": {
@@ -717,7 +718,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_beheeyem": {
@@ -727,7 +728,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_beldum": {
@@ -737,7 +738,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -748,7 +749,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bellossom": {
@@ -758,7 +759,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bellsprout": {
@@ -768,7 +769,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bergmite": {
@@ -778,7 +779,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bewear": {
@@ -788,7 +789,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bibarel": {
@@ -798,7 +799,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bidoof": {
@@ -808,7 +809,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_binacle": {
@@ -818,7 +819,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bisharp": {
@@ -828,7 +829,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_blastoise": {
@@ -838,7 +839,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -849,7 +850,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -860,7 +861,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -871,7 +872,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_boldore": {
@@ -881,7 +882,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_boltund": {
@@ -891,7 +892,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bonsly": {
@@ -901,7 +902,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -912,7 +913,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bounsweet": {
@@ -922,7 +923,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_braixen": {
@@ -932,7 +933,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -943,7 +944,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bramblin": {
@@ -953,7 +954,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_braviary": {
@@ -963,7 +964,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_breloom": {
@@ -973,7 +974,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_brionne": {
@@ -983,7 +984,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -994,7 +995,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bronzor": {
@@ -1004,7 +1005,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bruxish": {
@@ -1014,7 +1015,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_budew": {
@@ -1024,7 +1025,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_buizel": {
@@ -1034,7 +1035,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bulbasaur": {
@@ -1044,7 +1045,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1055,7 +1056,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_bunnelby": {
@@ -1065,7 +1066,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_burmy": {
@@ -1075,7 +1076,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_butterfree": {
@@ -1085,7 +1086,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cacnea": {
@@ -1095,7 +1096,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cacturne": {
@@ -1105,7 +1106,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_camerupt": {
@@ -1115,7 +1116,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_capsakid": {
@@ -1125,7 +1126,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_carbink": {
@@ -1135,7 +1136,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_carkol": {
@@ -1145,7 +1146,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_carnivine": {
@@ -1155,7 +1156,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1166,7 +1167,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1177,7 +1178,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cascoon": {
@@ -1187,7 +1188,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_caterpie": {
@@ -1197,7 +1198,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_centiskorch": {
@@ -1207,7 +1208,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ceruledge": {
@@ -1217,7 +1218,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1228,7 +1229,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1239,7 +1240,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1250,7 +1251,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_chansey": {
@@ -1260,7 +1261,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -1271,7 +1272,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1282,7 +1283,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1293,7 +1294,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_charmander": {
@@ -1303,7 +1304,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1314,7 +1315,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1325,7 +1326,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cherrim": {
@@ -1335,7 +1336,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cherubi": {
@@ -1345,7 +1346,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_chesnaught": {
@@ -1355,7 +1356,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1366,7 +1367,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1377,7 +1378,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_chikorita": {
@@ -1387,7 +1388,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1398,7 +1399,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1409,7 +1410,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1420,7 +1421,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_chingling": {
@@ -1430,7 +1431,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1441,7 +1442,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cinderace": {
@@ -1451,7 +1452,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1462,7 +1463,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1473,7 +1474,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_clawitzer": {
@@ -1483,7 +1484,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_claydol": {
@@ -1493,7 +1494,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_clefable": {
@@ -1503,7 +1504,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1514,7 +1515,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1525,7 +1526,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1536,7 +1537,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_clodsire": {
@@ -1546,7 +1547,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cloyster": {
@@ -1556,7 +1557,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_coalossal": {
@@ -1566,7 +1567,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cofagrigus": {
@@ -1576,7 +1577,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_combee": {
@@ -1586,7 +1587,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_combusken": {
@@ -1596,7 +1597,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1607,7 +1608,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1618,7 +1619,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_copperajah": {
@@ -1628,7 +1629,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1639,7 +1640,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_corsola": {
@@ -1649,7 +1650,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_corviknight": {
@@ -1659,7 +1660,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_corvisquire": {
@@ -1669,7 +1670,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cottonee": {
@@ -1679,7 +1680,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_crabominable": {
@@ -1689,7 +1690,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1700,7 +1701,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cradily": {
@@ -1710,7 +1711,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1721,7 +1722,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cranidos": {
@@ -1731,7 +1732,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1742,7 +1743,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_croagunk": {
@@ -1752,7 +1753,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_crobat": {
@@ -1762,7 +1763,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_crocalor": {
@@ -1772,7 +1773,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1783,7 +1784,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1794,7 +1795,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cryogonal": {
@@ -1804,7 +1805,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cubchoo": {
@@ -1814,7 +1815,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cubone": {
@@ -1824,7 +1825,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cufant": {
@@ -1834,7 +1835,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1845,7 +1846,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cutiefly": {
@@ -1855,7 +1856,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_cyclizar": {
@@ -1865,7 +1866,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -1876,7 +1877,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1887,7 +1888,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_darmanitan": {
@@ -1897,7 +1898,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dartrix": {
@@ -1907,7 +1908,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1918,7 +1919,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_decidueye": {
@@ -1928,7 +1929,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -1939,7 +1940,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -1950,7 +1951,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_deino": {
@@ -1960,7 +1961,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -1971,7 +1972,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_delibird": {
@@ -1981,7 +1982,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_delphox": {
@@ -1991,7 +1992,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2002,7 +2003,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dewott": {
@@ -2012,7 +2013,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2023,7 +2024,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dhelmise": {
@@ -2033,7 +2034,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_diggersby": {
@@ -2043,7 +2044,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_diglett": {
@@ -2053,7 +2054,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dipplin": {
@@ -2063,7 +2064,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ditto": {
@@ -2073,7 +2074,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2084,7 +2085,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_doduo": {
@@ -2094,7 +2095,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dolliv": {
@@ -2104,7 +2105,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2115,7 +2116,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2126,7 +2127,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_doublade": {
@@ -2136,7 +2137,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2147,7 +2148,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dragapult": {
@@ -2157,7 +2158,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2168,7 +2169,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dragonite": {
@@ -2178,7 +2179,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_drakloak": {
@@ -2188,7 +2189,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2199,7 +2200,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2210,7 +2211,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dratini": {
@@ -2220,7 +2221,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_drednaw": {
@@ -2230,7 +2231,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dreepy": {
@@ -2240,7 +2241,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2251,7 +2252,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_drifloon": {
@@ -2261,7 +2262,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_drilbur": {
@@ -2271,7 +2272,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_drizzile": {
@@ -2281,7 +2282,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2292,7 +2293,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_druddigon": {
@@ -2302,7 +2303,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2313,7 +2314,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ducklett": {
@@ -2323,7 +2324,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dudunsparce": {
@@ -2333,7 +2334,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2344,7 +2345,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dunsparce": {
@@ -2354,7 +2355,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2365,7 +2366,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2376,7 +2377,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -2387,7 +2388,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dusclops": {
@@ -2397,7 +2398,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dusknoir": {
@@ -2407,7 +2408,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_duskull": {
@@ -2417,7 +2418,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dustox": {
@@ -2427,7 +2428,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_dwebble": {
@@ -2437,7 +2438,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_eelektrik": {
@@ -2447,7 +2448,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_eelektross": {
@@ -2457,7 +2458,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_eevee": {
@@ -2467,7 +2468,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2478,7 +2479,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ekans": {
@@ -2488,7 +2489,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_eldegoss": {
@@ -2498,7 +2499,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_electabuzz": {
@@ -2508,7 +2509,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2519,7 +2520,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2530,7 +2531,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2541,7 +2542,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_elekid": {
@@ -2551,7 +2552,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2562,7 +2563,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_emboar": {
@@ -2572,7 +2573,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2583,7 +2584,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2594,7 +2595,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2605,7 +2606,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_espathra": {
@@ -2615,7 +2616,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2626,7 +2627,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2637,7 +2638,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_excadrill": {
@@ -2647,7 +2648,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_exeggcute": {
@@ -2657,7 +2658,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_exeggutor": {
@@ -2667,7 +2668,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_exploud": {
@@ -2677,7 +2678,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_falinks": {
@@ -2687,7 +2688,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2698,7 +2699,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_farigiraf": {
@@ -2708,7 +2709,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fearow": {
@@ -2718,7 +2719,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_feebas": {
@@ -2728,7 +2729,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fennekin": {
@@ -2738,7 +2739,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2749,7 +2750,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2760,7 +2761,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ferrothorn": {
@@ -2770,7 +2771,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fidough": {
@@ -2780,7 +2781,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_finizen": {
@@ -2790,7 +2791,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_finneon": {
@@ -2800,7 +2801,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flaaffy": {
@@ -2810,7 +2811,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flabebe": {
@@ -2820,7 +2821,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flamigo": {
@@ -2830,7 +2831,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flapple": {
@@ -2840,7 +2841,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flareon": {
@@ -2850,7 +2851,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2861,7 +2862,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fletchling": {
@@ -2871,7 +2872,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flittle": {
@@ -2881,7 +2882,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -2892,7 +2893,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_floette": {
@@ -2902,7 +2903,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_floragato": {
@@ -2912,7 +2913,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2923,7 +2924,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_flygon": {
@@ -2933,7 +2934,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -2944,7 +2945,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_foongus": {
@@ -2954,7 +2955,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_forretress": {
@@ -2964,7 +2965,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fraxure": {
@@ -2974,7 +2975,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -2985,7 +2986,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_froakie": {
@@ -2995,7 +2996,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3006,7 +3007,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3017,7 +3018,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_frosmoth": {
@@ -3027,7 +3028,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_fuecoco": {
@@ -3037,7 +3038,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3048,7 +3049,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_furret": {
@@ -3058,7 +3059,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gabite": {
@@ -3068,7 +3069,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3079,7 +3080,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_galvantula": {
@@ -3089,7 +3090,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_garbodor": {
@@ -3099,7 +3100,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_garchomp": {
@@ -3109,7 +3110,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3120,7 +3121,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_garganacl": {
@@ -3130,7 +3131,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gastly": {
@@ -3140,7 +3141,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gastrodon": {
@@ -3150,7 +3151,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gengar": {
@@ -3160,7 +3161,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_geodude": {
@@ -3170,7 +3171,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gible": {
@@ -3180,7 +3181,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3191,7 +3192,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gimmighoul": {
@@ -3201,7 +3202,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_girafarig": {
@@ -3211,7 +3212,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_glaceon": {
@@ -3221,7 +3222,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3232,7 +3233,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3243,7 +3244,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gligar": {
@@ -3253,7 +3254,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_glimmet": {
@@ -3263,7 +3264,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_glimmora": {
@@ -3273,7 +3274,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gliscor": {
@@ -3283,7 +3284,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gloom": {
@@ -3293,7 +3294,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gogoat": {
@@ -3303,7 +3304,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golbat": {
@@ -3313,7 +3314,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_goldeen": {
@@ -3323,7 +3324,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golduck": {
@@ -3333,7 +3334,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golem": {
@@ -3343,7 +3344,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golett": {
@@ -3353,7 +3354,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golisopod": {
@@ -3363,7 +3364,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_golurk": {
@@ -3373,7 +3374,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_goodra": {
@@ -3383,7 +3384,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_goomy": {
@@ -3393,7 +3394,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gorebyss": {
@@ -3403,7 +3404,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3414,7 +3415,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gothita": {
@@ -3424,7 +3425,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gothitelle": {
@@ -3434,7 +3435,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gothorita": {
@@ -3444,7 +3445,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gourgeist": {
@@ -3454,7 +3455,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_grafaiai": {
@@ -3464,7 +3465,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_granbull": {
@@ -3474,7 +3475,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_grapploct": {
@@ -3484,7 +3485,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_graveler": {
@@ -3494,7 +3495,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_greavard": {
@@ -3504,7 +3505,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_greedent": {
@@ -3514,7 +3515,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_greninja": {
@@ -3524,7 +3525,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3535,7 +3536,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_grimmsnarl": {
@@ -3545,7 +3546,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_grookey": {
@@ -3555,7 +3556,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3566,7 +3567,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3577,7 +3578,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3588,7 +3589,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3599,7 +3600,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_grumpig": {
@@ -3609,7 +3610,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gumshoos": {
@@ -3619,7 +3620,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gurdurr": {
@@ -3629,7 +3630,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_gyarados": {
@@ -3639,7 +3640,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hakamoo": {
@@ -3649,7 +3650,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3660,7 +3661,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3671,7 +3672,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hatenna": {
@@ -3681,7 +3682,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hatterene": {
@@ -3691,7 +3692,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hattrem": {
@@ -3701,7 +3702,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_haunter": {
@@ -3711,7 +3712,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hawlucha": {
@@ -3721,7 +3722,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_haxorus": {
@@ -3731,7 +3732,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -3742,7 +3743,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_heliolisk": {
@@ -3752,7 +3753,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_helioptile": {
@@ -3762,7 +3763,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_heracross": {
@@ -3772,7 +3773,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3783,7 +3784,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hippopotas": {
@@ -3793,7 +3794,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hippowdon": {
@@ -3803,7 +3804,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hitmonchan": {
@@ -3813,7 +3814,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3824,7 +3825,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3835,7 +3836,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3846,7 +3847,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_honedge": {
@@ -3856,7 +3857,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3867,7 +3868,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hoppip": {
@@ -3877,7 +3878,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_horsea": {
@@ -3887,7 +3888,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_houndoom": {
@@ -3897,7 +3898,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_houndour": {
@@ -3907,7 +3908,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_houndstone": {
@@ -3917,7 +3918,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_huntail": {
@@ -3927,7 +3928,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -3938,7 +3939,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_hydreigon": {
@@ -3948,7 +3949,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -3959,7 +3960,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_igglybuff": {
@@ -3969,7 +3970,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_illumise": {
@@ -3979,7 +3980,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_impidimp": {
@@ -3989,7 +3990,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_incineroar": {
@@ -3999,7 +4000,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4010,7 +4011,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_infernape": {
@@ -4020,7 +4021,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4031,7 +4032,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_inteleon": {
@@ -4041,7 +4042,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4052,7 +4053,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4063,7 +4064,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4074,7 +4075,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_jigglypuff": {
@@ -4084,7 +4085,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_jolteon": {
@@ -4094,7 +4095,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4105,7 +4106,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_jumpluff": {
@@ -4115,7 +4116,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_jynx": {
@@ -4125,7 +4126,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4136,7 +4137,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4147,7 +4148,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4158,7 +4159,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kakuna": {
@@ -4168,7 +4169,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kangaskhan": {
@@ -4178,7 +4179,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4189,7 +4190,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kecleon": {
@@ -4199,7 +4200,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4210,7 +4211,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kingambit": {
@@ -4220,7 +4221,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kingdra": {
@@ -4230,7 +4231,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kingler": {
@@ -4240,7 +4241,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kirlia": {
@@ -4250,7 +4251,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_klang": {
@@ -4260,7 +4261,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_klawf": {
@@ -4270,7 +4271,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4281,7 +4282,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4292,7 +4293,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_klink": {
@@ -4302,7 +4303,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_klinklang": {
@@ -4312,7 +4313,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_koffing": {
@@ -4322,7 +4323,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_komala": {
@@ -4332,7 +4333,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kommoo": {
@@ -4342,7 +4343,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4353,7 +4354,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kricketot": {
@@ -4363,7 +4364,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_kricketune": {
@@ -4373,7 +4374,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_krokorok": {
@@ -4383,7 +4384,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_krookodile": {
@@ -4393,7 +4394,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lairon": {
@@ -4403,7 +4404,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lampent": {
@@ -4413,7 +4414,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lanturn": {
@@ -4423,7 +4424,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lapras": {
@@ -4433,7 +4434,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_larvesta": {
@@ -4443,7 +4444,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4454,7 +4455,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4465,7 +4466,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4476,7 +4477,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lechonk": {
@@ -4486,7 +4487,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ledian": {
@@ -4496,7 +4497,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ledyba": {
@@ -4506,7 +4507,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lickilicky": {
@@ -4516,7 +4517,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4527,7 +4528,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4538,7 +4539,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lileep": {
@@ -4548,7 +4549,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -4559,7 +4560,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lillipup": {
@@ -4569,7 +4570,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_linoone": {
@@ -4579,7 +4580,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_litleo": {
@@ -4589,7 +4590,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_litten": {
@@ -4599,7 +4600,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4610,7 +4611,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lokix": {
@@ -4620,7 +4621,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lombre": {
@@ -4630,7 +4631,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lopunny": {
@@ -4640,7 +4641,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lotad": {
@@ -4650,7 +4651,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_loudred": {
@@ -4660,7 +4661,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lucario": {
@@ -4670,7 +4671,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -4681,7 +4682,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lumineon": {
@@ -4691,7 +4692,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lunatone": {
@@ -4701,7 +4702,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_lurantis": {
@@ -4711,7 +4712,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_luvdisc": {
@@ -4721,7 +4722,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_luxio": {
@@ -4731,7 +4732,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4742,7 +4743,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4753,7 +4754,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mabosstiff": {
@@ -4763,7 +4764,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_machamp": {
@@ -4773,7 +4774,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_machoke": {
@@ -4783,7 +4784,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_machop": {
@@ -4793,7 +4794,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magby": {
@@ -4803,7 +4804,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magcargo": {
@@ -4813,7 +4814,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magikarp": {
@@ -4823,7 +4824,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magmar": {
@@ -4833,7 +4834,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magmortar": {
@@ -4843,7 +4844,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magnemite": {
@@ -4853,7 +4854,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magneton": {
@@ -4863,7 +4864,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_magnezone": {
@@ -4873,7 +4874,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_makuhita": {
@@ -4883,7 +4884,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_malamar": {
@@ -4893,7 +4894,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mamoswine": {
@@ -4903,7 +4904,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_manectric": {
@@ -4913,7 +4914,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -4924,7 +4925,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mantine": {
@@ -4934,7 +4935,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mantyke": {
@@ -4944,7 +4945,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_maractus": {
@@ -4954,7 +4955,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mareanie": {
@@ -4964,7 +4965,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mareep": {
@@ -4974,7 +4975,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_marill": {
@@ -4984,7 +4985,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_marowak": {
@@ -4994,7 +4995,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_marshtomp": {
@@ -5004,7 +5005,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5015,7 +5016,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_masquerain": {
@@ -5025,7 +5026,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5036,7 +5037,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mawile": {
@@ -5046,7 +5047,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5057,7 +5058,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_meditite": {
@@ -5067,7 +5068,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_meganium": {
@@ -5077,7 +5078,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5088,7 +5089,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5099,7 +5100,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_meowth": {
@@ -5109,7 +5110,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_metagross": {
@@ -5119,7 +5120,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5130,7 +5131,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5141,7 +5142,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mienfoo": {
@@ -5151,7 +5152,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5162,7 +5163,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5173,7 +5174,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_milcery": {
@@ -5183,7 +5184,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_milotic": {
@@ -5193,7 +5194,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_miltank": {
@@ -5203,7 +5204,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mimejr": {
@@ -5213,7 +5214,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mimikyu": {
@@ -5223,7 +5224,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5234,7 +5235,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_minior": {
@@ -5244,7 +5245,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5255,7 +5256,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5266,7 +5267,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mismagius": {
@@ -5276,7 +5277,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_monferno": {
@@ -5286,7 +5287,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5297,7 +5298,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_morgrem": {
@@ -5307,7 +5308,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_morpeko": {
@@ -5317,7 +5318,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5328,7 +5329,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mrmime": {
@@ -5338,7 +5339,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mrrime": {
@@ -5348,7 +5349,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5359,7 +5360,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_mudkip": {
@@ -5369,7 +5370,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5380,7 +5381,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_muk": {
@@ -5390,7 +5391,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_munchlax": {
@@ -5400,7 +5401,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5411,7 +5412,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_murkrow": {
@@ -5421,7 +5422,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_musharna": {
@@ -5431,7 +5432,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_nacli": {
@@ -5441,7 +5442,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_naclstack": {
@@ -5451,7 +5452,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_natu": {
@@ -5461,7 +5462,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_nickit": {
@@ -5471,7 +5472,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_nidoking": {
@@ -5481,7 +5482,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5492,7 +5493,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5503,7 +5504,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5514,7 +5515,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5525,7 +5526,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5536,7 +5537,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5547,7 +5548,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ninetales": {
@@ -5557,7 +5558,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ninjask": {
@@ -5567,7 +5568,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_noctowl": {
@@ -5577,7 +5578,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_noibat": {
@@ -5587,7 +5588,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5598,7 +5599,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5609,7 +5610,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5620,7 +5621,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_nuzleaf": {
@@ -5630,7 +5631,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_nymble": {
@@ -5640,7 +5641,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_obstagoon": {
@@ -5650,7 +5651,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_octillery": {
@@ -5660,7 +5661,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_oddish": {
@@ -5670,7 +5671,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_oinkologne": {
@@ -5680,7 +5681,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_omanyte": {
@@ -5690,7 +5691,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5701,7 +5702,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5712,7 +5713,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5723,7 +5724,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_oshawott": {
@@ -5733,7 +5734,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -5744,7 +5745,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pachirisu": {
@@ -5754,7 +5755,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5765,7 +5766,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_palossand": {
@@ -5775,7 +5776,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_palpitoad": {
@@ -5785,7 +5786,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pancham": {
@@ -5795,7 +5796,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pangoro": {
@@ -5805,7 +5806,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_panpour": {
@@ -5815,7 +5816,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5826,7 +5827,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5837,7 +5838,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5848,7 +5849,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_parasect": {
@@ -5858,7 +5859,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_patrat": {
@@ -5868,7 +5869,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pawniard": {
@@ -5878,7 +5879,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pelipper": {
@@ -5888,7 +5889,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_perrserker": {
@@ -5898,7 +5899,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_persian": {
@@ -5908,7 +5909,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_petilil": {
@@ -5918,7 +5919,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_phanpy": {
@@ -5928,7 +5929,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_phantump": {
@@ -5938,7 +5939,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pichu": {
@@ -5948,7 +5949,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -5959,7 +5960,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pidgeotto": {
@@ -5969,7 +5970,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pidgey": {
@@ -5979,7 +5980,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pidove": {
@@ -5989,7 +5990,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pignite": {
@@ -5999,7 +6000,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6010,7 +6011,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6021,7 +6022,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_piloswine": {
@@ -6031,7 +6032,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pincurchin": {
@@ -6041,7 +6042,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pineco": {
@@ -6051,7 +6052,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pinsir": {
@@ -6061,7 +6062,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6072,7 +6073,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6083,7 +6084,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6094,7 +6095,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_poliwag": {
@@ -6104,7 +6105,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_poliwhirl": {
@@ -6114,7 +6115,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_poliwrath": {
@@ -6124,7 +6125,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_poltchageist": {
@@ -6134,7 +6135,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6145,7 +6146,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ponyta": {
@@ -6155,7 +6156,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_poochyena": {
@@ -6165,7 +6166,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_popplio": {
@@ -6175,7 +6176,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6186,7 +6187,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6197,7 +6198,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6208,7 +6209,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6219,7 +6220,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6230,7 +6231,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_prinplup": {
@@ -6240,7 +6241,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6251,7 +6252,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6262,7 +6263,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pumpkaboo": {
@@ -6272,7 +6273,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pupitar": {
@@ -6282,7 +6283,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -6293,7 +6294,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_purugly": {
@@ -6303,7 +6304,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pyroar": {
@@ -6313,7 +6314,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_pyukumuku": {
@@ -6323,7 +6324,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_quagsire": {
@@ -6333,7 +6334,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_quaquaval": {
@@ -6343,7 +6344,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6354,7 +6355,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6365,7 +6366,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6376,7 +6377,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6387,7 +6388,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6398,7 +6399,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_raboot": {
@@ -6408,7 +6409,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6419,7 +6420,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_raichu": {
@@ -6429,7 +6430,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6440,7 +6441,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rampardos": {
@@ -6450,7 +6451,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6461,7 +6462,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_raticate": {
@@ -6471,7 +6472,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rattata": {
@@ -6481,7 +6482,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_relicanth": {
@@ -6491,7 +6492,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rellor": {
@@ -6501,7 +6502,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_remoraid": {
@@ -6511,7 +6512,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_reuniclus": {
@@ -6521,7 +6522,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6532,7 +6533,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6543,7 +6544,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -6554,7 +6555,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rhyperior": {
@@ -6564,7 +6565,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -6575,7 +6576,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rillaboom": {
@@ -6585,7 +6586,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6596,7 +6597,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -6607,7 +6608,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_roggenrola": {
@@ -6617,7 +6618,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rolycoly": {
@@ -6627,7 +6628,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rookidee": {
@@ -6637,7 +6638,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_roselia": {
@@ -6647,7 +6648,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_roserade": {
@@ -6657,7 +6658,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_rowlet": {
@@ -6667,7 +6668,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6678,7 +6679,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_runerigus": {
@@ -6688,7 +6689,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sableye": {
@@ -6698,7 +6699,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_salamence": {
@@ -6708,7 +6709,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -6719,7 +6720,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_samurott": {
@@ -6729,7 +6730,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6740,7 +6741,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sandile": {
@@ -6750,7 +6751,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sandshrew": {
@@ -6760,7 +6761,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sandslash": {
@@ -6770,7 +6771,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sandygast": {
@@ -6780,7 +6781,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sawk": {
@@ -6790,7 +6791,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6801,7 +6802,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_scatterbug": {
@@ -6811,7 +6812,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sceptile": {
@@ -6821,7 +6822,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6832,7 +6833,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6843,7 +6844,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_scorbunny": {
@@ -6853,7 +6854,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6864,7 +6865,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_scrafty": {
@@ -6874,7 +6875,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_scraggy": {
@@ -6884,7 +6885,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_scyther": {
@@ -6894,7 +6895,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -6905,7 +6906,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_seaking": {
@@ -6915,7 +6916,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sealeo": {
@@ -6925,7 +6926,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_seedot": {
@@ -6935,7 +6936,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_seel": {
@@ -6945,7 +6946,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_seismitoad": {
@@ -6955,7 +6956,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sentret": {
@@ -6965,7 +6966,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_serperior": {
@@ -6975,7 +6976,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6986,7 +6987,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -6997,7 +6998,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7008,7 +7009,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sharpedo": {
@@ -7018,7 +7019,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shedinja": {
@@ -7028,7 +7029,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shelgon": {
@@ -7038,7 +7039,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -7049,7 +7050,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shellos": {
@@ -7059,7 +7060,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shelmet": {
@@ -7069,7 +7070,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shieldon": {
@@ -7079,7 +7080,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7090,7 +7091,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shiinotic": {
@@ -7100,7 +7101,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shinx": {
@@ -7110,7 +7111,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7121,7 +7122,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shroomish": {
@@ -7131,7 +7132,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shuckle": {
@@ -7141,7 +7142,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_shuppet": {
@@ -7151,7 +7152,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sigilyph": {
@@ -7161,7 +7162,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_silcoon": {
@@ -7171,7 +7172,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_silicobra": {
@@ -7181,7 +7182,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_simipour": {
@@ -7191,7 +7192,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7202,7 +7203,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7213,7 +7214,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7224,7 +7225,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7235,7 +7236,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sirfetchd": {
@@ -7245,7 +7246,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -7256,7 +7257,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skarmory": {
@@ -7266,7 +7267,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -7277,7 +7278,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7288,7 +7289,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skiploom": {
@@ -7298,7 +7299,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skitty": {
@@ -7308,7 +7309,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skorupi": {
@@ -7318,7 +7319,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skrelp": {
@@ -7328,7 +7329,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skuntank": {
@@ -7338,7 +7339,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_skwovet": {
@@ -7348,7 +7349,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slaking": {
@@ -7358,7 +7359,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slakoth": {
@@ -7368,7 +7369,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sliggoo": {
@@ -7378,7 +7379,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slowbro": {
@@ -7388,7 +7389,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slowking": {
@@ -7398,7 +7399,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slowpoke": {
@@ -7408,7 +7409,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slugma": {
@@ -7418,7 +7419,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_slurpuff": {
@@ -7428,7 +7429,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_smeargle": {
@@ -7438,7 +7439,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_smoliv": {
@@ -7448,7 +7449,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7459,7 +7460,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7470,7 +7471,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7481,7 +7482,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7492,7 +7493,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_snorlax": {
@@ -7502,7 +7503,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7513,7 +7514,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_snover": {
@@ -7523,7 +7524,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_snubbull": {
@@ -7533,7 +7534,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sobble": {
@@ -7543,7 +7544,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7554,7 +7555,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7565,7 +7566,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spearow": {
@@ -7575,7 +7576,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spewpa": {
@@ -7585,7 +7586,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spheal": {
@@ -7595,7 +7596,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spidops": {
@@ -7605,7 +7606,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spinarak": {
@@ -7615,7 +7616,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_spinda": {
@@ -7625,7 +7626,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7636,7 +7637,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7647,7 +7648,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sprigatito": {
@@ -7657,7 +7658,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7668,7 +7669,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_squawkabilly": {
@@ -7678,7 +7679,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_squirtle": {
@@ -7688,7 +7689,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7699,7 +7700,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_staraptor": {
@@ -7709,7 +7710,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_staravia": {
@@ -7719,7 +7720,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_starly": {
@@ -7729,7 +7730,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_starmie": {
@@ -7739,7 +7740,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_staryu": {
@@ -7749,7 +7750,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_steelix": {
@@ -7759,7 +7760,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7770,7 +7771,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_stonjourner": {
@@ -7780,7 +7781,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_stoutland": {
@@ -7790,7 +7791,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_stufful": {
@@ -7800,7 +7801,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_stunfisk": {
@@ -7810,7 +7811,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_stunky": {
@@ -7820,7 +7821,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sudowoodo": {
@@ -7830,7 +7831,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7841,7 +7842,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sunkern": {
@@ -7851,7 +7852,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_surskit": {
@@ -7861,7 +7862,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7872,7 +7873,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swadloon": {
@@ -7882,7 +7883,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swampert": {
@@ -7892,7 +7893,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -7903,7 +7904,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swellow": {
@@ -7913,7 +7914,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swinub": {
@@ -7923,7 +7924,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swirlix": {
@@ -7933,7 +7934,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_swoobat": {
@@ -7943,7 +7944,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_sylveon": {
@@ -7953,7 +7954,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -7964,7 +7965,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_taillow": {
@@ -7974,7 +7975,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_talonflame": {
@@ -7984,7 +7985,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tandemaus": {
@@ -7994,7 +7995,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tangela": {
@@ -8004,7 +8005,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tangrowth": {
@@ -8014,7 +8015,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tarountula": {
@@ -8024,7 +8025,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tatsugiri": {
@@ -8034,7 +8035,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8045,7 +8046,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_teddiursa": {
@@ -8055,7 +8056,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tentacool": {
@@ -8065,7 +8066,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tentacruel": {
@@ -8075,7 +8076,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tepig": {
@@ -8085,7 +8086,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8096,7 +8097,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_throh": {
@@ -8106,7 +8107,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8117,7 +8118,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8128,7 +8129,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tinkatink": {
@@ -8138,7 +8139,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tinkaton": {
@@ -8148,7 +8149,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tinkatuff": {
@@ -8158,7 +8159,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tirtouga": {
@@ -8168,7 +8169,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8179,7 +8180,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_toedscruel": {
@@ -8189,7 +8190,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_togedemaru": {
@@ -8199,7 +8200,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8210,7 +8211,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8221,7 +8222,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8232,7 +8233,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8243,7 +8244,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8254,7 +8255,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_torracat": {
@@ -8264,7 +8265,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8275,7 +8276,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8286,7 +8287,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8297,7 +8298,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_toxapex": {
@@ -8307,7 +8308,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_toxel": {
@@ -8317,7 +8318,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_toxicroak": {
@@ -8327,7 +8328,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_toxtricity": {
@@ -8337,7 +8338,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tranquill": {
@@ -8347,7 +8348,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_trapinch": {
@@ -8357,7 +8358,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8368,7 +8369,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8379,7 +8380,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tropius": {
@@ -8389,7 +8390,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8400,7 +8401,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_trumbeak": {
@@ -8410,7 +8411,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tsareena": {
@@ -8420,7 +8421,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_turtonator": {
@@ -8430,7 +8431,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8441,7 +8442,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8452,7 +8453,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_tynamo": {
@@ -8462,7 +8463,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_typhlosion": {
@@ -8472,7 +8473,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8483,7 +8484,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8494,7 +8495,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8505,7 +8506,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8516,7 +8517,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8527,7 +8528,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8538,7 +8539,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_unown": {
@@ -8548,7 +8549,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ursaluna": {
@@ -8558,7 +8559,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_ursaring": {
@@ -8568,7 +8569,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vanillish": {
@@ -8578,7 +8579,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vanillite": {
@@ -8588,7 +8589,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vanilluxe": {
@@ -8598,7 +8599,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vaporeon": {
@@ -8608,7 +8609,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8619,7 +8620,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8630,7 +8631,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_venipede": {
@@ -8640,7 +8641,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_venomoth": {
@@ -8650,7 +8651,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_venonat": {
@@ -8660,7 +8661,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_venusaur": {
@@ -8670,7 +8671,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8681,7 +8682,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8692,7 +8693,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vigoroth": {
@@ -8702,7 +8703,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vikavolt": {
@@ -8712,7 +8713,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vileplume": {
@@ -8722,7 +8723,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vivillon": {
@@ -8732,7 +8733,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_volbeat": {
@@ -8742,7 +8743,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_volcarona": {
@@ -8752,7 +8753,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8763,7 +8764,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_vulpix": {
@@ -8773,7 +8774,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wailmer": {
@@ -8783,7 +8784,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wailord": {
@@ -8793,7 +8794,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_walrein": {
@@ -8803,7 +8804,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wartortle": {
@@ -8813,7 +8814,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100020,
+      "unitWorth": 6000,
       "rarity": "EPIC",
       "weightMult": 0.0229
     },
@@ -8824,7 +8825,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wattrel": {
@@ -8834,7 +8835,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_weavile": {
@@ -8844,7 +8845,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -8855,7 +8856,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_weepinbell": {
@@ -8865,7 +8866,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_weezing": {
@@ -8875,7 +8876,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_whimsicott": {
@@ -8885,7 +8886,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_whirlipede": {
@@ -8895,7 +8896,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_whiscash": {
@@ -8905,7 +8906,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_whismur": {
@@ -8915,7 +8916,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wigglytuff": {
@@ -8925,7 +8926,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wiglett": {
@@ -8935,7 +8936,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wimpod": {
@@ -8945,7 +8946,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wingull": {
@@ -8955,7 +8956,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wishiwashi": {
@@ -8965,7 +8966,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wobbuffet": {
@@ -8975,7 +8976,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -8986,7 +8987,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wooloo": {
@@ -8996,7 +8997,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wooper": {
@@ -9006,7 +9007,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wormadam": {
@@ -9016,7 +9017,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wugtrio": {
@@ -9026,7 +9027,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wurmple": {
@@ -9036,7 +9037,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_wynaut": {
@@ -9046,7 +9047,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -9057,7 +9058,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_xatu": {
@@ -9067,7 +9068,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_yamask": {
@@ -9077,7 +9078,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_yamper": {
@@ -9087,7 +9088,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_yanma": {
@@ -9097,7 +9098,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -9108,7 +9109,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -9119,7 +9120,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_zangoose": {
@@ -9129,7 +9130,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -9140,7 +9141,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_zigzagoon": {
@@ -9150,7 +9151,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_zoroark": {
@@ -9160,7 +9161,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -9171,7 +9172,7 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON",
       "weightMult": 0.0229
     },
@@ -9182,7 +9183,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 5001,
+      "unitWorth": 300,
       "weightMult": 0.0229
     },
     "catch_zweilous": {
@@ -9192,7 +9193,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 33340,
+      "unitWorth": 2000,
       "rarity": "RARE",
       "weightMult": 0.0229
     },
@@ -9203,7 +9204,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 300060,
+      "unitWorth": 18000,
       "rarity": "LEGENDARY"
     },
     "defeat_any": {
@@ -9213,7 +9214,7 @@
         "min": 5,
         "max": 25
       },
-      "unitWorth": 1000
+      "unitWorth": 60
     },
     "defeat_normal": {
       "type": "nh_bounties:defeat",
@@ -9222,7 +9223,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 2000
+      "unitWorth": 120
     },
     "defeat_water": {
       "type": "nh_bounties:defeat",
@@ -9231,7 +9232,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 2000
+      "unitWorth": 120
     },
     "defeat_grass": {
       "type": "nh_bounties:defeat",
@@ -9240,7 +9241,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 2000
+      "unitWorth": 120
     },
     "defeat_bug": {
       "type": "nh_bounties:defeat",
@@ -9249,7 +9250,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 2000
+      "unitWorth": 120
     },
     "defeat_flying": {
       "type": "nh_bounties:defeat",
@@ -9258,7 +9259,7 @@
         "min": 3,
         "max": 12
       },
-      "unitWorth": 2000
+      "unitWorth": 120
     },
     "defeat_dragon": {
       "type": "nh_bounties:defeat",
@@ -9267,7 +9268,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "EPIC"
     },
     "evolve_any": {
@@ -9277,7 +9278,7 @@
         "min": 1,
         "max": 3
       },
-      "unitWorth": 13336,
+      "unitWorth": 800,
       "rarity": "UNCOMMON"
     },
     "level_up_any": {
@@ -9287,7 +9288,7 @@
         "min": 5,
         "max": 20
       },
-      "unitWorth": 1667
+      "unitWorth": 100
     },
     "heal_any": {
       "type": "nh_bounties:heal",
@@ -9296,7 +9297,7 @@
         "min": 2,
         "max": 6
       },
-      "unitWorth": 834
+      "unitWorth": 50
     }
   }
 }

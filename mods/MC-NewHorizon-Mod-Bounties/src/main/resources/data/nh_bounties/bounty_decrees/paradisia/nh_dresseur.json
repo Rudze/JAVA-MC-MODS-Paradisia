@@ -2,9 +2,9 @@
   "name": "Dresseur",
   "linkedProfessions": [],
   "objectives": [
-    "nh_dresseur_objs"
+    "nh_pokemon_objs"
   ],
   "rewards": [
-    "nh_pieces_rews"
+    "nh_dresseur_rews"
   ]
 }
