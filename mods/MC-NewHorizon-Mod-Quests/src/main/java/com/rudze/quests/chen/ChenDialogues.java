@@ -1,47 +1,36 @@
 package com.rudze.quests.chen;
 
-import com.cobblemon.mod.common.api.dialogue.ActiveDialogue;
-import com.cobblemon.mod.common.api.dialogue.Dialogue;
-import com.cobblemon.mod.common.api.dialogue.DialogueManager;
 import com.cobblemon.mod.common.api.dialogue.DialoguePage;
-import com.cobblemon.mod.common.api.dialogue.DialogueSpeaker;
-import com.cobblemon.mod.common.api.dialogue.DialogueText;
-import com.cobblemon.mod.common.api.dialogue.FunctionDialogueAction;
-import com.cobblemon.mod.common.api.dialogue.FunctionDialoguePredicate;
-import com.cobblemon.mod.common.api.dialogue.ReferenceDialogueFaceProvider;
-import com.cobblemon.mod.common.api.dialogue.WrappedDialogueText;
-import com.cobblemon.mod.common.api.dialogue.input.DialogueOption;
-import com.cobblemon.mod.common.api.dialogue.input.DialogueOptionSetInput;
 import com.cobblemon.mod.common.entity.npc.NPCEntity;
 import com.rudze.quests.data.PlayerProgress;
+import com.rudze.quests.npc.Dialogues;
+import com.rudze.quests.npc.TownNpc;
 import com.rudze.quests.starter.StarterLockHandler;
 import com.rudze.quests.tax.TaxOffice;
 import com.rudze.worldbuild.Mayor;
-import kotlin.Unit;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.TickTask;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+
+import static com.rudze.quests.npc.Dialogues.nextTick;
+import static com.rudze.quests.npc.Dialogues.option;
+import static com.rudze.quests.npc.Dialogues.options;
+import static com.rudze.quests.npc.Dialogues.page;
+import static com.rudze.quests.npc.Dialogues.verticalOptions;
 
 /**
- * Professor Chen's conversations, built in Java (rather than as Cobblemon dialogue JSON) so that
- * each option can run server code directly: unlocking the starter screen, opening the tax chest...
- *
- * <p>The first conversation is the welcome speech, ending with the starter choice and the
- * Pokédex; it replays until the player reaches its last page. After that, Chen offers a menu.
+ * Professor Chen's conversations. The first one is the welcome speech, ending with the starter
+ * choice and the Pokédex; it replays until the player reaches its last page. After that, Chen
+ * offers a menu.
  */
 public final class ChenDialogues {
 
-    private static final String SPEAKER = "chen";
     private static final ResourceLocation POKEDEX = ResourceLocation.fromNamespaceAndPath("cobblemon", "pokedex_red");
 
     private ChenDialogues() {
@@ -49,7 +38,7 @@ public final class ChenDialogues {
 
     public static void open(ServerPlayer player, NPCEntity npc) {
         List<DialoguePage> pages = PlayerProgress.chenIntroDone(player) ? menu(player) : intro(player);
-        DialogueManager.startDialogue(player, npc, dialogue(npc, pages));
+        Dialogues.start(player, npc, TownNpc.CHEN.name(), pages);
     }
 
     private static List<DialoguePage> intro(ServerPlayer player) {
@@ -99,68 +88,5 @@ public final class ChenDialogues {
         DialoguePage weather = page("weather", "Oui, une journée parfaite pour observer les Pokémon sauvages !",
                 "Repasse me voir plus tard : j'aurai peut-être du travail pour toi.");
         return List.of(menu, weather);
-    }
-
-    private static Dialogue dialogue(NPCEntity npc, List<DialoguePage> pages) {
-        DialogueSpeaker chen = new DialogueSpeaker(text(ProfessorChen.NAME), new ReferenceDialogueFaceProvider(npc.getId(), true), null);
-        FunctionDialogueAction close = new FunctionDialogueAction((d, value) -> {
-            d.close();
-            return Unit.INSTANCE;
-        });
-        FunctionDialogueAction noop = new FunctionDialogueAction((d, value) -> Unit.INSTANCE);
-        return new Dialogue(pages, new Dialogue().getBackground(), close, Map.of(SPEAKER, chen), noop);
-    }
-
-    private static DialoguePage page(String id, String... lines) {
-        DialoguePage page = new DialoguePage();
-        page.setId(id);
-        page.setSpeaker(SPEAKER);
-        List<DialogueText> texts = new ArrayList<>();
-        for (String line : lines) {
-            texts.add(text(line));
-        }
-        page.setLines(texts);
-        return page;
-    }
-
-    private static DialoguePage options(DialoguePage page, DialogueOption... options) {
-        page.setInput(new DialogueOptionSetInput(List.of(options), null, false));
-        return page;
-    }
-
-    private static DialoguePage verticalOptions(DialoguePage page, DialogueOption... options) {
-        page.setInput(new DialogueOptionSetInput(List.of(options), null, true));
-        return page;
-    }
-
-    private static DialogueOption option(String label, Consumer<ActiveDialogue> action) {
-        return option(label, p -> true, action);
-    }
-
-    /**
-     * Options close the dialogue unless their action moved it to another page, so actions that
-     * open a screen don't have to remember to.
-     */
-    private static DialogueOption option(String label, Predicate<ServerPlayer> visible, Consumer<ActiveDialogue> action) {
-        FunctionDialogueAction run = new FunctionDialogueAction((d, value) -> {
-            DialoguePage before = d.getCurrentPage();
-            action.accept(d);
-            if (d.getCurrentPage() == before) {
-                d.close();
-            }
-            return Unit.INSTANCE;
-        });
-        FunctionDialoguePredicate isVisible = new FunctionDialoguePredicate(d -> visible.test(d.getPlayerEntity()));
-        FunctionDialoguePredicate always = new FunctionDialoguePredicate(d -> true);
-        return new DialogueOption(text(label), label, run, isVisible, always);
-    }
-
-    private static DialogueText text(String line) {
-        return new WrappedDialogueText(Component.literal(line));
-    }
-
-    /** Lets the dialogue screen close on the client before another screen replaces it. */
-    private static void nextTick(ServerPlayer player, Runnable task) {
-        player.server.tell(new TickTask(player.server.getTickCount() + 1, task));
     }
 }

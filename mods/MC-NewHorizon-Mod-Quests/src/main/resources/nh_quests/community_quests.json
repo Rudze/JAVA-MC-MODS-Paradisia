@@ -1,0 +1,31 @@
+{
+  "_aide": [
+    "Objectifs communs racontés par Tom, l'adjoint au maire.",
+    "Les quêtes s'enchaînent dans l'ordre de la liste : la quête en cours est la première dont completed vaut false.",
+    "Quand une quête est terminée, passe son completed à true : Tom présentera la suivante dès la prochaine discussion, sans redémarrage.",
+    "story et objective sont des listes de pages ; chaque page contient une ou deux phrases.",
+    "completedText est la ligne affichée dans les projets réalisés une fois la quête terminée."
+  ],
+  "quests": [
+    {
+      "id": "centre_pokemon",
+      "title": "Le Centre Pokémon",
+      "completed": false,
+      "story": [
+        ["Il y a quelques semaines, une visiteuse est arrivée par le bateau du matin...", "L'Infirmière Joëlle en personne !"],
+        ["Elle faisait le tour des îles de la région avec son fidèle Leveinard,", "pour soigner les Pokémon des dresseurs de passage."],
+        ["Mais le soir de son arrivée, une terrible tempête a frappé la côte.", "Au matin, des dizaines de Goélise s'étaient échoués sur la plage, épuisés."],
+        ["Tous les habitants sont descendus aider : couvertures, eau douce, baies Oran...", "On a veillé sur eux toute la journée, aux côtés de Joëlle."],
+        ["Au coucher du soleil, tous les Goélise ont repris leur envol au-dessus de la baie.", "Joëlle m'a dit qu'elle n'avait jamais vu une île aussi solidaire."],
+        ["Depuis, elle nous écrit chaque semaine. Elle est tombée amoureuse de Paradisia !", "Et elle aimerait s'installer ici, pour de bon."],
+        ["Seul problème : une infirmière sans Centre Pokémon,", "c'est un peu comme un dresseur sans Poké Ball..."],
+        ["Le maire a donné son accord : Paradisia va construire son tout premier Centre Pokémon !"]
+      ],
+      "objective": [
+        ["Notre mission : bâtir le Centre Pokémon de la ville.", "Un grand hall d'accueil, un comptoir de soins, et un logement pour Joëlle et Leveinard."],
+        ["Rassemblez les matériaux, construisez ensemble, et voyez avec le maire Rudzee pour l'emplacement.", "Dès qu'il sera prêt, Joëlle prendra le premier bateau pour nous rejoindre !"]
+      ],
+      "completedText": "Le Centre Pokémon : l'Infirmière Joëlle veille désormais sur les Pokémon de l'île !"
+    }
+  ]
+}

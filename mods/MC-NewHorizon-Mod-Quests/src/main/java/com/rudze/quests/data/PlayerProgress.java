@@ -23,6 +23,11 @@ public final class PlayerProgress {
             ATTACHMENT_TYPES.register("chen_intro_done",
                     () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).copyOnDeath().build());
 
+    /** Set once the player has heard Tom's introduction to the community quests through to the end. */
+    public static final DeferredHolder<AttachmentType<?>, AttachmentType<Boolean>> TOM_INTRO_DONE =
+            ATTACHMENT_TYPES.register("tom_intro_done",
+                    () -> AttachmentType.builder(() -> false).serialize(Codec.BOOL).copyOnDeath().build());
+
     private PlayerProgress() {
     }
 
@@ -36,5 +41,13 @@ public final class PlayerProgress {
 
     public static void setChenIntroDone(Player player) {
         player.setData(CHEN_INTRO_DONE, true);
+    }
+
+    public static boolean tomIntroDone(Player player) {
+        return player.getData(TOM_INTRO_DONE);
+    }
+
+    public static void setTomIntroDone(Player player) {
+        player.setData(TOM_INTRO_DONE, true);
     }
 }

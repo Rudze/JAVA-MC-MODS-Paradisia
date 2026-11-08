@@ -1,0 +1,7 @@
+{
+  "names": ["Tom"],
+  "resourceIdentifier": "cobblemon:standard",
+  "hitbox": "player",
+  "canDespawn": false,
+  "interaction": { "type": "none" }
+}

@@ -1,4 +1,4 @@
-package com.rudze.quests.chen;
+package com.rudze.quests.npc;
 
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
@@ -12,23 +12,25 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 
 /**
- * {@code /chen} puts Professor Chen where the mayor stands (facing the same way), spawning him
- * the first time.
+ * {@code /chen} and {@code /tom} put that NPC where the mayor stands (facing the same way),
+ * spawning them the first time.
  */
-public final class ChenCommands {
+public final class NpcCommands {
 
     @SubscribeEvent
     public void onRegisterCommands(RegisterCommandsEvent event) {
         event.getDispatcher().register(Commands.literal("chen").requires(Mayor::isMayor)
-                .executes(ChenCommands::place));
+                .executes(ctx -> place(ctx, TownNpc.CHEN)));
+        event.getDispatcher().register(Commands.literal("tom").requires(Mayor::isMayor)
+                .executes(ctx -> place(ctx, TownNpc.TOM)));
     }
 
-    private static int place(CommandContext<CommandSourceStack> ctx) throws CommandSyntaxException {
+    private static int place(CommandContext<CommandSourceStack> ctx, TownNpc npc) throws CommandSyntaxException {
         ServerPlayer player = ctx.getSource().getPlayerOrException();
-        boolean moved = ProfessorChen.get(player.server).moveOrSpawnAt(player);
+        boolean moved = npc.moveOrSpawnAt(player);
         ctx.getSource().sendSuccess(() -> Component.literal(moved
-                ? "Le Professeur Chen a été déplacé ici."
-                : "Le Professeur Chen est arrivé !").withStyle(ChatFormatting.GREEN), true);
+                ? npc.name() + " a été déplacé ici."
+                : npc.name() + " est arrivé !").withStyle(ChatFormatting.GREEN), true);
         return 1;
     }
 }
