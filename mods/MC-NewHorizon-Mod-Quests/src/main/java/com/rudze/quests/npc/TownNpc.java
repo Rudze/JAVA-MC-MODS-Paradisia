@@ -36,10 +36,11 @@ import java.util.UUID;
  */
 public final class TownNpc {
 
-    public static final TownNpc CHEN = new TownNpc("professeur_chen", "Professeur Chen", "chen_skin.png");
-    public static final TownNpc TOM = new TownNpc("tom", "Tom", "tom_skin.png");
+    public static final TownNpc CHEN = new TownNpc("professeur_chen", "chen", "Professeur Chen", "chen_skin.png");
+    public static final TownNpc TOM = new TownNpc("tom", "tom", "Tom", "tom_skin.png");
     public static final List<TownNpc> ALL = List.of(CHEN, TOM);
 
+    private final String key;
     private final String tag;
     private final ResourceLocation npcClass;
     private final String name;
@@ -47,12 +48,25 @@ public final class TownNpc {
     private final SavedData.Factory<Data> factory = new SavedData.Factory<>(Data::new, Data::load, null);
     private final String dataName;
 
-    private TownNpc(String id, String name, String skin) {
+    /**
+     * @param id  names the NPC class, the entity tag and the saved data
+     * @param key what {@code /npc spawn} calls it
+     */
+    private TownNpc(String id, String key, String name, String skin) {
+        this.key = key;
         this.tag = QuestsMod.MODID + "." + id;
         this.npcClass = ResourceLocation.fromNamespaceAndPath(QuestsMod.MODID, id);
         this.name = name;
         this.skin = "/" + QuestsMod.MODID + "/" + skin;
         this.dataName = QuestsMod.MODID + "_" + id;
+    }
+
+    public String key() {
+        return key;
+    }
+
+    public static Optional<TownNpc> byKey(String key) {
+        return ALL.stream().filter(npc -> npc.key.equals(key)).findFirst();
     }
 
     public String name() {
