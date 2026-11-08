@@ -1,3 +1,9 @@
+## [0.4.2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.1...v0.4.2) (2026-11-08)
+
+### Bug Fixes
+
+* generate bounty objectives first and pay rewards in coins only ([e056e53](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/e056e53dbdd665837ddafac484b2f83b37073643))
+
 ## [0.4.1](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.0...v0.4.1) (2026-11-08)
 
 ### Bug Fixes
