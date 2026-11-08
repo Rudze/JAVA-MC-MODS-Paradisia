@@ -27,7 +27,6 @@ COBBLEMON_JAR = sys.argv[2] if len(sys.argv) > 2 else \
 # Spawn bucket -> (minutes to find and catch one, amount min, amount max, rarity).
 BUCKETS = {"common": (3, 1, 3, None), "uncommon": (8, 1, 2, "UNCOMMON"),
            "rare": (20, 1, 1, "RARE"), "ultra-rare": (60, 1, 1, "EPIC")}
-WILD_SPECIES_WEIGHT = 20
 
 @functools.cache
 def wild_species():
@@ -86,13 +85,6 @@ for t in ["fire", "electric", "rock", "ground", "fighting", "psychic", "fairy"]:
 for t in ["ice", "ghost", "dark", "steel"]:
     d[key("catch", t)] = poke("catch", "type:" + t, 10, 1, 3, "RARE")
 d["catch_dragon"] = poke("catch", "type:dragon", 25, 1, 2, "EPIC")
-# One capture quest per species that spawns in the wild, priced by its commonest spawn
-# bucket; their weights add up to WILD_SPECIES_WEIGHT entries so they don't crowd out the rest.
-for sp, bucket in wild_species().items():
-    minutes, lo, hi, rar = BUCKETS[bucket]
-    e = poke("catch", "species:" + sp, minutes, lo, hi, rar)
-    e["weightMult"] = round(WILD_SPECIES_WEIGHT / len(wild_species()), 4)
-    d[key("catch", sp)] = e
 d["catch_shiny"] = poke("catch", "shiny", 180, 1, 1, "LEGENDARY")
 d["defeat_any"] = poke("defeat", "any", 0.6, 5, 25)
 for t in ["normal", "water", "grass", "bug", "flying"]:
@@ -101,8 +93,17 @@ d["defeat_dragon"] = poke("defeat", "type:dragon", 8, 1, 3, "EPIC")
 d["evolve_any"] = poke("evolve", "any", 8, 1, 3, "UNCOMMON")
 d["level_up_any"] = poke("level_up", "any", 1.0, 5, 20)
 d["heal_any"] = poke("heal", "any", 0.5, 2, 6)
-# Shared with the other themes' decrees, where it should take about a third of the quests.
-pools["nh_pokemon_objs"] = {"weightMult": 0.2, "content": d}
+# One capture quest per species that spawns in the wild, priced by its commonest spawn bucket.
+sp_objs = {}
+for sp, bucket in wild_species().items():
+    minutes, lo, hi, rar = BUCKETS[bucket]
+    sp_objs[key("catch", sp)] = poke("catch", "species:" + sp, minutes, lo, hi, rar)
+
+# Bountiful gives every pool of a decree the same total weight (times its weightMult) and splits
+# it among the pool's entries, so these weights are the share of each pool next to a theme pool:
+# Pokémon end up with about a third of the quests on the other themes' boards.
+pools["nh_pokemon_objs"] = {"weightMult": 0.3, "content": d}
+pools["nh_pokemon_especes_objs"] = {"weightMult": 0.2, "content": sp_objs}
 
 # --- Récolte : farming, berries, apricorns -----------------------------------------------------
 r = {}
@@ -182,7 +183,7 @@ themes = {
 }
 decrees = {}
 for name, (label, objs, profs) in themes.items():
-    objs = objs + ["nh_pokemon_objs"]
+    objs = objs + ["nh_pokemon_objs", "nh_pokemon_especes_objs"]
     pools[name + "_rews"] = coins(top_worth(objs))
     decrees[name] = (label, objs, profs, [name + "_rews"])
 # Reverse matching on: Bountiful picks the objectives first, then tops the rewards up from this

@@ -1,0 +1,8145 @@
+{
+  "weightMult": 0.2,
+  "content": {
+    "catch_abomasnow": {
+      "type": "nh_bounties:catch",
+      "content": "species:abomasnow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_abra": {
+      "type": "nh_bounties:catch",
+      "content": "species:abra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_absol": {
+      "type": "nh_bounties:catch",
+      "content": "species:absol",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_accelgor": {
+      "type": "nh_bounties:catch",
+      "content": "species:accelgor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_aegislash": {
+      "type": "nh_bounties:catch",
+      "content": "species:aegislash",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_aerodactyl": {
+      "type": "nh_bounties:catch",
+      "content": "species:aerodactyl",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_aggron": {
+      "type": "nh_bounties:catch",
+      "content": "species:aggron",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_aipom": {
+      "type": "nh_bounties:catch",
+      "content": "species:aipom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_alakazam": {
+      "type": "nh_bounties:catch",
+      "content": "species:alakazam",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_alcremie": {
+      "type": "nh_bounties:catch",
+      "content": "species:alcremie",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_alomomola": {
+      "type": "nh_bounties:catch",
+      "content": "species:alomomola",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_altaria": {
+      "type": "nh_bounties:catch",
+      "content": "species:altaria",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_amaura": {
+      "type": "nh_bounties:catch",
+      "content": "species:amaura",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_ambipom": {
+      "type": "nh_bounties:catch",
+      "content": "species:ambipom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_amoonguss": {
+      "type": "nh_bounties:catch",
+      "content": "species:amoonguss",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ampharos": {
+      "type": "nh_bounties:catch",
+      "content": "species:ampharos",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_annihilape": {
+      "type": "nh_bounties:catch",
+      "content": "species:annihilape",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_anorith": {
+      "type": "nh_bounties:catch",
+      "content": "species:anorith",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_appletun": {
+      "type": "nh_bounties:catch",
+      "content": "species:appletun",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_applin": {
+      "type": "nh_bounties:catch",
+      "content": "species:applin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_araquanid": {
+      "type": "nh_bounties:catch",
+      "content": "species:araquanid",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_arbok": {
+      "type": "nh_bounties:catch",
+      "content": "species:arbok",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_arboliva": {
+      "type": "nh_bounties:catch",
+      "content": "species:arboliva",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_arcanine": {
+      "type": "nh_bounties:catch",
+      "content": "species:arcanine",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_archaludon": {
+      "type": "nh_bounties:catch",
+      "content": "species:archaludon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_archen": {
+      "type": "nh_bounties:catch",
+      "content": "species:archen",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_archeops": {
+      "type": "nh_bounties:catch",
+      "content": "species:archeops",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_ariados": {
+      "type": "nh_bounties:catch",
+      "content": "species:ariados",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_armaldo": {
+      "type": "nh_bounties:catch",
+      "content": "species:armaldo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_armarouge": {
+      "type": "nh_bounties:catch",
+      "content": "species:armarouge",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_aromatisse": {
+      "type": "nh_bounties:catch",
+      "content": "species:aromatisse",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_aron": {
+      "type": "nh_bounties:catch",
+      "content": "species:aron",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_arrokuda": {
+      "type": "nh_bounties:catch",
+      "content": "species:arrokuda",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_audino": {
+      "type": "nh_bounties:catch",
+      "content": "species:audino",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_aurorus": {
+      "type": "nh_bounties:catch",
+      "content": "species:aurorus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_avalugg": {
+      "type": "nh_bounties:catch",
+      "content": "species:avalugg",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_axew": {
+      "type": "nh_bounties:catch",
+      "content": "species:axew",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_azumarill": {
+      "type": "nh_bounties:catch",
+      "content": "species:azumarill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_azurill": {
+      "type": "nh_bounties:catch",
+      "content": "species:azurill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bagon": {
+      "type": "nh_bounties:catch",
+      "content": "species:bagon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_baltoy": {
+      "type": "nh_bounties:catch",
+      "content": "species:baltoy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_banette": {
+      "type": "nh_bounties:catch",
+      "content": "species:banette",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_barbaracle": {
+      "type": "nh_bounties:catch",
+      "content": "species:barbaracle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_barboach": {
+      "type": "nh_bounties:catch",
+      "content": "species:barboach",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_barraskewda": {
+      "type": "nh_bounties:catch",
+      "content": "species:barraskewda",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_basculegion": {
+      "type": "nh_bounties:catch",
+      "content": "species:basculegion",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_basculin": {
+      "type": "nh_bounties:catch",
+      "content": "species:basculin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bastiodon": {
+      "type": "nh_bounties:catch",
+      "content": "species:bastiodon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_bayleef": {
+      "type": "nh_bounties:catch",
+      "content": "species:bayleef",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_beartic": {
+      "type": "nh_bounties:catch",
+      "content": "species:beartic",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_beautifly": {
+      "type": "nh_bounties:catch",
+      "content": "species:beautifly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_beedrill": {
+      "type": "nh_bounties:catch",
+      "content": "species:beedrill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_beheeyem": {
+      "type": "nh_bounties:catch",
+      "content": "species:beheeyem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_beldum": {
+      "type": "nh_bounties:catch",
+      "content": "species:beldum",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_bellibolt": {
+      "type": "nh_bounties:catch",
+      "content": "species:bellibolt",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bellossom": {
+      "type": "nh_bounties:catch",
+      "content": "species:bellossom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bellsprout": {
+      "type": "nh_bounties:catch",
+      "content": "species:bellsprout",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bergmite": {
+      "type": "nh_bounties:catch",
+      "content": "species:bergmite",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bewear": {
+      "type": "nh_bounties:catch",
+      "content": "species:bewear",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bibarel": {
+      "type": "nh_bounties:catch",
+      "content": "species:bibarel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bidoof": {
+      "type": "nh_bounties:catch",
+      "content": "species:bidoof",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_binacle": {
+      "type": "nh_bounties:catch",
+      "content": "species:binacle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bisharp": {
+      "type": "nh_bounties:catch",
+      "content": "species:bisharp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_blastoise": {
+      "type": "nh_bounties:catch",
+      "content": "species:blastoise",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_blaziken": {
+      "type": "nh_bounties:catch",
+      "content": "species:blaziken",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_blissey": {
+      "type": "nh_bounties:catch",
+      "content": "species:blissey",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_blitzle": {
+      "type": "nh_bounties:catch",
+      "content": "species:blitzle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_boldore": {
+      "type": "nh_bounties:catch",
+      "content": "species:boldore",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_boltund": {
+      "type": "nh_bounties:catch",
+      "content": "species:boltund",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bonsly": {
+      "type": "nh_bounties:catch",
+      "content": "species:bonsly",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_bouffalant": {
+      "type": "nh_bounties:catch",
+      "content": "species:bouffalant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bounsweet": {
+      "type": "nh_bounties:catch",
+      "content": "species:bounsweet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_braixen": {
+      "type": "nh_bounties:catch",
+      "content": "species:braixen",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_brambleghast": {
+      "type": "nh_bounties:catch",
+      "content": "species:brambleghast",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bramblin": {
+      "type": "nh_bounties:catch",
+      "content": "species:bramblin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_braviary": {
+      "type": "nh_bounties:catch",
+      "content": "species:braviary",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_breloom": {
+      "type": "nh_bounties:catch",
+      "content": "species:breloom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_brionne": {
+      "type": "nh_bounties:catch",
+      "content": "species:brionne",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_bronzong": {
+      "type": "nh_bounties:catch",
+      "content": "species:bronzong",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bronzor": {
+      "type": "nh_bounties:catch",
+      "content": "species:bronzor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bruxish": {
+      "type": "nh_bounties:catch",
+      "content": "species:bruxish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_budew": {
+      "type": "nh_bounties:catch",
+      "content": "species:budew",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_buizel": {
+      "type": "nh_bounties:catch",
+      "content": "species:buizel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bulbasaur": {
+      "type": "nh_bounties:catch",
+      "content": "species:bulbasaur",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_buneary": {
+      "type": "nh_bounties:catch",
+      "content": "species:buneary",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_bunnelby": {
+      "type": "nh_bounties:catch",
+      "content": "species:bunnelby",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_burmy": {
+      "type": "nh_bounties:catch",
+      "content": "species:burmy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_butterfree": {
+      "type": "nh_bounties:catch",
+      "content": "species:butterfree",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cacnea": {
+      "type": "nh_bounties:catch",
+      "content": "species:cacnea",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cacturne": {
+      "type": "nh_bounties:catch",
+      "content": "species:cacturne",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_camerupt": {
+      "type": "nh_bounties:catch",
+      "content": "species:camerupt",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_capsakid": {
+      "type": "nh_bounties:catch",
+      "content": "species:capsakid",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_carbink": {
+      "type": "nh_bounties:catch",
+      "content": "species:carbink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_carkol": {
+      "type": "nh_bounties:catch",
+      "content": "species:carkol",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_carnivine": {
+      "type": "nh_bounties:catch",
+      "content": "species:carnivine",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_carracosta": {
+      "type": "nh_bounties:catch",
+      "content": "species:carracosta",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_carvanha": {
+      "type": "nh_bounties:catch",
+      "content": "species:carvanha",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cascoon": {
+      "type": "nh_bounties:catch",
+      "content": "species:cascoon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_caterpie": {
+      "type": "nh_bounties:catch",
+      "content": "species:caterpie",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_centiskorch": {
+      "type": "nh_bounties:catch",
+      "content": "species:centiskorch",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ceruledge": {
+      "type": "nh_bounties:catch",
+      "content": "species:ceruledge",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_cetitan": {
+      "type": "nh_bounties:catch",
+      "content": "species:cetitan",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_cetoddle": {
+      "type": "nh_bounties:catch",
+      "content": "species:cetoddle",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_chandelure": {
+      "type": "nh_bounties:catch",
+      "content": "species:chandelure",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_chansey": {
+      "type": "nh_bounties:catch",
+      "content": "species:chansey",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_charcadet": {
+      "type": "nh_bounties:catch",
+      "content": "species:charcadet",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_charizard": {
+      "type": "nh_bounties:catch",
+      "content": "species:charizard",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_charjabug": {
+      "type": "nh_bounties:catch",
+      "content": "species:charjabug",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_charmander": {
+      "type": "nh_bounties:catch",
+      "content": "species:charmander",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_charmeleon": {
+      "type": "nh_bounties:catch",
+      "content": "species:charmeleon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_chatot": {
+      "type": "nh_bounties:catch",
+      "content": "species:chatot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cherrim": {
+      "type": "nh_bounties:catch",
+      "content": "species:cherrim",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cherubi": {
+      "type": "nh_bounties:catch",
+      "content": "species:cherubi",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_chesnaught": {
+      "type": "nh_bounties:catch",
+      "content": "species:chesnaught",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_chespin": {
+      "type": "nh_bounties:catch",
+      "content": "species:chespin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_chewtle": {
+      "type": "nh_bounties:catch",
+      "content": "species:chewtle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_chikorita": {
+      "type": "nh_bounties:catch",
+      "content": "species:chikorita",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_chimchar": {
+      "type": "nh_bounties:catch",
+      "content": "species:chimchar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_chimecho": {
+      "type": "nh_bounties:catch",
+      "content": "species:chimecho",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_chinchou": {
+      "type": "nh_bounties:catch",
+      "content": "species:chinchou",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_chingling": {
+      "type": "nh_bounties:catch",
+      "content": "species:chingling",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_cinccino": {
+      "type": "nh_bounties:catch",
+      "content": "species:cinccino",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cinderace": {
+      "type": "nh_bounties:catch",
+      "content": "species:cinderace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_clamperl": {
+      "type": "nh_bounties:catch",
+      "content": "species:clamperl",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_clauncher": {
+      "type": "nh_bounties:catch",
+      "content": "species:clauncher",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_clawitzer": {
+      "type": "nh_bounties:catch",
+      "content": "species:clawitzer",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_claydol": {
+      "type": "nh_bounties:catch",
+      "content": "species:claydol",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_clefable": {
+      "type": "nh_bounties:catch",
+      "content": "species:clefable",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_clefairy": {
+      "type": "nh_bounties:catch",
+      "content": "species:clefairy",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_cleffa": {
+      "type": "nh_bounties:catch",
+      "content": "species:cleffa",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_clobbopus": {
+      "type": "nh_bounties:catch",
+      "content": "species:clobbopus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_clodsire": {
+      "type": "nh_bounties:catch",
+      "content": "species:clodsire",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cloyster": {
+      "type": "nh_bounties:catch",
+      "content": "species:cloyster",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_coalossal": {
+      "type": "nh_bounties:catch",
+      "content": "species:coalossal",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cofagrigus": {
+      "type": "nh_bounties:catch",
+      "content": "species:cofagrigus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_combee": {
+      "type": "nh_bounties:catch",
+      "content": "species:combee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_combusken": {
+      "type": "nh_bounties:catch",
+      "content": "species:combusken",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_comfey": {
+      "type": "nh_bounties:catch",
+      "content": "species:comfey",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_conkeldurr": {
+      "type": "nh_bounties:catch",
+      "content": "species:conkeldurr",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_copperajah": {
+      "type": "nh_bounties:catch",
+      "content": "species:copperajah",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_corphish": {
+      "type": "nh_bounties:catch",
+      "content": "species:corphish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_corsola": {
+      "type": "nh_bounties:catch",
+      "content": "species:corsola",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_corviknight": {
+      "type": "nh_bounties:catch",
+      "content": "species:corviknight",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_corvisquire": {
+      "type": "nh_bounties:catch",
+      "content": "species:corvisquire",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cottonee": {
+      "type": "nh_bounties:catch",
+      "content": "species:cottonee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_crabominable": {
+      "type": "nh_bounties:catch",
+      "content": "species:crabominable",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_crabrawler": {
+      "type": "nh_bounties:catch",
+      "content": "species:crabrawler",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cradily": {
+      "type": "nh_bounties:catch",
+      "content": "species:cradily",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_cramorant": {
+      "type": "nh_bounties:catch",
+      "content": "species:cramorant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cranidos": {
+      "type": "nh_bounties:catch",
+      "content": "species:cranidos",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_crawdaunt": {
+      "type": "nh_bounties:catch",
+      "content": "species:crawdaunt",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_croagunk": {
+      "type": "nh_bounties:catch",
+      "content": "species:croagunk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_crobat": {
+      "type": "nh_bounties:catch",
+      "content": "species:crobat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_crocalor": {
+      "type": "nh_bounties:catch",
+      "content": "species:crocalor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_croconaw": {
+      "type": "nh_bounties:catch",
+      "content": "species:croconaw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_crustle": {
+      "type": "nh_bounties:catch",
+      "content": "species:crustle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cryogonal": {
+      "type": "nh_bounties:catch",
+      "content": "species:cryogonal",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cubchoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:cubchoo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cubone": {
+      "type": "nh_bounties:catch",
+      "content": "species:cubone",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cufant": {
+      "type": "nh_bounties:catch",
+      "content": "species:cufant",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_cursola": {
+      "type": "nh_bounties:catch",
+      "content": "species:cursola",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cutiefly": {
+      "type": "nh_bounties:catch",
+      "content": "species:cutiefly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_cyclizar": {
+      "type": "nh_bounties:catch",
+      "content": "species:cyclizar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_cyndaquil": {
+      "type": "nh_bounties:catch",
+      "content": "species:cyndaquil",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_dachsbun": {
+      "type": "nh_bounties:catch",
+      "content": "species:dachsbun",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_darmanitan": {
+      "type": "nh_bounties:catch",
+      "content": "species:darmanitan",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dartrix": {
+      "type": "nh_bounties:catch",
+      "content": "species:dartrix",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_darumaka": {
+      "type": "nh_bounties:catch",
+      "content": "species:darumaka",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_decidueye": {
+      "type": "nh_bounties:catch",
+      "content": "species:decidueye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_dedenne": {
+      "type": "nh_bounties:catch",
+      "content": "species:dedenne",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_deerling": {
+      "type": "nh_bounties:catch",
+      "content": "species:deerling",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_deino": {
+      "type": "nh_bounties:catch",
+      "content": "species:deino",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_delcatty": {
+      "type": "nh_bounties:catch",
+      "content": "species:delcatty",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_delibird": {
+      "type": "nh_bounties:catch",
+      "content": "species:delibird",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_delphox": {
+      "type": "nh_bounties:catch",
+      "content": "species:delphox",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_dewgong": {
+      "type": "nh_bounties:catch",
+      "content": "species:dewgong",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dewott": {
+      "type": "nh_bounties:catch",
+      "content": "species:dewott",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_dewpider": {
+      "type": "nh_bounties:catch",
+      "content": "species:dewpider",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dhelmise": {
+      "type": "nh_bounties:catch",
+      "content": "species:dhelmise",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_diggersby": {
+      "type": "nh_bounties:catch",
+      "content": "species:diggersby",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_diglett": {
+      "type": "nh_bounties:catch",
+      "content": "species:diglett",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dipplin": {
+      "type": "nh_bounties:catch",
+      "content": "species:dipplin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ditto": {
+      "type": "nh_bounties:catch",
+      "content": "species:ditto",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_dodrio": {
+      "type": "nh_bounties:catch",
+      "content": "species:dodrio",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_doduo": {
+      "type": "nh_bounties:catch",
+      "content": "species:doduo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dolliv": {
+      "type": "nh_bounties:catch",
+      "content": "species:dolliv",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_dondozo": {
+      "type": "nh_bounties:catch",
+      "content": "species:dondozo",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_donphan": {
+      "type": "nh_bounties:catch",
+      "content": "species:donphan",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_doublade": {
+      "type": "nh_bounties:catch",
+      "content": "species:doublade",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_dragalge": {
+      "type": "nh_bounties:catch",
+      "content": "species:dragalge",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dragapult": {
+      "type": "nh_bounties:catch",
+      "content": "species:dragapult",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_dragonair": {
+      "type": "nh_bounties:catch",
+      "content": "species:dragonair",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dragonite": {
+      "type": "nh_bounties:catch",
+      "content": "species:dragonite",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_drakloak": {
+      "type": "nh_bounties:catch",
+      "content": "species:drakloak",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_drampa": {
+      "type": "nh_bounties:catch",
+      "content": "species:drampa",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_drapion": {
+      "type": "nh_bounties:catch",
+      "content": "species:drapion",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dratini": {
+      "type": "nh_bounties:catch",
+      "content": "species:dratini",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_drednaw": {
+      "type": "nh_bounties:catch",
+      "content": "species:drednaw",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dreepy": {
+      "type": "nh_bounties:catch",
+      "content": "species:dreepy",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_drifblim": {
+      "type": "nh_bounties:catch",
+      "content": "species:drifblim",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_drifloon": {
+      "type": "nh_bounties:catch",
+      "content": "species:drifloon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_drilbur": {
+      "type": "nh_bounties:catch",
+      "content": "species:drilbur",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_drizzile": {
+      "type": "nh_bounties:catch",
+      "content": "species:drizzile",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_drowzee": {
+      "type": "nh_bounties:catch",
+      "content": "species:drowzee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_druddigon": {
+      "type": "nh_bounties:catch",
+      "content": "species:druddigon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_dubwool": {
+      "type": "nh_bounties:catch",
+      "content": "species:dubwool",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ducklett": {
+      "type": "nh_bounties:catch",
+      "content": "species:ducklett",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dudunsparce": {
+      "type": "nh_bounties:catch",
+      "content": "species:dudunsparce",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_dugtrio": {
+      "type": "nh_bounties:catch",
+      "content": "species:dugtrio",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dunsparce": {
+      "type": "nh_bounties:catch",
+      "content": "species:dunsparce",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_duosion": {
+      "type": "nh_bounties:catch",
+      "content": "species:duosion",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_duraludon": {
+      "type": "nh_bounties:catch",
+      "content": "species:duraludon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_durant": {
+      "type": "nh_bounties:catch",
+      "content": "species:durant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dusclops": {
+      "type": "nh_bounties:catch",
+      "content": "species:dusclops",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dusknoir": {
+      "type": "nh_bounties:catch",
+      "content": "species:dusknoir",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_duskull": {
+      "type": "nh_bounties:catch",
+      "content": "species:duskull",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dustox": {
+      "type": "nh_bounties:catch",
+      "content": "species:dustox",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_dwebble": {
+      "type": "nh_bounties:catch",
+      "content": "species:dwebble",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_eelektrik": {
+      "type": "nh_bounties:catch",
+      "content": "species:eelektrik",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_eelektross": {
+      "type": "nh_bounties:catch",
+      "content": "species:eelektross",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_eevee": {
+      "type": "nh_bounties:catch",
+      "content": "species:eevee",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_eiscue": {
+      "type": "nh_bounties:catch",
+      "content": "species:eiscue",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ekans": {
+      "type": "nh_bounties:catch",
+      "content": "species:ekans",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_eldegoss": {
+      "type": "nh_bounties:catch",
+      "content": "species:eldegoss",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_electabuzz": {
+      "type": "nh_bounties:catch",
+      "content": "species:electabuzz",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_electivire": {
+      "type": "nh_bounties:catch",
+      "content": "species:electivire",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_electrike": {
+      "type": "nh_bounties:catch",
+      "content": "species:electrike",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_electrode": {
+      "type": "nh_bounties:catch",
+      "content": "species:electrode",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_elekid": {
+      "type": "nh_bounties:catch",
+      "content": "species:elekid",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_elgyem": {
+      "type": "nh_bounties:catch",
+      "content": "species:elgyem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_emboar": {
+      "type": "nh_bounties:catch",
+      "content": "species:emboar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_emolga": {
+      "type": "nh_bounties:catch",
+      "content": "species:emolga",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_empoleon": {
+      "type": "nh_bounties:catch",
+      "content": "species:empoleon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_escavalier": {
+      "type": "nh_bounties:catch",
+      "content": "species:escavalier",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_espathra": {
+      "type": "nh_bounties:catch",
+      "content": "species:espathra",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_espeon": {
+      "type": "nh_bounties:catch",
+      "content": "species:espeon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_espurr": {
+      "type": "nh_bounties:catch",
+      "content": "species:espurr",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_excadrill": {
+      "type": "nh_bounties:catch",
+      "content": "species:excadrill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_exeggcute": {
+      "type": "nh_bounties:catch",
+      "content": "species:exeggcute",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_exeggutor": {
+      "type": "nh_bounties:catch",
+      "content": "species:exeggutor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_exploud": {
+      "type": "nh_bounties:catch",
+      "content": "species:exploud",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_falinks": {
+      "type": "nh_bounties:catch",
+      "content": "species:falinks",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_farfetchd": {
+      "type": "nh_bounties:catch",
+      "content": "species:farfetchd",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_farigiraf": {
+      "type": "nh_bounties:catch",
+      "content": "species:farigiraf",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fearow": {
+      "type": "nh_bounties:catch",
+      "content": "species:fearow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_feebas": {
+      "type": "nh_bounties:catch",
+      "content": "species:feebas",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fennekin": {
+      "type": "nh_bounties:catch",
+      "content": "species:fennekin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_feraligatr": {
+      "type": "nh_bounties:catch",
+      "content": "species:feraligatr",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_ferroseed": {
+      "type": "nh_bounties:catch",
+      "content": "species:ferroseed",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ferrothorn": {
+      "type": "nh_bounties:catch",
+      "content": "species:ferrothorn",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fidough": {
+      "type": "nh_bounties:catch",
+      "content": "species:fidough",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_finizen": {
+      "type": "nh_bounties:catch",
+      "content": "species:finizen",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_finneon": {
+      "type": "nh_bounties:catch",
+      "content": "species:finneon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flaaffy": {
+      "type": "nh_bounties:catch",
+      "content": "species:flaaffy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flabebe": {
+      "type": "nh_bounties:catch",
+      "content": "species:flabebe",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flamigo": {
+      "type": "nh_bounties:catch",
+      "content": "species:flamigo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flapple": {
+      "type": "nh_bounties:catch",
+      "content": "species:flapple",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flareon": {
+      "type": "nh_bounties:catch",
+      "content": "species:flareon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_fletchinder": {
+      "type": "nh_bounties:catch",
+      "content": "species:fletchinder",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fletchling": {
+      "type": "nh_bounties:catch",
+      "content": "species:fletchling",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flittle": {
+      "type": "nh_bounties:catch",
+      "content": "species:flittle",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_floatzel": {
+      "type": "nh_bounties:catch",
+      "content": "species:floatzel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_floette": {
+      "type": "nh_bounties:catch",
+      "content": "species:floette",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_floragato": {
+      "type": "nh_bounties:catch",
+      "content": "species:floragato",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_florges": {
+      "type": "nh_bounties:catch",
+      "content": "species:florges",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_flygon": {
+      "type": "nh_bounties:catch",
+      "content": "species:flygon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_fomantis": {
+      "type": "nh_bounties:catch",
+      "content": "species:fomantis",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_foongus": {
+      "type": "nh_bounties:catch",
+      "content": "species:foongus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_forretress": {
+      "type": "nh_bounties:catch",
+      "content": "species:forretress",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fraxure": {
+      "type": "nh_bounties:catch",
+      "content": "species:fraxure",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_frillish": {
+      "type": "nh_bounties:catch",
+      "content": "species:frillish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_froakie": {
+      "type": "nh_bounties:catch",
+      "content": "species:froakie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_frogadier": {
+      "type": "nh_bounties:catch",
+      "content": "species:frogadier",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_froslass": {
+      "type": "nh_bounties:catch",
+      "content": "species:froslass",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_frosmoth": {
+      "type": "nh_bounties:catch",
+      "content": "species:frosmoth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_fuecoco": {
+      "type": "nh_bounties:catch",
+      "content": "species:fuecoco",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_furfrou": {
+      "type": "nh_bounties:catch",
+      "content": "species:furfrou",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_furret": {
+      "type": "nh_bounties:catch",
+      "content": "species:furret",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gabite": {
+      "type": "nh_bounties:catch",
+      "content": "species:gabite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_gallade": {
+      "type": "nh_bounties:catch",
+      "content": "species:gallade",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_galvantula": {
+      "type": "nh_bounties:catch",
+      "content": "species:galvantula",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_garbodor": {
+      "type": "nh_bounties:catch",
+      "content": "species:garbodor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_garchomp": {
+      "type": "nh_bounties:catch",
+      "content": "species:garchomp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_gardevoir": {
+      "type": "nh_bounties:catch",
+      "content": "species:gardevoir",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_garganacl": {
+      "type": "nh_bounties:catch",
+      "content": "species:garganacl",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gastly": {
+      "type": "nh_bounties:catch",
+      "content": "species:gastly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gastrodon": {
+      "type": "nh_bounties:catch",
+      "content": "species:gastrodon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gengar": {
+      "type": "nh_bounties:catch",
+      "content": "species:gengar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_geodude": {
+      "type": "nh_bounties:catch",
+      "content": "species:geodude",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gible": {
+      "type": "nh_bounties:catch",
+      "content": "species:gible",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_gigalith": {
+      "type": "nh_bounties:catch",
+      "content": "species:gigalith",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gimmighoul": {
+      "type": "nh_bounties:catch",
+      "content": "species:gimmighoul",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_girafarig": {
+      "type": "nh_bounties:catch",
+      "content": "species:girafarig",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_glaceon": {
+      "type": "nh_bounties:catch",
+      "content": "species:glaceon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_glalie": {
+      "type": "nh_bounties:catch",
+      "content": "species:glalie",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_glameow": {
+      "type": "nh_bounties:catch",
+      "content": "species:glameow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gligar": {
+      "type": "nh_bounties:catch",
+      "content": "species:gligar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_glimmet": {
+      "type": "nh_bounties:catch",
+      "content": "species:glimmet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_glimmora": {
+      "type": "nh_bounties:catch",
+      "content": "species:glimmora",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gliscor": {
+      "type": "nh_bounties:catch",
+      "content": "species:gliscor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gloom": {
+      "type": "nh_bounties:catch",
+      "content": "species:gloom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gogoat": {
+      "type": "nh_bounties:catch",
+      "content": "species:gogoat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golbat": {
+      "type": "nh_bounties:catch",
+      "content": "species:golbat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_goldeen": {
+      "type": "nh_bounties:catch",
+      "content": "species:goldeen",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golduck": {
+      "type": "nh_bounties:catch",
+      "content": "species:golduck",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golem": {
+      "type": "nh_bounties:catch",
+      "content": "species:golem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golett": {
+      "type": "nh_bounties:catch",
+      "content": "species:golett",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golisopod": {
+      "type": "nh_bounties:catch",
+      "content": "species:golisopod",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_golurk": {
+      "type": "nh_bounties:catch",
+      "content": "species:golurk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_goodra": {
+      "type": "nh_bounties:catch",
+      "content": "species:goodra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_goomy": {
+      "type": "nh_bounties:catch",
+      "content": "species:goomy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gorebyss": {
+      "type": "nh_bounties:catch",
+      "content": "species:gorebyss",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_gossifleur": {
+      "type": "nh_bounties:catch",
+      "content": "species:gossifleur",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gothita": {
+      "type": "nh_bounties:catch",
+      "content": "species:gothita",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gothitelle": {
+      "type": "nh_bounties:catch",
+      "content": "species:gothitelle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gothorita": {
+      "type": "nh_bounties:catch",
+      "content": "species:gothorita",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gourgeist": {
+      "type": "nh_bounties:catch",
+      "content": "species:gourgeist",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_grafaiai": {
+      "type": "nh_bounties:catch",
+      "content": "species:grafaiai",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_granbull": {
+      "type": "nh_bounties:catch",
+      "content": "species:granbull",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_grapploct": {
+      "type": "nh_bounties:catch",
+      "content": "species:grapploct",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_graveler": {
+      "type": "nh_bounties:catch",
+      "content": "species:graveler",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_greavard": {
+      "type": "nh_bounties:catch",
+      "content": "species:greavard",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_greedent": {
+      "type": "nh_bounties:catch",
+      "content": "species:greedent",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_greninja": {
+      "type": "nh_bounties:catch",
+      "content": "species:greninja",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_grimer": {
+      "type": "nh_bounties:catch",
+      "content": "species:grimer",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_grimmsnarl": {
+      "type": "nh_bounties:catch",
+      "content": "species:grimmsnarl",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_grookey": {
+      "type": "nh_bounties:catch",
+      "content": "species:grookey",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_grotle": {
+      "type": "nh_bounties:catch",
+      "content": "species:grotle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_grovyle": {
+      "type": "nh_bounties:catch",
+      "content": "species:grovyle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_growlithe": {
+      "type": "nh_bounties:catch",
+      "content": "species:growlithe",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_grubbin": {
+      "type": "nh_bounties:catch",
+      "content": "species:grubbin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_grumpig": {
+      "type": "nh_bounties:catch",
+      "content": "species:grumpig",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gumshoos": {
+      "type": "nh_bounties:catch",
+      "content": "species:gumshoos",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gurdurr": {
+      "type": "nh_bounties:catch",
+      "content": "species:gurdurr",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_gyarados": {
+      "type": "nh_bounties:catch",
+      "content": "species:gyarados",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hakamoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:hakamoo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_happiny": {
+      "type": "nh_bounties:catch",
+      "content": "species:happiny",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_hariyama": {
+      "type": "nh_bounties:catch",
+      "content": "species:hariyama",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hatenna": {
+      "type": "nh_bounties:catch",
+      "content": "species:hatenna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hatterene": {
+      "type": "nh_bounties:catch",
+      "content": "species:hatterene",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hattrem": {
+      "type": "nh_bounties:catch",
+      "content": "species:hattrem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_haunter": {
+      "type": "nh_bounties:catch",
+      "content": "species:haunter",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hawlucha": {
+      "type": "nh_bounties:catch",
+      "content": "species:hawlucha",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_haxorus": {
+      "type": "nh_bounties:catch",
+      "content": "species:haxorus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_heatmor": {
+      "type": "nh_bounties:catch",
+      "content": "species:heatmor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_heliolisk": {
+      "type": "nh_bounties:catch",
+      "content": "species:heliolisk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_helioptile": {
+      "type": "nh_bounties:catch",
+      "content": "species:helioptile",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_heracross": {
+      "type": "nh_bounties:catch",
+      "content": "species:heracross",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_herdier": {
+      "type": "nh_bounties:catch",
+      "content": "species:herdier",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hippopotas": {
+      "type": "nh_bounties:catch",
+      "content": "species:hippopotas",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hippowdon": {
+      "type": "nh_bounties:catch",
+      "content": "species:hippowdon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hitmonchan": {
+      "type": "nh_bounties:catch",
+      "content": "species:hitmonchan",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_hitmonlee": {
+      "type": "nh_bounties:catch",
+      "content": "species:hitmonlee",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_hitmontop": {
+      "type": "nh_bounties:catch",
+      "content": "species:hitmontop",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_honchkrow": {
+      "type": "nh_bounties:catch",
+      "content": "species:honchkrow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_honedge": {
+      "type": "nh_bounties:catch",
+      "content": "species:honedge",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_hoothoot": {
+      "type": "nh_bounties:catch",
+      "content": "species:hoothoot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hoppip": {
+      "type": "nh_bounties:catch",
+      "content": "species:hoppip",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_horsea": {
+      "type": "nh_bounties:catch",
+      "content": "species:horsea",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_houndoom": {
+      "type": "nh_bounties:catch",
+      "content": "species:houndoom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_houndour": {
+      "type": "nh_bounties:catch",
+      "content": "species:houndour",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_houndstone": {
+      "type": "nh_bounties:catch",
+      "content": "species:houndstone",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_huntail": {
+      "type": "nh_bounties:catch",
+      "content": "species:huntail",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_hydrapple": {
+      "type": "nh_bounties:catch",
+      "content": "species:hydrapple",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_hydreigon": {
+      "type": "nh_bounties:catch",
+      "content": "species:hydreigon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_hypno": {
+      "type": "nh_bounties:catch",
+      "content": "species:hypno",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_igglybuff": {
+      "type": "nh_bounties:catch",
+      "content": "species:igglybuff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_illumise": {
+      "type": "nh_bounties:catch",
+      "content": "species:illumise",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_impidimp": {
+      "type": "nh_bounties:catch",
+      "content": "species:impidimp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_incineroar": {
+      "type": "nh_bounties:catch",
+      "content": "species:incineroar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_indeedee": {
+      "type": "nh_bounties:catch",
+      "content": "species:indeedee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_infernape": {
+      "type": "nh_bounties:catch",
+      "content": "species:infernape",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_inkay": {
+      "type": "nh_bounties:catch",
+      "content": "species:inkay",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_inteleon": {
+      "type": "nh_bounties:catch",
+      "content": "species:inteleon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_ivysaur": {
+      "type": "nh_bounties:catch",
+      "content": "species:ivysaur",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_jangmoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:jangmoo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_jellicent": {
+      "type": "nh_bounties:catch",
+      "content": "species:jellicent",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_jigglypuff": {
+      "type": "nh_bounties:catch",
+      "content": "species:jigglypuff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_jolteon": {
+      "type": "nh_bounties:catch",
+      "content": "species:jolteon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_joltik": {
+      "type": "nh_bounties:catch",
+      "content": "species:joltik",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_jumpluff": {
+      "type": "nh_bounties:catch",
+      "content": "species:jumpluff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_jynx": {
+      "type": "nh_bounties:catch",
+      "content": "species:jynx",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_kabuto": {
+      "type": "nh_bounties:catch",
+      "content": "species:kabuto",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_kabutops": {
+      "type": "nh_bounties:catch",
+      "content": "species:kabutops",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_kadabra": {
+      "type": "nh_bounties:catch",
+      "content": "species:kadabra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kakuna": {
+      "type": "nh_bounties:catch",
+      "content": "species:kakuna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kangaskhan": {
+      "type": "nh_bounties:catch",
+      "content": "species:kangaskhan",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_karrablast": {
+      "type": "nh_bounties:catch",
+      "content": "species:karrablast",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kecleon": {
+      "type": "nh_bounties:catch",
+      "content": "species:kecleon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_kilowattrel": {
+      "type": "nh_bounties:catch",
+      "content": "species:kilowattrel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kingambit": {
+      "type": "nh_bounties:catch",
+      "content": "species:kingambit",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kingdra": {
+      "type": "nh_bounties:catch",
+      "content": "species:kingdra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kingler": {
+      "type": "nh_bounties:catch",
+      "content": "species:kingler",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kirlia": {
+      "type": "nh_bounties:catch",
+      "content": "species:kirlia",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_klang": {
+      "type": "nh_bounties:catch",
+      "content": "species:klang",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_klawf": {
+      "type": "nh_bounties:catch",
+      "content": "species:klawf",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_kleavor": {
+      "type": "nh_bounties:catch",
+      "content": "species:kleavor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_klefki": {
+      "type": "nh_bounties:catch",
+      "content": "species:klefki",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_klink": {
+      "type": "nh_bounties:catch",
+      "content": "species:klink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_klinklang": {
+      "type": "nh_bounties:catch",
+      "content": "species:klinklang",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_koffing": {
+      "type": "nh_bounties:catch",
+      "content": "species:koffing",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_komala": {
+      "type": "nh_bounties:catch",
+      "content": "species:komala",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kommoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:kommoo",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_krabby": {
+      "type": "nh_bounties:catch",
+      "content": "species:krabby",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kricketot": {
+      "type": "nh_bounties:catch",
+      "content": "species:kricketot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_kricketune": {
+      "type": "nh_bounties:catch",
+      "content": "species:kricketune",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_krokorok": {
+      "type": "nh_bounties:catch",
+      "content": "species:krokorok",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_krookodile": {
+      "type": "nh_bounties:catch",
+      "content": "species:krookodile",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lairon": {
+      "type": "nh_bounties:catch",
+      "content": "species:lairon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lampent": {
+      "type": "nh_bounties:catch",
+      "content": "species:lampent",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lanturn": {
+      "type": "nh_bounties:catch",
+      "content": "species:lanturn",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lapras": {
+      "type": "nh_bounties:catch",
+      "content": "species:lapras",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_larvesta": {
+      "type": "nh_bounties:catch",
+      "content": "species:larvesta",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_larvitar": {
+      "type": "nh_bounties:catch",
+      "content": "species:larvitar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_leafeon": {
+      "type": "nh_bounties:catch",
+      "content": "species:leafeon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_leavanny": {
+      "type": "nh_bounties:catch",
+      "content": "species:leavanny",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lechonk": {
+      "type": "nh_bounties:catch",
+      "content": "species:lechonk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ledian": {
+      "type": "nh_bounties:catch",
+      "content": "species:ledian",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ledyba": {
+      "type": "nh_bounties:catch",
+      "content": "species:ledyba",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lickilicky": {
+      "type": "nh_bounties:catch",
+      "content": "species:lickilicky",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_lickitung": {
+      "type": "nh_bounties:catch",
+      "content": "species:lickitung",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_liepard": {
+      "type": "nh_bounties:catch",
+      "content": "species:liepard",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lileep": {
+      "type": "nh_bounties:catch",
+      "content": "species:lileep",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_lilligant": {
+      "type": "nh_bounties:catch",
+      "content": "species:lilligant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lillipup": {
+      "type": "nh_bounties:catch",
+      "content": "species:lillipup",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_linoone": {
+      "type": "nh_bounties:catch",
+      "content": "species:linoone",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_litleo": {
+      "type": "nh_bounties:catch",
+      "content": "species:litleo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_litten": {
+      "type": "nh_bounties:catch",
+      "content": "species:litten",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_litwick": {
+      "type": "nh_bounties:catch",
+      "content": "species:litwick",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lokix": {
+      "type": "nh_bounties:catch",
+      "content": "species:lokix",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lombre": {
+      "type": "nh_bounties:catch",
+      "content": "species:lombre",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lopunny": {
+      "type": "nh_bounties:catch",
+      "content": "species:lopunny",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lotad": {
+      "type": "nh_bounties:catch",
+      "content": "species:lotad",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_loudred": {
+      "type": "nh_bounties:catch",
+      "content": "species:loudred",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lucario": {
+      "type": "nh_bounties:catch",
+      "content": "species:lucario",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_ludicolo": {
+      "type": "nh_bounties:catch",
+      "content": "species:ludicolo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lumineon": {
+      "type": "nh_bounties:catch",
+      "content": "species:lumineon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lunatone": {
+      "type": "nh_bounties:catch",
+      "content": "species:lunatone",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_lurantis": {
+      "type": "nh_bounties:catch",
+      "content": "species:lurantis",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_luvdisc": {
+      "type": "nh_bounties:catch",
+      "content": "species:luvdisc",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_luxio": {
+      "type": "nh_bounties:catch",
+      "content": "species:luxio",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_luxray": {
+      "type": "nh_bounties:catch",
+      "content": "species:luxray",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_lycanroc": {
+      "type": "nh_bounties:catch",
+      "content": "species:lycanroc",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mabosstiff": {
+      "type": "nh_bounties:catch",
+      "content": "species:mabosstiff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_machamp": {
+      "type": "nh_bounties:catch",
+      "content": "species:machamp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_machoke": {
+      "type": "nh_bounties:catch",
+      "content": "species:machoke",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_machop": {
+      "type": "nh_bounties:catch",
+      "content": "species:machop",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magby": {
+      "type": "nh_bounties:catch",
+      "content": "species:magby",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magcargo": {
+      "type": "nh_bounties:catch",
+      "content": "species:magcargo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magikarp": {
+      "type": "nh_bounties:catch",
+      "content": "species:magikarp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magmar": {
+      "type": "nh_bounties:catch",
+      "content": "species:magmar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magmortar": {
+      "type": "nh_bounties:catch",
+      "content": "species:magmortar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magnemite": {
+      "type": "nh_bounties:catch",
+      "content": "species:magnemite",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magneton": {
+      "type": "nh_bounties:catch",
+      "content": "species:magneton",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_magnezone": {
+      "type": "nh_bounties:catch",
+      "content": "species:magnezone",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_makuhita": {
+      "type": "nh_bounties:catch",
+      "content": "species:makuhita",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_malamar": {
+      "type": "nh_bounties:catch",
+      "content": "species:malamar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mamoswine": {
+      "type": "nh_bounties:catch",
+      "content": "species:mamoswine",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_manectric": {
+      "type": "nh_bounties:catch",
+      "content": "species:manectric",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_mankey": {
+      "type": "nh_bounties:catch",
+      "content": "species:mankey",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mantine": {
+      "type": "nh_bounties:catch",
+      "content": "species:mantine",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mantyke": {
+      "type": "nh_bounties:catch",
+      "content": "species:mantyke",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_maractus": {
+      "type": "nh_bounties:catch",
+      "content": "species:maractus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mareanie": {
+      "type": "nh_bounties:catch",
+      "content": "species:mareanie",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mareep": {
+      "type": "nh_bounties:catch",
+      "content": "species:mareep",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_marill": {
+      "type": "nh_bounties:catch",
+      "content": "species:marill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_marowak": {
+      "type": "nh_bounties:catch",
+      "content": "species:marowak",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_marshtomp": {
+      "type": "nh_bounties:catch",
+      "content": "species:marshtomp",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_maschiff": {
+      "type": "nh_bounties:catch",
+      "content": "species:maschiff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_masquerain": {
+      "type": "nh_bounties:catch",
+      "content": "species:masquerain",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_maushold": {
+      "type": "nh_bounties:catch",
+      "content": "species:maushold",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mawile": {
+      "type": "nh_bounties:catch",
+      "content": "species:mawile",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_medicham": {
+      "type": "nh_bounties:catch",
+      "content": "species:medicham",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_meditite": {
+      "type": "nh_bounties:catch",
+      "content": "species:meditite",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_meganium": {
+      "type": "nh_bounties:catch",
+      "content": "species:meganium",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_meowscarada": {
+      "type": "nh_bounties:catch",
+      "content": "species:meowscarada",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_meowstic": {
+      "type": "nh_bounties:catch",
+      "content": "species:meowstic",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_meowth": {
+      "type": "nh_bounties:catch",
+      "content": "species:meowth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_metagross": {
+      "type": "nh_bounties:catch",
+      "content": "species:metagross",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_metang": {
+      "type": "nh_bounties:catch",
+      "content": "species:metang",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_metapod": {
+      "type": "nh_bounties:catch",
+      "content": "species:metapod",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mienfoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:mienfoo",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_mienshao": {
+      "type": "nh_bounties:catch",
+      "content": "species:mienshao",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_mightyena": {
+      "type": "nh_bounties:catch",
+      "content": "species:mightyena",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_milcery": {
+      "type": "nh_bounties:catch",
+      "content": "species:milcery",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_milotic": {
+      "type": "nh_bounties:catch",
+      "content": "species:milotic",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_miltank": {
+      "type": "nh_bounties:catch",
+      "content": "species:miltank",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mimejr": {
+      "type": "nh_bounties:catch",
+      "content": "species:mimejr",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mimikyu": {
+      "type": "nh_bounties:catch",
+      "content": "species:mimikyu",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_minccino": {
+      "type": "nh_bounties:catch",
+      "content": "species:minccino",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_minior": {
+      "type": "nh_bounties:catch",
+      "content": "species:minior",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_minun": {
+      "type": "nh_bounties:catch",
+      "content": "species:minun",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_misdreavus": {
+      "type": "nh_bounties:catch",
+      "content": "species:misdreavus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mismagius": {
+      "type": "nh_bounties:catch",
+      "content": "species:mismagius",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_monferno": {
+      "type": "nh_bounties:catch",
+      "content": "species:monferno",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_morelull": {
+      "type": "nh_bounties:catch",
+      "content": "species:morelull",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_morgrem": {
+      "type": "nh_bounties:catch",
+      "content": "species:morgrem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_morpeko": {
+      "type": "nh_bounties:catch",
+      "content": "species:morpeko",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_mothim": {
+      "type": "nh_bounties:catch",
+      "content": "species:mothim",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mrmime": {
+      "type": "nh_bounties:catch",
+      "content": "species:mrmime",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mrrime": {
+      "type": "nh_bounties:catch",
+      "content": "species:mrrime",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_mudbray": {
+      "type": "nh_bounties:catch",
+      "content": "species:mudbray",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_mudkip": {
+      "type": "nh_bounties:catch",
+      "content": "species:mudkip",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_mudsdale": {
+      "type": "nh_bounties:catch",
+      "content": "species:mudsdale",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_muk": {
+      "type": "nh_bounties:catch",
+      "content": "species:muk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_munchlax": {
+      "type": "nh_bounties:catch",
+      "content": "species:munchlax",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_munna": {
+      "type": "nh_bounties:catch",
+      "content": "species:munna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_murkrow": {
+      "type": "nh_bounties:catch",
+      "content": "species:murkrow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_musharna": {
+      "type": "nh_bounties:catch",
+      "content": "species:musharna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_nacli": {
+      "type": "nh_bounties:catch",
+      "content": "species:nacli",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_naclstack": {
+      "type": "nh_bounties:catch",
+      "content": "species:naclstack",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_natu": {
+      "type": "nh_bounties:catch",
+      "content": "species:natu",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_nickit": {
+      "type": "nh_bounties:catch",
+      "content": "species:nickit",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_nidoking": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidoking",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nidoqueen": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidoqueen",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nidoranf": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidoranf",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nidoranm": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidoranm",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nidorina": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidorina",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nidorino": {
+      "type": "nh_bounties:catch",
+      "content": "species:nidorino",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nincada": {
+      "type": "nh_bounties:catch",
+      "content": "species:nincada",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ninetales": {
+      "type": "nh_bounties:catch",
+      "content": "species:ninetales",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ninjask": {
+      "type": "nh_bounties:catch",
+      "content": "species:ninjask",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_noctowl": {
+      "type": "nh_bounties:catch",
+      "content": "species:noctowl",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_noibat": {
+      "type": "nh_bounties:catch",
+      "content": "species:noibat",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_noivern": {
+      "type": "nh_bounties:catch",
+      "content": "species:noivern",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_nosepass": {
+      "type": "nh_bounties:catch",
+      "content": "species:nosepass",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_numel": {
+      "type": "nh_bounties:catch",
+      "content": "species:numel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_nuzleaf": {
+      "type": "nh_bounties:catch",
+      "content": "species:nuzleaf",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_nymble": {
+      "type": "nh_bounties:catch",
+      "content": "species:nymble",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_obstagoon": {
+      "type": "nh_bounties:catch",
+      "content": "species:obstagoon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_octillery": {
+      "type": "nh_bounties:catch",
+      "content": "species:octillery",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_oddish": {
+      "type": "nh_bounties:catch",
+      "content": "species:oddish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_oinkologne": {
+      "type": "nh_bounties:catch",
+      "content": "species:oinkologne",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_omanyte": {
+      "type": "nh_bounties:catch",
+      "content": "species:omanyte",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_omastar": {
+      "type": "nh_bounties:catch",
+      "content": "species:omastar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_onix": {
+      "type": "nh_bounties:catch",
+      "content": "species:onix",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_orthworm": {
+      "type": "nh_bounties:catch",
+      "content": "species:orthworm",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_oshawott": {
+      "type": "nh_bounties:catch",
+      "content": "species:oshawott",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_overqwil": {
+      "type": "nh_bounties:catch",
+      "content": "species:overqwil",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pachirisu": {
+      "type": "nh_bounties:catch",
+      "content": "species:pachirisu",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_palafin": {
+      "type": "nh_bounties:catch",
+      "content": "species:palafin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_palossand": {
+      "type": "nh_bounties:catch",
+      "content": "species:palossand",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_palpitoad": {
+      "type": "nh_bounties:catch",
+      "content": "species:palpitoad",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pancham": {
+      "type": "nh_bounties:catch",
+      "content": "species:pancham",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pangoro": {
+      "type": "nh_bounties:catch",
+      "content": "species:pangoro",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_panpour": {
+      "type": "nh_bounties:catch",
+      "content": "species:panpour",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_pansage": {
+      "type": "nh_bounties:catch",
+      "content": "species:pansage",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_pansear": {
+      "type": "nh_bounties:catch",
+      "content": "species:pansear",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_paras": {
+      "type": "nh_bounties:catch",
+      "content": "species:paras",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_parasect": {
+      "type": "nh_bounties:catch",
+      "content": "species:parasect",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_patrat": {
+      "type": "nh_bounties:catch",
+      "content": "species:patrat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pawniard": {
+      "type": "nh_bounties:catch",
+      "content": "species:pawniard",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pelipper": {
+      "type": "nh_bounties:catch",
+      "content": "species:pelipper",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_perrserker": {
+      "type": "nh_bounties:catch",
+      "content": "species:perrserker",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_persian": {
+      "type": "nh_bounties:catch",
+      "content": "species:persian",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_petilil": {
+      "type": "nh_bounties:catch",
+      "content": "species:petilil",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_phanpy": {
+      "type": "nh_bounties:catch",
+      "content": "species:phanpy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_phantump": {
+      "type": "nh_bounties:catch",
+      "content": "species:phantump",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pichu": {
+      "type": "nh_bounties:catch",
+      "content": "species:pichu",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_pidgeot": {
+      "type": "nh_bounties:catch",
+      "content": "species:pidgeot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pidgeotto": {
+      "type": "nh_bounties:catch",
+      "content": "species:pidgeotto",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pidgey": {
+      "type": "nh_bounties:catch",
+      "content": "species:pidgey",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pidove": {
+      "type": "nh_bounties:catch",
+      "content": "species:pidove",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pignite": {
+      "type": "nh_bounties:catch",
+      "content": "species:pignite",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_pikachu": {
+      "type": "nh_bounties:catch",
+      "content": "species:pikachu",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_pikipek": {
+      "type": "nh_bounties:catch",
+      "content": "species:pikipek",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_piloswine": {
+      "type": "nh_bounties:catch",
+      "content": "species:piloswine",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pincurchin": {
+      "type": "nh_bounties:catch",
+      "content": "species:pincurchin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pineco": {
+      "type": "nh_bounties:catch",
+      "content": "species:pineco",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pinsir": {
+      "type": "nh_bounties:catch",
+      "content": "species:pinsir",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_piplup": {
+      "type": "nh_bounties:catch",
+      "content": "species:piplup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_plusle": {
+      "type": "nh_bounties:catch",
+      "content": "species:plusle",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_politoed": {
+      "type": "nh_bounties:catch",
+      "content": "species:politoed",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_poliwag": {
+      "type": "nh_bounties:catch",
+      "content": "species:poliwag",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_poliwhirl": {
+      "type": "nh_bounties:catch",
+      "content": "species:poliwhirl",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_poliwrath": {
+      "type": "nh_bounties:catch",
+      "content": "species:poliwrath",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_poltchageist": {
+      "type": "nh_bounties:catch",
+      "content": "species:poltchageist",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_polteageist": {
+      "type": "nh_bounties:catch",
+      "content": "species:polteageist",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ponyta": {
+      "type": "nh_bounties:catch",
+      "content": "species:ponyta",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_poochyena": {
+      "type": "nh_bounties:catch",
+      "content": "species:poochyena",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_popplio": {
+      "type": "nh_bounties:catch",
+      "content": "species:popplio",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_porygon": {
+      "type": "nh_bounties:catch",
+      "content": "species:porygon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_porygon2": {
+      "type": "nh_bounties:catch",
+      "content": "species:porygon2",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_porygonz": {
+      "type": "nh_bounties:catch",
+      "content": "species:porygonz",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_primarina": {
+      "type": "nh_bounties:catch",
+      "content": "species:primarina",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_primeape": {
+      "type": "nh_bounties:catch",
+      "content": "species:primeape",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_prinplup": {
+      "type": "nh_bounties:catch",
+      "content": "species:prinplup",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_probopass": {
+      "type": "nh_bounties:catch",
+      "content": "species:probopass",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_psyduck": {
+      "type": "nh_bounties:catch",
+      "content": "species:psyduck",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pumpkaboo": {
+      "type": "nh_bounties:catch",
+      "content": "species:pumpkaboo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pupitar": {
+      "type": "nh_bounties:catch",
+      "content": "species:pupitar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_purrloin": {
+      "type": "nh_bounties:catch",
+      "content": "species:purrloin",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_purugly": {
+      "type": "nh_bounties:catch",
+      "content": "species:purugly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pyroar": {
+      "type": "nh_bounties:catch",
+      "content": "species:pyroar",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_pyukumuku": {
+      "type": "nh_bounties:catch",
+      "content": "species:pyukumuku",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_quagsire": {
+      "type": "nh_bounties:catch",
+      "content": "species:quagsire",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_quaquaval": {
+      "type": "nh_bounties:catch",
+      "content": "species:quaquaval",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_quaxly": {
+      "type": "nh_bounties:catch",
+      "content": "species:quaxly",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_quaxwell": {
+      "type": "nh_bounties:catch",
+      "content": "species:quaxwell",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_quilava": {
+      "type": "nh_bounties:catch",
+      "content": "species:quilava",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_quilladin": {
+      "type": "nh_bounties:catch",
+      "content": "species:quilladin",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_qwilfish": {
+      "type": "nh_bounties:catch",
+      "content": "species:qwilfish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_raboot": {
+      "type": "nh_bounties:catch",
+      "content": "species:raboot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_rabsca": {
+      "type": "nh_bounties:catch",
+      "content": "species:rabsca",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_raichu": {
+      "type": "nh_bounties:catch",
+      "content": "species:raichu",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_ralts": {
+      "type": "nh_bounties:catch",
+      "content": "species:ralts",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rampardos": {
+      "type": "nh_bounties:catch",
+      "content": "species:rampardos",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_rapidash": {
+      "type": "nh_bounties:catch",
+      "content": "species:rapidash",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_raticate": {
+      "type": "nh_bounties:catch",
+      "content": "species:raticate",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rattata": {
+      "type": "nh_bounties:catch",
+      "content": "species:rattata",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_relicanth": {
+      "type": "nh_bounties:catch",
+      "content": "species:relicanth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rellor": {
+      "type": "nh_bounties:catch",
+      "content": "species:rellor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_remoraid": {
+      "type": "nh_bounties:catch",
+      "content": "species:remoraid",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_reuniclus": {
+      "type": "nh_bounties:catch",
+      "content": "species:reuniclus",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_revavroom": {
+      "type": "nh_bounties:catch",
+      "content": "species:revavroom",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_rhydon": {
+      "type": "nh_bounties:catch",
+      "content": "species:rhydon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_rhyhorn": {
+      "type": "nh_bounties:catch",
+      "content": "species:rhyhorn",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rhyperior": {
+      "type": "nh_bounties:catch",
+      "content": "species:rhyperior",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_ribombee": {
+      "type": "nh_bounties:catch",
+      "content": "species:ribombee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rillaboom": {
+      "type": "nh_bounties:catch",
+      "content": "species:rillaboom",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_riolu": {
+      "type": "nh_bounties:catch",
+      "content": "species:riolu",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_rockruff": {
+      "type": "nh_bounties:catch",
+      "content": "species:rockruff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_roggenrola": {
+      "type": "nh_bounties:catch",
+      "content": "species:roggenrola",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rolycoly": {
+      "type": "nh_bounties:catch",
+      "content": "species:rolycoly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rookidee": {
+      "type": "nh_bounties:catch",
+      "content": "species:rookidee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_roselia": {
+      "type": "nh_bounties:catch",
+      "content": "species:roselia",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_roserade": {
+      "type": "nh_bounties:catch",
+      "content": "species:roserade",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_rowlet": {
+      "type": "nh_bounties:catch",
+      "content": "species:rowlet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_rufflet": {
+      "type": "nh_bounties:catch",
+      "content": "species:rufflet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_runerigus": {
+      "type": "nh_bounties:catch",
+      "content": "species:runerigus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sableye": {
+      "type": "nh_bounties:catch",
+      "content": "species:sableye",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_salamence": {
+      "type": "nh_bounties:catch",
+      "content": "species:salamence",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_salandit": {
+      "type": "nh_bounties:catch",
+      "content": "species:salandit",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_samurott": {
+      "type": "nh_bounties:catch",
+      "content": "species:samurott",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_sandaconda": {
+      "type": "nh_bounties:catch",
+      "content": "species:sandaconda",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sandile": {
+      "type": "nh_bounties:catch",
+      "content": "species:sandile",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sandshrew": {
+      "type": "nh_bounties:catch",
+      "content": "species:sandshrew",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sandslash": {
+      "type": "nh_bounties:catch",
+      "content": "species:sandslash",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sandygast": {
+      "type": "nh_bounties:catch",
+      "content": "species:sandygast",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sawk": {
+      "type": "nh_bounties:catch",
+      "content": "species:sawk",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sawsbuck": {
+      "type": "nh_bounties:catch",
+      "content": "species:sawsbuck",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_scatterbug": {
+      "type": "nh_bounties:catch",
+      "content": "species:scatterbug",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sceptile": {
+      "type": "nh_bounties:catch",
+      "content": "species:sceptile",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_scizor": {
+      "type": "nh_bounties:catch",
+      "content": "species:scizor",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_scolipede": {
+      "type": "nh_bounties:catch",
+      "content": "species:scolipede",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_scorbunny": {
+      "type": "nh_bounties:catch",
+      "content": "species:scorbunny",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_scovillain": {
+      "type": "nh_bounties:catch",
+      "content": "species:scovillain",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_scrafty": {
+      "type": "nh_bounties:catch",
+      "content": "species:scrafty",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_scraggy": {
+      "type": "nh_bounties:catch",
+      "content": "species:scraggy",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_scyther": {
+      "type": "nh_bounties:catch",
+      "content": "species:scyther",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_seadra": {
+      "type": "nh_bounties:catch",
+      "content": "species:seadra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_seaking": {
+      "type": "nh_bounties:catch",
+      "content": "species:seaking",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sealeo": {
+      "type": "nh_bounties:catch",
+      "content": "species:sealeo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_seedot": {
+      "type": "nh_bounties:catch",
+      "content": "species:seedot",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_seel": {
+      "type": "nh_bounties:catch",
+      "content": "species:seel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_seismitoad": {
+      "type": "nh_bounties:catch",
+      "content": "species:seismitoad",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sentret": {
+      "type": "nh_bounties:catch",
+      "content": "species:sentret",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_serperior": {
+      "type": "nh_bounties:catch",
+      "content": "species:serperior",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_servine": {
+      "type": "nh_bounties:catch",
+      "content": "species:servine",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_seviper": {
+      "type": "nh_bounties:catch",
+      "content": "species:seviper",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sewaddle": {
+      "type": "nh_bounties:catch",
+      "content": "species:sewaddle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sharpedo": {
+      "type": "nh_bounties:catch",
+      "content": "species:sharpedo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shedinja": {
+      "type": "nh_bounties:catch",
+      "content": "species:shedinja",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shelgon": {
+      "type": "nh_bounties:catch",
+      "content": "species:shelgon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_shellder": {
+      "type": "nh_bounties:catch",
+      "content": "species:shellder",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shellos": {
+      "type": "nh_bounties:catch",
+      "content": "species:shellos",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shelmet": {
+      "type": "nh_bounties:catch",
+      "content": "species:shelmet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shieldon": {
+      "type": "nh_bounties:catch",
+      "content": "species:shieldon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_shiftry": {
+      "type": "nh_bounties:catch",
+      "content": "species:shiftry",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shiinotic": {
+      "type": "nh_bounties:catch",
+      "content": "species:shiinotic",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shinx": {
+      "type": "nh_bounties:catch",
+      "content": "species:shinx",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_shroodle": {
+      "type": "nh_bounties:catch",
+      "content": "species:shroodle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shroomish": {
+      "type": "nh_bounties:catch",
+      "content": "species:shroomish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shuckle": {
+      "type": "nh_bounties:catch",
+      "content": "species:shuckle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_shuppet": {
+      "type": "nh_bounties:catch",
+      "content": "species:shuppet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sigilyph": {
+      "type": "nh_bounties:catch",
+      "content": "species:sigilyph",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_silcoon": {
+      "type": "nh_bounties:catch",
+      "content": "species:silcoon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_silicobra": {
+      "type": "nh_bounties:catch",
+      "content": "species:silicobra",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_simipour": {
+      "type": "nh_bounties:catch",
+      "content": "species:simipour",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_simisage": {
+      "type": "nh_bounties:catch",
+      "content": "species:simisage",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_simisear": {
+      "type": "nh_bounties:catch",
+      "content": "species:simisear",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sinistcha": {
+      "type": "nh_bounties:catch",
+      "content": "species:sinistcha",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sinistea": {
+      "type": "nh_bounties:catch",
+      "content": "species:sinistea",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sirfetchd": {
+      "type": "nh_bounties:catch",
+      "content": "species:sirfetchd",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_sizzlipede": {
+      "type": "nh_bounties:catch",
+      "content": "species:sizzlipede",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skarmory": {
+      "type": "nh_bounties:catch",
+      "content": "species:skarmory",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_skeledirge": {
+      "type": "nh_bounties:catch",
+      "content": "species:skeledirge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_skiddo": {
+      "type": "nh_bounties:catch",
+      "content": "species:skiddo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skiploom": {
+      "type": "nh_bounties:catch",
+      "content": "species:skiploom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skitty": {
+      "type": "nh_bounties:catch",
+      "content": "species:skitty",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skorupi": {
+      "type": "nh_bounties:catch",
+      "content": "species:skorupi",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skrelp": {
+      "type": "nh_bounties:catch",
+      "content": "species:skrelp",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skuntank": {
+      "type": "nh_bounties:catch",
+      "content": "species:skuntank",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_skwovet": {
+      "type": "nh_bounties:catch",
+      "content": "species:skwovet",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slaking": {
+      "type": "nh_bounties:catch",
+      "content": "species:slaking",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slakoth": {
+      "type": "nh_bounties:catch",
+      "content": "species:slakoth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sliggoo": {
+      "type": "nh_bounties:catch",
+      "content": "species:sliggoo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slowbro": {
+      "type": "nh_bounties:catch",
+      "content": "species:slowbro",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slowking": {
+      "type": "nh_bounties:catch",
+      "content": "species:slowking",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slowpoke": {
+      "type": "nh_bounties:catch",
+      "content": "species:slowpoke",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slugma": {
+      "type": "nh_bounties:catch",
+      "content": "species:slugma",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_slurpuff": {
+      "type": "nh_bounties:catch",
+      "content": "species:slurpuff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_smeargle": {
+      "type": "nh_bounties:catch",
+      "content": "species:smeargle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_smoliv": {
+      "type": "nh_bounties:catch",
+      "content": "species:smoliv",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sneasel": {
+      "type": "nh_bounties:catch",
+      "content": "species:sneasel",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sneasler": {
+      "type": "nh_bounties:catch",
+      "content": "species:sneasler",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_snivy": {
+      "type": "nh_bounties:catch",
+      "content": "species:snivy",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_snom": {
+      "type": "nh_bounties:catch",
+      "content": "species:snom",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_snorlax": {
+      "type": "nh_bounties:catch",
+      "content": "species:snorlax",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_snorunt": {
+      "type": "nh_bounties:catch",
+      "content": "species:snorunt",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_snover": {
+      "type": "nh_bounties:catch",
+      "content": "species:snover",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_snubbull": {
+      "type": "nh_bounties:catch",
+      "content": "species:snubbull",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sobble": {
+      "type": "nh_bounties:catch",
+      "content": "species:sobble",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_solosis": {
+      "type": "nh_bounties:catch",
+      "content": "species:solosis",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_solrock": {
+      "type": "nh_bounties:catch",
+      "content": "species:solrock",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spearow": {
+      "type": "nh_bounties:catch",
+      "content": "species:spearow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spewpa": {
+      "type": "nh_bounties:catch",
+      "content": "species:spewpa",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spheal": {
+      "type": "nh_bounties:catch",
+      "content": "species:spheal",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spidops": {
+      "type": "nh_bounties:catch",
+      "content": "species:spidops",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spinarak": {
+      "type": "nh_bounties:catch",
+      "content": "species:spinarak",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_spinda": {
+      "type": "nh_bounties:catch",
+      "content": "species:spinda",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_spiritomb": {
+      "type": "nh_bounties:catch",
+      "content": "species:spiritomb",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_spoink": {
+      "type": "nh_bounties:catch",
+      "content": "species:spoink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sprigatito": {
+      "type": "nh_bounties:catch",
+      "content": "species:sprigatito",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_spritzee": {
+      "type": "nh_bounties:catch",
+      "content": "species:spritzee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_squawkabilly": {
+      "type": "nh_bounties:catch",
+      "content": "species:squawkabilly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_squirtle": {
+      "type": "nh_bounties:catch",
+      "content": "species:squirtle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_stantler": {
+      "type": "nh_bounties:catch",
+      "content": "species:stantler",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_staraptor": {
+      "type": "nh_bounties:catch",
+      "content": "species:staraptor",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_staravia": {
+      "type": "nh_bounties:catch",
+      "content": "species:staravia",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_starly": {
+      "type": "nh_bounties:catch",
+      "content": "species:starly",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_starmie": {
+      "type": "nh_bounties:catch",
+      "content": "species:starmie",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_staryu": {
+      "type": "nh_bounties:catch",
+      "content": "species:staryu",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_steelix": {
+      "type": "nh_bounties:catch",
+      "content": "species:steelix",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_steenee": {
+      "type": "nh_bounties:catch",
+      "content": "species:steenee",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_stonjourner": {
+      "type": "nh_bounties:catch",
+      "content": "species:stonjourner",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_stoutland": {
+      "type": "nh_bounties:catch",
+      "content": "species:stoutland",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_stufful": {
+      "type": "nh_bounties:catch",
+      "content": "species:stufful",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_stunfisk": {
+      "type": "nh_bounties:catch",
+      "content": "species:stunfisk",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_stunky": {
+      "type": "nh_bounties:catch",
+      "content": "species:stunky",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sudowoodo": {
+      "type": "nh_bounties:catch",
+      "content": "species:sudowoodo",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_sunflora": {
+      "type": "nh_bounties:catch",
+      "content": "species:sunflora",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sunkern": {
+      "type": "nh_bounties:catch",
+      "content": "species:sunkern",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_surskit": {
+      "type": "nh_bounties:catch",
+      "content": "species:surskit",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_swablu": {
+      "type": "nh_bounties:catch",
+      "content": "species:swablu",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swadloon": {
+      "type": "nh_bounties:catch",
+      "content": "species:swadloon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swampert": {
+      "type": "nh_bounties:catch",
+      "content": "species:swampert",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_swanna": {
+      "type": "nh_bounties:catch",
+      "content": "species:swanna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swellow": {
+      "type": "nh_bounties:catch",
+      "content": "species:swellow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swinub": {
+      "type": "nh_bounties:catch",
+      "content": "species:swinub",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swirlix": {
+      "type": "nh_bounties:catch",
+      "content": "species:swirlix",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_swoobat": {
+      "type": "nh_bounties:catch",
+      "content": "species:swoobat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_sylveon": {
+      "type": "nh_bounties:catch",
+      "content": "species:sylveon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_tadbulb": {
+      "type": "nh_bounties:catch",
+      "content": "species:tadbulb",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_taillow": {
+      "type": "nh_bounties:catch",
+      "content": "species:taillow",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_talonflame": {
+      "type": "nh_bounties:catch",
+      "content": "species:talonflame",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tandemaus": {
+      "type": "nh_bounties:catch",
+      "content": "species:tandemaus",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tangela": {
+      "type": "nh_bounties:catch",
+      "content": "species:tangela",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tangrowth": {
+      "type": "nh_bounties:catch",
+      "content": "species:tangrowth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tarountula": {
+      "type": "nh_bounties:catch",
+      "content": "species:tarountula",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tatsugiri": {
+      "type": "nh_bounties:catch",
+      "content": "species:tatsugiri",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_tauros": {
+      "type": "nh_bounties:catch",
+      "content": "species:tauros",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_teddiursa": {
+      "type": "nh_bounties:catch",
+      "content": "species:teddiursa",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tentacool": {
+      "type": "nh_bounties:catch",
+      "content": "species:tentacool",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tentacruel": {
+      "type": "nh_bounties:catch",
+      "content": "species:tentacruel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tepig": {
+      "type": "nh_bounties:catch",
+      "content": "species:tepig",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_thievul": {
+      "type": "nh_bounties:catch",
+      "content": "species:thievul",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_throh": {
+      "type": "nh_bounties:catch",
+      "content": "species:throh",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_thwackey": {
+      "type": "nh_bounties:catch",
+      "content": "species:thwackey",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_timburr": {
+      "type": "nh_bounties:catch",
+      "content": "species:timburr",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tinkatink": {
+      "type": "nh_bounties:catch",
+      "content": "species:tinkatink",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tinkaton": {
+      "type": "nh_bounties:catch",
+      "content": "species:tinkaton",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tinkatuff": {
+      "type": "nh_bounties:catch",
+      "content": "species:tinkatuff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tirtouga": {
+      "type": "nh_bounties:catch",
+      "content": "species:tirtouga",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_toedscool": {
+      "type": "nh_bounties:catch",
+      "content": "species:toedscool",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_toedscruel": {
+      "type": "nh_bounties:catch",
+      "content": "species:toedscruel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_togedemaru": {
+      "type": "nh_bounties:catch",
+      "content": "species:togedemaru",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_togekiss": {
+      "type": "nh_bounties:catch",
+      "content": "species:togekiss",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_togepi": {
+      "type": "nh_bounties:catch",
+      "content": "species:togepi",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_togetic": {
+      "type": "nh_bounties:catch",
+      "content": "species:togetic",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_torchic": {
+      "type": "nh_bounties:catch",
+      "content": "species:torchic",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_torkoal": {
+      "type": "nh_bounties:catch",
+      "content": "species:torkoal",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_torracat": {
+      "type": "nh_bounties:catch",
+      "content": "species:torracat",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_torterra": {
+      "type": "nh_bounties:catch",
+      "content": "species:torterra",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_totodile": {
+      "type": "nh_bounties:catch",
+      "content": "species:totodile",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_toucannon": {
+      "type": "nh_bounties:catch",
+      "content": "species:toucannon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_toxapex": {
+      "type": "nh_bounties:catch",
+      "content": "species:toxapex",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_toxel": {
+      "type": "nh_bounties:catch",
+      "content": "species:toxel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_toxicroak": {
+      "type": "nh_bounties:catch",
+      "content": "species:toxicroak",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_toxtricity": {
+      "type": "nh_bounties:catch",
+      "content": "species:toxtricity",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tranquill": {
+      "type": "nh_bounties:catch",
+      "content": "species:tranquill",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_trapinch": {
+      "type": "nh_bounties:catch",
+      "content": "species:trapinch",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_treecko": {
+      "type": "nh_bounties:catch",
+      "content": "species:treecko",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_trevenant": {
+      "type": "nh_bounties:catch",
+      "content": "species:trevenant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tropius": {
+      "type": "nh_bounties:catch",
+      "content": "species:tropius",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_trubbish": {
+      "type": "nh_bounties:catch",
+      "content": "species:trubbish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_trumbeak": {
+      "type": "nh_bounties:catch",
+      "content": "species:trumbeak",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tsareena": {
+      "type": "nh_bounties:catch",
+      "content": "species:tsareena",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_turtonator": {
+      "type": "nh_bounties:catch",
+      "content": "species:turtonator",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_turtwig": {
+      "type": "nh_bounties:catch",
+      "content": "species:turtwig",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_tympole": {
+      "type": "nh_bounties:catch",
+      "content": "species:tympole",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_tynamo": {
+      "type": "nh_bounties:catch",
+      "content": "species:tynamo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_typhlosion": {
+      "type": "nh_bounties:catch",
+      "content": "species:typhlosion",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_tyranitar": {
+      "type": "nh_bounties:catch",
+      "content": "species:tyranitar",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_tyrantrum": {
+      "type": "nh_bounties:catch",
+      "content": "species:tyrantrum",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_tyrogue": {
+      "type": "nh_bounties:catch",
+      "content": "species:tyrogue",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_tyrunt": {
+      "type": "nh_bounties:catch",
+      "content": "species:tyrunt",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_umbreon": {
+      "type": "nh_bounties:catch",
+      "content": "species:umbreon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_unfezant": {
+      "type": "nh_bounties:catch",
+      "content": "species:unfezant",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_unown": {
+      "type": "nh_bounties:catch",
+      "content": "species:unown",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ursaluna": {
+      "type": "nh_bounties:catch",
+      "content": "species:ursaluna",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_ursaring": {
+      "type": "nh_bounties:catch",
+      "content": "species:ursaring",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vanillish": {
+      "type": "nh_bounties:catch",
+      "content": "species:vanillish",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vanillite": {
+      "type": "nh_bounties:catch",
+      "content": "species:vanillite",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vanilluxe": {
+      "type": "nh_bounties:catch",
+      "content": "species:vanilluxe",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vaporeon": {
+      "type": "nh_bounties:catch",
+      "content": "species:vaporeon",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_varoom": {
+      "type": "nh_bounties:catch",
+      "content": "species:varoom",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_veluza": {
+      "type": "nh_bounties:catch",
+      "content": "species:veluza",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_venipede": {
+      "type": "nh_bounties:catch",
+      "content": "species:venipede",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_venomoth": {
+      "type": "nh_bounties:catch",
+      "content": "species:venomoth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_venonat": {
+      "type": "nh_bounties:catch",
+      "content": "species:venonat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_venusaur": {
+      "type": "nh_bounties:catch",
+      "content": "species:venusaur",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_vibrava": {
+      "type": "nh_bounties:catch",
+      "content": "species:vibrava",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_victreebel": {
+      "type": "nh_bounties:catch",
+      "content": "species:victreebel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vigoroth": {
+      "type": "nh_bounties:catch",
+      "content": "species:vigoroth",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vikavolt": {
+      "type": "nh_bounties:catch",
+      "content": "species:vikavolt",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vileplume": {
+      "type": "nh_bounties:catch",
+      "content": "species:vileplume",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vivillon": {
+      "type": "nh_bounties:catch",
+      "content": "species:vivillon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_volbeat": {
+      "type": "nh_bounties:catch",
+      "content": "species:volbeat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_volcarona": {
+      "type": "nh_bounties:catch",
+      "content": "species:volcarona",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_voltorb": {
+      "type": "nh_bounties:catch",
+      "content": "species:voltorb",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_vulpix": {
+      "type": "nh_bounties:catch",
+      "content": "species:vulpix",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wailmer": {
+      "type": "nh_bounties:catch",
+      "content": "species:wailmer",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wailord": {
+      "type": "nh_bounties:catch",
+      "content": "species:wailord",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_walrein": {
+      "type": "nh_bounties:catch",
+      "content": "species:walrein",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wartortle": {
+      "type": "nh_bounties:catch",
+      "content": "species:wartortle",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "rarity": "EPIC"
+    },
+    "catch_watchog": {
+      "type": "nh_bounties:catch",
+      "content": "species:watchog",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wattrel": {
+      "type": "nh_bounties:catch",
+      "content": "species:wattrel",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_weavile": {
+      "type": "nh_bounties:catch",
+      "content": "species:weavile",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_weedle": {
+      "type": "nh_bounties:catch",
+      "content": "species:weedle",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_weepinbell": {
+      "type": "nh_bounties:catch",
+      "content": "species:weepinbell",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_weezing": {
+      "type": "nh_bounties:catch",
+      "content": "species:weezing",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_whimsicott": {
+      "type": "nh_bounties:catch",
+      "content": "species:whimsicott",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_whirlipede": {
+      "type": "nh_bounties:catch",
+      "content": "species:whirlipede",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_whiscash": {
+      "type": "nh_bounties:catch",
+      "content": "species:whiscash",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_whismur": {
+      "type": "nh_bounties:catch",
+      "content": "species:whismur",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wigglytuff": {
+      "type": "nh_bounties:catch",
+      "content": "species:wigglytuff",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wiglett": {
+      "type": "nh_bounties:catch",
+      "content": "species:wiglett",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wimpod": {
+      "type": "nh_bounties:catch",
+      "content": "species:wimpod",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wingull": {
+      "type": "nh_bounties:catch",
+      "content": "species:wingull",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wishiwashi": {
+      "type": "nh_bounties:catch",
+      "content": "species:wishiwashi",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wobbuffet": {
+      "type": "nh_bounties:catch",
+      "content": "species:wobbuffet",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_woobat": {
+      "type": "nh_bounties:catch",
+      "content": "species:woobat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wooloo": {
+      "type": "nh_bounties:catch",
+      "content": "species:wooloo",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wooper": {
+      "type": "nh_bounties:catch",
+      "content": "species:wooper",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wormadam": {
+      "type": "nh_bounties:catch",
+      "content": "species:wormadam",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wugtrio": {
+      "type": "nh_bounties:catch",
+      "content": "species:wugtrio",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wurmple": {
+      "type": "nh_bounties:catch",
+      "content": "species:wurmple",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_wynaut": {
+      "type": "nh_bounties:catch",
+      "content": "species:wynaut",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    },
+    "catch_wyrdeer": {
+      "type": "nh_bounties:catch",
+      "content": "species:wyrdeer",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_xatu": {
+      "type": "nh_bounties:catch",
+      "content": "species:xatu",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_yamask": {
+      "type": "nh_bounties:catch",
+      "content": "species:yamask",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_yamper": {
+      "type": "nh_bounties:catch",
+      "content": "species:yamper",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_yanma": {
+      "type": "nh_bounties:catch",
+      "content": "species:yanma",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_yanmega": {
+      "type": "nh_bounties:catch",
+      "content": "species:yanmega",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_yungoos": {
+      "type": "nh_bounties:catch",
+      "content": "species:yungoos",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_zangoose": {
+      "type": "nh_bounties:catch",
+      "content": "species:zangoose",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_zebstrika": {
+      "type": "nh_bounties:catch",
+      "content": "species:zebstrika",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_zigzagoon": {
+      "type": "nh_bounties:catch",
+      "content": "species:zigzagoon",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_zoroark": {
+      "type": "nh_bounties:catch",
+      "content": "species:zoroark",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_zorua": {
+      "type": "nh_bounties:catch",
+      "content": "species:zorua",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "rarity": "UNCOMMON"
+    },
+    "catch_zubat": {
+      "type": "nh_bounties:catch",
+      "content": "species:zubat",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300
+    },
+    "catch_zweilous": {
+      "type": "nh_bounties:catch",
+      "content": "species:zweilous",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "rarity": "RARE"
+    }
+  }
+}

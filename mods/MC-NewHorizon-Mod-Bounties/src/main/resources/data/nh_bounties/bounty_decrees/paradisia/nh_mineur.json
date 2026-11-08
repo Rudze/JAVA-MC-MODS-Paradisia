@@ -7,7 +7,8 @@
   ],
   "objectives": [
     "nh_mineur_objs",
-    "nh_pokemon_objs"
+    "nh_pokemon_objs",
+    "nh_pokemon_especes_objs"
   ],
   "rewards": [
     "nh_mineur_rews"

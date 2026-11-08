@@ -5,7 +5,8 @@
   ],
   "objectives": [
     "nh_nature_objs",
-    "nh_pokemon_objs"
+    "nh_pokemon_objs",
+    "nh_pokemon_especes_objs"
   ],
   "rewards": [
     "nh_nature_rews"
