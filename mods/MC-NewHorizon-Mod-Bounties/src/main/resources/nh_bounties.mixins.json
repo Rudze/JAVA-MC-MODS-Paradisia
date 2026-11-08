@@ -4,6 +4,7 @@
   "package": "com.rudze.bounties.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": ["BoardBountySlotMixin"],
+  "client": ["BoardScreenMixin"],
   "injectors": {
     "defaultRequire": 1
   }
