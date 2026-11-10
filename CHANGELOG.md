@@ -1,3 +1,9 @@
+## [0.4.10](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.9...v0.4.10) (2026-11-10)
+
+### Bug Fixes
+
+* capture bounties ask for a single Pokémon and Pokémon bounties show up far more often ([1f37458](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/1f374584aeea978a375397511967ba85aff02b99))
+
 ## [0.4.9](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.8...v0.4.9) (2026-11-08)
 
 ### Bug Fixes
