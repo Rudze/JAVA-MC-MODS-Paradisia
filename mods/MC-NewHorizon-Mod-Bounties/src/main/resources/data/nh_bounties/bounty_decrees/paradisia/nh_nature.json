@@ -2,7 +2,6 @@
   "name": "Nature",
   "linkedProfessions": [],
   "objectives": [
-    "nh_nature_objs",
     "nh_pokemon_objs",
     "nh_pokemon_especes_objs"
   ],

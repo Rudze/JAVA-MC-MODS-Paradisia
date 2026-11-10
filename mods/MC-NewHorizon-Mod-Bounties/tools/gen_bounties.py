@@ -153,10 +153,11 @@ pools["nh_mineur_objs"] = m
 
 # --- Nature : wood (vanilla fishing is gone with Cobblemon) -----------------------------------------------------------------
 n = {}
-# nh_treefelling drops a whole tree at once.
-for l in ["oak", "birch", "spruce", "jungle", "acacia", "dark_oak", "cherry", "mangrove"]:
-    n[key(l, "log")] = item("minecraft:%s_log" % l, 0.02, 16, 64)
-pools["nh_nature_objs"] = n
+# Log quests came up far too often, so they're off for now. nh_treefelling drops a whole tree at once.
+# for l in ["oak", "birch", "spruce", "jungle", "acacia", "dark_oak", "cherry", "mangrove"]:
+#     n[key(l, "log")] = item("minecraft:%s_log" % l, 0.02, 16, 64)
+if n:
+    pools["nh_nature_objs"] = n
 
 # --- Rewards -----------------------------------------------------------------------------------
 for pool in pools.values():
@@ -184,7 +185,7 @@ themes = {
     "nh_dresseur": ("Dresseur", [], []),
     "nh_recolte": ("Récolte", ["nh_recolte_objs"], ["farmer"]),
     "nh_mineur": ("Mineur", ["nh_mineur_objs"], ["toolsmith", "armorer", "weaponsmith"]),
-    "nh_nature": ("Nature", ["nh_nature_objs"], []),
+    "nh_nature": ("Nature", ["nh_nature_objs"] if "nh_nature_objs" in pools else [], []),
 }
 decrees = {}
 for name, (label, objs, profs) in themes.items():
