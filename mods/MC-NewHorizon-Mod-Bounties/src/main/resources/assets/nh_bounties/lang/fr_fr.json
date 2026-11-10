@@ -4,6 +4,8 @@
   "nh_bounties.objective.defeat": "Vaincre %s",
   "nh_bounties.objective.level_up": "Faire gagner des niveaux à %s",
   "nh_bounties.objective.heal": "Soigner %s avec un objet (Potion, Baie…)",
+  "nh_bounties.target.one": "un Pokémon",
+  "nh_bounties.target.one_type": "un Pokémon de type %s",
   "nh_bounties.target.any": "des Pokémon",
   "nh_bounties.target.any_type": "des Pokémon de type %s",
   "nh_bounties.target.wild": "des Pokémon sauvages",

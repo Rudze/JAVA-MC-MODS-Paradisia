@@ -24,8 +24,9 @@ OUT = sys.argv[1]
 COBBLEMON_JAR = sys.argv[2] if len(sys.argv) > 2 else \
     sorted(glob.glob(os.path.join(os.path.dirname(__file__), "..", "libs", "Cobblemon-*.jar")))[-1]
 
-# Spawn bucket -> (minutes to find and catch one, amount min, amount max, rarity).
-BUCKETS = {"common": (3, 1, 3, None), "uncommon": (8, 1, 2, "UNCOMMON"),
+# Spawn bucket -> (minutes to find and catch one, amount min, amount max, rarity). Capture
+# quests always ask for a single Pokémon.
+BUCKETS = {"common": (3, 1, 1, None), "uncommon": (8, 1, 1, "UNCOMMON"),
            "rare": (20, 1, 1, "RARE"), "ultra-rare": (60, 1, 1, "EPIC")}
 
 @functools.cache
@@ -84,14 +85,14 @@ pools = {}
 
 # --- Pokémon : Cobblemon actions, on every board -----------------------------------------------
 d = {}
-d["catch_any"] = poke("catch", "any", 2.0, 2, 8)
+d["catch_any"] = poke("catch", "any", 2.0, 1, 1)
 for t in ["normal", "water", "grass", "bug", "flying", "poison"]:
-    d[key("catch", t)] = poke("catch", "type:" + t, 3.5, 2, 5)
+    d[key("catch", t)] = poke("catch", "type:" + t, 3.5, 1, 1)
 for t in ["fire", "electric", "rock", "ground", "fighting", "psychic", "fairy"]:
-    d[key("catch", t)] = poke("catch", "type:" + t, 6, 1, 4, "UNCOMMON")
+    d[key("catch", t)] = poke("catch", "type:" + t, 6, 1, 1, "UNCOMMON")
 for t in ["ice", "ghost", "dark", "steel"]:
-    d[key("catch", t)] = poke("catch", "type:" + t, 10, 1, 3, "RARE")
-d["catch_dragon"] = poke("catch", "type:dragon", 25, 1, 2, "EPIC")
+    d[key("catch", t)] = poke("catch", "type:" + t, 10, 1, 1, "RARE")
+d["catch_dragon"] = poke("catch", "type:dragon", 25, 1, 1, "EPIC")
 d["catch_shiny"] = poke("catch", "shiny", 180, 1, 1, "LEGENDARY")
 d["defeat_any"] = poke("defeat", "any", 0.6, 5, 25)
 for t in ["normal", "water", "grass", "bug", "flying"]:
@@ -107,10 +108,11 @@ for sp, bucket in wild_species().items():
     sp_objs[key("catch", sp)] = poke("catch", "species:" + sp, minutes, lo, hi, rar)
 
 # Bountiful gives every pool of a decree the same total weight (times its weightMult) and splits
-# it among the pool's entries, so these weights are the share of each pool next to a theme pool:
-# Pokémon end up with about a third of the quests on the other themes' boards.
-pools["nh_pokemon_objs"] = {"weightMult": 0.3, "content": d}
-pools["nh_pokemon_especes_objs"] = {"weightMult": 0.2, "content": sp_objs}
+# it among the pool's entries, so these weights are the share of each pool next to a theme pool.
+# Each entry's weight is then divided by 2.25 per rarity step above the board's reputation, which
+# mostly hits Pokémon quests: at equal pool weights they get about half of the other themes' boards.
+pools["nh_pokemon_objs"] = {"weightMult": 1.0, "content": d}
+pools["nh_pokemon_especes_objs"] = {"weightMult": 1.0, "content": sp_objs}
 
 # --- Récolte : farming, berries, apricorns -----------------------------------------------------
 r = {}

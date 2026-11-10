@@ -84,7 +84,7 @@ public record PokemonSelector(@Nullable String species, @Nullable String type, @
     }
 
     /**
-     * What the objective is about, worded for {@code audience}: {@code any} ("des Pokémon"),
+     * What the objective is about, worded for {@code audience}: {@code one} ("un Pokémon"), {@code any} ("des Pokémon"),
      * {@code wild} ("des Pokémon sauvages") or {@code own} ("tes Pokémon"). Translated client-side.
      */
     public MutableComponent describe(String audience) {

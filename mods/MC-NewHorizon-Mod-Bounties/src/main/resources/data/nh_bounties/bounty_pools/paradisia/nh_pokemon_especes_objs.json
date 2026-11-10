@@ -1,12 +1,12 @@
 {
-  "weightMult": 0.2,
+  "weightMult": 1.0,
   "content": {
     "catch_abomasnow": {
       "type": "nh_bounties:catch",
       "content": "species:abomasnow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -15,7 +15,7 @@
       "content": "species:abra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -34,7 +34,7 @@
       "content": "species:accelgor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -43,7 +43,7 @@
       "content": "species:aegislash",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -63,7 +63,7 @@
       "content": "species:aggron",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -72,7 +72,7 @@
       "content": "species:aipom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -81,7 +81,7 @@
       "content": "species:alakazam",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -90,7 +90,7 @@
       "content": "species:alcremie",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -99,7 +99,7 @@
       "content": "species:alomomola",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -108,7 +108,7 @@
       "content": "species:altaria",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -127,7 +127,7 @@
       "content": "species:ambipom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -136,7 +136,7 @@
       "content": "species:amoonguss",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -145,7 +145,7 @@
       "content": "species:ampharos",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -154,7 +154,7 @@
       "content": "species:annihilape",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -173,7 +173,7 @@
       "content": "species:appletun",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -182,7 +182,7 @@
       "content": "species:applin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -191,7 +191,7 @@
       "content": "species:araquanid",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -200,7 +200,7 @@
       "content": "species:arbok",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -209,7 +209,7 @@
       "content": "species:arboliva",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -219,7 +219,7 @@
       "content": "species:arcanine",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -259,7 +259,7 @@
       "content": "species:ariados",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -278,7 +278,7 @@
       "content": "species:armarouge",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -288,7 +288,7 @@
       "content": "species:aromatisse",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -297,7 +297,7 @@
       "content": "species:aron",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -306,7 +306,7 @@
       "content": "species:arrokuda",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -315,7 +315,7 @@
       "content": "species:audino",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -334,7 +334,7 @@
       "content": "species:avalugg",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -353,7 +353,7 @@
       "content": "species:azumarill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -362,7 +362,7 @@
       "content": "species:azurill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -381,7 +381,7 @@
       "content": "species:baltoy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -390,7 +390,7 @@
       "content": "species:banette",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -399,7 +399,7 @@
       "content": "species:barbaracle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -408,7 +408,7 @@
       "content": "species:barboach",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -417,7 +417,7 @@
       "content": "species:barraskewda",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -426,7 +426,7 @@
       "content": "species:basculegion",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -435,7 +435,7 @@
       "content": "species:basculin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -464,7 +464,7 @@
       "content": "species:beartic",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -473,7 +473,7 @@
       "content": "species:beautifly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -482,7 +482,7 @@
       "content": "species:beedrill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -491,7 +491,7 @@
       "content": "species:beheeyem",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -500,7 +500,7 @@
       "content": "species:beldum",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -510,7 +510,7 @@
       "content": "species:bellibolt",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -519,7 +519,7 @@
       "content": "species:bellossom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -528,7 +528,7 @@
       "content": "species:bellsprout",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -537,7 +537,7 @@
       "content": "species:bergmite",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -546,7 +546,7 @@
       "content": "species:bewear",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -555,7 +555,7 @@
       "content": "species:bibarel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -564,7 +564,7 @@
       "content": "species:bidoof",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -573,7 +573,7 @@
       "content": "species:binacle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -582,7 +582,7 @@
       "content": "species:bisharp",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -621,7 +621,7 @@
       "content": "species:blitzle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -630,7 +630,7 @@
       "content": "species:boldore",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -639,7 +639,7 @@
       "content": "species:boltund",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -648,7 +648,7 @@
       "content": "species:bonsly",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -658,7 +658,7 @@
       "content": "species:bouffalant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -667,7 +667,7 @@
       "content": "species:bounsweet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -686,7 +686,7 @@
       "content": "species:brambleghast",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -695,7 +695,7 @@
       "content": "species:bramblin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -704,7 +704,7 @@
       "content": "species:braviary",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -713,7 +713,7 @@
       "content": "species:breloom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -732,7 +732,7 @@
       "content": "species:bronzong",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -741,7 +741,7 @@
       "content": "species:bronzor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -750,7 +750,7 @@
       "content": "species:bruxish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -759,7 +759,7 @@
       "content": "species:budew",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -768,7 +768,7 @@
       "content": "species:buizel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -787,7 +787,7 @@
       "content": "species:buneary",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -796,7 +796,7 @@
       "content": "species:bunnelby",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -805,7 +805,7 @@
       "content": "species:burmy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -814,7 +814,7 @@
       "content": "species:butterfree",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -823,7 +823,7 @@
       "content": "species:cacnea",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -832,7 +832,7 @@
       "content": "species:cacturne",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -841,7 +841,7 @@
       "content": "species:camerupt",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -850,7 +850,7 @@
       "content": "species:capsakid",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -859,7 +859,7 @@
       "content": "species:carbink",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -868,7 +868,7 @@
       "content": "species:carkol",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -877,7 +877,7 @@
       "content": "species:carnivine",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -897,7 +897,7 @@
       "content": "species:carvanha",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -906,7 +906,7 @@
       "content": "species:cascoon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -915,7 +915,7 @@
       "content": "species:caterpie",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -924,7 +924,7 @@
       "content": "species:centiskorch",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -933,7 +933,7 @@
       "content": "species:ceruledge",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -943,7 +943,7 @@
       "content": "species:cetitan",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -953,7 +953,7 @@
       "content": "species:cetoddle",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -963,7 +963,7 @@
       "content": "species:chandelure",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -982,7 +982,7 @@
       "content": "species:charcadet",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1002,7 +1002,7 @@
       "content": "species:charjabug",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1031,7 +1031,7 @@
       "content": "species:chatot",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1040,7 +1040,7 @@
       "content": "species:cherrim",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1049,7 +1049,7 @@
       "content": "species:cherubi",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1078,7 +1078,7 @@
       "content": "species:chewtle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1107,7 +1107,7 @@
       "content": "species:chimecho",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1117,7 +1117,7 @@
       "content": "species:chinchou",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1126,7 +1126,7 @@
       "content": "species:chingling",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1136,7 +1136,7 @@
       "content": "species:cinccino",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1155,7 +1155,7 @@
       "content": "species:clamperl",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1165,7 +1165,7 @@
       "content": "species:clauncher",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1174,7 +1174,7 @@
       "content": "species:clawitzer",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1183,7 +1183,7 @@
       "content": "species:claydol",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1192,7 +1192,7 @@
       "content": "species:clefable",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1202,7 +1202,7 @@
       "content": "species:clefairy",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1212,7 +1212,7 @@
       "content": "species:cleffa",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1222,7 +1222,7 @@
       "content": "species:clobbopus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1231,7 +1231,7 @@
       "content": "species:clodsire",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1240,7 +1240,7 @@
       "content": "species:cloyster",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1249,7 +1249,7 @@
       "content": "species:coalossal",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1258,7 +1258,7 @@
       "content": "species:cofagrigus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1267,7 +1267,7 @@
       "content": "species:combee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1286,7 +1286,7 @@
       "content": "species:comfey",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1296,7 +1296,7 @@
       "content": "species:conkeldurr",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1305,7 +1305,7 @@
       "content": "species:copperajah",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1315,7 +1315,7 @@
       "content": "species:corphish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1324,7 +1324,7 @@
       "content": "species:corsola",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1333,7 +1333,7 @@
       "content": "species:corviknight",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1342,7 +1342,7 @@
       "content": "species:corvisquire",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1351,7 +1351,7 @@
       "content": "species:cottonee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1360,7 +1360,7 @@
       "content": "species:crabominable",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1370,7 +1370,7 @@
       "content": "species:crabrawler",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1389,7 +1389,7 @@
       "content": "species:cramorant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1408,7 +1408,7 @@
       "content": "species:crawdaunt",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1417,7 +1417,7 @@
       "content": "species:croagunk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1426,7 +1426,7 @@
       "content": "species:crobat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1455,7 +1455,7 @@
       "content": "species:crustle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1464,7 +1464,7 @@
       "content": "species:cryogonal",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1473,7 +1473,7 @@
       "content": "species:cubchoo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1482,7 +1482,7 @@
       "content": "species:cubone",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1491,7 +1491,7 @@
       "content": "species:cufant",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1501,7 +1501,7 @@
       "content": "species:cursola",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1510,7 +1510,7 @@
       "content": "species:cutiefly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1539,7 +1539,7 @@
       "content": "species:dachsbun",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1548,7 +1548,7 @@
       "content": "species:darmanitan",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1567,7 +1567,7 @@
       "content": "species:darumaka",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1586,7 +1586,7 @@
       "content": "species:dedenne",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1596,7 +1596,7 @@
       "content": "species:deerling",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1615,7 +1615,7 @@
       "content": "species:delcatty",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1624,7 +1624,7 @@
       "content": "species:delibird",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1643,7 +1643,7 @@
       "content": "species:dewgong",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1662,7 +1662,7 @@
       "content": "species:dewpider",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1671,7 +1671,7 @@
       "content": "species:dhelmise",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1680,7 +1680,7 @@
       "content": "species:diggersby",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1689,7 +1689,7 @@
       "content": "species:diglett",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1698,7 +1698,7 @@
       "content": "species:dipplin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1707,7 +1707,7 @@
       "content": "species:ditto",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1717,7 +1717,7 @@
       "content": "species:dodrio",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1726,7 +1726,7 @@
       "content": "species:doduo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1735,7 +1735,7 @@
       "content": "species:dolliv",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1745,7 +1745,7 @@
       "content": "species:dondozo",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1755,7 +1755,7 @@
       "content": "species:donphan",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1764,7 +1764,7 @@
       "content": "species:doublade",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1774,7 +1774,7 @@
       "content": "species:dragalge",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1793,7 +1793,7 @@
       "content": "species:dragonair",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1802,7 +1802,7 @@
       "content": "species:dragonite",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1821,7 +1821,7 @@
       "content": "species:drampa",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1831,7 +1831,7 @@
       "content": "species:drapion",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1840,7 +1840,7 @@
       "content": "species:dratini",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1849,7 +1849,7 @@
       "content": "species:drednaw",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1868,7 +1868,7 @@
       "content": "species:drifblim",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1877,7 +1877,7 @@
       "content": "species:drifloon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1886,7 +1886,7 @@
       "content": "species:drilbur",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1905,7 +1905,7 @@
       "content": "species:drowzee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1914,7 +1914,7 @@
       "content": "species:druddigon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1924,7 +1924,7 @@
       "content": "species:dubwool",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1933,7 +1933,7 @@
       "content": "species:ducklett",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1942,7 +1942,7 @@
       "content": "species:dudunsparce",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1952,7 +1952,7 @@
       "content": "species:dugtrio",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -1961,7 +1961,7 @@
       "content": "species:dunsparce",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1971,7 +1971,7 @@
       "content": "species:duosion",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -1991,7 +1991,7 @@
       "content": "species:durant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2000,7 +2000,7 @@
       "content": "species:dusclops",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2009,7 +2009,7 @@
       "content": "species:dusknoir",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2018,7 +2018,7 @@
       "content": "species:duskull",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2027,7 +2027,7 @@
       "content": "species:dustox",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2036,7 +2036,7 @@
       "content": "species:dwebble",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2045,7 +2045,7 @@
       "content": "species:eelektrik",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2054,7 +2054,7 @@
       "content": "species:eelektross",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2063,7 +2063,7 @@
       "content": "species:eevee",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2073,7 +2073,7 @@
       "content": "species:eiscue",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2082,7 +2082,7 @@
       "content": "species:ekans",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2091,7 +2091,7 @@
       "content": "species:eldegoss",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2100,7 +2100,7 @@
       "content": "species:electabuzz",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2110,7 +2110,7 @@
       "content": "species:electivire",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2120,7 +2120,7 @@
       "content": "species:electrike",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2130,7 +2130,7 @@
       "content": "species:electrode",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2139,7 +2139,7 @@
       "content": "species:elekid",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2149,7 +2149,7 @@
       "content": "species:elgyem",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2168,7 +2168,7 @@
       "content": "species:emolga",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2188,7 +2188,7 @@
       "content": "species:escavalier",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2197,7 +2197,7 @@
       "content": "species:espathra",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2207,7 +2207,7 @@
       "content": "species:espeon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2217,7 +2217,7 @@
       "content": "species:espurr",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2226,7 +2226,7 @@
       "content": "species:excadrill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2235,7 +2235,7 @@
       "content": "species:exeggcute",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2244,7 +2244,7 @@
       "content": "species:exeggutor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2253,7 +2253,7 @@
       "content": "species:exploud",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2262,7 +2262,7 @@
       "content": "species:falinks",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2272,7 +2272,7 @@
       "content": "species:farfetchd",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2281,7 +2281,7 @@
       "content": "species:farigiraf",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2290,7 +2290,7 @@
       "content": "species:fearow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2299,7 +2299,7 @@
       "content": "species:feebas",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2328,7 +2328,7 @@
       "content": "species:ferroseed",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2337,7 +2337,7 @@
       "content": "species:ferrothorn",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2346,7 +2346,7 @@
       "content": "species:fidough",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2355,7 +2355,7 @@
       "content": "species:finizen",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2364,7 +2364,7 @@
       "content": "species:finneon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2373,7 +2373,7 @@
       "content": "species:flaaffy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2382,7 +2382,7 @@
       "content": "species:flabebe",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2391,7 +2391,7 @@
       "content": "species:flamigo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2400,7 +2400,7 @@
       "content": "species:flapple",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2409,7 +2409,7 @@
       "content": "species:flareon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2419,7 +2419,7 @@
       "content": "species:fletchinder",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2428,7 +2428,7 @@
       "content": "species:fletchling",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2437,7 +2437,7 @@
       "content": "species:flittle",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2447,7 +2447,7 @@
       "content": "species:floatzel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2456,7 +2456,7 @@
       "content": "species:floette",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2475,7 +2475,7 @@
       "content": "species:florges",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2494,7 +2494,7 @@
       "content": "species:fomantis",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2503,7 +2503,7 @@
       "content": "species:foongus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2512,7 +2512,7 @@
       "content": "species:forretress",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2531,7 +2531,7 @@
       "content": "species:frillish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2560,7 +2560,7 @@
       "content": "species:froslass",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2569,7 +2569,7 @@
       "content": "species:frosmoth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2588,7 +2588,7 @@
       "content": "species:furfrou",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2597,7 +2597,7 @@
       "content": "species:furret",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2616,7 +2616,7 @@
       "content": "species:gallade",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2625,7 +2625,7 @@
       "content": "species:galvantula",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2634,7 +2634,7 @@
       "content": "species:garbodor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2653,7 +2653,7 @@
       "content": "species:gardevoir",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2662,7 +2662,7 @@
       "content": "species:garganacl",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2671,7 +2671,7 @@
       "content": "species:gastly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2680,7 +2680,7 @@
       "content": "species:gastrodon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2689,7 +2689,7 @@
       "content": "species:gengar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2698,7 +2698,7 @@
       "content": "species:geodude",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2717,7 +2717,7 @@
       "content": "species:gigalith",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2726,7 +2726,7 @@
       "content": "species:gimmighoul",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2735,7 +2735,7 @@
       "content": "species:girafarig",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2744,7 +2744,7 @@
       "content": "species:glaceon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2754,7 +2754,7 @@
       "content": "species:glalie",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2764,7 +2764,7 @@
       "content": "species:glameow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2773,7 +2773,7 @@
       "content": "species:gligar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2782,7 +2782,7 @@
       "content": "species:glimmet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2791,7 +2791,7 @@
       "content": "species:glimmora",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2800,7 +2800,7 @@
       "content": "species:gliscor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2809,7 +2809,7 @@
       "content": "species:gloom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2818,7 +2818,7 @@
       "content": "species:gogoat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2827,7 +2827,7 @@
       "content": "species:golbat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2836,7 +2836,7 @@
       "content": "species:goldeen",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2845,7 +2845,7 @@
       "content": "species:golduck",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2854,7 +2854,7 @@
       "content": "species:golem",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2863,7 +2863,7 @@
       "content": "species:golett",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2872,7 +2872,7 @@
       "content": "species:golisopod",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2881,7 +2881,7 @@
       "content": "species:golurk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2890,7 +2890,7 @@
       "content": "species:goodra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2899,7 +2899,7 @@
       "content": "species:goomy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2908,7 +2908,7 @@
       "content": "species:gorebyss",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -2918,7 +2918,7 @@
       "content": "species:gossifleur",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2927,7 +2927,7 @@
       "content": "species:gothita",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2936,7 +2936,7 @@
       "content": "species:gothitelle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2945,7 +2945,7 @@
       "content": "species:gothorita",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2954,7 +2954,7 @@
       "content": "species:gourgeist",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2963,7 +2963,7 @@
       "content": "species:grafaiai",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2972,7 +2972,7 @@
       "content": "species:granbull",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2981,7 +2981,7 @@
       "content": "species:grapploct",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2990,7 +2990,7 @@
       "content": "species:graveler",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -2999,7 +2999,7 @@
       "content": "species:greavard",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3008,7 +3008,7 @@
       "content": "species:greedent",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3027,7 +3027,7 @@
       "content": "species:grimer",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3036,7 +3036,7 @@
       "content": "species:grimmsnarl",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3075,7 +3075,7 @@
       "content": "species:growlithe",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3085,7 +3085,7 @@
       "content": "species:grubbin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3094,7 +3094,7 @@
       "content": "species:grumpig",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3103,7 +3103,7 @@
       "content": "species:gumshoos",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3112,7 +3112,7 @@
       "content": "species:gurdurr",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3121,7 +3121,7 @@
       "content": "species:gyarados",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3150,7 +3150,7 @@
       "content": "species:hariyama",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3159,7 +3159,7 @@
       "content": "species:hatenna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3168,7 +3168,7 @@
       "content": "species:hatterene",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3177,7 +3177,7 @@
       "content": "species:hattrem",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3186,7 +3186,7 @@
       "content": "species:haunter",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3195,7 +3195,7 @@
       "content": "species:hawlucha",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3214,7 +3214,7 @@
       "content": "species:heatmor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3223,7 +3223,7 @@
       "content": "species:heliolisk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3232,7 +3232,7 @@
       "content": "species:helioptile",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3241,7 +3241,7 @@
       "content": "species:heracross",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3251,7 +3251,7 @@
       "content": "species:herdier",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3260,7 +3260,7 @@
       "content": "species:hippopotas",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3269,7 +3269,7 @@
       "content": "species:hippowdon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3278,7 +3278,7 @@
       "content": "species:hitmonchan",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3288,7 +3288,7 @@
       "content": "species:hitmonlee",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3298,7 +3298,7 @@
       "content": "species:hitmontop",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3308,7 +3308,7 @@
       "content": "species:honchkrow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3317,7 +3317,7 @@
       "content": "species:honedge",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3327,7 +3327,7 @@
       "content": "species:hoothoot",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3336,7 +3336,7 @@
       "content": "species:hoppip",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3345,7 +3345,7 @@
       "content": "species:horsea",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3354,7 +3354,7 @@
       "content": "species:houndoom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3363,7 +3363,7 @@
       "content": "species:houndour",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3372,7 +3372,7 @@
       "content": "species:houndstone",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3381,7 +3381,7 @@
       "content": "species:huntail",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3391,7 +3391,7 @@
       "content": "species:hydrapple",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3410,7 +3410,7 @@
       "content": "species:hypno",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3419,7 +3419,7 @@
       "content": "species:igglybuff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3428,7 +3428,7 @@
       "content": "species:illumise",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3437,7 +3437,7 @@
       "content": "species:impidimp",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3456,7 +3456,7 @@
       "content": "species:indeedee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3475,7 +3475,7 @@
       "content": "species:inkay",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3514,7 +3514,7 @@
       "content": "species:jellicent",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3523,7 +3523,7 @@
       "content": "species:jigglypuff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3532,7 +3532,7 @@
       "content": "species:jolteon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3542,7 +3542,7 @@
       "content": "species:joltik",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3551,7 +3551,7 @@
       "content": "species:jumpluff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3560,7 +3560,7 @@
       "content": "species:jynx",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3590,7 +3590,7 @@
       "content": "species:kadabra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3599,7 +3599,7 @@
       "content": "species:kakuna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3618,7 +3618,7 @@
       "content": "species:karrablast",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3627,7 +3627,7 @@
       "content": "species:kecleon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3637,7 +3637,7 @@
       "content": "species:kilowattrel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3646,7 +3646,7 @@
       "content": "species:kingambit",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3655,7 +3655,7 @@
       "content": "species:kingdra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3664,7 +3664,7 @@
       "content": "species:kingler",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3673,7 +3673,7 @@
       "content": "species:kirlia",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3682,7 +3682,7 @@
       "content": "species:klang",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3691,7 +3691,7 @@
       "content": "species:klawf",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3711,7 +3711,7 @@
       "content": "species:klefki",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3720,7 +3720,7 @@
       "content": "species:klink",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3729,7 +3729,7 @@
       "content": "species:klinklang",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3738,7 +3738,7 @@
       "content": "species:koffing",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3747,7 +3747,7 @@
       "content": "species:komala",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3766,7 +3766,7 @@
       "content": "species:krabby",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3775,7 +3775,7 @@
       "content": "species:kricketot",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3784,7 +3784,7 @@
       "content": "species:kricketune",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3793,7 +3793,7 @@
       "content": "species:krokorok",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3802,7 +3802,7 @@
       "content": "species:krookodile",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3811,7 +3811,7 @@
       "content": "species:lairon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3820,7 +3820,7 @@
       "content": "species:lampent",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3829,7 +3829,7 @@
       "content": "species:lanturn",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3838,7 +3838,7 @@
       "content": "species:lapras",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3847,7 +3847,7 @@
       "content": "species:larvesta",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3867,7 +3867,7 @@
       "content": "species:leafeon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3877,7 +3877,7 @@
       "content": "species:leavanny",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3886,7 +3886,7 @@
       "content": "species:lechonk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3895,7 +3895,7 @@
       "content": "species:ledian",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3904,7 +3904,7 @@
       "content": "species:ledyba",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3913,7 +3913,7 @@
       "content": "species:lickilicky",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3923,7 +3923,7 @@
       "content": "species:lickitung",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -3933,7 +3933,7 @@
       "content": "species:liepard",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3952,7 +3952,7 @@
       "content": "species:lilligant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3961,7 +3961,7 @@
       "content": "species:lillipup",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3970,7 +3970,7 @@
       "content": "species:linoone",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3979,7 +3979,7 @@
       "content": "species:litleo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -3998,7 +3998,7 @@
       "content": "species:litwick",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4007,7 +4007,7 @@
       "content": "species:lokix",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4016,7 +4016,7 @@
       "content": "species:lombre",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4025,7 +4025,7 @@
       "content": "species:lopunny",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4034,7 +4034,7 @@
       "content": "species:lotad",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4043,7 +4043,7 @@
       "content": "species:loudred",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4062,7 +4062,7 @@
       "content": "species:ludicolo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4071,7 +4071,7 @@
       "content": "species:lumineon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4080,7 +4080,7 @@
       "content": "species:lunatone",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4089,7 +4089,7 @@
       "content": "species:lurantis",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4098,7 +4098,7 @@
       "content": "species:luvdisc",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4107,7 +4107,7 @@
       "content": "species:luxio",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4117,7 +4117,7 @@
       "content": "species:luxray",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4127,7 +4127,7 @@
       "content": "species:lycanroc",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4136,7 +4136,7 @@
       "content": "species:mabosstiff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4145,7 +4145,7 @@
       "content": "species:machamp",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4154,7 +4154,7 @@
       "content": "species:machoke",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4163,7 +4163,7 @@
       "content": "species:machop",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4172,7 +4172,7 @@
       "content": "species:magby",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4181,7 +4181,7 @@
       "content": "species:magcargo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4190,7 +4190,7 @@
       "content": "species:magikarp",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4199,7 +4199,7 @@
       "content": "species:magmar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4208,7 +4208,7 @@
       "content": "species:magmortar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4217,7 +4217,7 @@
       "content": "species:magnemite",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4226,7 +4226,7 @@
       "content": "species:magneton",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4235,7 +4235,7 @@
       "content": "species:magnezone",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4244,7 +4244,7 @@
       "content": "species:makuhita",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4253,7 +4253,7 @@
       "content": "species:malamar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4262,7 +4262,7 @@
       "content": "species:mamoswine",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4271,7 +4271,7 @@
       "content": "species:manectric",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4281,7 +4281,7 @@
       "content": "species:mankey",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4290,7 +4290,7 @@
       "content": "species:mantine",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4299,7 +4299,7 @@
       "content": "species:mantyke",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4308,7 +4308,7 @@
       "content": "species:maractus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4317,7 +4317,7 @@
       "content": "species:mareanie",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4326,7 +4326,7 @@
       "content": "species:mareep",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4335,7 +4335,7 @@
       "content": "species:marill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4344,7 +4344,7 @@
       "content": "species:marowak",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4363,7 +4363,7 @@
       "content": "species:maschiff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4372,7 +4372,7 @@
       "content": "species:masquerain",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4382,7 +4382,7 @@
       "content": "species:maushold",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4391,7 +4391,7 @@
       "content": "species:mawile",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4401,7 +4401,7 @@
       "content": "species:medicham",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4410,7 +4410,7 @@
       "content": "species:meditite",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4439,7 +4439,7 @@
       "content": "species:meowstic",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4448,7 +4448,7 @@
       "content": "species:meowth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4457,7 +4457,7 @@
       "content": "species:metagross",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4467,7 +4467,7 @@
       "content": "species:metang",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4477,7 +4477,7 @@
       "content": "species:metapod",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4486,7 +4486,7 @@
       "content": "species:mienfoo",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4496,7 +4496,7 @@
       "content": "species:mienshao",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4506,7 +4506,7 @@
       "content": "species:mightyena",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4515,7 +4515,7 @@
       "content": "species:milcery",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4524,7 +4524,7 @@
       "content": "species:milotic",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4533,7 +4533,7 @@
       "content": "species:miltank",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4542,7 +4542,7 @@
       "content": "species:mimejr",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4551,7 +4551,7 @@
       "content": "species:mimikyu",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4561,7 +4561,7 @@
       "content": "species:minccino",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4570,7 +4570,7 @@
       "content": "species:minior",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4580,7 +4580,7 @@
       "content": "species:minun",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4590,7 +4590,7 @@
       "content": "species:misdreavus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4599,7 +4599,7 @@
       "content": "species:mismagius",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4618,7 +4618,7 @@
       "content": "species:morelull",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4627,7 +4627,7 @@
       "content": "species:morgrem",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4636,7 +4636,7 @@
       "content": "species:morpeko",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4646,7 +4646,7 @@
       "content": "species:mothim",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4655,7 +4655,7 @@
       "content": "species:mrmime",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4664,7 +4664,7 @@
       "content": "species:mrrime",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4674,7 +4674,7 @@
       "content": "species:mudbray",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4693,7 +4693,7 @@
       "content": "species:mudsdale",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4702,7 +4702,7 @@
       "content": "species:muk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4711,7 +4711,7 @@
       "content": "species:munchlax",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4721,7 +4721,7 @@
       "content": "species:munna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4730,7 +4730,7 @@
       "content": "species:murkrow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4739,7 +4739,7 @@
       "content": "species:musharna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4748,7 +4748,7 @@
       "content": "species:nacli",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4757,7 +4757,7 @@
       "content": "species:naclstack",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4766,7 +4766,7 @@
       "content": "species:natu",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4775,7 +4775,7 @@
       "content": "species:nickit",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4784,7 +4784,7 @@
       "content": "species:nidoking",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4794,7 +4794,7 @@
       "content": "species:nidoqueen",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4804,7 +4804,7 @@
       "content": "species:nidoranf",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4814,7 +4814,7 @@
       "content": "species:nidoranm",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4824,7 +4824,7 @@
       "content": "species:nidorina",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4834,7 +4834,7 @@
       "content": "species:nidorino",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4844,7 +4844,7 @@
       "content": "species:nincada",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4853,7 +4853,7 @@
       "content": "species:ninetales",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4862,7 +4862,7 @@
       "content": "species:ninjask",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4871,7 +4871,7 @@
       "content": "species:noctowl",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4880,7 +4880,7 @@
       "content": "species:noibat",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4890,7 +4890,7 @@
       "content": "species:noivern",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4900,7 +4900,7 @@
       "content": "species:nosepass",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -4910,7 +4910,7 @@
       "content": "species:numel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4919,7 +4919,7 @@
       "content": "species:nuzleaf",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4928,7 +4928,7 @@
       "content": "species:nymble",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4937,7 +4937,7 @@
       "content": "species:obstagoon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4946,7 +4946,7 @@
       "content": "species:octillery",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4955,7 +4955,7 @@
       "content": "species:oddish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4964,7 +4964,7 @@
       "content": "species:oinkologne",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -4993,7 +4993,7 @@
       "content": "species:onix",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5003,7 +5003,7 @@
       "content": "species:orthworm",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5022,7 +5022,7 @@
       "content": "species:overqwil",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5031,7 +5031,7 @@
       "content": "species:pachirisu",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5041,7 +5041,7 @@
       "content": "species:palafin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5050,7 +5050,7 @@
       "content": "species:palossand",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5059,7 +5059,7 @@
       "content": "species:palpitoad",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5068,7 +5068,7 @@
       "content": "species:pancham",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5077,7 +5077,7 @@
       "content": "species:pangoro",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5086,7 +5086,7 @@
       "content": "species:panpour",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5096,7 +5096,7 @@
       "content": "species:pansage",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5106,7 +5106,7 @@
       "content": "species:pansear",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5116,7 +5116,7 @@
       "content": "species:paras",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5125,7 +5125,7 @@
       "content": "species:parasect",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5134,7 +5134,7 @@
       "content": "species:patrat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5143,7 +5143,7 @@
       "content": "species:pawniard",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5152,7 +5152,7 @@
       "content": "species:pelipper",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5161,7 +5161,7 @@
       "content": "species:perrserker",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5170,7 +5170,7 @@
       "content": "species:persian",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5179,7 +5179,7 @@
       "content": "species:petilil",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5188,7 +5188,7 @@
       "content": "species:phanpy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5197,7 +5197,7 @@
       "content": "species:phantump",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5206,7 +5206,7 @@
       "content": "species:pichu",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5216,7 +5216,7 @@
       "content": "species:pidgeot",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5225,7 +5225,7 @@
       "content": "species:pidgeotto",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5234,7 +5234,7 @@
       "content": "species:pidgey",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5243,7 +5243,7 @@
       "content": "species:pidove",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5262,7 +5262,7 @@
       "content": "species:pikachu",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5272,7 +5272,7 @@
       "content": "species:pikipek",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5281,7 +5281,7 @@
       "content": "species:piloswine",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5290,7 +5290,7 @@
       "content": "species:pincurchin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5299,7 +5299,7 @@
       "content": "species:pineco",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5308,7 +5308,7 @@
       "content": "species:pinsir",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5328,7 +5328,7 @@
       "content": "species:plusle",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5338,7 +5338,7 @@
       "content": "species:politoed",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5347,7 +5347,7 @@
       "content": "species:poliwag",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5356,7 +5356,7 @@
       "content": "species:poliwhirl",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5365,7 +5365,7 @@
       "content": "species:poliwrath",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5374,7 +5374,7 @@
       "content": "species:poltchageist",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5384,7 +5384,7 @@
       "content": "species:polteageist",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5393,7 +5393,7 @@
       "content": "species:ponyta",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5402,7 +5402,7 @@
       "content": "species:poochyena",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5421,7 +5421,7 @@
       "content": "species:porygon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5431,7 +5431,7 @@
       "content": "species:porygon2",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5441,7 +5441,7 @@
       "content": "species:porygonz",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5461,7 +5461,7 @@
       "content": "species:primeape",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5480,7 +5480,7 @@
       "content": "species:probopass",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5490,7 +5490,7 @@
       "content": "species:psyduck",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5499,7 +5499,7 @@
       "content": "species:pumpkaboo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5518,7 +5518,7 @@
       "content": "species:purrloin",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5527,7 +5527,7 @@
       "content": "species:purugly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5536,7 +5536,7 @@
       "content": "species:pyroar",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5545,7 +5545,7 @@
       "content": "species:pyukumuku",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5554,7 +5554,7 @@
       "content": "species:quagsire",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5613,7 +5613,7 @@
       "content": "species:qwilfish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5632,7 +5632,7 @@
       "content": "species:rabsca",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5641,7 +5641,7 @@
       "content": "species:raichu",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5651,7 +5651,7 @@
       "content": "species:ralts",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5670,7 +5670,7 @@
       "content": "species:rapidash",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5679,7 +5679,7 @@
       "content": "species:raticate",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5688,7 +5688,7 @@
       "content": "species:rattata",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5697,7 +5697,7 @@
       "content": "species:relicanth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5706,7 +5706,7 @@
       "content": "species:rellor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5715,7 +5715,7 @@
       "content": "species:remoraid",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5724,7 +5724,7 @@
       "content": "species:reuniclus",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5734,7 +5734,7 @@
       "content": "species:revavroom",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5754,7 +5754,7 @@
       "content": "species:rhyhorn",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5773,7 +5773,7 @@
       "content": "species:ribombee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5802,7 +5802,7 @@
       "content": "species:rockruff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5811,7 +5811,7 @@
       "content": "species:roggenrola",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5820,7 +5820,7 @@
       "content": "species:rolycoly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5829,7 +5829,7 @@
       "content": "species:rookidee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5838,7 +5838,7 @@
       "content": "species:roselia",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5847,7 +5847,7 @@
       "content": "species:roserade",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5866,7 +5866,7 @@
       "content": "species:rufflet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5875,7 +5875,7 @@
       "content": "species:runerigus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5884,7 +5884,7 @@
       "content": "species:sableye",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5903,7 +5903,7 @@
       "content": "species:salandit",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5912,7 +5912,7 @@
       "content": "species:salazzle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5931,7 +5931,7 @@
       "content": "species:sandaconda",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5940,7 +5940,7 @@
       "content": "species:sandile",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5949,7 +5949,7 @@
       "content": "species:sandshrew",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5958,7 +5958,7 @@
       "content": "species:sandslash",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5967,7 +5967,7 @@
       "content": "species:sandygast",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5976,7 +5976,7 @@
       "content": "species:sawk",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -5986,7 +5986,7 @@
       "content": "species:sawsbuck",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -5995,7 +5995,7 @@
       "content": "species:scatterbug",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6014,7 +6014,7 @@
       "content": "species:scizor",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6024,7 +6024,7 @@
       "content": "species:scolipede",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6043,7 +6043,7 @@
       "content": "species:scovillain",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6052,7 +6052,7 @@
       "content": "species:scrafty",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6061,7 +6061,7 @@
       "content": "species:scraggy",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6070,7 +6070,7 @@
       "content": "species:scyther",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6080,7 +6080,7 @@
       "content": "species:seadra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6089,7 +6089,7 @@
       "content": "species:seaking",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6098,7 +6098,7 @@
       "content": "species:sealeo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6107,7 +6107,7 @@
       "content": "species:seedot",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6116,7 +6116,7 @@
       "content": "species:seel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6125,7 +6125,7 @@
       "content": "species:seismitoad",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6134,7 +6134,7 @@
       "content": "species:sentret",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6163,7 +6163,7 @@
       "content": "species:seviper",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6173,7 +6173,7 @@
       "content": "species:sewaddle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6182,7 +6182,7 @@
       "content": "species:sharpedo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6191,7 +6191,7 @@
       "content": "species:shedinja",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6210,7 +6210,7 @@
       "content": "species:shellder",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6219,7 +6219,7 @@
       "content": "species:shellos",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6228,7 +6228,7 @@
       "content": "species:shelmet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6247,7 +6247,7 @@
       "content": "species:shiftry",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6256,7 +6256,7 @@
       "content": "species:shiinotic",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6265,7 +6265,7 @@
       "content": "species:shinx",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6275,7 +6275,7 @@
       "content": "species:shroodle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6284,7 +6284,7 @@
       "content": "species:shroomish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6293,7 +6293,7 @@
       "content": "species:shuckle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6302,7 +6302,7 @@
       "content": "species:shuppet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6311,7 +6311,7 @@
       "content": "species:sigilyph",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6320,7 +6320,7 @@
       "content": "species:silcoon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6329,7 +6329,7 @@
       "content": "species:silicobra",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6338,7 +6338,7 @@
       "content": "species:simipour",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6348,7 +6348,7 @@
       "content": "species:simisage",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6358,7 +6358,7 @@
       "content": "species:simisear",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6368,7 +6368,7 @@
       "content": "species:sinistcha",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6378,7 +6378,7 @@
       "content": "species:sinistea",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6397,7 +6397,7 @@
       "content": "species:sizzlipede",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6426,7 +6426,7 @@
       "content": "species:skiddo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6435,7 +6435,7 @@
       "content": "species:skiploom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6444,7 +6444,7 @@
       "content": "species:skitty",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6453,7 +6453,7 @@
       "content": "species:skorupi",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6462,7 +6462,7 @@
       "content": "species:skrelp",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6471,7 +6471,7 @@
       "content": "species:skuntank",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6480,7 +6480,7 @@
       "content": "species:skwovet",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6489,7 +6489,7 @@
       "content": "species:slaking",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6498,7 +6498,7 @@
       "content": "species:slakoth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6507,7 +6507,7 @@
       "content": "species:sliggoo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6516,7 +6516,7 @@
       "content": "species:slowbro",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6525,7 +6525,7 @@
       "content": "species:slowking",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6534,7 +6534,7 @@
       "content": "species:slowpoke",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6543,7 +6543,7 @@
       "content": "species:slugma",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6552,7 +6552,7 @@
       "content": "species:slurpuff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6561,7 +6561,7 @@
       "content": "species:smeargle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6570,7 +6570,7 @@
       "content": "species:smoliv",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6580,7 +6580,7 @@
       "content": "species:smoochum",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6590,7 +6590,7 @@
       "content": "species:sneasel",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6600,7 +6600,7 @@
       "content": "species:sneasler",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6620,7 +6620,7 @@
       "content": "species:snom",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6629,7 +6629,7 @@
       "content": "species:snorlax",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6639,7 +6639,7 @@
       "content": "species:snorunt",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6648,7 +6648,7 @@
       "content": "species:snover",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6657,7 +6657,7 @@
       "content": "species:snubbull",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6676,7 +6676,7 @@
       "content": "species:solosis",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6686,7 +6686,7 @@
       "content": "species:solrock",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6695,7 +6695,7 @@
       "content": "species:spearow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6704,7 +6704,7 @@
       "content": "species:spewpa",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6713,7 +6713,7 @@
       "content": "species:spheal",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6722,7 +6722,7 @@
       "content": "species:spidops",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6731,7 +6731,7 @@
       "content": "species:spinarak",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6740,7 +6740,7 @@
       "content": "species:spinda",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6750,7 +6750,7 @@
       "content": "species:spiritomb",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6760,7 +6760,7 @@
       "content": "species:spoink",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6779,7 +6779,7 @@
       "content": "species:spritzee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6788,7 +6788,7 @@
       "content": "species:squawkabilly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6807,7 +6807,7 @@
       "content": "species:stantler",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6816,7 +6816,7 @@
       "content": "species:staraptor",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6825,7 +6825,7 @@
       "content": "species:staravia",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6834,7 +6834,7 @@
       "content": "species:starly",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6843,7 +6843,7 @@
       "content": "species:starmie",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6852,7 +6852,7 @@
       "content": "species:staryu",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6861,7 +6861,7 @@
       "content": "species:steelix",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6871,7 +6871,7 @@
       "content": "species:steenee",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6880,7 +6880,7 @@
       "content": "species:stonjourner",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6889,7 +6889,7 @@
       "content": "species:stoutland",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6898,7 +6898,7 @@
       "content": "species:stufful",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6907,7 +6907,7 @@
       "content": "species:stunfisk",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6916,7 +6916,7 @@
       "content": "species:stunky",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6925,7 +6925,7 @@
       "content": "species:sudowoodo",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6935,7 +6935,7 @@
       "content": "species:sunflora",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6944,7 +6944,7 @@
       "content": "species:sunkern",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6953,7 +6953,7 @@
       "content": "species:surskit",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -6963,7 +6963,7 @@
       "content": "species:swablu",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6972,7 +6972,7 @@
       "content": "species:swadloon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -6991,7 +6991,7 @@
       "content": "species:swanna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7000,7 +7000,7 @@
       "content": "species:swellow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7009,7 +7009,7 @@
       "content": "species:swinub",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7018,7 +7018,7 @@
       "content": "species:swirlix",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7027,7 +7027,7 @@
       "content": "species:swoobat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7036,7 +7036,7 @@
       "content": "species:sylveon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7046,7 +7046,7 @@
       "content": "species:tadbulb",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7055,7 +7055,7 @@
       "content": "species:taillow",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7064,7 +7064,7 @@
       "content": "species:talonflame",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7073,7 +7073,7 @@
       "content": "species:tandemaus",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7082,7 +7082,7 @@
       "content": "species:tangela",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7091,7 +7091,7 @@
       "content": "species:tangrowth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7100,7 +7100,7 @@
       "content": "species:tarountula",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7109,7 +7109,7 @@
       "content": "species:tatsugiri",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7119,7 +7119,7 @@
       "content": "species:tauros",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7128,7 +7128,7 @@
       "content": "species:teddiursa",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7137,7 +7137,7 @@
       "content": "species:tentacool",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7146,7 +7146,7 @@
       "content": "species:tentacruel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7165,7 +7165,7 @@
       "content": "species:thievul",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7174,7 +7174,7 @@
       "content": "species:throh",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7194,7 +7194,7 @@
       "content": "species:timburr",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7203,7 +7203,7 @@
       "content": "species:tinkatink",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7212,7 +7212,7 @@
       "content": "species:tinkaton",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7221,7 +7221,7 @@
       "content": "species:tinkatuff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7240,7 +7240,7 @@
       "content": "species:toedscool",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7249,7 +7249,7 @@
       "content": "species:toedscruel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7258,7 +7258,7 @@
       "content": "species:togedemaru",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7308,7 +7308,7 @@
       "content": "species:torkoal",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7347,7 +7347,7 @@
       "content": "species:toucannon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7356,7 +7356,7 @@
       "content": "species:toxapex",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7365,7 +7365,7 @@
       "content": "species:toxel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7374,7 +7374,7 @@
       "content": "species:toxicroak",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7383,7 +7383,7 @@
       "content": "species:toxtricity",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7392,7 +7392,7 @@
       "content": "species:tranquill",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7401,7 +7401,7 @@
       "content": "species:trapinch",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7421,7 +7421,7 @@
       "content": "species:trevenant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7430,7 +7430,7 @@
       "content": "species:tropius",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7440,7 +7440,7 @@
       "content": "species:trubbish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7449,7 +7449,7 @@
       "content": "species:trumbeak",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7458,7 +7458,7 @@
       "content": "species:tsareena",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7467,7 +7467,7 @@
       "content": "species:turtonator",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7487,7 +7487,7 @@
       "content": "species:tympole",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7496,7 +7496,7 @@
       "content": "species:tynamo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7535,7 +7535,7 @@
       "content": "species:tyrogue",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7555,7 +7555,7 @@
       "content": "species:umbreon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7565,7 +7565,7 @@
       "content": "species:unfezant",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7574,7 +7574,7 @@
       "content": "species:unown",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7583,7 +7583,7 @@
       "content": "species:ursaluna",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7592,7 +7592,7 @@
       "content": "species:ursaring",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7601,7 +7601,7 @@
       "content": "species:vanillish",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7610,7 +7610,7 @@
       "content": "species:vanillite",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7619,7 +7619,7 @@
       "content": "species:vanilluxe",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7628,7 +7628,7 @@
       "content": "species:vaporeon",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7638,7 +7638,7 @@
       "content": "species:varoom",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7648,7 +7648,7 @@
       "content": "species:veluza",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7657,7 +7657,7 @@
       "content": "species:venipede",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7666,7 +7666,7 @@
       "content": "species:venomoth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7675,7 +7675,7 @@
       "content": "species:venonat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7694,7 +7694,7 @@
       "content": "species:vespiquen",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7713,7 +7713,7 @@
       "content": "species:victreebel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7722,7 +7722,7 @@
       "content": "species:vigoroth",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7731,7 +7731,7 @@
       "content": "species:vikavolt",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7740,7 +7740,7 @@
       "content": "species:vileplume",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7749,7 +7749,7 @@
       "content": "species:vivillon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7758,7 +7758,7 @@
       "content": "species:volbeat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7767,7 +7767,7 @@
       "content": "species:volcarona",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7777,7 +7777,7 @@
       "content": "species:voltorb",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7786,7 +7786,7 @@
       "content": "species:vulpix",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7795,7 +7795,7 @@
       "content": "species:wailmer",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7804,7 +7804,7 @@
       "content": "species:wailord",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7813,7 +7813,7 @@
       "content": "species:walrein",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7832,7 +7832,7 @@
       "content": "species:watchog",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7841,7 +7841,7 @@
       "content": "species:wattrel",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7850,7 +7850,7 @@
       "content": "species:weavile",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -7860,7 +7860,7 @@
       "content": "species:weedle",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7869,7 +7869,7 @@
       "content": "species:weepinbell",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7878,7 +7878,7 @@
       "content": "species:weezing",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7887,7 +7887,7 @@
       "content": "species:whimsicott",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7896,7 +7896,7 @@
       "content": "species:whirlipede",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7905,7 +7905,7 @@
       "content": "species:whiscash",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7914,7 +7914,7 @@
       "content": "species:whismur",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7923,7 +7923,7 @@
       "content": "species:wigglytuff",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7932,7 +7932,7 @@
       "content": "species:wiglett",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7941,7 +7941,7 @@
       "content": "species:wimpod",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7950,7 +7950,7 @@
       "content": "species:wingull",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7959,7 +7959,7 @@
       "content": "species:wishiwashi",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7978,7 +7978,7 @@
       "content": "species:woobat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7987,7 +7987,7 @@
       "content": "species:wooloo",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -7996,7 +7996,7 @@
       "content": "species:wooper",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8005,7 +8005,7 @@
       "content": "species:wormadam",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8014,7 +8014,7 @@
       "content": "species:wugtrio",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8023,7 +8023,7 @@
       "content": "species:wurmple",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8042,7 +8042,7 @@
       "content": "species:wyrdeer",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8051,7 +8051,7 @@
       "content": "species:xatu",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8060,7 +8060,7 @@
       "content": "species:yamask",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8069,7 +8069,7 @@
       "content": "species:yamper",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8078,7 +8078,7 @@
       "content": "species:yanma",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -8088,7 +8088,7 @@
       "content": "species:yanmega",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -8098,7 +8098,7 @@
       "content": "species:yungoos",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8107,7 +8107,7 @@
       "content": "species:zangoose",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -8117,7 +8117,7 @@
       "content": "species:zebstrika",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8126,7 +8126,7 @@
       "content": "species:zigzagoon",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
@@ -8135,7 +8135,7 @@
       "content": "species:zoroark",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -8145,7 +8145,7 @@
       "content": "species:zorua",
       "amount": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "unitWorth": 800,
       "rarity": "UNCOMMON"
@@ -8155,7 +8155,7 @@
       "content": "species:zubat",
       "amount": {
         "min": 1,
-        "max": 3
+        "max": 1
       },
       "unitWorth": 300
     },
