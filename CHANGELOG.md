@@ -1,3 +1,9 @@
+## [0.4.11](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.10...v0.4.11) (2026-11-10)
+
+### Bug Fixes
+
+* turn off the log bounties that came up too often ([9dce199](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/9dce199424337b8573754b5709fc4a737064894d))
+
 ## [0.4.10](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.9...v0.4.10) (2026-11-10)
 
 ### Bug Fixes
