@@ -1,3 +1,9 @@
+## [0.4.18](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.17...v0.4.18) (2026-11-11)
+
+### Bug Fixes
+
+* add a Pikachu ears hat cosmetic ([5bc5f14](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/5bc5f1458523cfb4c2bfdb2a58f7661f10b14845))
+
 ## [0.4.17](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.16...v0.4.17) (2026-11-11)
 
 ### Bug Fixes
