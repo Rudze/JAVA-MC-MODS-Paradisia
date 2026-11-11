@@ -1,3 +1,9 @@
+## [0.4.23](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.22...v0.4.23) (2026-11-11)
+
+### Bug Fixes
+
+* remove the Magikarp hat cosmetic ([0ef712a](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/0ef712afaa3189339d37ef17caaa3c0104da3c71))
+
 ## [0.4.22](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.21...v0.4.22) (2026-11-11)
 
 ### Bug Fixes
