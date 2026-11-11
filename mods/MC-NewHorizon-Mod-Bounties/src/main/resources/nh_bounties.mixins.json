@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "com.rudze.bounties.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["BoardBountySlotMixin"],
+  "mixins": ["BoardBountySlotMixin", "BountyTooltipMixin"],
   "client": ["BoardScreenMixin"],
   "injectors": {
     "defaultRequire": 1
