@@ -1,3 +1,9 @@
+## [0.4.17](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.16...v0.4.17) (2026-11-11)
+
+### Bug Fixes
+
+* give the bounty board a vanilla look and tidy up the bounty lore ([53abd4a](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/53abd4a8339ff8a72b0d2c1dded8481e624d90e7))
+
 ## [0.4.16](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.15...v0.4.16) (2026-11-11)
 
 ### Bug Fixes
