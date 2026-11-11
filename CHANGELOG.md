@@ -1,3 +1,9 @@
+## [0.4.15](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.14...v0.4.15) (2026-11-11)
+
+### Bug Fixes
+
+* add the Paradisia resource pack with hardcore hearts, always on ([8167d84](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/8167d84ced9654c469a76e8523668862ebb4a334))
+
 ## [0.4.14](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.13...v0.4.14) (2026-11-11)
 
 ### Bug Fixes
