@@ -1,3 +1,9 @@
+## [0.4.14](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.13...v0.4.14) (2026-11-11)
+
+### Bug Fixes
+
+* remove the Cobblemon Interface resource packs ([b4b05d3](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/b4b05d350a06250a89d26e8e83e1078c66565b27))
+
 ## [0.4.13](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.12...v0.4.13) (2026-11-11)
 
 ### Bug Fixes
