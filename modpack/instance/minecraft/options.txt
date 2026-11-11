@@ -48,7 +48,7 @@ mouseSensitivity:0.3028169014084507
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","file/Better-Leaves-9.5.zip"]
+resourcePacks:["vanilla","mod_resources","file/Better-Leaves-9.5.zip","file/Cobblemon Interface v1.6.0.zip","file/Cobblemon Interface Modded v1.9.4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:fr_fr
