@@ -1,3 +1,9 @@
+## [0.4.20](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.19...v0.4.20) (2026-11-11)
+
+### Bug Fixes
+
+* rework the Magikarp hat to sit on top of the head ([5801f39](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/5801f39917a19bbbe36088f17f40347a24e9c19c))
+
 ## [0.4.19](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.18...v0.4.19) (2026-11-11)
 
 ### Bug Fixes
