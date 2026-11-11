@@ -1,3 +1,10 @@
+## [0.4.21](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.20...v0.4.21) (2026-11-11)
+
+### Bug Fixes
+
+* keep the Magikarp hat tail inside the model bounds ([040b475](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/040b4757e762aff2e1fd2f7ad6ec6f4bde135ea9))
+* remodel the Magikarp hat after the reference ([4f44f84](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/4f44f845c0099b759e8c03ad6befbab3a065e9a8))
+
 ## [0.4.20](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.19...v0.4.20) (2026-11-11)
 
 ### Bug Fixes
