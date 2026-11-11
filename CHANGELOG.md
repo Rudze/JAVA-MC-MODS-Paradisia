@@ -1,3 +1,9 @@
+## [0.4.12](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.11...v0.4.12) (2026-11-11)
+
+### Bug Fixes
+
+* remove Enchantment Glows, New Glowing Ores and Deez FPS, block the HMI 3D bucket pack ([895ee61](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/895ee6153ca0a4cc1c4eb3c51b1c58dbab37c325))
+
 ## [0.4.11](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.10...v0.4.11) (2026-11-10)
 
 ### Bug Fixes
