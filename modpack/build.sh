@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Builds the Prism Launcher instance zip players import: the files under instance/ plus every
 # mod listed in modrinth-mods.json, downloaded and checked against its sha1. Mods that aren't on
-# Modrinth live in instance/minecraft/mods directly.
+# Modrinth live in instance/minecraft/mods directly. An entry with "dir" goes in that folder of
+# minecraft/ instead of mods/ (resource packs whose licence forbids keeping a copy here).
 #
 # Usage: modpack/build.sh <version>   ->   dist/Paradisia-<version>.zip
 set -euo pipefail
@@ -19,10 +20,11 @@ sed -i.bak "s/^name=.*/name=Paradisia $version/" "$pack/instance.cfg" && rm "$pa
 python3 -c '
 import json, sys
 for mod in json.load(open(sys.argv[1])):
-    print(mod["file"], mod["url"], mod["sha1"], sep="\t")
-' "$here/modrinth-mods.json" | while IFS=$'\t' read -r file url sha1; do
-    curl -fsSL -A "Rudze/JAVA-MC-MODS-Paradisia" -o "$pack/minecraft/mods/$file" "$url"
-    actual="$(shasum -a 1 "$pack/minecraft/mods/$file" | cut -d' ' -f1)"
+    print(mod["file"], mod["url"], mod["sha1"], mod.get("dir", "mods"), sep="\t")
+' "$here/modrinth-mods.json" | while IFS=$'\t' read -r file url sha1 dir; do
+    mkdir -p "$pack/minecraft/$dir"
+    curl -fsSL -A "Rudze/JAVA-MC-MODS-Paradisia" -o "$pack/minecraft/$dir/$file" "$url"
+    actual="$(shasum -a 1 "$pack/minecraft/$dir/$file" | cut -d' ' -f1)"
     [ "$actual" = "$sha1" ] || { echo "sha1 mismatch for $file" >&2; exit 1; }
     echo "downloaded $file"
 done

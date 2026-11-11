@@ -10,8 +10,8 @@ import net.neoforged.neoforge.common.NeoForge;
 /**
  * Rebrands the loading screens: the Paradisia logo replaces Mojang Studios' (see
  * {@link com.rudze.loadingscreen.mixin.LogoTextureMixin}) and the background is black. Once the
- * game is up, the connecting and terrain loading screens show random Paradisia images instead of
- * the panorama (see {@link LoadingBackgrounds}).
+ * game is up, the connecting and terrain loading screens show random images instead of
+ * the panorama, taken from the resource packs (see {@link LoadingBackgrounds}).
  *
  * <p>The black background is Minecraft's own "monochrome logo" accessibility option, which both
  * vanilla's loading overlay and NeoForge's early loading window read. It is forced on every

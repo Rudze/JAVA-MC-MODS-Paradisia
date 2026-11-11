@@ -346,5 +346,12 @@
     "url": "https://cdn.modrinth.com/data/zfbCkvdZ/versions/rCSmCZpX/kambrik-neoforge-8.0.0-beta.2.jar",
     "sha1": "9e41688287925e7a65375d96f32eefca7ab2a821",
     "size": 436428
+  },
+  {
+    "file": "CobblemonLoadingBackgrounds-[1.0.2].zip",
+    "url": "https://cdn.modrinth.com/data/KS8ThZBC/versions/uRsiSRtw/CobblemonLoadingBackgrounds-%5B1.0.2%5D.zip",
+    "sha1": "1976eab776d8280e062bd5136b24bdc4dfa1a049",
+    "size": 25725321,
+    "dir": "resourcepacks"
   }
 ]
