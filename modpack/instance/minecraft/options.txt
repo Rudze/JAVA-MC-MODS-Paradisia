@@ -48,7 +48,7 @@ mouseSensitivity:0.3028169014084507
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","builtin/add_pack_finders_test","file/Better-Leaves-9.5.zip","file/NewGlowingOres-§6[Border]§r.zip","file/Deez FPS [Better Textures]","file/Enchantment Glows v1"]
+resourcePacks:["vanilla","mod_resources","file/Better-Leaves-9.5.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:fr_fr

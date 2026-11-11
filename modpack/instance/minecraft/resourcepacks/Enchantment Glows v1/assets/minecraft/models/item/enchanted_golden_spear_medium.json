@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:item/template_enchanted_spear_medium",
-	"textures": {
-		"spear": "minecraft:item/golden_spear_model",
-		"glint": "minecraft:item/enchant_glint"
-	}
-}

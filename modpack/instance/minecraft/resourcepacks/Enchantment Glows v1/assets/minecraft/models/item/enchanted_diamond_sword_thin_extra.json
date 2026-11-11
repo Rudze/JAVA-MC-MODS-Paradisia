@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_enchanted_sword_thin_extra",
-  "textures": {
-    "sword": "minecraft:item/diamond_sword_model",
-    "glint": "minecraft:item/enchant_glint"
-  }
-}

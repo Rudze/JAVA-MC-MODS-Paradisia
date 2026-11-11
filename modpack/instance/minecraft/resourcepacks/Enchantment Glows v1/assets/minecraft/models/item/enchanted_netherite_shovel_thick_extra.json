@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_enchanted_shovel_thick_extra",
-  "textures": {
-    "shovel": "minecraft:item/netherite_shovel_model",
-    "glint": "minecraft:item/enchant_glint"
-  }
-}

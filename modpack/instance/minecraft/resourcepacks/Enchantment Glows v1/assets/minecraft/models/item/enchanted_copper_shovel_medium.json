@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:item/template_enchanted_shovel_medium",
-	"textures": {
-		"shovel": "minecraft:item/copper_shovel_model",
-		"glint": "minecraft:item/enchant_glint"
-	}
-}

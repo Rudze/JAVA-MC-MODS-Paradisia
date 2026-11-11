@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/template_enchanted_axe_thin_extra",
-  "textures": {
-    "axe": "minecraft:item/golden_axe_model",
-    "glint": "minecraft:item/enchant_glint"
-  }
-}

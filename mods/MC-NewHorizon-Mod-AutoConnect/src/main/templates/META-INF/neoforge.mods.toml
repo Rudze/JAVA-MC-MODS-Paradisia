@@ -11,6 +11,9 @@ description = '''${mod_description}'''
 # Client-only: never needed on the server, and the server list shouldn't care either way.
 displayTest = "IGNORE_ALL_VERSION"
 
+[[mixins]]
+config = "nh_autoconnect.mixins.json"
+
 [[accessTransformers]]
 file = "META-INF/accesstransformer.cfg"
 

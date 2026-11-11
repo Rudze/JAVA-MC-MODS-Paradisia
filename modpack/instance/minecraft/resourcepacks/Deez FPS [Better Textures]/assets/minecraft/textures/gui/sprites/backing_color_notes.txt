@@ -1,3 +1,0 @@
-take ColoredWidgetsGray and apply:
--68 Brightness
--45 Contrast

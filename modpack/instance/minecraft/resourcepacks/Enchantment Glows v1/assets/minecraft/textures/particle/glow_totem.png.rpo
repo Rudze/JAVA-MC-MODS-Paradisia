@@ -1,6 +1,0 @@
-{
-  condition: "extraSettings.glowParticles",
-  fallback: [
-    "assets/minecraft/textures/particle/empty_glow_particle.png"
-  ]
-}

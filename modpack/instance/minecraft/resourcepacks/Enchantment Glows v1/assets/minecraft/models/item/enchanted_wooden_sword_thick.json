@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:item/template_enchanted_sword_thick",
-	"textures": {
-		"sword": "minecraft:item/wooden_sword_model",
-		"glint": "minecraft:item/enchant_glint"
-	}
-}
