@@ -1,3 +1,9 @@
+## [0.4.22](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.21...v0.4.22) (2026-11-11)
+
+### Bug Fixes
+
+* reshape the Magikarp hat to match the reference ([3a74321](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/3a74321d3065ef1b317d43fd36b5515e1b7233d1))
+
 ## [0.4.21](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.20...v0.4.21) (2026-11-11)
 
 ### Bug Fixes
