@@ -1,3 +1,9 @@
+## [0.4.16](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.15...v0.4.16) (2026-11-11)
+
+### Bug Fixes
+
+* take the loading backgrounds from Cobblemon Loading Backgrounds, downloaded at build ([3853fb2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/3853fb2d9e488d3f42be27c56dfa904cc2fd72c4))
+
 ## [0.4.15](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.14...v0.4.15) (2026-11-11)
 
 ### Bug Fixes
