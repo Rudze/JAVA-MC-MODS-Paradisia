@@ -353,5 +353,12 @@
     "sha1": "1976eab776d8280e062bd5136b24bdc4dfa1a049",
     "size": 25725321,
     "dir": "resourcepacks"
+  },
+  {
+    "file": "Better Vanilla GUI (Without OptiGUI) - MC 1.21.1 - 4.0.0.zip",
+    "url": "https://cdn.modrinth.com/data/Tp4jv4sv/versions/BDDMAqlg/Better%20Vanilla%20GUI%20%28Without%20OptiGUI%29%20-%20MC%201.21.1%20-%204.0.0.zip",
+    "sha1": "7a630885f5027afb40de164effb4335811b6cf75",
+    "size": 12805045,
+    "dir": "resourcepacks"
   }
 ]

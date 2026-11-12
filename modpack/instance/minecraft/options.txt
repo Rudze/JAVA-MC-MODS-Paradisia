@@ -48,7 +48,7 @@ mouseSensitivity:0.3028169014084507
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources","file/CobblemonLoadingBackgrounds-[1.0.2].zip","file/Better-Leaves-9.5.zip"]
+resourcePacks:["vanilla","mod_resources","file/CobblemonLoadingBackgrounds-[1.0.2].zip","file/Better-Leaves-9.5.zip","file/Better Vanilla GUI (Without OptiGUI) - MC 1.21.1 - 4.0.0.zip"]
 incompatibleResourcePacks:["file/CobblemonLoadingBackgrounds-[1.0.2].zip"]
 lastServer:
 lang:fr_fr
