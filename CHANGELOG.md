@@ -1,3 +1,9 @@
+## [0.4.24](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.23...v0.4.24) (2026-11-12)
+
+### Bug Fixes
+
+* add the Better Vanilla GUI resource pack ([a137d6b](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/a137d6b088c5eb3e0262d5dd497a40813020058d))
+
 ## [0.4.23](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.22...v0.4.23) (2026-11-11)
 
 ### Bug Fixes
