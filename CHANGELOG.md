@@ -1,3 +1,9 @@
+## [0.4.25](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.24...v0.4.25) (2026-11-12)
+
+### Bug Fixes
+
+* replace Iron Chests with Tom's Simple Storage ([b09ef4b](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/b09ef4be14d986dff039d959e9937ad882bef605))
+
 ## [0.4.24](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.23...v0.4.24) (2026-11-12)
 
 ### Bug Fixes
