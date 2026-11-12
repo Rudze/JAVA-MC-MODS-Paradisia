@@ -1,3 +1,9 @@
+## [0.4.26](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.25...v0.4.26) (2026-11-12)
+
+### Bug Fixes
+
+* craft Tom's Storage blocks with a chest instead of an ender pearl ([f34c39e](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/f34c39e28030c7d6471902ae36970fa225cb6dc0))
+
 ## [0.4.25](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.24...v0.4.25) (2026-11-12)
 
 ### Bug Fixes
