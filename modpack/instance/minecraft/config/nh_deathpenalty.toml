@@ -1,7 +1,7 @@
 #Death Penalty module: punishes dying with a respawn delay and reduced stats on respawn.
 [deathPenalty]
 	#Master switch for the Death Penalty module.
-	enabled = true
+	enabled = false
 
 	[deathPenalty.respawnDelay]
 		#How long, in seconds, the respawn button stays disabled after dying. 900 = 15 minutes.
