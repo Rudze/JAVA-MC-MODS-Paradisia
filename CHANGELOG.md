@@ -1,3 +1,9 @@
+## [0.4.27](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.26...v0.4.27) (2026-11-13)
+
+### Bug Fixes
+
+* turn off the death penalty ([9ca9292](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/9ca9292681bce0508ab9bc0d83040316d3114299))
+
 ## [0.4.26](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.25...v0.4.26) (2026-11-12)
 
 ### Bug Fixes
