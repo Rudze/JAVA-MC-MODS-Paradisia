@@ -1,3 +1,9 @@
+## [0.4.28](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.27...v0.4.28) (2026-11-17)
+
+### Bug Fixes
+
+* add a read-only web API for players, economy and Pokemon ([d74f09f](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/d74f09f0c94acc611d139eaa99170801bb002f05))
+
 ## [0.4.27](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.26...v0.4.27) (2026-11-13)
 
 ### Bug Fixes
