@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# NeoForge run directories
+run/
+runs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+bin/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
