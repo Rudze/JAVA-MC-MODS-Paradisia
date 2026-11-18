@@ -1,3 +1,9 @@
+## [0.4.30](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.29...v0.4.30) (2026-11-18)
+
+### Bug Fixes
+
+* make the web API public with open CORS for the GitHub Pages site ([0022bd2](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/0022bd248cb88ee4b41083abb29e57aa535a9f38))
+
 ## [0.4.29](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.28...v0.4.29) (2026-11-18)
 
 ### Bug Fixes
