@@ -20,8 +20,8 @@ public final class ApiConfig {
                 .comment("Start the HTTP server when the Minecraft server starts.")
                 .define("enabled", true);
         BIND_ADDRESS = builder
-                .comment("Address the HTTP server listens on. 127.0.0.1 = this machine only (behind an HTTPS reverse proxy), 0.0.0.0 = every interface.")
-                .define("bindAddress", "127.0.0.1");
+                .comment("Address the HTTP server listens on. 0.0.0.0 = every interface (the website's GitHub Actions job calls it), 127.0.0.1 = this machine only.")
+                .define("bindAddress", "0.0.0.0");
         PORT = builder
                 .comment("TCP port of the HTTP server.")
                 .defineInRange("port", 8091, 1, 65535);

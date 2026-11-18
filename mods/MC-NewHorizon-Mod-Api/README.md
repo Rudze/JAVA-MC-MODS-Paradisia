@@ -14,30 +14,20 @@ Fichier `config/nh_api.toml` sur le serveur :
 | Clé | Défaut | Rôle |
 |---|---|---|
 | `enabled` | `true` | Démarre l'API avec le serveur |
-| `bindAddress` | `127.0.0.1` | `127.0.0.1` : l'API n'est joignable que par le reverse proxy HTTPS du VPS. `0.0.0.0` : joignable directement depuis Internet, en HTTP |
+| `bindAddress` | `0.0.0.0` | `0.0.0.0` : joignable depuis Internet, ce qui est nécessaire pour que GitHub Actions récupère les données du site. `127.0.0.1` : joignable seulement depuis la machine |
 | `port` | `8091` | Port HTTP |
 | `token` | vide | Vide : l'API est publique. Rempli : la clé devient obligatoire |
-| `allowedOrigin` | `*` | En-tête CORS `Access-Control-Allow-Origin`, pour que le site (GitHub Pages) puisse appeler l'API depuis le navigateur |
+| `allowedOrigin` | `*` | En-tête CORS `Access-Control-Allow-Origin`, pour les sites qui appellent l'API depuis le navigateur |
 
 Après une modification, redémarre le serveur.
 
 ## Accès
 
-L'API est **publique** : les données ne sont pas sensibles, et le site l'appelle directement depuis le navigateur.
+L'API est **publique** : les données ne sont pas sensibles.
+
+Le site [WEB-MC-Paradisia](https://github.com/Rudze/WEB-MC-Paradisia) ne l'appelle pas depuis le navigateur. Une tâche GitHub Actions télécharge les données toutes les 5 minutes et les publie avec le site sur GitHub Pages. Il n'y a donc **pas besoin de HTTPS ni de reverse proxy** : l'API doit seulement être joignable depuis Internet, sur le port `8091`.
 
 Si un `token` est défini, chaque route sauf `/api/health` exige la clé, sous l'une de ces deux formes : `Authorization: Bearer <token>` ou `X-Api-Key: <token>`. Sans elle, l'API répond `401`.
-
-### HTTPS
-
-Le site est servi en HTTPS par GitHub Pages, et un navigateur bloque les appels HTTP faits depuis une page HTTPS. L'API doit donc être derrière un reverse proxy HTTPS. Avec **Caddy**, qui obtient et renouvelle le certificat tout seul, le fichier `/etc/caddy/Caddyfile` contient :
-
-```
-vps-12df6529.vps.ovh.ca {
-    reverse_proxy 127.0.0.1:8091
-}
-```
-
-Les ports 80 et 443 du VPS doivent être ouverts. L'API est ensuite joignable à l'adresse `https://vps-12df6529.vps.ovh.ca/api/...`.
 
 ## Routes
 
