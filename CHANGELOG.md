@@ -1,3 +1,9 @@
+## [0.4.29](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.28...v0.4.29) (2026-11-18)
+
+### Bug Fixes
+
+* add health, armour, statistics and Pokedex to the web API player route ([6455048](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/6455048e37ed112a364a08cc147e8a498bd6af89))
+
 ## [0.4.28](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.27...v0.4.28) (2026-11-17)
 
 ### Bug Fixes
