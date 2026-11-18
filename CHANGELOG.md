@@ -1,3 +1,9 @@
+## [0.4.31](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.30...v0.4.31) (2026-11-18)
+
+### Bug Fixes
+
+* let the web API listen on every interface by default for the site's data job ([ec62188](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/ec621887d6eeee649538c172b7a6d37549c88697))
+
 ## [0.4.30](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.29...v0.4.30) (2026-11-18)
 
 ### Bug Fixes
