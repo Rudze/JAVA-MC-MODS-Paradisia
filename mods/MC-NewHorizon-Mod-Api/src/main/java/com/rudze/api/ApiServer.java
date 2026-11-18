@@ -31,8 +31,8 @@ import java.util.function.Supplier;
  *   <li>{@code GET /api/players/<uuid or name>/pokemon} - their party and PC boxes.</li>
  * </ul>
  *
- * The other routes need the key from config/nh_api.toml, as {@code Authorization: Bearer <key>} or
- * {@code X-Api-Key: <key>}. Requests are handled on a small thread pool; anything touching the game
+ * The API is public unless a token is set in config/nh_api.toml; then the other routes need it, as
+ * {@code Authorization: Bearer <key>} or {@code X-Api-Key: <key>}. Requests are handled on a small thread pool; anything touching the game
  * is run on the server thread.
  */
 final class ApiServer {
@@ -127,12 +127,15 @@ final class ApiServer {
 
     private static boolean authorized(HttpExchange exchange) {
         String expected = ApiConfig.TOKEN.get();
+        if (expected.isBlank()) {
+            return true;   // public API
+        }
         String given = exchange.getRequestHeaders().getFirst("X-Api-Key");
         String bearer = exchange.getRequestHeaders().getFirst("Authorization");
         if (given == null && bearer != null && bearer.startsWith("Bearer ")) {
             given = bearer.substring("Bearer ".length()).trim();
         }
-        return given != null && !expected.isBlank()
+        return given != null
                 && MessageDigest.isEqual(expected.getBytes(StandardCharsets.UTF_8), given.getBytes(StandardCharsets.UTF_8));
     }
 

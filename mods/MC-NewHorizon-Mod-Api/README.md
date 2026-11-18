@@ -14,29 +14,30 @@ Fichier `config/nh_api.toml` sur le serveur :
 | Clé | Défaut | Rôle |
 |---|---|---|
 | `enabled` | `true` | Démarre l'API avec le serveur |
-| `bindAddress` | `0.0.0.0` | `127.0.0.1` pour ne l'ouvrir qu'aux programmes du VPS (site hébergé sur la même machine, reverse proxy) |
+| `bindAddress` | `127.0.0.1` | `127.0.0.1` : l'API n'est joignable que par le reverse proxy HTTPS du VPS. `0.0.0.0` : joignable directement depuis Internet, en HTTP |
 | `port` | `8091` | Port HTTP |
-| `token` | généré au 1er lancement | Clé secrète à envoyer à chaque requête |
-| `allowedOrigin` | vide | Ajoute l'en-tête CORS `Access-Control-Allow-Origin` (ex. `https://paradisia.fr`) |
+| `token` | vide | Vide : l'API est publique. Rempli : la clé devient obligatoire |
+| `allowedOrigin` | `*` | En-tête CORS `Access-Control-Allow-Origin`, pour que le site (GitHub Pages) puisse appeler l'API depuis le navigateur |
 
 Après une modification, redémarre le serveur.
 
-## Authentification
+## Accès
 
-Chaque route sauf `/api/health` exige la clé, sous l'une de ces deux formes :
+L'API est **publique** : les données ne sont pas sensibles, et le site l'appelle directement depuis le navigateur.
+
+Si un `token` est défini, chaque route sauf `/api/health` exige la clé, sous l'une de ces deux formes : `Authorization: Bearer <token>` ou `X-Api-Key: <token>`. Sans elle, l'API répond `401`.
+
+### HTTPS
+
+Le site est servi en HTTPS par GitHub Pages, et un navigateur bloque les appels HTTP faits depuis une page HTTPS. L'API doit donc être derrière un reverse proxy HTTPS. Avec **Caddy**, qui obtient et renouvelle le certificat tout seul, le fichier `/etc/caddy/Caddyfile` contient :
 
 ```
-Authorization: Bearer <token>
-X-Api-Key: <token>
+vps-12df6529.vps.ovh.ca {
+    reverse_proxy 127.0.0.1:8091
+}
 ```
 
-Sans la clé, ou avec une mauvaise clé, l'API répond `401`.
-
-**La clé ne doit jamais se retrouver dans le JavaScript du navigateur.** C'est le serveur du site (backend, route API Next.js, PHP…) qui appelle l'API et qui renvoie au navigateur les données à afficher.
-
-L'API parle en HTTP simple, sans chiffrement : la clé passe en clair sur le réseau. Pour un site en production, il y a deux options :
-- mettre l'API derrière un reverse proxy HTTPS (Caddy ou nginx) ;
-- si le site tourne sur le même VPS, passer `bindAddress` à `127.0.0.1`.
+Les ports 80 et 443 du VPS doivent être ouverts. L'API est ensuite joignable à l'adresse `https://vps-12df6529.vps.ovh.ca/api/...`.
 
 ## Routes
 
@@ -119,7 +120,7 @@ Chaque `<pokemon>` ressemble à ceci :
 
 | Code | Cas |
 |---|---|
-| `401` | Clé absente ou fausse |
+| `401` | Clé absente ou fausse, seulement si un `token` est défini |
 | `404` | Joueur jamais connecté, ou route inconnue |
 | `405` | Méthode autre que `GET` |
 | `500` | Erreur interne (le détail est dans les logs du serveur) |

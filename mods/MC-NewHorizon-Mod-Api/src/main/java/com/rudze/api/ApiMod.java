@@ -10,9 +10,6 @@ import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 import org.slf4j.Logger;
 
-import java.security.SecureRandom;
-import java.util.HexFormat;
-
 /**
  * Serves a read-only JSON API about the players of the server, for the Paradisia website.
  * See {@link ApiServer} for the endpoints.
@@ -34,13 +31,6 @@ public final class ApiMod {
     private static void onServerStarted(ServerStartedEvent event) {
         if (!ApiConfig.ENABLED.get()) {
             return;
-        }
-        if (ApiConfig.TOKEN.get().isBlank()) {
-            byte[] bytes = new byte[24];
-            new SecureRandom().nextBytes(bytes);
-            ApiConfig.TOKEN.set(HexFormat.of().formatHex(bytes));
-            ApiConfig.SPEC.save();
-            LOGGER.info("Generated a new API token in config/nh_api.toml");
         }
         try {
             server = new ApiServer(event.getServer());
