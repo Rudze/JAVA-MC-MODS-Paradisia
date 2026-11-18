@@ -13,6 +13,7 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
 import java.security.MessageDigest;
 import java.util.Optional;
 import java.util.UUID;
@@ -29,6 +30,7 @@ import java.util.function.Supplier;
  *   <li>{@code GET /api/players} - every player who ever joined.</li>
  *   <li>{@code GET /api/players/<uuid or name>} - one player with their balance and Pokemon counts.</li>
  *   <li>{@code GET /api/players/<uuid or name>/pokemon} - their party and PC boxes.</li>
+ *   <li>{@code GET /api/map.zip} - the squaremap web map (page and tiles), zipped.</li>
  * </ul>
  *
  * The API is public unless a token is set in config/nh_api.toml; then the other routes need it, as
@@ -94,6 +96,10 @@ final class ApiServer {
                 send(exchange, 401, error("Missing or wrong API key"));
                 return;
             }
+            if (path.length == 3 && path[2].equals("map.zip")) {
+                sendMap(exchange);
+                return;
+            }
             if (path.length == 3 && path[2].equals("players")) {
                 send(exchange, 200, onServerThread(players::listPlayers));
             } else if (path.length >= 4 && path[2].equals("players")) {
@@ -118,6 +124,19 @@ final class ApiServer {
             } catch (IOException ignored) {
                 // The response was already started.
             }
+        }
+    }
+
+    private void sendMap(HttpExchange exchange) throws IOException {
+        Path folder = minecraft.getServerDirectory().resolve(ApiConfig.MAP_DIRECTORY.get());
+        if (!MapArchive.exists(folder)) {
+            send(exchange, 404, error("No map folder at " + ApiConfig.MAP_DIRECTORY.get()));
+            return;
+        }
+        exchange.getResponseHeaders().set("Content-Type", "application/zip");
+        exchange.sendResponseHeaders(200, 0); // length unknown: streamed
+        try (OutputStream out = exchange.getResponseBody()) {
+            MapArchive.write(folder, out);
         }
     }
 

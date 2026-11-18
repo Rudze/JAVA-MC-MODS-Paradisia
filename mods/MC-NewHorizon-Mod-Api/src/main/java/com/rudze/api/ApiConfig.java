@@ -11,6 +11,7 @@ public final class ApiConfig {
     public static final ModConfigSpec.IntValue PORT;
     public static final ModConfigSpec.ConfigValue<String> TOKEN;
     public static final ModConfigSpec.ConfigValue<String> ALLOWED_ORIGIN;
+    public static final ModConfigSpec.ConfigValue<String> MAP_DIRECTORY;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
@@ -33,6 +34,9 @@ public final class ApiConfig {
                 .comment("Value of the Access-Control-Allow-Origin header, so a website (GitHub Pages) can call the API",
                         "from the browser. \"*\" = any site, empty = no CORS header.")
                 .define("allowedOrigin", "*");
+        MAP_DIRECTORY = builder
+                .comment("Web folder of the squaremap mod, relative to the server folder. Served zipped on /api/map.zip.")
+                .define("mapDirectory", "squaremap/web");
 
         builder.pop();
         SPEC = builder.build();

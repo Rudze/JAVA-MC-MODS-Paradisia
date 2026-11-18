@@ -17,6 +17,7 @@ Fichier `config/nh_api.toml` sur le serveur :
 | `bindAddress` | `0.0.0.0` | `0.0.0.0` : joignable depuis Internet, ce qui est nécessaire pour que GitHub Actions récupère les données du site. `127.0.0.1` : joignable seulement depuis la machine |
 | `port` | `8091` | Port HTTP |
 | `token` | vide | Vide : l'API est publique. Rempli : la clé devient obligatoire |
+| `mapDirectory` | `squaremap/web` | Dossier web du mod squaremap, servi zippé sur `/api/map.zip` |
 | `allowedOrigin` | `*` | En-tête CORS `Access-Control-Allow-Origin`, pour les sites qui appellent l'API depuis le navigateur |
 
 Après une modification, redémarre le serveur.
@@ -105,6 +106,17 @@ Chaque `<pokemon>` ressemble à ceci :
 ```
 
 `slot` donne la place du Pokémon dans l'équipe (0 à 5) ou dans la boîte du PC (0 à 29).
+
+### `GET /api/map.zip`
+
+Renvoie le dossier web du mod [squaremap](https://github.com/jpenilla/squaremap), zippé : la page de la carte et ses images. Le site le télécharge et le publie dans son dossier `map/`.
+
+Sur le serveur, squaremap (`squaremap-neoforge-mc1.21.1-1.3.2.jar`, uniquement côté serveur) est réglé dans `squaremap/config.yml` :
+- seul le monde `nh_worldbuild:world_build` est activé (`world-settings.default.map.enabled: false`) ;
+- son serveur web interne est coupé (`internal-webserver.enabled: false`) ;
+- le rendu est limité à 2 threads, et à 1 thread pour les mises à jour en arrière-plan.
+
+Pour redessiner toute la carte, tape dans la console : `squaremap fullrender nh_worldbuild:world_build`.
 
 ## Erreurs
 
