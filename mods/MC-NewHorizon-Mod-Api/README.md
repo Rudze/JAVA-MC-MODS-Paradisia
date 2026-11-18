@@ -114,7 +114,8 @@ Renvoie le dossier web du mod [squaremap](https://github.com/jpenilla/squaremap)
 Sur le serveur, squaremap (`squaremap-neoforge-mc1.21.1-1.3.2.jar`, uniquement côté serveur) est réglé dans `squaremap/config.yml` :
 - seul le monde `nh_worldbuild:world_build` est activé (`world-settings.default.map.enabled: false`) ;
 - son serveur web interne est coupé (`internal-webserver.enabled: false`) ;
-- le rendu est limité à 2 threads, et à 1 thread pour les mises à jour en arrière-plan.
+- le rendu est limité à 2 threads, et à 1 thread pour les mises à jour en arrière-plan ;
+- le zoom va 5 crans au-delà du 1:1 (`zoom.extra: 5`), soit jusqu'à 32 pixels par bloc.
 
 Pour redessiner toute la carte, tape dans la console : `squaremap fullrender nh_worldbuild:world_build`.
 
