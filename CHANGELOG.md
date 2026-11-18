@@ -1,3 +1,9 @@
+## [0.4.33](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.32...v0.4.33) (2026-11-18)
+
+### Bug Fixes
+
+* document the deeper squaremap zoom of the web map ([7ba4b03](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/7ba4b0335c7c6119953b90508decd7d948fbdce2))
+
 ## [0.4.32](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.31...v0.4.32) (2026-11-18)
 
 ### Bug Fixes
