@@ -70,6 +70,9 @@ final class PlayerData {
         counts.addProperty("party", pokemon.getAsJsonArray("party").size());
         counts.addProperty("pc", pokemon.getAsJsonObject("pc").get("count").getAsInt());
         json.add("pokemonCounts", counts);
+        json.add("status", PlayerStatus.of(server, uuid, playerDataDir().resolve(uuid + ".dat")));
+        json.add("stats", PlayerStatus.stats(server, uuid));
+        json.add("pokedex", Pokemons.pokedex(uuid));
         return json;
     }
 

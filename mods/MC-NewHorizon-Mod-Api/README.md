@@ -74,6 +74,23 @@ Même chose que ci-dessus, avec en plus l'argent et le nombre de Pokémon :
 - `economy.total` est le contenu de la bourse, compté en pièces de bronze (1 argent = 100 bronze, 1 or = 10 000 bronze).
 - Les pièces que le joueur porte dans son inventaire ne sont pas comptées.
 
+La réponse contient aussi trois blocs. Les valeurs sont en direct si le joueur est en ligne, sinon ce sont celles de sa dernière sauvegarde.
+
+```json
+"status":{"health":14.0,"maxHealth":20.0,"food":12,"saturation":0.0,"xpLevel":7,
+          "dimension":"nh_worldbuild:world_build","gameMode":"survival","armor":9,
+          "armorItems":{"head":null,"chest":null,
+                        "legs":{"id":"minecraft:diamond_leggings","name":"Diamond Leggings"},
+                        "feet":{"id":"minecraft:diamond_boots","name":"Diamond Boots"}}},
+"stats":{"playTimeSeconds":301103,"timeSinceDeathSeconds":1939,"deaths":7,"mobKills":699,"playerKills":0,
+         "damageDealt":10604,"damageTaken":1643,"distanceKm":512.49,"jumps":68711,"fishCaught":0,
+         "villagerTrades":0,"timesSlept":65,"sessions":150,"blocksMined":50852,"itemsCrafted":38044,"itemsUsed":83160},
+"pokedex":{"seen":3,"caught":1,"total":905}
+```
+
+- `health`, `food` et `armor` sont en demi-cœurs, demi-cuisses et demi-plastrons, comme dans le jeu (20 = barre pleine).
+- `damageDealt` et `damageTaken` sont en points de vie.
+
 ### `GET /api/players/<joueur>/pokemon`
 
 ```json

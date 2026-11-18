@@ -2,6 +2,11 @@ package com.rudze.api;
 
 import com.cobblemon.mod.common.Cobblemon;
 import com.cobblemon.mod.common.api.moves.Move;
+import com.cobblemon.mod.common.api.pokedex.PokedexEntryProgress;
+import com.cobblemon.mod.common.api.pokedex.PokedexManager;
+import com.cobblemon.mod.common.api.pokedex.SpeciesDexRecord;
+import com.cobblemon.mod.common.api.pokemon.PokemonSpecies;
+import com.cobblemon.mod.common.api.storage.player.PlayerInstancedDataStoreTypes;
 import com.cobblemon.mod.common.api.pokemon.stats.Stats;
 import com.cobblemon.mod.common.api.storage.party.PlayerPartyStore;
 import com.cobblemon.mod.common.api.storage.pc.PCBox;
@@ -67,6 +72,29 @@ final class Pokemons {
         JsonObject json = new JsonObject();
         json.add("party", partyJson);
         json.add("pc", pcJson);
+        return json;
+    }
+
+    /** How many species the player has seen and caught. */
+    static JsonObject pokedex(UUID uuid) {
+        int seen = 0;
+        int caught = 0;
+        var data = Cobblemon.INSTANCE.getPlayerDataManager().get(uuid, PlayerInstancedDataStoreTypes.INSTANCE.getPOKEDEX());
+        if (data instanceof PokedexManager dex) {
+            for (SpeciesDexRecord record : dex.getSpeciesRecords().values()) {
+                PokedexEntryProgress knowledge = record.getKnowledge();
+                if (knowledge == PokedexEntryProgress.OWNED) {
+                    caught++;
+                    seen++;
+                } else if (knowledge == PokedexEntryProgress.SEEN) {
+                    seen++;
+                }
+            }
+        }
+        JsonObject json = new JsonObject();
+        json.addProperty("seen", seen);
+        json.addProperty("caught", caught);
+        json.addProperty("total", PokemonSpecies.getImplemented().size());
         return json;
     }
 
