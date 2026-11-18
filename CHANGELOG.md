@@ -1,3 +1,9 @@
+## [0.4.32](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.31...v0.4.32) (2026-11-18)
+
+### Bug Fixes
+
+* serve the squaremap web map zipped on the web API for the site ([bcd9e83](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/bcd9e83f3c43cf028b5a38277a7d771138ad8296))
+
 ## [0.4.31](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.30...v0.4.31) (2026-11-18)
 
 ### Bug Fixes
