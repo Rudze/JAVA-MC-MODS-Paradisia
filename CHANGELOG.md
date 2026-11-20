@@ -1,3 +1,9 @@
+## [0.4.34](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.33...v0.4.34) (2026-11-20)
+
+### Bug Fixes
+
+* remove the Better Vanilla GUI resource pack from the modpack ([45cad80](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/45cad8086702afa06e8f9fa5e02e7435b853758d))
+
 ## [0.4.33](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.32...v0.4.33) (2026-11-18)
 
 ### Bug Fixes
