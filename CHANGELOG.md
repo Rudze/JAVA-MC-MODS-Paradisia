@@ -1,3 +1,9 @@
+## [0.4.35](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.34...v0.4.35) (2026-11-21)
+
+### Bug Fixes
+
+* remove the locks mod, chests can no longer be locked with padlocks ([1a57172](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/1a57172d18faa3adf9e8cde4b3643ffc61f65e72))
+
 ## [0.4.34](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.33...v0.4.34) (2026-11-20)
 
 ### Bug Fixes
