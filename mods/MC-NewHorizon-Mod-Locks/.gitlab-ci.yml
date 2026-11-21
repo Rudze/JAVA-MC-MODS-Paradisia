@@ -1,7 +1,0 @@
-include:
-  - project: 'horizoncorporation/outils/ci-templates/semantic-release'
-    ref: main
-    file: 'semantic-release.yml'
-
-release:
-  extends: .semantic-release
