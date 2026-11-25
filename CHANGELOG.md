@@ -1,3 +1,9 @@
+## [0.4.36](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.35...v0.4.36) (2026-11-25)
+
+### Bug Fixes
+
+* disable Voxy world gen, it froze the server by pregenerating 128 chunks around players ([5ae8730](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/commit/5ae8730fe4d6ae0bb9e551c5a65ac4153d5b25ff))
+
 ## [0.4.35](https://github.com/Rudze/JAVA-MC-MODS-Paradisia/compare/v0.4.34...v0.4.35) (2026-11-21)
 
 ### Bug Fixes
